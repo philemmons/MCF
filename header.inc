@@ -40,12 +40,12 @@
     <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-3 banner'>
-                <h1>Millie's Crazy Flowers</h1>
+                <h1 class= "header-font">Millie's Crazy Flowers</h1>
                 
                 <p class="font-italic">Legacy of love, caring, and lasting friendship from one friend to another.</p>
             </div>
             <div class='col-sm-auto banner'>
-                <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it."/>\
+                <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it."/>
             </div>
         </div>
     </header>

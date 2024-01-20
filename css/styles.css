@@ -13,6 +13,7 @@
   --success-color: #0ece3b;
 
   --ff-main: Figtree, Raleway, Arial, Sans-serif;
+  --ff-header: BerkshireSwash;
 }
 
 /**** typography and spacing ****/
@@ -39,6 +40,7 @@ body {
   background-color: var(--color-7);
   margin: auto;
   color: var(--color-2);
+  font-size: 1em;
 }
 
 .font-italic {
@@ -68,6 +70,10 @@ body {
 .banner>h1 {
   font-size: 25px;
   letter-spacing: 4px;
+}
+
+.header-font{
+  font-family: var(--ff-header);
 }
 
 /**** footer ****/
