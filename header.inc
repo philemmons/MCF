@@ -39,14 +39,13 @@
 <body>
     <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
-            <div class='col-sm-4 banner'>
-                <h1>MONTEREY BAY AREA ROUNDUP</h1>
-                <p>P.O. Box 1462<br>Monterey, CA 93942</p>
-                <p class="font-italic">To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.</p>
+            <div class='col-sm-3 banner'>
+                <h1>Millie's Crazy Flowers</h1>
+                
+                <p class="font-italic">Legacy of love, caring, and lasting friendship from one friend to another.</p>
             </div>
             <div class='col-sm-auto banner'>
-                <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep It Simple" title="Great drawing by Micha C." />
-
+                <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it."/>\
             </div>
         </div>
     </header>
