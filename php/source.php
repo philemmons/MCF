@@ -8,7 +8,7 @@ $dbConn = getDBConnection();
  * @input: register form fields
  * @output variables assigned are converted to HTML predefined entities, including quotes, and lowercase
  */
-function regFormData($total)
+function purchaseForm($total)
 {
      global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
 
@@ -132,7 +132,7 @@ function getUserInfo($email)
      global $dbConn, $nPara;
 
      $nPara[':dEmail'] = $email;
-     $sql = "SELECT * FROM registration WHERE id = :dEmail ";
+     $sql = "SELECT * FROM requisition WHERE id = :dEmail ";
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($nPara);
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -140,10 +140,10 @@ function getUserInfo($email)
 }
 
 /*
-*@input: Name of the database table - registration
-*@output: all contents of registration table for the user by ascending date with TBA values last
+*@input: Name of the database table - requisition
+*@output: all contents of requisition table for the user by ascending date with TBA values last
 */
-function getRegData($table)
+function getAllData($table)
 {
      $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
      return preExeFetNOPARA($sql);
@@ -156,7 +156,7 @@ function saveData($total)
 
      if (isset($_POST['submit'])) {
 
-          $sql = "INSERT INTO registration (
+          $sql = "INSERT INTO requisition (
                     firstname,
                     lastname,
                     email,
@@ -167,7 +167,7 @@ function saveData($total)
                     zipcode,
                     fellowship,
                     homegroup,
-                    registration,
+                    requisition,
                     ebmb,
                     speakerdinner,
                     breakfast,
@@ -216,7 +216,7 @@ function saveData($total)
 *@output: successful login  directs user to index.php
 *Future work - https://stackoverflow.com/questions/20764031/php-salt-and-hash-sha256-for-login-password
 */
-function goMain()
+function goLogin()
 {
      global $dbConn, $nPara;
 
@@ -234,25 +234,25 @@ function goMain()
      $record = $statement->fetch(PDO::FETCH_ASSOC);
 
      if (empty($record)) { //wrong credentials
-          echo "<form method='POST' action='_login.php'>";
-          echo "<br><span style='color:red'><h4>Wrong username or password.</h4></span>";
+          echo "<form method='POST' action='login.php'>";
+          echo "<br><span style='color:#ff0000;'><h4>Incorrect username/password.</h4></span>";
           echo "</form>";
      } else {
           $_SESSION["name"] = $record['firstName'] . " " . $record['lastName'];
           $_SESSION["username"]  = $record['userName'];
           $_SESSION["status"] = getenv('LOGIN_STATUS');
-          //echo $_SESSION["status"];
-          header("Location: _admin.php"); //redirect to login page
+          header("Location: admin.php"); //redirect to admin page
+          exit();
      }
 }
 
 //regInsert.php and regUpdate.php
-function getRegInfo($regID)
+function getOrderInfo($regID)
 {
      global $dbConn, $nPara;
 
      $nPara[':dRegId'] = $regID;
-     $sql = "SELECT * FROM registration WHERE id = :dRegId ";
+     $sql = "SELECT * FROM requisition WHERE id = :dRegId ";
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($nPara);
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
