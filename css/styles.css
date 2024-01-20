@@ -1,21 +1,34 @@
 /**** variables ****/
 :root {
-    --color-1: #f8f8f8;
-    --color-2: #ffffff;
-    --color-3: #dcdcdc;
-    --color-4: #333333;
-    --color-5: #000000;
-    --color-6: #a8a8a8;
-    --color-7: #6b6b6b;
+    --color-1: #ffffff;
+    --color-2: #000000;
+    --color-3: #eee9c0;
+    --color-4: #e3d896;
+    --color-5: #e6b576;
+    --color-6: #d7c869;
+    --color-7: #db973f;
     --color-8: #8b8b8b;
   
     --error-color: #ff0019;
     --success-color: #0ece3b;
   
-    --ff-main: Raleway, Helvetica, Calibri, Arial, sans-serif;
+    --ff-main: Berkshire_Swash, Figtree, Raleway, Montserrat, Arial;
   }
   
   /**** typography and spacing ****/
+  @font-face {
+    font-family: Figtree;
+    src: url('fonts/Figtree-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: Figtree-Italic;
+    src: url('fonts/Figtree-Italic-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: BerkshireSwash;
+    src: url('fonts/BerkshireSwash-Regular.ttf');
+  }
+
   body {
     font-family: var(--ff-main);
     line-height: 1.5;
