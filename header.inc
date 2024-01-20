@@ -42,10 +42,10 @@
         <div class='col-sm-auto banner'>
                 <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it."/>
             </div>
-            <div class='col-sm-6 banner'>
+            <div class='col-sm-10 banner'>
                 <h1 class= "header-font">Millie's Crazy Flowers</h1>
                 
-                <p class="font-italic">Legacy of love, caring, and lasting friendship from one friend to another.</p>
+                <h2 class="font-italic">Legacy of love, caring, and lasting friendship from one friend to another.</h2>
             </div>
         </div>
     </header>
