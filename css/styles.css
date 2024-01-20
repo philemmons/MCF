@@ -18,15 +18,15 @@
   /**** typography and spacing ****/
   @font-face {
     font-family: Figtree;
-    src: url('fonts/Figtree-VariableFont_wght.ttf');
+    src: url('../fonts/Figtree-VariableFont_wght.ttf');
   }
   @font-face {
     font-family: Figtree-Italic;
-    src: url('fonts/Figtree-Italic-VariableFont_wght.ttf');
+    src: url('../fonts/Figtree-Italic-VariableFont_wght.ttf');
   }
   @font-face {
     font-family: BerkshireSwash;
-    src: url('fonts/BerkshireSwash-Regular.ttf');
+    src: url('.//fonts/BerkshireSwash-Regular.ttf');
   }
 
   body {
