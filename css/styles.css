@@ -118,7 +118,7 @@ body {
 }
 
 .bg-one{
-background-color: var(--color-7);
+background: var(--color-7);
 }
 
 /**** home ****/
