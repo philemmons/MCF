@@ -56,8 +56,16 @@ body {
   padding-bottom: 7rem !important;
 }
 
-.ms-6{
-  margin-left: 90% !important;
+@media (min-width: 270px) {
+  .ms-6 {
+    margin-left: 80% !important;
+  }
+}
+
+@media (max-width: 270px) {
+  .ms-6 {
+    margin: auto !important;
+  }
 }
 
 .obframe {
