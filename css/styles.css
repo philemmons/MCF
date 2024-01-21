@@ -96,11 +96,11 @@ hr {
 /**** copyright ****/
 
 #footer-image {
-  background-image: url("../images/big-sur.jpg");
+  background-image: url("../images/garrapata-big-sur.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-4);
-  height: 150px;
+  height: 200px;
   border-top: inset 2px var(--color-6);
 }
 
