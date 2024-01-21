@@ -1,9 +1,9 @@
 <footer class= "py-3">
 
     <section>
-        <div class='container obframe'>
-            <div class="row justify-content-md-center mb-5">
-                <div class="col-sm-12" id="footer-image">
+        <div class='container-fluid'>
+            <div class="row justify-content-md-center mb-3">
+                <div class="col-sm-12 obframe" id="footer-image">
                     <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
                     </p>
                 </div>
@@ -13,7 +13,7 @@
     <section>
  
                 <nav class="navbar navbar-expand-md">
-                    <div class="container obframe-wrap">
+                    <div class="container obframe">
                         <a class="navbar-brand" href="#">
                             <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
                         </a>

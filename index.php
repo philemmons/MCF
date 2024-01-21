@@ -4,7 +4,7 @@ include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
-  <div class="container obframe-wrap">">
+  <div class="container obframe">
     <a class="navbar-brand" href="#">
         <img src= "../images/heart-infinity.png" alt= "Heart wreath with infinity through the middle." width="30" height="24">
     </a>
