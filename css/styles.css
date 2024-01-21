@@ -129,9 +129,15 @@ body {
   font-weight: 500;
 }
 
-.ul-inline-bl{
-  display: inline-block;
+.li-inline{
+  display: inline;
 }
+
+.ul-lst{
+  list-style-type: none;
+
+}
+
 
 .block-8 .blog-img {
   display: block;

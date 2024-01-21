@@ -1,17 +1,15 @@
 <footer>
 
-    <section class="bg-one p-7">
+    <section class="bg-one p-5">
         <div class="container-xl">
-            <div class="row pb-5 justify-content-between">
-                <div class="col-md-4 col-lg">
+            <div class="row justify-content-between">
+                <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
-                        <h2 class="d-flex">
-                            <a class="navbar-brand" href="index.html">
-                                MCF
-                            </a>
+                        <h2 class="d-flex header-font">
+                            <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                         </h2>
                         <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
-                        <ul class="ul-inline-bl" mt-4">
+                        <ul class="ul-inline-bl" mt-4"="">
                             <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                             <li><a href="#"><span class="fa fa-instagram"></span></a></li>
@@ -21,7 +19,7 @@
                 
                 <div class="col-md-4 col-lg">
                     <div class="card-title-footer mb-4">
-                        <h2>Recent Posts</h2>
+                        <h2 class="header-font">Recent Posts</h2>
                         <div class="block-8 mb-4 d-flex">
                             <a class="blog-img img rounded" style="background-image: url(images/image_1.jpg);"></a>
                             <div class="text">
@@ -45,13 +43,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-lg">
+                <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
-                        <h2>Have a Questions?</h2>
+                        <h2 class="header-font">Have a Questions?</h2>
                         <div class=" mb-3">
                             <ul>
-                                <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                                <li><span class="icon fa fa-map marker"></span><span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span></li>
+                                
                                 <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
                             </ul>
                         </div>
@@ -63,7 +61,7 @@
 
     <section id="footer-image">
         <div class="h-100 d-flex align-items-center justify-content-center">
-            <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
+            <p>Copyright © 2024 Millie's Crazy Flowers. All Rights Reserved.
             </p>
         </div>
     </section>
