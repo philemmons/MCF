@@ -57,13 +57,13 @@ body {
 }
 
 @media (min-width: 270px) {
-  .ms-6 {
+  .m-spec {
     margin-left: 80% !important;
   }
 }
 
 @media (max-width: 270px) {
-  .ms-6 {
+  .m-spec {
     margin: auto !important;
   }
 }
