@@ -126,12 +126,14 @@ nav {
 .navbar-toggler {
   background-color: var(--color-6);
   border: solid 3px var(--color-7);
+  margin-left: 90% !important;
 }
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
 .navbar-nav>li>div>a:hover,
-.log-input:hover {
+.log-input:hover,
+.navbar-toggler>button:hover {
   background-color: var(--color-4);
   color: var(--color-1);
 }
