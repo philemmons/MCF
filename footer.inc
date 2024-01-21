@@ -1,42 +1,41 @@
-<footer>
+<footer class= "py-3">
 
-<section>
-    <div class='container'>
-        <div class="row justify-content-md-center mb-5">
-            <div class="col-sm-12 px-3" id="footer-image">
-                <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
-                </p>
-            </div>
-        </div>
-        </section>
-
-        <section>
-        <div class="row justify-content-md-center">
-            <nav class="navbar navbar-expand-md">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavbar" aria-controls="footerNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="footerNavbar">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link nav-link-size" href="accessibility.php"> Accessibility</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-link-size" href="privacy-policy.php">Privacy Policy</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-link-size" href="sitemap.php">Site Map</a>
-                            </li>
-                        </ul>
-                    </div>
+    <section>
+        <div class='container obframe'>
+            <div class="row justify-content-md-center mb-5">
+                <div class="col-sm-12" id="footer-image">
+                    <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
+                    </p>
                 </div>
-            </nav>
-        </div>
-    </div>
+            </div>
+    </section>
+
+    <section>
+ 
+                <nav class="navbar navbar-expand-md">
+                    <div class="container obframe-wrap">
+                        <a class="navbar-brand" href="#">
+                            <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
+                        </a>
+                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavbar" aria-controls="footerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="footerNavbar">
+                            <ul class="navbar-nav mx-auto mt-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="accessibility.php"> Accessibility</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sitemap.php">Site Map</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        
     </section>
 
 </footer>

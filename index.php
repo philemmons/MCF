@@ -4,15 +4,15 @@ include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
+  <div class="container obframe-wrap">">
     <a class="navbar-brand" href="#">
         <img src= "../images/heart-infinity.png" alt= "Heart wreath with infinity through the middle." width="30" height="24">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="topNavbar">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
         </li>

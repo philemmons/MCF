@@ -56,8 +56,9 @@ body {
   padding-bottom: 7rem !important;
 }
 
-.container.shadow-wrap {
-  background-color: var(--color-7);
+.container.obframe {
+  box-shadow: 0 0 5px 5px var(--color-5);
+  border: solid 5px var(--color-7);
 }
 
 /**** header ****/
@@ -83,16 +84,6 @@ body {
 }
 
 /**** footer ****/
-footer {
-  border-top: 3px solid var(--color-5);
-  padding: 1.5rem 0;
-}
-
-hr {
-  border-top: medium double var(--color-7);
-}
-
-/**** copyright ****/
 
 #footer-image {
   background-image: url("../images/garrapata-big-sur.png");
@@ -118,31 +109,28 @@ hr {
 }
 
 .navbar-nav .nav-item {
-  border-right: none;
+  border-right: none !important;
 }
 
 nav {
   background-color: var(--color-6) !important;
-  
-  box-shadow: 0 0 8px 2px var(--color-5);
 }
 
 @media (min-width: 992px) {
   .navbar-nav .nav-item {
     border-right: solid 2px var(--color-3);
   }
-
 }
 
 .nav-link.active {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-1);
   background-color: var(--color-3);
 }
 
 .navbar-toggler {
-  background-color: var(--color-7);
-  border: inset 2px var(--color-5);
+  background-color: var(--color-6);
+  border: solid 2px var(--color-7);
 }
 
 .navbar-nav>li>a:hover,
