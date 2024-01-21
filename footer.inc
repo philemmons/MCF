@@ -21,7 +21,7 @@
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="navbar-brand text-right" href="#">
-                                <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
+                                <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
                             </a>
                         </li>
                         <li class="nav-item">
