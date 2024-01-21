@@ -1,7 +1,7 @@
 <footer>
 
-    <section>
-        <div class="container">
+    <section class="bg-one my-5 py-7">
+        <div class=container">
             <div class="row">
                 <div class="col-sm-4 mb-3 mb-sm-0">
                     <div class="card">
@@ -34,12 +34,10 @@
         </div>
     </section>
 
-    <section>
-        <div class="container" id="footer-image">
-            <div class="h-100 d-flex align-items-center justify-content-center">
-                <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
-                </p>
-            </div>
+    <section id="footer-image">
+        <div class="h-50 d-flex align-items-center justify-content-center">
+            <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
+            </p>
         </div>
     </section>
 

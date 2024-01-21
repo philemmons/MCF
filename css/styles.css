@@ -2,15 +2,20 @@
 :root {
   --color-1: #ffffff;
   --color-2: #000000;
-  --color-3: #700a97;
-  --color-4: #a000c6;
-  --color-5: #fe5803;
-  --color-6: #fd9404;
-  --color-7: #1a1aeb;
-  --color-8: #0044fb;
-  --color-9: #8b8b8b;
+  --color-3: #47034E;
+  --color-4: #5D0565;
+  --color-5: #7E3285;
+  --color-6: #9F5EA5;
+  --color-7: #E0B6E4;
   --color-10: #052c43;
   --color-11: #bfbfbf;
+
+  --color-20: #FFD300;
+  --color-21: #FFDC26;
+  --color-22: #FFE54C;
+  --color-23: #FFED73;
+  --color-24: #FFF699;
+  --color-25: #FFFFBF;
 
 
   --error-color: #ff0018;
@@ -40,11 +45,12 @@
 
 body {
   font-family: var(--ff-main);
-  line-height: 1.5;
+  line-height: 1.8;
   background-color:  var(--color-11);
   margin: auto;
   color: var(--color-10);
   font-size: 1em;
+  font-weight: 400;
 }
 
 .font-italic {
@@ -110,6 +116,13 @@ body {
 #footer-image>p {
   font-size: 9px;
 }
+
+.bg-color-one{
+background-color: var(--color-7);
+}
+
+/**** home ****/
+
 
 /**** navbar 
 
