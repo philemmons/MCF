@@ -2,11 +2,13 @@
 
 
     <div class='container'>
-        <div class="row justify-content-md-center">
-            <div class="col-sm-12" id="footer-image">
+        <div class="row justify-content-md-center mb-2">
+            <div class="col-sm-12 px-3" id="footer-image">
                 <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
                 </p>
             </div>
+        </div>
+        <div class="row justify-content-md-center">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
