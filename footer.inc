@@ -1,6 +1,6 @@
 <footer>
 
-    <section class="bg-one my-5 py-7">
+    <section class="bg-one my-5 p-7">
         <div class=container">
             <div class="row">
                 <div class="col-sm-4 mb-3 mb-sm-0">
