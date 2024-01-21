@@ -7,6 +7,7 @@
   --color-5: #7E3285;
   --color-6: #9F5EA5;
   --color-7: #E0B6E4;
+  --color-8: #fff1ff;
   --color-10: #052c43;
   --color-11: #bfbfbf;
 
@@ -62,9 +63,17 @@ body {
   padding-bottom: 6rem !important;
 }
 
+.p-6{
+  padding: 6rem !important;
+}
+
 .py-7 {
   padding-top: 7rem !important;
   padding-bottom: 7rem !important;
+}
+
+.p-7{
+  padding: 7rem !important;
 }
 
 @media (min-width: 270px) {
@@ -118,7 +127,7 @@ body {
 }
 
 .bg-one{
-background: var(--color-7);
+background-color: var(--color-8);
 }
 
 /**** home ****/
