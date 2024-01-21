@@ -2,8 +2,8 @@
 
     <section>
         <div class='container-fluid'>
-            <div class="row justify-content-md-center mb-3">
-                <div class="col-sm-12 obframe" id="footer-image">
+            <div class="row justify-content-md-center mb-3 obframe">
+                <div class="col-sm-12" id="footer-image">
                     <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
                     </p>
                 </div>
@@ -12,8 +12,8 @@
 
     <section>
  
-                <nav class="navbar navbar-expand-md">
-                    <div class="container obframe">
+                <nav class="navbar navbar-expand-md obframe">
+                    <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
                         </a>

@@ -56,7 +56,7 @@ body {
   padding-bottom: 7rem !important;
 }
 
-.container.obframe {
+.obframe {
   box-shadow: 0 0 5px 5px var(--color-5);
   border: solid 5px var(--color-7);
 }
@@ -102,10 +102,11 @@ body {
 /**** navbar ****/
 
 .navbar-nav .nav-link {
-  color: var(--color-6);
+  color: var(--color-3);
   letter-spacing: 1px;
   padding: 10px 25px !important;
   font-size: 14px;
+  background-color: var(--color-8);
 }
 
 .navbar-nav .nav-item {

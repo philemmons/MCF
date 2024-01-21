@@ -3,8 +3,8 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg">
-  <div class="container obframe">
+<nav class="navbar navbar-expand-lg obframe">
+  <div class="container-fluid">
     <a class="navbar-brand" href="#">
         <img src= "../images/heart-infinity.png" alt= "Heart wreath with infinity through the middle." width="30" height="24">
     </a>
