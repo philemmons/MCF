@@ -5,14 +5,17 @@ include_once 'header.inc'
 
 <nav class="navbar navbar-expand-lg obframe mb-5">
   <div class="container">
-    <a class="navbar-brand text-right" href="#">
-        <img src= "../images/heart-infinity.png" alt= "Heart wreath with infinity through the middle." width="30" height="24">
-    </a>
+
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="topNavbar">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="navbar-brand text-right" href="#">
+            <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
+          </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
         </li>
@@ -28,7 +31,7 @@ include_once 'header.inc'
         <li class="nav-item">
           <a class="nav-link" href="donate.php">Donation</a>
         </li>
-        <li class="nav-item" style= "border-right: none;">
+        <li class="nav-item" style="border-right: none;">
           <a class="nav-link" href="contact.php">Contact Us</a>
         </li>
       </ul>
@@ -47,6 +50,6 @@ include_once 'header.inc'
 
 
 <?php include_once 'footer.inc' ?>
-    </body>
+</body>
 
-    </html>
+</html>
