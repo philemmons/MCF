@@ -7,7 +7,8 @@
   --color-5: #e6b576;
   --color-6: #d7c869;
   --color-7: #db973f;
-  --color-8: #8b8b8b;
+  --color-8: #dd7700;
+  --color-9: #8b8b8b;
 
   --error-color: #ff0019;
   --success-color: #0ece3b;
@@ -76,6 +77,7 @@ body {
 }
 
 @media (min-width: 1200px) {
+
   .h1,
   h1 {
     font-size: 4rem;
@@ -84,13 +86,12 @@ body {
 
 /**** footer ****/
 footer {
-  border-top: 1px solid var(--color-3);
+  border-top: 1px solid var(--color-2);
   padding: 1.5rem 0;
-  background-color: var(--color-2);
 }
 
 hr {
-  border-top: medium double var(--color-4);
+  border-top: medium double var(--color-2);
 }
 
 /**** copyright ****/
@@ -99,9 +100,9 @@ hr {
   background-image: url("../images/garrapata-big-sur.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--color-4);
-  height: 200px;
-  border-top: inset 2px var(--color-6);
+  color: var(--color-3);
+  height: 225px;
+  border-top: inset 2px var(--color-2);
 }
 
 #footer-image>p {
@@ -111,10 +112,8 @@ hr {
 
 /**** navbar ****/
 
-.navbar-nav .nav-link,
-.navbar-nav .dropdown-item {
-  color: var(--color-7);
-  text-transform: uppercase;
+.navbar-nav .nav-link {
+  color: var(--color-2);
   letter-spacing: 1px;
   padding: 10px 25px !important;
   font-size: 14px;
@@ -124,51 +123,27 @@ hr {
   border-right: none;
 }
 
-.nav-link.nav-link-size {
-  color: var(--color-6);
-}
-
 nav {
-  background-color: var(--color-2) !important;
+  background-color: var(--color-5) !important;
   box-shadow: 0 0 8px 2px var(--color-8);
 }
 
 @media (min-width: 992px) {
   .navbar-nav .nav-item {
-    border-right: solid 1px var(--color-6);
+    border-right: solid 1px var(--color-1);
   }
 
-  .dropdown-menu {
-    display: block;
-  }
 }
 
-.navbar {
-  padding: 0;
-}
-
-.nav-link.active,
-.dropdown-item.active {
+.nav-link.active {
   font-weight: 600;
-  color: var(--color-5);
-  background-color: var(--color-2);
+  color: var(--color-1);
+  background-color: var(--color-8);
 }
 
 .navbar-toggler {
-  background-color: var(--color-1);
-  border: inset 1px var(--color-5);
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  opacity: 1;
-}
-
-.dropdown-menu {
-  opacity: 0;
-  transition: all 0.6s;
-  border-radius: 0;
+  background-color: var(--color-3);
+  border: inset 1px var(--color-2);
 }
 
 .navbar-nav>li>a:hover,
@@ -176,7 +151,7 @@ nav {
 .navbar-nav>li>div>a:hover,
 .log-input:hover {
   background-color: var(--color-7);
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 /**** hero banner ****/
