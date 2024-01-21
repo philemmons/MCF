@@ -21,7 +21,6 @@
 @font-face {
   font-family: Figtree;
   src: url('../fonts/Figtree-VariableFont_wght.ttf');
-  src: url('../fonts/Figtree-Italic-VariableFont_wght.ttf');
 }
 
 @font-face {
@@ -32,7 +31,6 @@
 @font-face {
   font-family: Raleway;
   src: url('../fonts/Raleway-VariableFont_wght.ttf');
-  src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf');
 }
 
 body {
@@ -124,7 +122,8 @@ hr {
 }
 
 nav {
-  background-color: var(--color-7) !important;
+  background-color: var(--color-6) !important;
+  
   box-shadow: 0 0 8px 2px var(--color-5);
 }
 
