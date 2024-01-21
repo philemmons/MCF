@@ -36,11 +36,9 @@
 
     <section>
         <div class="container" id="footer-image">
-            <div class="row justify-content-md-center">
-                <div class="col-sm-12 mx-auto">
-                    <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
-                    </p>
-                </div>
+            <div class="h-100 d-flex align-items-center justify-content-center">
+                <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
+                </p>
             </div>
         </div>
     </section>

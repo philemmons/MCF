@@ -103,12 +103,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-1);
-  height: 100px;
+  height: 200px;
 
 }
 
 #footer-image>p {
-  font-size: 10px;
+  font-size: 9px;
 }
 
 /**** navbar 
