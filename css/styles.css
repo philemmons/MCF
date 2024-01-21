@@ -116,11 +116,6 @@ nav {
   background-color: var(--color-6) !important;
 }
 
-@media (min-width: 992px) {
-  .navbar-nav .nav-item {
-    border-right: solid 2px var(--color-3);
-  }
-}
 
 .nav-link.active {
   font-weight: 700;
