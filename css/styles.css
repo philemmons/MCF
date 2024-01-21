@@ -152,6 +152,10 @@ nav {
   color: var(--color-1);
 }
 
+.navbar-toggler:focus{
+  box-shadow: 0 0 3px var(--color-3) !important;
+}
+
 /**** hero banner ****/
 
 .bg-body-tertiary {
