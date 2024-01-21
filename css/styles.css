@@ -56,6 +56,10 @@ body {
   padding-bottom: 7rem !important;
 }
 
+.ms-6{
+  margin-left: 90% !important;
+}
+
 .obframe {
   box-shadow: 0 0 5px 5px var(--color-5);
   border: solid 5px var(--color-7);
@@ -127,7 +131,6 @@ nav {
 .navbar-toggler {
   background-color: var(--color-6);
   border: solid 3px var(--color-7);
-  margin-left: 90% !important;
 }
 
 .navbar-nav>li>a:hover,
