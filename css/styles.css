@@ -2,16 +2,16 @@
 :root {
   --color-1: #ffffff;
   --color-2: #000000;
-  --color-3: #eee9c0;
-  --color-4: #e3d896;
-  --color-5: #e6b576;
-  --color-6: #d7c869;
-  --color-7: #db973f;
-  --color-8: #dd7700;
+  --color-3: #700a97;
+  --color-4: #a000c6;
+  --color-5: #fe5803;
+  --color-6: #fd9404;
+  --color-7: #1a1aeb;
+  --color-8: #0044fb;
   --color-9: #8b8b8b;
 
-  --error-color: #ff0019;
-  --success-color: #0ece3b;
+  --error-color: #ff0018;
+  --success-color: #00ff18;
 
   --ff-main: Figtree, Raleway, Arial, Sans-serif;
   --ff-header: BerkshireSwash;
@@ -38,7 +38,7 @@
 body {
   font-family: var(--ff-main);
   line-height: 1.5;
-  background-color: var(--color-7);
+  background-color: var(--color-3);
   margin: auto;
   color: var(--color-2);
   font-size: 1em;
@@ -86,12 +86,12 @@ body {
 
 /**** footer ****/
 footer {
-  border-top: 1px solid var(--color-2);
+  border-top: 3px solid var(--color-5);
   padding: 1.5rem 0;
 }
 
 hr {
-  border-top: medium double var(--color-2);
+  border-top: medium double var(--color-7);
 }
 
 /**** copyright ****/
@@ -100,9 +100,9 @@ hr {
   background-image: url("../images/garrapata-big-sur.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--color-3);
+  color: var(--color-1);
   height: 225px;
-  border-top: inset 2px var(--color-2);
+
 }
 
 #footer-image>p {
@@ -113,7 +113,7 @@ hr {
 /**** navbar ****/
 
 .navbar-nav .nav-link {
-  color: var(--color-2);
+  color: var(--color-6);
   letter-spacing: 1px;
   padding: 10px 25px !important;
   font-size: 14px;
@@ -124,13 +124,13 @@ hr {
 }
 
 nav {
-  background-color: var(--color-5) !important;
-  box-shadow: 0 0 8px 2px var(--color-8);
+  background-color: var(--color-7) !important;
+  box-shadow: 0 0 8px 2px var(--color-5);
 }
 
 @media (min-width: 992px) {
   .navbar-nav .nav-item {
-    border-right: solid 1px var(--color-1);
+    border-right: solid 2px var(--color-3);
   }
 
 }
@@ -138,19 +138,19 @@ nav {
 .nav-link.active {
   font-weight: 600;
   color: var(--color-1);
-  background-color: var(--color-8);
+  background-color: var(--color-3);
 }
 
 .navbar-toggler {
-  background-color: var(--color-3);
-  border: inset 1px var(--color-2);
+  background-color: var(--color-7);
+  border: inset 2px var(--color-5);
 }
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
 .navbar-nav>li>div>a:hover,
 .log-input:hover {
-  background-color: var(--color-7);
+  background-color: var(--color-4);
   color: var(--color-1);
 }
 

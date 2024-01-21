@@ -7,7 +7,7 @@
                 <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
                 </p>
             </div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
