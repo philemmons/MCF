@@ -47,7 +47,7 @@
 body {
   font-family: var(--ff-main);
   line-height: 1.8;
-  background-color:  var(--color-11);
+  background-color: var(--color-11);
   margin: auto;
   color: var(--color-10);
   font-size: 1em;
@@ -63,7 +63,7 @@ body {
   padding-bottom: 6rem !important;
 }
 
-.p-6{
+.p-6 {
   padding: 6rem !important;
 }
 
@@ -72,7 +72,7 @@ body {
   padding-bottom: 7rem !important;
 }
 
-.p-7{
+.p-7 {
   padding: 7rem !important;
 }
 
@@ -86,11 +86,6 @@ body {
   .m-spec {
     margin: auto !important;
   }
-}
-
-.obframe {
-  box-shadow: 0 0 5px 5px var(--color-5);
-  border: solid 5px var(--color-7);
 }
 
 /**** header ****/
@@ -114,20 +109,17 @@ body {
 /**** footer ****/
 
 #footer-image {
-  background-image: url("../images/garrapata-big-sur.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--color-3);
   color: var(--color-1);
   height: 200px;
 
 }
-
 #footer-image>p {
   font-size: 9px;
 }
 
-.bg-one{
-background-color: var(--color-8);
+.bg-one {
+  background-color: var(--color-8);
 }
 
 /**** home ****/

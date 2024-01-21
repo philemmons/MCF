@@ -35,7 +35,7 @@
     </section>
 
     <section id="footer-image">
-        <div class="h-50 d-flex align-items-center justify-content-center">
+        <div class="h-100 d-flex align-items-center justify-content-center">
             <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
             </p>
         </div>
