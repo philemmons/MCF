@@ -9,6 +9,9 @@
   --color-7: #1a1aeb;
   --color-8: #0044fb;
   --color-9: #8b8b8b;
+  --color-10: #052c43;
+  --color-11: #bfbfbf;
+
 
   --error-color: #ff0018;
   --success-color: #00ff18;
@@ -38,9 +41,9 @@
 body {
   font-family: var(--ff-main);
   line-height: 1.5;
-  background-color:  var(--color-3);
+  background-color:  var(--color-11);
   margin: auto;
-  color: var(--color-2);
+  color: var(--color-10);
   font-size: 1em;
 }
 
@@ -76,15 +79,9 @@ body {
 }
 
 /**** header ****/
-.banner {
-  text-align: center;
-  padding: 0.75rem;
-  color: var(--color-1);
-}
 
 .banner>h1 {
   letter-spacing: 4px;
-  text-shadow: 4px -4px 0px var(--color-2);
 }
 
 .header-font {
@@ -106,16 +103,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-1);
-  height: 225px;
+  height: 100px;
 
 }
 
 #footer-image>p {
   font-size: 10px;
-  padding-top: 1rem;
 }
 
-/**** navbar ****/
+/**** navbar 
 
 .navbar-nav .nav-link {
   color: var(--color-2);
@@ -157,7 +153,9 @@ nav {
   box-shadow: 0 0 5px 0.25rem var(--color-5) !important;
 }
 
-/**** hero banner ****/
+****/
+
+/**** hero banner 
 
 .bg-body-tertiary {
   background-repeat: no-repeat;
@@ -185,3 +183,5 @@ nav {
   --bs-btn-bg: #0000ff;
   --bs-btn-hover-bg: #22aaff;
 }
+
+****/

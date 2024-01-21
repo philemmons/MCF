@@ -1,43 +1,48 @@
-<footer class="py-3">
+<footer>
 
     <section>
-        <div class='container'>
-            <div class="row justify-content-md-center mb-5 obframe">
-                <div class="col-sm-12" id="footer-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="footer-image">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-12 mx-auto">
                     <p>Copyright © <?php echo date('Y'); ?> Millie's Crazy Flowers. All Rights Reserved.
                     </p>
                 </div>
             </div>
-    </section>
-
-    <section>
-
-        <nav class="navbar navbar-expand-lg obframe mx-2 mx-lg-5">
-            <div class="container">
-                <button class="navbar-toggler d-lg-none m-spec" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavbar" aria-controls="footerNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="footerNavbar">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="navbar-brand text-right" href="#">
-                                <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="accessibility.php"> Accessibility</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
-                        </li>
-                        <li class="nav-item" style="border-right: none;">
-                            <a class="nav-link" href="sitemap.php">Site Map</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+        </div>
     </section>
 
 </footer>
