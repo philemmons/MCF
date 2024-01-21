@@ -79,11 +79,12 @@ body {
 .banner {
   text-align: center;
   padding: 0.75rem;
+  color: var(--color-1);
 }
 
 .banner>h1 {
   letter-spacing: 4px;
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 4px -4px 0px var(--color-2);
 }
 
 .header-font {
