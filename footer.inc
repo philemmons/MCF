@@ -14,7 +14,7 @@
  
                 <nav class="navbar navbar-expand-lg obframe">
                     <div class="container">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand text-right" href="#">
                             <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="30" height="24">
                         </a>
                         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavbar" aria-controls="footerNavbar" aria-expanded="false" aria-label="Toggle navigation">
