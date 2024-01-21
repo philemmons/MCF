@@ -1,32 +1,59 @@
 <footer>
 
     <section class="bg-one p-7">
-        <div class=container">
-            <div class="row">
-                <div class="col-sm-4 mb-3 mb-sm-0">
-                    <div class="card mx-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="container-xl">
+            <div class="row pb-5 justify-content-between">
+                <div class="col-md-4 col-lg">
+                    <div class="card-title-footer mb-4">
+                        <h2 class="d-flex">
+                            <a class="navbar-brand" href="index.html">
+                                MCF
+                            </a>
+                        </h2>
+                        <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
+                        <ul class="ul-inline-bl" mt-4">
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-lg">
+                    <div class="card-title-footer mb-4">
+                        <h2>Recent Posts</h2>
+                        <div class="block-8 mb-4 d-flex">
+                            <a class="blog-img img rounded" style="background-image: url(images/image_1.jpg);"></a>
+                            <div class="text">
+                                <div class="meta">
+                                    <div><a href="#"><span class="fa fa-calendar"></span> Mar. 05, 2021</a></div>
+                                    <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
+                                </div>
+                                <h3 class="heading"><a href="#">Shop the Look Cottage Country Living Room</a></h3>
+                            </div>
+                        </div>
+                        <div class="block-8 mb-4 d-flex">
+                            <a class="blog-img img rounded" style="background-image: url(images/image_2.jpg);"></a>
+                            <div class="text">
+                                <div class="meta">
+                                    <div><a href="#"><span class="fa fa-calendar"></span> Mar. 05, 2021</a></div>
+                                    <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
+                                </div>
+                                <h3 class="heading"><a href="#">Shop the Look Cottage Country Living Room</a></h3>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card mx-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mx-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="col-md-4 col-lg">
+                    <div class="card-title-footer mb-4">
+                        <h2>Have a Questions?</h2>
+                        <div class=" mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

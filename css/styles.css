@@ -109,9 +109,9 @@ body {
 /**** footer ****/
 
 #footer-image {
-  background-color: var(--color-3);
-  color: var(--color-1);
-  height: 200px;
+  background-color: var(--color-7);
+  color: var(--color-10);
+  height: 100px;
 
 }
 #footer-image>p {
@@ -122,6 +122,22 @@ body {
   background-color: var(--color-8);
 }
 
+.card-title-footer  h2, 
+.card-title-footer .h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.ul-inline-bl{
+  display: inline-block;
+}
+
+.block-8 .blog-img {
+  display: block;
+  height: 80px;
+  width: 80px;
+}
 /**** home ****/
 
 
