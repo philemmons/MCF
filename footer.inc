@@ -21,14 +21,14 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="footerNavbar">
-                            <ul class="navbar-nav mx-auto mt-2 mb-lg-0">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link" href="accessibility.php"> Accessibility</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item" style= "border-right: none;">
                                     <a class="nav-link" href="sitemap.php">Site Map</a>
                                 </li>
                             </ul>

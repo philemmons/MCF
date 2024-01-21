@@ -102,15 +102,14 @@ body {
 /**** navbar ****/
 
 .navbar-nav .nav-link {
-  color: var(--color-3);
-  letter-spacing: 1px;
+  color: var(--color-2);
+  letter-spacing: 2px;
   padding: 10px 25px !important;
-  font-size: 14px;
   background-color: var(--color-8);
 }
 
 .navbar-nav .nav-item {
-  border-right: none !important;
+  border-right: solid 3px var(--color-8);
 }
 
 nav {
@@ -131,7 +130,7 @@ nav {
 
 .navbar-toggler {
   background-color: var(--color-6);
-  border: solid 2px var(--color-7);
+  border: solid 3px var(--color-7);
 }
 
 .navbar-nav>li>a:hover,

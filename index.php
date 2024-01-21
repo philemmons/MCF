@@ -28,7 +28,7 @@ include_once 'header.inc'
         <li class="nav-item">
           <a class="nav-link" href="donate.php">Donation</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style= "border-right: none;">
           <a class="nav-link" href="contact.php">Contact Us</a>
         </li>
       </ul>
