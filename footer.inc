@@ -9,7 +9,7 @@
                             <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                         </h2>
                         <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
-                        <ul class="ul-inline-bl" mt-4"="">
+                        <ul class="li-inline ul-lst" mt-4"="">
                             <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                             <li><a href="#"><span class="fa fa-instagram"></span></a></li>

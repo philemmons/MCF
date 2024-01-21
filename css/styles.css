@@ -131,11 +131,11 @@ body {
 
 .li-inline{
   display: inline;
+  text-decoration: none;
 }
 
 .ul-lst{
   list-style-type: none;
-
 }
 
 
