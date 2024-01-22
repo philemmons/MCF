@@ -165,7 +165,9 @@ body {
   }
 
   .mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
-    font-family: var(--ff-header);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-style: italic;
   }
 
   .navbar-nav>.nav-item>.nav-link {
