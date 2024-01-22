@@ -146,25 +146,6 @@ body {
   background-position: center center;
 }
 
-ul>li {
-  list-style-type: none !important;
-}
-
-.text {
-  display: table-cell;
-}
-
-.text>div>a {
-  display: inline-block;
-  font-size: 12px;
-}
-
-.icon {
-  width: 40px;
-  font-size: 15px;
-  padding-top: 2px;
-  color: #81c2e2 !important;
-}
 
 
 /**** home ****/

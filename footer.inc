@@ -24,7 +24,7 @@
 
                 <div class="col-md-4 col-lg px-3 ">
                     <h2 class="header-font mb-4">Recent Posts</h2>
-                    <div class="block-8 mb-4 d-flex">
+                    <div class="mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
 
                         <ul class="ul-list">
@@ -38,7 +38,7 @@
                         <p class="ps-2"><a href="#">Message title</a></p>
 
 
-                        <div class="block-8 mb-4 d-flex">
+                        <div class="mb-4 d-flex">
                             <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
 
                             <ul class="ul-list">
@@ -58,20 +58,20 @@
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
                         <h2 class="header-font mb-4">Have a Questions?</h2>
-                        <div class="text mb-3">
-                            
-                        
-                                    <span class="icon"><i class="bi bi-map me-2"></i></span>
-                                    <span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span>
-                             
-                                    <a href="mailto:info@yourdomain.com">
-                                        <i class="bi bi-send me-2"></i>
-                                        <span class="text">info@yourdomain.com</span>
-                                    </a>
-                          
-                        </div>
+                        <ul class="mb-3">
+                            <li>
+                                <p><i class="bi bi-map me-2"></i>
+                                    P.O. Box 5040, Valley Springs, California, 93933, USA</p>
+                            </li>
+                            <li>
+                                <p><i class="bi bi-send me-2"></i>
+                                    <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                </p>
+                            </li>>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
