@@ -172,6 +172,7 @@ body {
 
   .navbar-nav>.nav-item>.nav-link {
     color: var(--color-1)
+    padding 0 .3rem;
   }
 
 }
@@ -186,4 +187,12 @@ body {
   font-size: 16px;
   letter-spacing: .1em;
   background-color: var(--color-6);
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>button:hover,
+.navbar-nav>li>div>a:hover,
+.log-input:hover {
+  background-color: var(--color-7);
+  color: var(--color-2);
 }
