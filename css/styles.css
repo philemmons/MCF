@@ -129,7 +129,8 @@ body {
   padding: 0.5rem;
   float: left;
 }
- /**** recent posts ****/
+
+/**** recent posts ****/
 .block-8 .blog-img {
   display: block;
   height: 80px;
@@ -146,8 +147,8 @@ body {
   background-position: center center;
 }
 
-.fs-14{
- font-size: 14px;
+.fs-14 {
+  font-size: 14px;
 }
 
 /**** navbar ****/
@@ -162,5 +163,32 @@ body {
   padding: 0;
 }
 
+@media (max-width: 991.98px) {
+  .ftco-navbar-light {
+    background: #1c5b7b !important;
+    padding: 1em 0;
+    position: relative;
+    top: 0;
+  }
 
+  .ftco-navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
+  color: #fff !important;
+}
+}
+
+
+/**** navbar toggle ****/
+.ftco-navbar-light .navbar-toggler {
+  border: none;
+  color: rgba(255, 255, 255, 0.9) !important;
+  cursor: pointer;
+  padding-right: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .1em;
+}
 

@@ -13,7 +13,7 @@ include_once 'header.inc'
           </a>
 
           <button class="navbar-toggler d-lg-none m-spec" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="topNavbar">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
