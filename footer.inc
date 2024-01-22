@@ -27,33 +27,25 @@
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
 
-                        <ul class="ul-list">
-                            <li class="li-horizontal">
-                                <i class="bi bi-calendar me-2"></i>date submitted
-                            </li>
-                            <li class="li-horizontal">
-                                <i class="bi bi-person-fill-check me-2"></i> First name
-                            </li>
+                        <ul>
+                            <li><i class="bi bi-calendar me-2"></i>date submitted</li>
+                            <li><i class="bi bi-person-fill-check me-2"></i> First name</li>
                         </ul>
+
                         <p class="ps-2"><a href="#">Message title</a></p>
+                    </div>
 
+                    <div class="block-8 mb-4 d-flex">
+                        <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
 
-                        <div class="mb-4 d-flex">
-                            <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
+                        <ul>
+                            <li><i class="bi bi-calendar me-2"></i> Date submitted</a></li>
+                            <li><i class="bi bi-person-fill-check me-2"></i> First Name</li>
+                        </ul>
 
-                            <ul class="ul-list">
-                                <li class="li-horizontal">
-                                    <i class="bi bi-calendar me-2"></i> Date submitted</a>
-                                </li>
-                                <li class="li-horizontal">
-                                    <i class="bi bi-person-fill-check me-2"></i> First Name
-                                </li>
-                            </ul>
-                            <p class="ps-2"><a href="#">Message title</a></p>
-                        </div>
+                        <p class="ps-2"><a href="#">Message title</a></p>
                     </div>
                 </div>
-
 
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
