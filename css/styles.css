@@ -155,7 +155,7 @@ body {
 @media (max-width: 991.98px) {
   .mcf-navbar-light {
     background: var(--color-3) !important;
-    padding: 1em 0;
+    padding: 1em;
     position: relative;
     top: 0;
   }
