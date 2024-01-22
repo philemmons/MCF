@@ -9,10 +9,10 @@
                             <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                         </h2>
                         <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
-                        <ul class="li-inline ul-lst" mt-4"="">
-                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <ul class="ul-list" mt-4"="">
+                            <li class="li-horizontal"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li class="li-horizontal"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li class="li-horizontal"><a href="#"><i class="bi bi-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
