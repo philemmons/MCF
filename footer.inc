@@ -4,7 +4,7 @@
         <div class="container-xl">
             <div class="row mb-4">
                 <div class="col-md-4 col-lg px-3">
-                    <h2 class="header-font mb-4">
+                    <h2 class="header-font mb-4  text-center">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
                     <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
@@ -23,7 +23,7 @@
 
 
                 <div class="col-md-4 col-lg px-3 ">
-                    <h2 class="header-font mb-4">Recent Posts</h2>
+                    <h2 class="header-font mb-4 text-center">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
 
@@ -54,28 +54,37 @@
                 </div>
 
                 <div class="col-md-4 col-lg px-3">
-                        <h2 class="header-font mb-4">Have a Questions?</h2>
+                    <h2 class="header-font mb-4 text-center">Have a Questions?</h2>
+
+                    <div class="block-8 d-flex">
+                        <i class="bi bi-map me-2"></i>
                         <ul class="ul-list ms-3">
                             <li>
-                                <p><i class="bi bi-map me-2"></i>
+                                <p>
                                     P.O. Box 5040, Valley Springs, California, 93933, USA</p>
                             </li>
+                        </ul>
+                    </div>
+                    <div class="block-8 d-flex">
+                        <i class="bi bi-send me-2"></i>
+                        <ul class="ul-list ms-3">
                             <li>
-                                <p><i class="bi bi-send me-2"></i>
+                                <p>
                                     <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
                                 </p>
                             </li>
                         </ul>
                     </div>
                 </div>
-
             </div>
+
         </div>
+
     </section>
 
     <section id="footer-image">
         <div class="h-100 d-flex align-items-center justify-content-center">
-            <p>Copyright © 2024 Millie's Crazy Flowers. All Rights Reserved.
+            <p>Copyright © <?php echo date('Y')?> Millie's Crazy Flowers. All Rights Reserved.
             </p>
         </div>
     </section>
