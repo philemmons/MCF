@@ -168,11 +168,16 @@ body {
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-style: italic;
-    background-color:var(--color-6)
+    background-color: var(--color-6)
   }
 
   .navbar-nav>.nav-item>.nav-link {
     color: var(--color-1);
+  }
+
+  .navbar-nav>li>a:hover {
+    background-color: var(--color-7);
+    color: var(--color-2) !important;
   }
 
 }
@@ -187,12 +192,4 @@ body {
   font-size: 16px;
   letter-spacing: .1em;
   background-color: var(--color-6);
-}
-
-.navbar-nav>li>a:hover,
-.navbar-nav>li>button:hover,
-.navbar-nav>li>div>a:hover,
-.log-input:hover {
-  background-color: var(--color-7);
-  color: var(--color-2) !important;
 }
