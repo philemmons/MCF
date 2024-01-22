@@ -150,82 +150,17 @@ body {
  font-size: 14px;
 }
 
+/**** navbar ****/
 
-
-/**** home ****/
-
-
-/**** navbar 
-
-.navbar-nav .nav-link {
-  color: var(--color-2);
-  letter-spacing: 2px;
-  padding: 10px 25px !important;
+.ftco-navbar-light {
+  background: transparent !important;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 0;
 }
 
-@media (min-width: 992px) {
-  .navbar-nav .nav-item {
-    border-right: solid 3px var(--color-8);
-  }
-}
 
-nav {
-  background-color: var(--color-6) !important;
-}
 
-.nav-link.active {
-  font-weight: 700;
-  color: var(--color-1);
-  background-color: var(--color-3);
-}
-
-.navbar-toggler {
-  background-color: var(--color-6);
-  border: solid 3px var(--color-7);
-}
-
-.navbar-nav>li>a:hover,
-.navbar-nav>li>button:hover,
-.navbar-nav>li>div>a:hover,
-.log-input:hover,
-.navbar-toggler:hover {
-  background-color: var(--color-4);
-  color: var(--color-1);
-}
-
-.navbar-toggler:focus{
-  box-shadow: 0 0 5px 0.25rem var(--color-5) !important;
-}
-
-****/
-
-/**** hero banner 
-
-.bg-body-tertiary {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.shadow-wrap {
-  box-shadow: 0 0 8px 2px var(--color-8);
-}
-
-.hero-text-border {
-  border: solid 1px var(--color-4);
-}
-
-.btn-primary {
-  --bs-btn-bg: #0000ff;
-  --bs-btn-hover-bg: #22aaff;
-}
-
-.hero-text-border {
-  border: solid 1px var(--color-4);
-}
-
-.btn-primary {
-  --bs-btn-bg: #0000ff;
-  --bs-btn-hover-bg: #22aaff;
-}
-
-****/
