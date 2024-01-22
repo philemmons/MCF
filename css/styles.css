@@ -129,7 +129,7 @@ body {
   padding: 0.5rem;
   float: left;
 }
-
+ /**** recent posts ****/
 .block-8 .blog-img {
   display: block;
   height: 80px;
@@ -144,6 +144,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.fs-14{
+ font-size: 14px;
 }
 
 

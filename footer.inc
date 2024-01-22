@@ -27,30 +27,35 @@
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
 
-                        <ul>
-                            <li><i class="bi bi-calendar me-2"></i>date submitted</li>
-                            <li><i class="bi bi-person-fill-check me-2"></i> First name</li>
+                        <ul class="ul-list ms-3">
+                            <li class="fs-14">
+                                <i class="bi bi-calendar me-1"></i>01.21.24
+                                <i class="bi bi-person-fill-check mx-1"></i>First name
+                            </li>
+                            <li>
+                                <p class="ps-2"><a href="#">Message title</a></p>
+                            </li>
                         </ul>
-
-                        <p class="ps-2"><a href="#">Message title</a></p>
                     </div>
 
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
 
-                        <ul>
-                            <li><i class="bi bi-calendar me-2"></i> Date submitted</a></li>
-                            <li><i class="bi bi-person-fill-check me-2"></i> First Name</li>
+                        <ul class="ul-list ms-3">
+                            <li class="fs-14">
+                                <i class="bi bi-calendar me-1"></i>01.21.24
+                                <i class="bi bi-person-fill-check mx-1"></i>First name
+                            </li>
+                            <li>
+                                <p class="ps-2"><a href="#">Message title</a></p>
+                            </li>
                         </ul>
-
-                        <p class="ps-2"><a href="#">Message title</a></p>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-lg px-3">
-                    <div class="card-title-footer mb-4">
                         <h2 class="header-font mb-4">Have a Questions?</h2>
-                        <ul class="mb-3">
+                        <ul class="ul-list ms-3">
                             <li>
                                 <p><i class="bi bi-map me-2"></i>
                                     P.O. Box 5040, Valley Springs, California, 93933, USA</p>
