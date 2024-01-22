@@ -5,7 +5,7 @@ include_once 'header.inc'
 
 <body>
   <section class="bg-color-left">
-    <div class='container'>
+   
       <nav class="navbar navbar-expand-lg ftco-navbar-light">
         <div class="container-xl">
           <a class="navbar-brand" href="#">
@@ -38,7 +38,7 @@ include_once 'header.inc'
               </li>
             </ul>
           </div>
-        </div>
+      
       </nav>
 
 
