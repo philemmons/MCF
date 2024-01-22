@@ -118,18 +118,17 @@ body {
   background-color: var(--color-8);
 }
 
-.li-horizontal {
-  display: block;
-  padding: 0.5rem;
-  float: left;
-}
-
 .ul-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+.li-horizontal {
+  display: block;
+  padding: 0.5rem;
+  float: left;
+}
 
 .block-8 .blog-img {
   display: block;
@@ -141,12 +140,31 @@ body {
   border-radius: 0.25rem !important;
 }
 
-.blog-img{
+.blog-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
+ul>li {
+  list-style-type: none !important;
+}
+
+.text {
+  display: table-cell;
+}
+
+.text>div>a {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.icon {
+  width: 40px;
+  font-size: 15px;
+  padding-top: 2px;
+  color: #81c2e2 !important;
+}
 
 
 /**** home ****/

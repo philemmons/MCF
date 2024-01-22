@@ -4,7 +4,7 @@
         <div class="container-xl">
             <div class="row mb-4">
                 <div class="col-md-4 col-lg px-3">
-                    <h2 class="d-flex header-font mb-2">
+                    <h2 class="header-font mb-4">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
                     <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
@@ -23,55 +23,52 @@
 
 
                 <div class="col-md-4 col-lg px-3 ">
-                    <h2 class="header-font mb-2">Recent Posts</h2>
+                    <h2 class="header-font mb-4">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
-                    </div>
-                    <ul class="ul-list">
-                        <li class="li-horizontal">
-                            <i class="bi bi-calendar me-2"></i>date submitted
-                        </li>
-                        <li class="li-horizontal">
-                            <i class="bi bi-person-fill-check me-2"></i> First name
-                        </li>
-                    </ul>
-                    <p class="ps-2"><a href="#">Message title</a></p>
-
-
-                    <div class="block-8 mb-4 d-flex">
-                        <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
 
                         <ul class="ul-list">
                             <li class="li-horizontal">
-                                <i class="bi bi-calendar me-2"></i> Date submitted</a>
+                                <i class="bi bi-calendar me-2"></i>date submitted
                             </li>
                             <li class="li-horizontal">
-                                <i class="bi bi-person-fill-check me-2"></i> First Name
+                                <i class="bi bi-person-fill-check me-2"></i> First name
                             </li>
                         </ul>
                         <p class="ps-2"><a href="#">Message title</a></p>
-                    </div>
 
+
+                        <div class="block-8 mb-4 d-flex">
+                            <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
+
+                            <ul class="ul-list">
+                                <li class="li-horizontal">
+                                    <i class="bi bi-calendar me-2"></i> Date submitted</a>
+                                </li>
+                                <li class="li-horizontal">
+                                    <i class="bi bi-person-fill-check me-2"></i> First Name
+                                </li>
+                            </ul>
+                            <p class="ps-2"><a href="#">Message title</a></p>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
-                        <h2 class="header-font mb-2">Have a Questions?</h2>
+                        <h2 class="header-font mb-4">Have a Questions?</h2>
                         <div class="text mb-3">
-                            <ul>
-                                <li>
-                                    <i class="bi bi-map me-2"></i>
+                            
+                        
+                                    <span class="icon"><i class="bi bi-map me-2"></i></span>
                                     <span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span>
-                                </li>
-
-                                <li>
+                             
                                     <a href="mailto:info@yourdomain.com">
                                         <i class="bi bi-send me-2"></i>
                                         <span class="text">info@yourdomain.com</span>
                                     </a>
-                                </li>
-                            </ul>
+                          
                         </div>
                     </div>
                 </div>
