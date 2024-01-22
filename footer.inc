@@ -24,7 +24,7 @@
 
                 <div class="col-md-4 col-lg px-3 ">
                     <h2 class="header-font mb-4">Recent Posts</h2>
-                    <div class="mb-4 d-flex">
+                    <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
 
                         <ul class="ul-list">
@@ -67,7 +67,7 @@
                                 <p><i class="bi bi-send me-2"></i>
                                     <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
                                 </p>
-                            </li>>
+                            </li>
                         </ul>
                     </div>
                 </div>
