@@ -3,7 +3,7 @@
     <section class="bg-one p-5">
         <div class="container-xl">
             <div class="row mb-4">
-                <div class="col-md-4 col-lg px-3">
+                <div class="col-md-4 col-lg-4 px-3">
                     <h2 class="header-font mb-4  text-center">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
@@ -22,7 +22,7 @@
                 </div>
 
 
-                <div class="col-md-4 col-lg px-3 ">
+                <div class="col-md-4 col-lg-4 px-3 ">
                     <h2 class="header-font mb-4 text-center">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-lg px-3">
+                <div class="col-md-4 col-lg-4 px-3">
                     <h2 class="header-font mb-4 text-center">Have a Questions?</h2>
 
                     <div class="block-8 d-flex">
