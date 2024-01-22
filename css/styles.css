@@ -141,8 +141,7 @@ body {
   border-radius: 0.25rem !important;
 }
 
-.blog-img,
-.user-img {
+.blog-img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

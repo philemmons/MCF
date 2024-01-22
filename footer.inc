@@ -4,7 +4,7 @@
         <div class="container-xl">
             <div class="row mb-4">
                 <div class="col-md-4 col-lg px-3">
-                    <h2 class="d-flex header-font">
+                    <h2 class="d-flex header-font mb-2">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
                     <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
@@ -21,22 +21,22 @@
                     </ul>
                 </div>
 
-                
+
                 <div class="col-md-4 col-lg px-3 ">
-                    <h2 class="header-font">Recent Posts</h2>
+                    <h2 class="header-font mb-2">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
-
-                        <ul class="ul-list">
-                            <li class="li-horizontal">
-                                <i class="bi bi-calendar me-2"></i>date submitted
-                            </li>
-                            <li class="li-horizontal">
-                                <i class="bi bi-person-fill-check me-2"></i> First name
-                            </li>
-                        </ul>
-                        <p class="ps-2"><a href="#">Message title</a></p>
                     </div>
+                    <ul class="ul-list">
+                        <li class="li-horizontal">
+                            <i class="bi bi-calendar me-2"></i>date submitted
+                        </li>
+                        <li class="li-horizontal">
+                            <i class="bi bi-person-fill-check me-2"></i> First name
+                        </li>
+                    </ul>
+                    <p class="ps-2"><a href="#">Message title</a></p>
+
 
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
@@ -57,7 +57,7 @@
 
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
-                        <h2 class="header-font">Have a Questions?</h2>
+                        <h2 class="header-font mb-2">Have a Questions?</h2>
                         <div class="text mb-3">
                             <ul>
                                 <li>
