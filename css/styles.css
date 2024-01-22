@@ -52,7 +52,7 @@ body {
   color: var(--color-10);
   font-size: 1em;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .font-italic {
@@ -116,7 +116,6 @@ body {
 
 }
 
-#footer-image>p,
 .fs-9 {
   font-size: 9px;
 }
@@ -164,16 +163,12 @@ body {
 .text>div {
   display: inline-block;
   font-size: 12px;
-  margin-right: 5px;
-  width: calc(100% - 50px);
   padding-left: 20px;
 }
 
 .text ul li {
   display: table;
-  line-height: 1.5;
   margin-bottom: 15px;
-  font-size: 15px;
 }
 
 
