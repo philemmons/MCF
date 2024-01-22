@@ -168,11 +168,11 @@ body {
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-style: italic;
+    background-color:var(--color-6)
   }
 
   .navbar-nav>.nav-item>.nav-link {
     color: var(--color-1);
-    padding: 0 .3rem;
   }
 
 }
