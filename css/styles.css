@@ -113,11 +113,6 @@ body {
   background-color: var(--color-7);
   color: var(--color-10);
   height: 100px;
-
-}
-
-.fs-9 {
-  font-size: 9px;
 }
 
 .bg-one {
@@ -132,7 +127,7 @@ body {
 
 .li-horizontal {
   display: block;
-  padding: 8px;
+  padding: 0.5rem;
   float: left;
 }
 
@@ -160,16 +155,6 @@ body {
   background-position: center center;
 }
 
-.text>div {
-  display: inline-block;
-  font-size: 12px;
-  padding-left: 20px;
-}
-
-.text ul li {
-  display: table;
-  margin-bottom: 15px;
-}
 
 
 /**** home ****/

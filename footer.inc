@@ -9,7 +9,7 @@
                             <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                         </h2>
                         <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
-                        <ul class="ul-list" mt-4"="">
+                        <ul class="ul-list mt-4">
                             <li class="li-horizontal"><a href="#"><i class="bi bi-twitter"></i></a></li>
                             <li class="li-horizontal"><a href="#"><i class="bi bi-facebook"></i></a></li>
                             <li class="li-horizontal"><a href="#"><i class="bi bi-instagram"></i></a></li>
@@ -17,40 +17,58 @@
                     </div>
                 </div>
 
+
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
                         <h2 class="header-font">Recent Posts</h2>
+
                         <div class="block-8 mb-4 d-flex">
                             <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
-                            <div class="text">
-                                <div class="fs-9">
-                                    <div><a href="#"><i class="bi bi-calendar"></i></span>date submitted</a></div>
-                                    <div><a href="#"><i class="bi bi-person-fill-check"></i> First name</a></div>
-                                </div>
-                                <p class="heading"><a href="#">Message title</a></p>
-                            </div>
+
+                            <ul class="ul-list">
+                                <li class="li-horizontal">
+                                    <i class="bi bi-calendar"></i>date submitted
+                                </li>
+                                <li class="li-horizontal">
+                                    <i class="bi bi-person-fill-check"></i> First name
+                                </li>
+                            </ul>
+                            <p class="ps-2"><a href="#">Message title</a></p>
                         </div>
+
                         <div class="block-8 mb-4 d-flex">
                             <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
-                            <div class="text">
-                                <div class="fs-9">
-                                    <div><a href="#"><i class="bi bi-calendar"></i></span> Date submitted</a></div>
-                                    <div><a href="#"><i class="bi bi-person-fill-check"></i> First name</a></div>
-                                </div>
-                                <p class="heading"><a href="#">Message title</a></p>
-                            </div>
+
+                            <ul class="ul-list">
+                                <li class="li-horizontal">
+                                    <i class="bi bi-calendar"></i> Date submitted</a>
+                                </li>
+                                <li class="li-horizontal">
+                                    <i class="bi bi-person-fill-check"></i> First Name
+                                </li>
+                            </ul>
+                            <p class="ps-2"><a href="#">Message title</a></p>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
                         <h2 class="header-font">Have a Questions?</h2>
                         <div class="text mb-3">
                             <ul>
-                                <li><i class="bi bi-map"></i><span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span></li>
+                                <li>
+                                    <i class="bi bi-map me-2"></i>
+                                    <span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span>
+                                </li>
 
-                                <li><a href="#"><i class="bi bi-send"></i><span class="text">info@yourdomain.com</span></a></li>
+                                <li>
+                                    <a href="mailto:info@yourdomain.com">
+                                        <i class="bi bi-send"></i>
+                                        <span class="text">info@yourdomain.com</span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
