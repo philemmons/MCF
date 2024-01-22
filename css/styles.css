@@ -25,7 +25,7 @@
   --ff-main: Figtree, Raleway, Arial, Sans-serif;
   --ff-header: BerkshireSwash;
 
-  --bs-navbar-toggler-focus-width: #fe5803 !important;
+  --bs-navbar-toggler-focus-width: var(--color-20) !important;
 }
 
 /**** typography and spacing ****/
@@ -76,17 +76,6 @@ body {
   padding: 7rem !important;
 }
 
-@media (min-width: 270px) {
-  .m-spec {
-    margin-left: 75% !important;
-  }
-}
-
-@media (max-width: 270px) {
-  .m-spec {
-    margin: auto !important;
-  }
-}
 
 /**** header ****/
 
@@ -153,7 +142,7 @@ body {
 
 /**** navbar ****/
 
-.ftco-navbar-light {
+.mcf-navbar-light {
   background: transparent !important;
   position: absolute;
   top: 20px;
@@ -164,27 +153,27 @@ body {
 }
 
 @media (max-width: 991.98px) {
-  .ftco-navbar-light {
-    background: #1c5b7b !important;
+  .mcf-navbar-light {
+    background: var(--color-3) !important;
     padding: 1em 0;
     position: relative;
     top: 0;
   }
 
-  .ftco-navbar-light .navbar-brand {
-    color: #fff;
+  .mcf-navbar-light .navbar-brand {
+    color: var(--color-1);
 }
 
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
-  color: #fff !important;
+.mcf-navbar-light .navbar-nav > .nav-item > .nav-link.active {
+  color: var(--color-20) !important;
 }
 }
 
 
 /**** navbar toggle ****/
-.ftco-navbar-light .navbar-toggler {
+.mcf-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--color-11) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
