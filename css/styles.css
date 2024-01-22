@@ -52,6 +52,7 @@ body {
   color: var(--color-10);
   font-size: 1em;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .font-italic {
@@ -114,7 +115,9 @@ body {
   height: 100px;
 
 }
-#footer-image>p {
+
+#footer-image>p,
+.fs-9 {
   font-size: 9px;
 }
 
@@ -122,18 +125,18 @@ body {
   background-color: var(--color-8);
 }
 
-.card-title-footer  h2, 
+.card-title-footer h2,
 .card-title-footer .h2 {
   margin-bottom: 1.5rem;
   font-weight: 500;
 }
 
-.li-inline{
+.li-inline {
   display: inline;
   text-decoration: none;
 }
 
-.ul-lst{
+.ul-lst {
   list-style-type: none;
 }
 
@@ -143,6 +146,34 @@ body {
   height: 80px;
   width: 80px;
 }
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.text>div {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+  width: calc(100% - 50px);
+  padding-left: 20px;
+}
+
+.text ul li {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+
 /**** home ****/
 
 

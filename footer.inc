@@ -10,34 +10,34 @@
                         </h2>
                         <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
                         <ul class="li-inline ul-lst" mt-4"="">
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                
-                <div class="col-md-4 col-lg">
+
+                <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
                         <h2 class="header-font">Recent Posts</h2>
                         <div class="block-8 mb-4 d-flex">
-                            <a class="blog-img img rounded" style="background-image: url(images/image_1.jpg);"></a>
+                            <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
                             <div class="text">
-                                <div class="meta">
-                                    <div><a href="#"><span class="fa fa-calendar"></span> Mar. 05, 2021</a></div>
-                                    <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
+                                <div class="fs-9">
+                                    <div><a href="#"><i class="bi bi-calendar"></i></span>date submitted</a></div>
+                                    <div><a href="#"><i class="bi bi-person-fill-check"></i> First name</a></div>
                                 </div>
-                                <h3 class="heading"><a href="#">Shop the Look Cottage Country Living Room</a></h3>
+                                <p class="heading"><a href="#">Message title</a></p>
                             </div>
                         </div>
                         <div class="block-8 mb-4 d-flex">
-                            <a class="blog-img img rounded" style="background-image: url(images/image_2.jpg);"></a>
+                            <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
                             <div class="text">
-                                <div class="meta">
-                                    <div><a href="#"><span class="fa fa-calendar"></span> Mar. 05, 2021</a></div>
-                                    <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
+                                <div class="fs-9">
+                                    <div><a href="#"><i class="bi bi-calendar"></i></span> Date submitted</a></div>
+                                    <div><a href="#"><i class="bi bi-person-fill-check"></i> First name</a></div>
                                 </div>
-                                <h3 class="heading"><a href="#">Shop the Look Cottage Country Living Room</a></h3>
+                                <p class="heading"><a href="#">Message title</a></p>
                             </div>
                         </div>
                     </div>
@@ -46,11 +46,11 @@
                 <div class="col-md-4 col-lg px-3">
                     <div class="card-title-footer mb-4">
                         <h2 class="header-font">Have a Questions?</h2>
-                        <div class=" mb-3">
+                        <div class="text mb-3">
                             <ul>
-                                <li><span class="icon fa fa-map marker"></span><span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span></li>
-                                
-                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+                                <li><i class="bi bi-map"></i><span class="text">P.O. Box 5040, Valley Springs, California, 93933, USA</span></li>
+
+                                <li><a href="#"><i class="bi bi-send"></i><span class="text">info@yourdomain.com</span></a></li>
                             </ul>
                         </div>
                     </div>
