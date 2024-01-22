@@ -52,7 +52,6 @@ body {
   color: var(--color-10);
   font-size: 1em;
   font-weight: 400;
-  text-decoration: none !important;
 }
 
 .font-italic {
@@ -117,12 +116,6 @@ body {
 
 .bg-one {
   background-color: var(--color-8);
-}
-
-.card-title-footer h2,
-.card-title-footer .h2 {
-  margin-bottom: 1.5rem;
-  font-weight: 500;
 }
 
 .li-horizontal {
