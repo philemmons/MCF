@@ -63,10 +63,14 @@ include_once 'header.inc'
   </section>
 
 
-<section class= "d-flex hero">
+  <section class="d-flex vh-100">
+    <div id="bg-left">A</div>
+    <div id="bg-right">B</div>
+  </section>
+
 
   <div class="row">
-    <div class='col-sm-6 banner df-auto' id= 'bg-left'>
+    <div class='col-sm-6 banner df-auto' id='bg-left'>
 
 
 
@@ -75,7 +79,7 @@ include_once 'header.inc'
         <p>Legacy of love, caring, and lasting friendship from one friend to another.</p>
       </div>
     </div>
-    <div class='col-sm-6 banner df-auto' id= 'bg-right'>
+    <div class='col-sm-6 banner df-auto' id='bg-right'>
 
       <div>
         <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it." />
@@ -84,7 +88,7 @@ include_once 'header.inc'
 
   </div>
   </div>
-  </section>
+
 
 
 

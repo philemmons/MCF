@@ -87,8 +87,8 @@ body {
   font-family: var(--ff-header);
 }
 
-.df-auto{
-flex: auto;
+.df-auto {
+  flex: auto;
 }
 
 @media (min-width: 1200px) {
@@ -205,10 +205,12 @@ flex: auto;
   position: relative;
 }
 
-#bg-left{
+#bg-left {
   background-color: var(--color-8);
+  flex: auto;
 }
 
-#bg-right{
+#bg-right {
   background-color: var(--color-7);
+  flex: auto;
 }
