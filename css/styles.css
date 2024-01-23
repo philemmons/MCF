@@ -91,7 +91,7 @@ body {
   flex: auto;
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
   .h1,
   h1 {
@@ -174,7 +174,7 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 991.98px) {
+@media screen and (max-width: 991.98px) {
   .mcf-navbar-light {
     background: var(--color-3) !important;
     padding: 1em;
@@ -232,6 +232,17 @@ body {
 
 .h-rem{
   height: 80rem;
+}
+
+.img-fluid{
+  max-width: 60%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 400px) {
+  
+  .img-fluid{
+    max-width: 100%;
+  }
 }
 
 /**** info section ****/
