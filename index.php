@@ -53,10 +53,9 @@ include_once 'header.inc'
         <h1 class="header-font">Millie's Crazy Flowers</h1>
         <p>Legacy of love, caring, and lasting friendship from one friend to another.</p>
       </div>
-    </div>
-    <div class="col-sm-6 banner">
-      <div>
-        <img src="../images/mcf-wreath.png" class="img-fluid " alt="Gorgeous floral wreath shaped like a heart." />
+
+      <div class="col-sm-6 banner">
+          <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
       </div>
     </div>
   </div>
