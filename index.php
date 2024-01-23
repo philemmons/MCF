@@ -54,7 +54,7 @@ include_once 'header.inc'
         <p>Legacy of love, caring, and lasting friendship from one friend to another.</p>
       </div>
 
-      <div class="col-sm-6 banner">
+      <div class="col-sm-6 banner text-center">
           <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
       </div>
     </div>
