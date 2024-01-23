@@ -45,12 +45,12 @@ include_once 'header.inc'
 
   <div class="container hero-content">
     <div class="row">
-      <div class="col-sm-6 banner">
+      <div class="col-md-6 banner">
         <h1 class="header-font">Millie's Crazy Flowers</h1>
         <p>Legacy of love, caring, and lasting friendship from one friend to another.</p>
       </div>
 
-      <div class="col-sm-6 banner text-center">
+      <div class="col-md-6 banner text-center">
         <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
       </div>
     </div>
