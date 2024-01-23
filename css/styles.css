@@ -227,25 +227,29 @@ body {
 .hero-content {
   position: relative;
   top: -70vh;
-  margin-bottom: -70vh;
+  margin-bottom: -50vh;
 }
 
 /**** info section ****/
 
 .info-1 {
-  background-color: var(--color-4);
+  background-color: var(--color-3);
 }
 
 .info-2 {
-  background-color: var(--color-5);
+  background-color: var(--color-4);
 }
 
 .info-3 {
-  background-color: var(--color-6);
+  background-color: var(--color-5);
 }
 
 .info-4 {
-  background-color: var(--color-7);
+  background-color: var(--color-6);
+}
+
+.fc-1{
+  color: var(--color-1);
 }
 
 /**** clearfix ****/
