@@ -241,7 +241,7 @@ body {
 @media (min-width: 768px){
   
   .img-fluid{
-    width: 100%;
+    max-width: 100%;
   }
 }
 
