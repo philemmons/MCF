@@ -244,19 +244,19 @@ body {
 /**** info section ****/
 
 .info-1 {
-  background-color: var(--color-3);
+  background-color: var(--color-6);
 }
 
 .info-2 {
-  background-color: var(--color-4);
-}
-
-.info-3 {
   background-color: var(--color-5);
 }
 
+.info-3 {
+  background-color: var(--color-4);
+}
+
 .info-4 {
-  background-color: var(--color-6);
+  background-color: var(--color-3);
 }
 
 .fc-1{
