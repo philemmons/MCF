@@ -19,22 +19,22 @@ include_once 'header.inc'
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-link active ps-3" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
+            <a class="nav-link active px-2" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-3" href="purchase.php">Catalog</a>
+            <a class="nav-link px-2" href="purchase.php">Catalog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-3" href="about-us.php">Our Story</a>
+            <a class="nav-link px-2" href="about-us.php">Our Story</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-3" href="reviews.php">Reviews</a>
+            <a class="nav-link px-2" href="reviews.php">Reviews</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-3" href="donate.php">Donation</a>
+            <a class="nav-link px-2" href="donate.php">Donation</a>
           </li>
           <li class="nav-item" style="border-right: none;">
-            <a class="nav-link ps-3" href="contact.php">Contact Us</a>
+            <a class="nav-link px-2" href="contact.php">Contact Us</a>
           </li>
         </ul>
       </div>
