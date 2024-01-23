@@ -63,15 +63,10 @@ include_once 'header.inc'
   </section>
 
 
-<section class= "hero-background">
-  
-</section>
-
-
-
+<section class= "d-flex hero">
 
   <div class="row">
-    <div class='col-sm-6 banner'>
+    <div class='col-sm-6 banner df-auto' id= 'bg-left'>
 
 
 
@@ -80,7 +75,7 @@ include_once 'header.inc'
         <p>Legacy of love, caring, and lasting friendship from one friend to another.</p>
       </div>
     </div>
-    <div class='col-sm-6 banner'>
+    <div class='col-sm-6 banner df-auto' id= 'bg-right'>
 
       <div>
         <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it." />

@@ -87,6 +87,10 @@ body {
   font-family: var(--ff-header);
 }
 
+.df-auto{
+flex: auto;
+}
+
 @media (min-width: 1200px) {
 
   .h1,
@@ -195,11 +199,16 @@ body {
 }
 
 /**** hero-background ****/
-.hero-wrap,
-.hero-background {
+.hero {
   height: 100vh;
   min-height: 100%;
   position: relative;
+}
 
-  background: #d4eaf5;
+#bg-left{
+  background-color: var(--color-8);
+}
+
+#bg-right{
+  background-color: var(--color-7);
 }
