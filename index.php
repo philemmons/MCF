@@ -47,8 +47,8 @@ include_once 'header.inc'
     <div class="row">
       <div class="col-md-6 banner">
         <h1 class="header-font">Millie's Crazy Flowers</h1>
-        <h4 class= "font-italic">Legacy of love, caring, and lasting friendship.</h4>
-        <p class= "py-2"> Our Mogol Artist hand crafts every beautiful flower that no two are alike. </p> 
+        <h4 class="font-italic">Legacy of love, caring, and lasting friendship.</h4>
+        <p class="py-2"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
       </div>
 
       <div class="col-md-6 banner text-center">
@@ -58,6 +58,29 @@ include_once 'header.inc'
   </div>
 
 
+  <section>
+    <div class="container" style="background-color: var(--color-1);">
+      <div class="row g-2 py-2">
+        <div class="col-md-3 col-sm-6 p-5 info-1">
+          <h4>Creative Elements</h4>
+          <p>In a whimsical creation, the vibrant colors of the pipe cleaners intertwine with dynamic lines, creating a harmonious composition that explores the elements of art.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 p-5 info-2">
+          <h4>Community</h4>
+          <p>Exemplifies a holistic approach to supporting and uplifting various charitable endeavors, demonstrating a strong commitment to making a positive impact on the community or society at large.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 p-5 info-3">
+          <h4>Expression</h4>
+          <p>
+            In a unique fusion of traditional Mongol art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 p-5 info-4">
+          <h4>We Care</h4>
+          <p>We create a welcoming atmosphere for a satisfying experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <?php include_once 'footer.inc' ?>
