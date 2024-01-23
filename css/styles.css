@@ -234,17 +234,6 @@ body {
   height: 80rem;
 }
 
-.img-fluid{
-  max-width: 60%;
-}
-
-@media (min-width: 768px){
-  
-  .img-fluid{
-    max-width: 100%;
-  }
-}
-
 /**** info section ****/
 
 .info-1 {
