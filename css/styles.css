@@ -226,10 +226,10 @@ body {
 
 .hero-content {
   position: relative;
-  top: -65vh;
-  margin-bottom: -40vh;
+  top: -50%;
+  margin-bottom: -25%;
 }
-
+/**
 .img-fluid{
   max-width: 58%;
 }
@@ -240,7 +240,7 @@ body {
   .img-fluid{
     width: 100%;
   }
-}
+} **/
 
 /**** info section ****/
 

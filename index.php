@@ -38,7 +38,7 @@ include_once 'header.inc'
   </nav>
 
 
-  <section class="d-flex vh-100">
+  <section class="d-flex h-100">
     <div id="bg-left"></div>
     <div id="bg-right"></div>
   </section>
