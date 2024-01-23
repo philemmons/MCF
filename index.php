@@ -17,21 +17,17 @@ include_once 'header.inc'
       </button>
       <div class="collapse navbar-collapse" id="topNavbar">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
           <li class="nav-item">
             <a class="nav-link active px-2" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-2" href="purchase.php">Catalog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link px-2" href="about-us.php">Our Story</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="reviews.php">Reviews</a>
+            <a class="nav-link px-2" href="purchase.php">Flowers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="donate.php">Donation</a>
+            <a class="nav-link px-2" href="reviews.php">Reviews</a>
           </li>
           <li class="nav-item" style="border-right: none;">
             <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -55,7 +51,7 @@ include_once 'header.inc'
       </div>
 
       <div class="col-sm-6 banner text-center">
-          <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
+        <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
       </div>
     </div>
   </div>
