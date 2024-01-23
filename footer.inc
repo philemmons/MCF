@@ -25,7 +25,7 @@
                 <div class="col-md-6 col-lg-4 px-3 ">
                     <h2 class="header-font mb-4 text-center">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
-                        <a class="blog-img rounded" style="background-image: url(images/image_1.jpg);"></a>
+                        <a class="blog-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">
@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="block-8 mb-4 d-flex">
-                        <a class="blog-img rounded" style="background-image: url(images/image_2.jpg);"></a>
+                        <a class="blog-img rounded" style="background-image: url(images/mcf-flower-1.png);"></a>
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">

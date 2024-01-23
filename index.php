@@ -42,54 +42,24 @@ include_once 'header.inc'
   </nav>
 
 
-  <section class="hero-wrap">
-    <div class="overlay"></div>
-    <div class="img" style="background-image: url(images/bg_2.jpg);"></div>
-    <div class="container">
-      <div class="row no-gutters slider-text align-items-center align-items-stretch">
-        <div class="col-md-6 col-lg-6 text d-flex align-items-center">
-          <div class="desc">
-            <h1 class="">Best Design of <span>Furniture Collections</span></h1>
-            <div class="w-75">
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p class="d-flex align-items-center mt-4">
-                <a href="#" class="btn btn-white d-flex align-items-center py-3 px-4">Discover</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
   <section class="d-flex vh-100">
     <div id="bg-left">A</div>
     <div id="bg-right">B</div>
   </section>
 
-
-  <div class="row">
-    <div class='col-sm-6 banner df-auto' id='bg-left'>
-
-
-
-      <div>
+  <div class="container hero-content">
+    <div class="row">
+      <div class="col-sm-6 banner">
         <h1 class="header-font">Millie's Crazy Flowers</h1>
         <p>Legacy of love, caring, and lasting friendship from one friend to another.</p>
       </div>
     </div>
-    <div class='col-sm-6 banner df-auto' id='bg-right'>
-
+    <div class="col-sm-6 banner">
       <div>
-        <img src="../images/beautiful-heart-love.png" class="img-fluid " alt="Wreath shaped like a heart with an infinite symbol through it." />
+        <img src="../images/mcf-wreath.png" class="img-fluid " alt="Gorgeous floral wreath shaped like a heart." />
       </div>
     </div>
-
   </div>
-  </div>
-
-
 
 
   <?php include_once 'footer.inc' ?>

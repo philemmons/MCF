@@ -199,11 +199,6 @@ body {
 }
 
 /**** hero-background ****/
-.hero {
-  height: 100vh;
-  min-height: 100%;
-  position: relative;
-}
 
 #bg-left {
   background-color: var(--color-8);
@@ -213,4 +208,9 @@ body {
 #bg-right {
   background-color: var(--color-7);
   flex: auto;
+}
+
+.hero-content{
+  position: relative;
+  top: -60vh;
 }
