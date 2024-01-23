@@ -43,8 +43,8 @@ include_once 'header.inc'
 
 
   <section class="d-flex vh-100">
-    <div id="bg-left">A</div>
-    <div id="bg-right">B</div>
+    <div id="bg-left"></div>
+    <div id="bg-right"></div>
   </section>
 
   <div class="container hero-content">
