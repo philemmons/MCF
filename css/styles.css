@@ -226,21 +226,24 @@ body {
 
 .hero-content {
   position: relative;
-  top: -50%;
-  margin-bottom: -25%;
-}
-/**
-.img-fluid{
-  max-width: 58%;
+  top: -60rem;
+  margin-bottom: -42rem;
 }
 
+.h-rem{
+  height: 80rem;
+}
+
+.img-fluid{
+  max-width: 60%;
+}
 
 @media (min-width: 768px){
   
   .img-fluid{
     width: 100%;
   }
-} **/
+}
 
 /**** info section ****/
 
