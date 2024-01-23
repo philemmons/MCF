@@ -60,22 +60,22 @@ include_once 'header.inc'
 
   <section>
     <div class="container-fluid" style="background-color: var(--color-1);">
-      <div class="row gx-2 py-2 border border-white text-white">
-        <div class="col-md-3 col-sm-6 p-5 info-1 border-end border-white">
-          <h4 class= "header-font">Creative Elements</h4>
+      <div class="row py-2 border text-white">
+        <div class="col-lg-3 p-5 info-1 border border-white">
+          <h4 class="header-font">Creative Elements</h4>
           <p>In a whimsical creation, the vibrant colors of the pipe cleaners intertwine with dynamic lines, creating a harmonious composition that explores the elements of art.</p>
         </div>
-        <div class="col-md-3 col-sm-6 p-5 info-2 border-end border-white">
-          <h4 class= "header-font">Community</h4>
+        <div class="col-lg-3 p-5 info-2 border border-white">
+          <h4 class="header-font">Community</h4>
           <p>Exemplifies a holistic approach to supporting and uplifting various charitable endeavors, demonstrating a strong commitment to making a positive impact on the community or society at large.</p>
         </div>
-        <div class="col-md-3 col-sm-6 p-5 info-3 border-end border-white">
-          <h4 class= "header-font">Expression</h4>
+        <div class="col-lg-3 p-5 info-3 border border-white">
+          <h4 class="header-font">Expression</h4>
           <p>
             In a unique fusion of traditional Mongol art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
         </div>
-        <div class="col-md-3 col-sm-6 p-5 info-4">
-          <h4 class= "header-font">We Care</h4>
+        <div class="col-lg-3 p-5 info-4 border border-white">
+          <h4 class="header-font">We Care</h4>
           <p>We create a welcoming atmosphere for a satisfying experience.</p>
         </div>
       </div>

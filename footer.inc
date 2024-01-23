@@ -7,7 +7,7 @@
                     <h2 class="header-font mb-4  text-center">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
-                    <p>Legacy of love, caring, and lasting friendship from one friend to another</p>
+                    <h4 class="font-italic">Legacy of love, caring, and lasting friendship from one friend to another</h4>
                     <ul class="ul-list mt-4">
                         <li class="li-horizontal">
                             <a href="#"><i class="bi bi-twitter"></i></a>
