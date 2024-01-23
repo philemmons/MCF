@@ -226,14 +226,19 @@ body {
 
 .hero-content {
   position: relative;
-  top: -60rem;
-  margin-bottom: -40rem;
+  top: -65vh;
+  margin-bottom: -40vh;
 }
+
+.img-fluid{
+  max-width: 58%;
+}
+
 
 @media (min-width: 768px){
   
   .img-fluid{
-    width: 58%;
+    width: 100%;
   }
 }
 
