@@ -227,12 +227,12 @@ body {
 .hero-content {
   position: relative;
   top: -70vh;
-  margin-bottom: -50vh;
+  margin-bottom: -65vh;
 }
 
 @media (min-width: 768px){
   .hero-content{
-    margin-bottom: -65vh;
+    margin-bottom: -50vh;
   }
 }
 
