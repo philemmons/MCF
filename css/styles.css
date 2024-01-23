@@ -232,8 +232,9 @@ body {
 
 @media (min-width: 768px){
   .hero-content{
-    margin-bottom: -50vh;
+    top: -93vh;
   }
+
 }
 
 /**** info section ****/
