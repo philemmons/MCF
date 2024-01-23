@@ -171,10 +171,9 @@ body {
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
-  font-weight: bold;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1020px) {
   .mcf-navbar-light {
     background: var(--color-3) !important;
     padding: 1em;
