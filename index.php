@@ -190,11 +190,11 @@ include_once 'header.inc'
         </div>
       </div>
 
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="cards-wrapper">
-              <div class="card">
+              <div class="card d-none d-md-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 1</h5>
@@ -222,7 +222,7 @@ include_once 'header.inc'
           </div>
           <div class="carousel-item">
             <div class="cards-wrapper">
-              <div class="card">
+              <div class="card d-none d-md-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 4</h5>
@@ -250,7 +250,7 @@ include_once 'header.inc'
           </div>
           <div class="carousel-item">
             <div class="cards-wrapper">
-              <div class="card">
+              <div class="card d-none d-md-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 7</h5>
@@ -277,14 +277,30 @@ include_once 'header.inc'
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+
+        <!--
+        <a class="carousel-control-prev" href="#carouselExampleAutoplaying" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+
+        <a class="carousel-control-next" href="#carouselExampleAutoplaying" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+        -->
+
+
       </div>
     </div>
   </section>
