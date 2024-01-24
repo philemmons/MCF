@@ -127,13 +127,13 @@ include_once 'header.inc'
     </div>
   </section>
 
-  <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+  <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-7);">
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
             <p class="card-text  mb-1 tt-upper">Impressive Reviews About Our Flowers</p>
-            <h2 class="card-title header-font">Technical Statistics<</h2>
+            <h2 class="card-title header-font">Technical Statistics</h2>
           </div>
         </div>
       </div>
@@ -171,13 +171,13 @@ include_once 'header.inc'
   </section>
 
 
-  <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+  <section class="px-3 px-lg-5 pt-3 pt-lg-5">
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
-            <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
-            <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
+            <p class="card-text  mb-1 tt-upper">Testimonial</p>
+            <h2 class="card-title header-font mb-3">Happy Customers</h2>
           </div>
         </div>
       </div>
@@ -199,13 +199,13 @@ include_once 'header.inc'
   </section>
 
 
-  <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+  <section class="px-3 px-lg-5 pt-3 pt-lg-5">
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
-            <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
-            <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
+            <p class="card-text  mb-1 tt-upper">Production Flows</p>
+            <h2 class="card-title header-font mb-3">How it Works</h2>
           </div>
         </div>
       </div>
@@ -232,8 +232,8 @@ include_once 'header.inc'
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
-            <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
-            <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
+            <p class="card-text  mb-1 tt-upper">Our Blog</p>
+            <h2 class="card-title header-font mb-3">Recent From Blog</h2>
           </div>
         </div>
       </div>
