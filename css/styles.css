@@ -367,6 +367,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   height: 30px;
   background: var(--color-10);
   border-radius: 50%;
+  border-color: var(--color-1);
 }
 
 .hiw-question{

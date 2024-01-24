@@ -438,8 +438,8 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn  btn-lg border-cust" type="button">Contact Us</button>
+        <div class="d-grid gap-2 col-6 mx-auto pb-5">
+          <button type="button" class="btn hiw-question btn-lg" >Question</button>
          
         </div>
 
