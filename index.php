@@ -90,9 +90,9 @@ include_once 'header.inc'
           </div>
           <div class="col-md-8 p-5 os-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
             <div class="card-body">
-              <h4 class="card-title">About Millie's Crazy Flowers</h4>
+              <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
               <p class="card-text">All our flowers are uniquely created just like our friend Millie.</p>
-              <p class="card-text"><small class="text-body-secondary">Millie's legacy of friendship is LOVE.</small></p>
+              <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
             </div>
           </div>
       
