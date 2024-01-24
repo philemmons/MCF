@@ -221,7 +221,7 @@ include_once 'header.inc'
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-flex justify-content-center"
+            <div class="d-flex justify-content-center">
               <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
@@ -249,7 +249,7 @@ include_once 'header.inc'
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-flex justify-content-center"
+            <div class="d-flex justify-content-center">
               <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
