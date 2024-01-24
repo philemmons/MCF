@@ -190,9 +190,9 @@ include_once 'header.inc'
         </div>
       </div>
 
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleAuto" class="carousel slide" data-bs-ride="ride">
         <div class="carousel-inner p-3">
-        <div class="carousel-item active">
+        <div class="carousel-item active carousel-item-start">
             <div class="d-flex justify-content-center">
               <div class="card">
                 <div class="card-header">
@@ -242,11 +242,111 @@ include_once 'header.inc'
             </div>
           </div>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                </div>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light py-3">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <div class="card-header">
+                </div>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light py-3">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+              <div class="card d-none d-lg-block">
+                <div class="card-header">
+                </div>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light py-3">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                </div>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light py-3">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <div class="card-header">
+                </div>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light py-3">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+              <div class="card d-none d-lg-block">
+                <div class="card-header">
+                </div>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light py-3">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAuto" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAuto" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
