@@ -99,20 +99,29 @@ include_once 'header.inc'
     </div>
   </section>
 
-  <section class="p-3 p-lg-5">
-    <div class="container-fluid" style="background-color: var(--color-1);">
+
+  <section class="p-3 p-lg-5" style="background-color: var(--color-1);">
+    <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-lg-6 my-2 my-lg-5">
+        <div class="col-lg-12 my-2 my-lg-3">
           <div class="card-body">
             <p class="card-text  mb-4 tt-upper">Our Finished Projects</p>
             <h2 class="card-title header-font">Crazy Flower Collection</h2>
           </div>
         </div>
 
-        <div class="d-flex justify-content-lg-center">
-          <img src="images/mcf-flower-1.png" class="img-fluid rounded m-1" alt="MCF's Chenille Stems flower one.">
-          <img src="images/mcf-flower-2.png" class="img-fluid rounded m-1" alt="MCF's Chenille Stems flower two.">
-          <img src="images/mcf-flower-3.png" class="img-fluid rounded m-1" alt="MCF's Chenille Stems flower three.">
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-1.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower one.">
+          </div>
+
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-2.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower two.">
+          </div>
+
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-3.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower three.">
+          </div>
         </div>
 
       </div>
