@@ -82,23 +82,26 @@ include_once 'header.inc'
     </div>
   </section>
 
-  <section>
-    <div class="container-fluid" style="background-color: var(--color-11);">
-      <div class="row g-0">
-        <div class="col-md-6 py-5 me-3">
+  <section class="p-3 p-lg-5">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-6 my-2 my-lg-5">
           <img src="images/mch-vh.png" class="img-fluid rounded float-end" alt="MCH's Chenille Stems Artist.">
         </div>
-        <div class="col-md-6 py-5">
+        <div class="col-lg-6 my-2 my-lg-5">
           <div class="card-body">
             <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
             <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we love.</p>
             <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
           </div>
         </div>
-
       </div>
     </div>
   </section>
+
+
+
+
 
 
   <?php include_once 'footer.inc' ?>
