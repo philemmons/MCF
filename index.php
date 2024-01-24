@@ -404,43 +404,53 @@ include_once 'header.inc'
       <div class="row text-center">
         <div class="col-lg-4 p-5">
           <div class="hiw-icon info-4">
-            <div class="d-flex justify-content-center">
-              <small class= "fc-1">001</small>
+            <div class="d-flex justify-content-center align-items-center">
+              <small class="fc-1">001</small>
             </div>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Quotes or Questions</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
 
         <div class="col-lg-4 p-5">
           <div class="hiw-icon info-1">
-            <div class="d-flex justify-content-center">
-              <small class= "fc-2">002</small>
+            <div class="d-flex justify-content-center align-items-center">
+              <small class="fc-1">002</small>
             </div>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Production and Assembly</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
 
         <div class="col-lg-4 p-5">
           <div class="hiw-icon info-4">
-            <div class="d-flex justify-content-center">
-              <small class= "fc-1">003</small>
+            <div class="d-flex justify-content-center align-items-center">
+              <small class="fc-1">003</small>
             </div>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Delivery</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn  btn-lg border-cust" type="button">Contact Us</button>
+         
         </div>
 
       </div>
     </div>
   </section>
+
+
+
+
+
 
 
   <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
