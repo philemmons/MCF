@@ -190,11 +190,13 @@ include_once 'header.inc'
         </div>
       </div>
 
+
       <div id="carouselExampleAuto" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item p-3 active">
             <div class="d-flex justify-content-center">
-              <div class="card">
+              
+              <div class="card mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -203,13 +205,14 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
                 </div>
               </div>
-              <div class="card d-none d-md-block">
+
+              <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -218,13 +221,14 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
                 </div>
               </div>
-              <div class="card d-none d-lg-block">
+
+              <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -233,7 +237,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -243,9 +247,9 @@ include_once 'header.inc'
           </div>
 
 
-          <div class="carousel-item">
+          <div class="carousel-item p-3">
             <div class="d-flex justify-content-center">
-              <div class="card">
+              <div class="card mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -254,13 +258,14 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
                 </div>
               </div>
-              <div class="card d-none d-md-block">
+
+              <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -269,13 +274,14 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
                 </div>
               </div>
-              <div class="card d-none d-lg-block">
+
+              <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -284,7 +290,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -293,7 +299,8 @@ include_once 'header.inc'
             </div>
           </div>
 
-          <div class="carousel-item">
+
+          <div class="carousel-item p-3">
             <div class="d-flex justify-content-center">
               <div class="card">
                 <div class="card-header">
@@ -304,13 +311,14 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
                 </div>
               </div>
-              <div class="card d-none d-md-block">
+
+              <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -319,13 +327,14 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
                 </div>
               </div>
-              <div class="card d-none d-lg-block">
+
+              <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
                 </div>
                 <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
@@ -334,7 +343,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3">View</a>
+                  <a href="#" class="btn btn-light py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
