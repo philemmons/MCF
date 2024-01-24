@@ -86,7 +86,7 @@ include_once 'header.inc'
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-lg-6 my-2 my-lg-5">
-          <img src="images/mch-vh.png" class="img-fluid rounded float-end" alt="MCH's Chenille Stems Artist.">
+          <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
         </div>
         <div class="col-lg-6 my-2 my-lg-5">
           <div class="card-body">
@@ -99,7 +99,24 @@ include_once 'header.inc'
     </div>
   </section>
 
+  <section class="p-3 p-lg-5">
+    <div class="container-fluid" style="background-color: var(--color-1);">
+      <div class="row text-center">
+        <div class="col-lg-6 my-2 my-lg-5">
+          <div class="card-body">
+            <p class="card-text  mb-4 tt-upper">Our Finished Projects</p>
+            <h2 class="card-title header-font">Crazy Flower Collection</h2>
+          </div>
+        </div>
 
+        <div class="d-flex justify-content-lg-center">
+          <img src="images/mcf-flower-1.png" class="img-fluid rounded m-1" alt="MCF's Chenille Stems flower one.">
+          <img src="images/mcf-flower-2.png" class="img-fluid rounded m-1" alt="MCF's Chenille Stems flower two.">
+          <img src="images/mcf-flower-3.png" class="img-fluid rounded m-1" alt="MCF's Chenille Stems flower three.">
+        </div>
+
+      </div>
+  </section>
 
 
 

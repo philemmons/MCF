@@ -80,6 +80,17 @@ body {
   padding: 8em !important;
 }
 
+.tt-upper{
+  text-transform: uppercase;
+}
+
+/**** clearfix ****/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /**** header ****/
 
@@ -265,14 +276,6 @@ body {
 
 .fc-1{
   color: var(--color-1);
-}
-
-/**** clearfix ****/
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 /**** fade in bottom animation ****/
