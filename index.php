@@ -197,13 +197,13 @@ include_once 'header.inc'
               <div class="card">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
+                  <a href="#" class="btn btn-light py-3">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -212,13 +212,13 @@ include_once 'header.inc'
               <div class="card d-none d-md-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
+                  <a href="#" class="btn btn-light py-3">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -227,13 +227,13 @@ include_once 'header.inc'
               <div class="card d-none d-lg-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
+                  <a href="#" class="btn btn-light py-3">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -242,106 +242,6 @@ include_once 'header.inc'
             </div>
           </div>
 
-          <div class="carousel-item active carousel-item-start">
-            <div class="d-flex justify-content-center">
-              <div class="card">
-                <div class="card-header">
-                </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-              <div class="card d-none d-md-block">
-                <div class="card-header">
-                </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-              <div class="card d-none d-lg-block">
-                <div class="card-header">
-                </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item carousel-item-next carousel-item-start">
-            <div class="d-flex justify-content-center">
-              <div class="card">
-                <div class="card-header">
-                </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-              <div class="card d-none d-md-block">
-                <div class="card-header">
-                </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-              <div class="card d-none d-lg-block">
-                <div class="card-header">
-                </div>
-                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-light">View</a>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
