@@ -320,7 +320,6 @@ body {
 source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 */
 
-
 .card {
   box-shadow: 2px 6px 8px 0 var(--color-4);
 }
@@ -333,6 +332,10 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.border-cust{
+  border-color: var(--color-3);
 }
 
 
