@@ -83,12 +83,12 @@ include_once 'header.inc'
   </section>
 
   <section>
-    <div class="container-fluid p-7" style="background-color: var(--color-11);">
-        <div class="row g-0">
+    <div class="container-fluid" style="background-color: var(--color-11);">
+        <div class="row g-0 cssanimation sequence fadeInBottom">
           <div class="col-md-6">
             <img src="images/mch-vh.png" class="img-fluid rounded float-end" alt="MCH's Chenille Stems Artist.">
           </div>
-          <div class="col-md-6 p-7 os-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-6 p-2 os-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
             <div class="card-body">
               <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
               <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we love.</p>
