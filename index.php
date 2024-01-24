@@ -202,7 +202,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card">
+              <div class="card d-none d-md-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 2</h5>
@@ -210,7 +210,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card">
+              <div class="card d-none d-lg-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 3</h5>
@@ -230,7 +230,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card">
+              <div class="card d-none d-md-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 5</h5>
@@ -238,7 +238,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card">
+              <div class="card d-none d-lg-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 6</h5>
@@ -258,7 +258,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card">
+              <div class="card d-none d-md-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 8</h5>
@@ -266,7 +266,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card">
+              <div class="card d-none d-lg-block">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 9</h5>
