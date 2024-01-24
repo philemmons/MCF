@@ -218,7 +218,7 @@ body {
 
 /**** navbar toggle ****/
 .mcf-navbar-light .navbar-toggler,
-.hiw-questions {
+.hiw-question {
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
@@ -356,6 +356,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   margin: 0 auto;
   border-radius: 50%;
   position: relative;
+  border: solid 1px var(--color-1);
 }
 
 .hiw-icon>div {
@@ -363,11 +364,11 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   top: 2px;
   right: 4px;
   content: '';
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background: var(--color-10);
   border-radius: 50%;
-  border-color: var(--color-1);
+  border: solid 1px var(--color-1);
 }
 
 .hiw-question{

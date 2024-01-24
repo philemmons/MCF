@@ -427,7 +427,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col-lg-4 p-5">
-          <div class="hiw-icon info-4">
+          <div class="hiw-icon info-4 py-3">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
             </div>
