@@ -111,6 +111,77 @@ include_once 'header.inc'
         </div>
 
         <div class="row justify-content-lg-center">
+          <div class="col-lg-4 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-1.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower one.">
+          </div>
+
+          <div class="col-lg-4 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-2.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower two.">
+          </div>
+
+          <div class="col-lg-4 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-3.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower three.">
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+
+  <section class="p-3 p-lg-5" style="background-color: var(--color-8);">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-12 my-2 my-lg-3">
+          <div class="card-body">
+            <p class="card-text  mb-4 tt-upper">Impressive Reviews About Our Flowers</p>
+            <h2 class="card-title header-font">Technical Statistics</h2>
+          </div>
+        </div>
+        <div class="row justify-content-lg-center">
+
+          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+            <div class="card-body">
+              <h2 class="card-title tech-stat-numb mb-4"><span id= "numOne">1</span></h2>
+              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Year of Experience</small></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+            <div class="card-body">
+              <h2 class="card-title tech-stat-numb mb-4"><span id= "numOne">8</span></h2>
+              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Satisfied Customers</small></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+            <div class="card-body">
+              <h2 class="card-title tech-stat-numb mb-4"><span id= "numOne">127</span></h2>
+              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Flowers Completed</small></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+            <div class="card-body">
+              <h2 class="card-title tech-stat-numb mb-4"><span id= "numOne">5</span></h2>
+              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Get Awards</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section class="p-3 p-lg-5">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-12 my-2 my-lg-3">
+          <div class="card-body">
+            <p class="card-text  mb-4 tt-upper">Testimonial</p>
+            <h2 class="card-title header-font">Satisfied Customers</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-lg-center">
           <div class="col-lg-3 p-5 info-4 border border-white">
             <img src="images/mcf-flower-1.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower one.">
           </div>
@@ -128,6 +199,59 @@ include_once 'header.inc'
   </section>
 
 
+  <section class="p-3 p-lg-5">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-12 my-2 my-lg-3">
+          <div class="card-body">
+            <p class="card-text  mb-4 tt-upper">Production Flow</p>
+            <h2 class="card-title header-font">How it Works</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-1.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower one.">
+          </div>
+
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-2.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower two.">
+          </div>
+
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-3.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower three.">
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="p-3 p-lg-5" style="background-color: var(--color-1);">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-12 my-2 my-lg-3">
+          <div class="card-body">
+            <p class="card-text  mb-4 tt-upper">Customer Feedback</p>
+            <h2 class="card-title header-font">Recent From Blog</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-1.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower one.">
+          </div>
+
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-2.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower two.">
+          </div>
+
+          <div class="col-lg-3 p-5 info-4 border border-white">
+            <img src="images/mcf-flower-3.png" class="img-fluid rounded" alt="MCF's Chenille Stems flower three.">
+          </div>
+        </div>
+
+      </div>
+  </section>
 
 
   <?php include_once 'footer.inc' ?>

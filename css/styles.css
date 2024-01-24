@@ -278,6 +278,10 @@ body {
   color: var(--color-1);
 }
 
+.fc-2{
+  color: var(--color-2);
+}
+
 /**** fade in bottom animation ****/
 /**
  * https://www.cssanimatio.io
@@ -301,5 +305,14 @@ body {
 }
 
 
+/**** tech statistiocs ****/
+
+.tech-stat-numb{
+  font-size: 2.25em;
+  font-weight: 600;
+  color: var(--color-2);
+  line-height: 1.0;
+  letter-spacing: 5px;
+}
 
 
