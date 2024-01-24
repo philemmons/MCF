@@ -82,7 +82,7 @@ include_once 'header.inc'
     </div>
   </section>
 
-  <section class="p-3 p-lg-5 pt-5">
+  <section class="px-3 py-5 p-lg-5">
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-lg-6 my-2 my-lg-5">
@@ -139,7 +139,7 @@ include_once 'header.inc'
       </div>
 
       <div class="row text-center ">
-        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+        <div class="col-md-6 col-lg-3 my-3 my-lg-5">
           <div class="card-body">
             <h2 class="card-title tech-stat-numb mb-4">
               <div class="timer count-number">1</div>
@@ -148,7 +148,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+        <div class="col-md-6 col-lg-3 my-3 my-lg-5">
           <div class="card-body">
             <h2 class="card-title tech-stat-numb mb-4">
               <div class="timer count-number">5</div>
@@ -157,7 +157,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+        <div class="col-md-6 col-lg-3 my-3 my-lg-5">
           <div class="card-body">
             <h2 class="card-title tech-stat-numb mb-4">
               <div class="timer count-number">127</div>
@@ -166,7 +166,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+        <div class="col-md-6 col-lg-3 mt-3 my-lg-5 mb-5">
           <div class="card-body">
             <h2 class="card-title tech-stat-numb mb-4">
               <div class="timer count-number">3</div>
@@ -191,87 +191,152 @@ include_once 'header.inc'
       </div>
 
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div class="carousel-inner p-3">
+          <div class="carousel-item">
             <div class="d-flex justify-content-center">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 1</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
               <div class="card d-none d-md-block">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 2</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
               <div class="card d-none d-lg-block">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 3</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+
+          <div class="carousel-item active carousel-item-start">
             <div class="d-flex justify-content-center">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 4</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
               <div class="card d-none d-md-block">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 5</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
               <div class="card d-none d-lg-block">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 6</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+
+          <div class="carousel-item carousel-item-next carousel-item-start">
             <div class="d-flex justify-content-center">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 7</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
               <div class="card d-none d-md-block">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 8</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
               <div class="card d-none d-lg-block">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                </div>
+                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
-                  <h5 class="card-title">Card title 9</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-light">View</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
                 </div>
               </div>
             </div>
@@ -286,20 +351,6 @@ include_once 'header.inc'
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-
-
-        <!--
-        <a class="carousel-control-prev" href="#carouselExampleAutoplaying" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#carouselExampleAutoplaying" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        -->
-
 
       </div>
     </div>

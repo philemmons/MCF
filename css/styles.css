@@ -316,7 +316,9 @@ body {
 }
 
 /**** testimonials ****/
-
+/**
+source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
+*/
 
 .card img {
   max-width: 100%;
@@ -328,9 +330,7 @@ body {
   border: none;
   border-radius: 0;
 }
-.carousel-inner {
-  padding: 1em;
-}
+
 .carousel-control-prev,
 .carousel-control-next {
   background-color: #e1e1e1;
@@ -345,3 +345,6 @@ body {
     height: 11em;
   }
 }
+
+
+
