@@ -127,7 +127,7 @@ include_once 'header.inc'
     </div>
   </section>
 
-  <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-7);">
+  <section class="counter-show px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-7);">
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
