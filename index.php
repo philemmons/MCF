@@ -403,7 +403,7 @@ include_once 'header.inc'
 
       <div class="row text-center">
         <div class="col-lg-4 p-5">
-          <div class="hiw-icon info-4">
+          <div class="hiw-icon info-4 my-3 my-lg-5">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">001</small>
             </div>
@@ -415,7 +415,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col-lg-4 p-5">
-          <div class="hiw-icon info-1">
+          <div class="hiw-icon info-1 my-3 my-lg-5">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">002</small>
             </div>
@@ -426,8 +426,8 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4 p-5">
-          <div class="hiw-icon info-4 py-3">
+        <div class="col-lg-4">
+          <div class="hiw-icon info-4 my-3 my-lg-5">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
             </div>
@@ -439,7 +439,7 @@ include_once 'header.inc'
         </div>
 
         <div class="d-grid gap-2 col-6 mx-auto pb-5">
-          <button type="button" class="btn hiw-question btn-lg" >Question</button>
+          <button type="button" class="btn hiw-question p-3" >Question</button>
          
         </div>
 
