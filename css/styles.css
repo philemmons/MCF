@@ -210,7 +210,7 @@ body {
   }
 
   .navbar-nav>li>a:hover,
-  .hiw-question {
+  .hiw-question>button:hover {
     background-color: var(--color-7);
     color: var(--color-2) !important;
   }
