@@ -403,9 +403,9 @@ include_once 'header.inc'
 
       <div class="row text-center">
         <div class="col-lg-4 p-5">
-          <div class="hiw-icon">
-            <div class="d-flex">
-              <small>1</small>
+          <div class="hiw-icon info-4">
+            <div class="d-flex justify-content-center">
+              <small class= "fc-1">001</small>
             </div>
           </div>
           <div class="card-body">
@@ -415,9 +415,9 @@ include_once 'header.inc'
         </div>
 
         <div class="col-lg-4 p-5">
-          <div class="hiw-icon">
-            <div class="d-flex">
-              <small>2</small>
+          <div class="hiw-icon info-1">
+            <div class="d-flex justify-content-center">
+              <small class= "fc-2">002</small>
             </div>
           </div>
           <div class="card-body">
@@ -427,9 +427,9 @@ include_once 'header.inc'
         </div>
 
         <div class="col-lg-4 p-5">
-          <div class="hiw-icon">
-            <div class="d-flex">
-              <small>3</small>
+          <div class="hiw-icon info-4">
+            <div class="d-flex justify-content-center">
+              <small class= "fc-1">003</small>
             </div>
           </div>
           <div class="card-body">
