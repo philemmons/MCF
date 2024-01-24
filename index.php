@@ -192,7 +192,7 @@ include_once 'header.inc'
 
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner p-3">
-          <div class="carousel-item">
+        <div class="carousel-item active">
             <div class="d-flex justify-content-center">
               <div class="card">
                 <div class="card-header">
@@ -241,7 +241,6 @@ include_once 'header.inc'
               </div>
             </div>
           </div>
-
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
