@@ -218,7 +218,6 @@ include_once 'header.inc'
                 <div class="card-header">
                   <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
@@ -315,7 +314,7 @@ include_once 'header.inc'
 
           <div class="carousel-item p-3">
             <div class="d-flex justify-content-center">
-              <div class="card">
+              <div class="card mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
