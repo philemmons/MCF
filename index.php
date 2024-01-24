@@ -402,7 +402,7 @@ include_once 'header.inc'
       </div>
 
       <div class="row text-center">
-        <div class="col-lg-4 p-5">
+        <div class="col-lg-4 px-3">
           <div class="hiw-icon info-4 my-3 my-lg-5">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">001</small>
@@ -414,7 +414,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4 p-5">
+        <div class="col-lg-4 px-3">
           <div class="hiw-icon info-1 my-3 my-lg-5">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">002</small>
@@ -426,7 +426,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 px-3">
           <div class="hiw-icon info-4 my-3 my-lg-5">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
