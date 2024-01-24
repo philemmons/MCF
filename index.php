@@ -205,7 +205,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -221,7 +221,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -237,7 +237,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -258,7 +258,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -274,7 +274,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -290,7 +290,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -311,7 +311,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -327,7 +327,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -343,7 +343,7 @@ include_once 'header.inc'
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light py-3 float-end">View</a>
+                  <a href="#" class="btn btn-light btn-small py-3 float-end">View</a>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
