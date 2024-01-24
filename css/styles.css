@@ -76,6 +76,10 @@ body {
   padding: 7rem !important;
 }
 
+.p-8 {
+  padding: 8em !important;
+}
+
 
 /**** header ****/
 
@@ -270,4 +274,7 @@ body {
   clear: both;
   display: table;
 }
+
+/**** home page - about ****/
+
 

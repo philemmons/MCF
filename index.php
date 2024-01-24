@@ -83,20 +83,19 @@ include_once 'header.inc'
   </section>
 
   <section>
-    <div class="container-fluid" style="background-color: var(--color-11);">
-      <div class="card mb-3">
+    <div class="container-fluid p-7" style="background-color: var(--color-11);">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
+            <img src="images/mch-vh.png" class="img-fluid rounded float-end" alt="MCH's Chenille Stems Artist.">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 p-5 os-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <h4 class="card-title">About Millie's Crazy Flowers</h4>
+              <p class="card-text">All our flowers are uniquely created just like our friend Millie.</p>
+              <p class="card-text"><small class="text-body-secondary">Millie's legacy of friendship is LOVE.</small></p>
             </div>
           </div>
-        </div>
+      
       </div>
     </div>
   </section>
