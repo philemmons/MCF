@@ -192,7 +192,7 @@ include_once 'header.inc'
 
 
       <div id="carouselExampleAuto" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner pt-2">
           <div class="carousel-item p-3 active">
             <div class="d-flex justify-content-center">
 
@@ -402,7 +402,7 @@ include_once 'header.inc'
       </div>
 
       <div class="row text-center">
-        <div class="col-lg-4">
+        <div class="col-lg-4 p-3 p-lg-5">
           <div class="hiw-icon info-4">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">001</small>
@@ -414,7 +414,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 p-3 p-lg-5">
           <div class="hiw-icon info-1">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">002</small>
@@ -426,7 +426,7 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 p-3 p-lg-5">
           <div class="hiw-icon info-4">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
