@@ -80,7 +80,7 @@ body {
   padding: 8em !important;
 }
 
-.tt-upper{
+.tt-upper {
   text-transform: uppercase;
 }
 
@@ -245,13 +245,13 @@ body {
   margin-bottom: -42rem;
 }
 
-.h-rem{
+.h-rem {
   height: 80rem;
 }
 
-@media screen and (max-width: 768px) and (min-width: 400px){
-  
-  .img-fluid{
+@media screen and (max-width: 768px) and (min-width: 400px) {
+
+  .img-fluid {
     max-width: 70%;
   }
 }
@@ -274,11 +274,11 @@ body {
   background-color: var(--color-3);
 }
 
-.fc-1{
+.fc-1 {
   color: var(--color-1);
 }
 
-.fc-2{
+.fc-2 {
   color: var(--color-2);
 }
 
@@ -288,26 +288,35 @@ body {
  * Github: https://github.com/yesiamrocks/cssanimation.io
  **/
 
-.cssanimation, .cssanimation span {
+.cssanimation,
+.cssanimation span {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
-.cssanimation span { display: inline-block }
+.cssanimation span {
+  display: inline-block
+}
 
-.fadeInBottom { animation-name: fadeInBottom }
+.fadeInBottom {
+  animation-name: fadeInBottom
+}
+
 @keyframes fadeInBottom {
   from {
-      opacity: 0;
-      transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(100%);
   }
-  to { opacity: 1 }
+
+  to {
+    opacity: 1
+  }
 }
 
 
 /**** tech statistics ****/
 
-.tech-stat-numb{
+.tech-stat-numb {
   font-size: 3.25em;
   font-weight: 600;
   color: var(--color-2);
@@ -334,10 +343,27 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   transform: translateY(-50%);
 }
 
-.border-cust{
+.border-cust {
   border-color: var(--color-3);
 }
 
+/**** how it works ****/
 
+.hiw-icon {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+}
 
-
+.hiw-icon>div {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: #cf7500;
+  border-radius: 50%;
+}

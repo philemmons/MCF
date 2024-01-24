@@ -403,7 +403,11 @@ include_once 'header.inc'
 
       <div class="row text-center">
         <div class="col-lg-4 p-5">
-          <img src="images/mcf-flower-1.png" class="card-img-top" alt="MCF's Chenille Stems flower one.">
+          <div class="hiw-icon">
+            <div class="d-flex">
+              <small>1</small>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -411,7 +415,11 @@ include_once 'header.inc'
         </div>
 
         <div class="col-lg-4 p-5">
-          <img src="images/mcf-flower-1.png" class="card-img-top" alt="MCF's Chenille Stems flower one.">
+          <div class="hiw-icon">
+            <div class="d-flex">
+              <small>2</small>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -419,7 +427,11 @@ include_once 'header.inc'
         </div>
 
         <div class="col-lg-4 p-5">
-          <img src="images/mcf-flower-1.png" class="card-img-top" alt="MCF's Chenille Stems flower one.">
+          <div class="hiw-icon">
+            <div class="d-flex">
+              <small>3</small>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
