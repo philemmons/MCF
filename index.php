@@ -195,17 +195,19 @@ include_once 'header.inc'
         <div class="carousel-inner">
           <div class="carousel-item p-3 active">
             <div class="d-flex justify-content-center">
-              
+
               <div class="card mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -214,14 +216,17 @@ include_once 'header.inc'
 
               <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -230,14 +235,16 @@ include_once 'header.inc'
 
               <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -251,14 +258,16 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center">
               <div class="card mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -267,14 +276,16 @@ include_once 'header.inc'
 
               <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -283,14 +294,16 @@ include_once 'header.inc'
 
               <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -304,14 +317,16 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center">
               <div class="card">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -320,14 +335,16 @@ include_once 'header.inc'
 
               <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
@@ -336,14 +353,16 @@ include_once 'header.inc'
 
               <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
+                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
-                <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
-                  <a href="#" class="btn btn-light btn-small py-3">View</a>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light py-3">View</a>
+                  </div>
                 </div>
                 <div class="card-footer text-body-secondary">
                   Commented on 01.24.24
