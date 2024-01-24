@@ -198,7 +198,7 @@ include_once 'header.inc'
 
               <div class="card mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -216,7 +216,7 @@ include_once 'header.inc'
 
               <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -234,7 +234,7 @@ include_once 'header.inc'
 
               <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -257,7 +257,7 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center">
               <div class="card mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -275,7 +275,7 @@ include_once 'header.inc'
 
               <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -293,7 +293,7 @@ include_once 'header.inc'
 
               <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -316,7 +316,7 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center">
               <div class="card mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -334,7 +334,7 @@ include_once 'header.inc'
 
               <div class="card d-none d-md-block mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
@@ -352,7 +352,7 @@ include_once 'header.inc'
 
               <div class="card d-none d-lg-block mx-3">
                 <div class="card-header">
-                  <h6 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
