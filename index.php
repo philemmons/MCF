@@ -197,7 +197,7 @@ include_once 'header.inc'
               <div class="card">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -212,7 +212,7 @@ include_once 'header.inc'
               <div class="card d-none d-md-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -227,7 +227,7 @@ include_once 'header.inc'
               <div class="card d-none d-lg-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -247,7 +247,7 @@ include_once 'header.inc'
               <div class="card">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -262,7 +262,7 @@ include_once 'header.inc'
               <div class="card d-none d-md-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -277,7 +277,7 @@ include_once 'header.inc'
               <div class="card d-none d-lg-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -297,7 +297,7 @@ include_once 'header.inc'
               <div class="card">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -312,7 +312,7 @@ include_once 'header.inc'
               <div class="card d-none d-md-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
@@ -327,7 +327,7 @@ include_once 'header.inc'
               <div class="card d-none d-lg-block">
                 <div class="card-header">
                 </div>
-                <h5 class="card-title"><strong>Rated 4.5 out of 5 stars</strong></h5>
+                <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
                     <p>A well-known quote, contained in a blockquote element.</p>
