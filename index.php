@@ -132,7 +132,7 @@ include_once 'header.inc'
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
-            <p class="card-text  mb-1 tt-upper">Impressive Reviews About Our Flowers</p>
+            <p class="card-text  mb-1 tt-upper">Reviews About Our Flowers</p>
             <h2 class="card-title header-font">Technical Statistics</h2>
           </div>
         </div>
@@ -185,23 +185,106 @@ include_once 'header.inc'
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
             <p class="card-text  mb-1 tt-upper">Testimonial</p>
-            <h2 class="card-title header-font mb-3">Happy Customers</h2>
+            <h2 class="card-title header-font mb-3">Return Customers</h2>
           </div>
         </div>
       </div>
 
-      <div class="row text-center">
-        <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one.">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 1</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 3</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 4</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 5</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 6</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 7</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 8</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title 9</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-2.png" class="img-fluid" alt="MCF's Chenille Stems flower two.">
-        </div>
-
-        <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </section>
