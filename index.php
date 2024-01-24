@@ -391,7 +391,7 @@ include_once 'header.inc'
 
 
   <section class="px-3 px-lg-5 pt-3 pt-lg-5">
-    <div class="container-">
+    <div class="container">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
@@ -402,8 +402,8 @@ include_once 'header.inc'
       </div>
 
       <div class="row text-center">
-        <div class="col-lg-4 px-3">
-          <div class="hiw-icon info-4 my-3 my-lg-5">
+        <div class="col-lg-4">
+          <div class="hiw-icon info-4">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">001</small>
             </div>
@@ -414,8 +414,8 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4 px-3">
-          <div class="hiw-icon info-1 my-3 my-lg-5">
+        <div class="col-lg-4">
+          <div class="hiw-icon info-1">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">002</small>
             </div>
@@ -426,8 +426,8 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="col-lg-4 px-3">
-          <div class="hiw-icon info-4 my-3 my-lg-5">
+        <div class="col-lg-4">
+          <div class="hiw-icon info-4">
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
             </div>
