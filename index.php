@@ -200,7 +200,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -215,7 +215,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -230,7 +230,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -250,7 +250,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -265,7 +265,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -280,7 +280,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -300,7 +300,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -315,7 +315,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
@@ -330,7 +330,7 @@ include_once 'header.inc'
                 <h5 class="card-title text-center"><strong>Rated 4.5 out of 5 stars</strong></h5>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <a href="#" class="btn btn-light">View</a>
