@@ -360,7 +360,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3">View</a>
+                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -389,7 +389,7 @@ include_once 'header.inc'
 
 
 
-  
+
   <section class="px-3 px-lg-5 pt-3 pt-lg-5">
     <div class="container-">
       <div class="row text-center">
