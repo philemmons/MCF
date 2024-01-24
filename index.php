@@ -138,36 +138,44 @@ include_once 'header.inc'
         </div>
       </div>
 
-      <div class="row text-center">
-          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
-            <div class="card-body">
-              <h2 class="card-title tech-stat-numb mb-4"><span id="numOne">1</span></h2>
-              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Year of Experience</small></p>
-            </div>
+      <div class="row text-center ">
+        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+          <div class="card-body">
+            <h2 class="card-title tech-stat-numb mb-4">
+              <div class="timer count-number">1</div>
+            </h2>
+            <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Year of Experience</small></p>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
-            <div class="card-body">
-              <h2 class="card-title tech-stat-numb mb-4"><span id="numOne">8</span></h2>
-              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Satisfied Customers</small></p>
-            </div>
+        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+          <div class="card-body">
+            <h2 class="card-title tech-stat-numb mb-4">
+              <div class="timer count-number">5</div>
+            </h2>
+            <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Satisfied Customers</small></p>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
-            <div class="card-body">
-              <h2 class="card-title tech-stat-numb mb-4"><span id="numOne">127</span></h2>
-              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Flowers Completed</small></p>
-            </div>
+        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+          <div class="card-body">
+            <h2 class="card-title tech-stat-numb mb-4">
+              <div class="timer count-number">127</div>
+            </h2>
+            <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Flowers Completed</small></p>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-3 my-2 my-lg-5">
-            <div class="card-body">
-              <h2 class="card-title tech-stat-numb mb-4"><span id="numOne">5</span></h2>
-              <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Get Awards</small></p>
-            </div>
+        <div class="col-md-6 col-lg-3 my-2 my-lg-5">
+          <div class="card-body">
+            <h2 class="card-title tech-stat-numb mb-4">
+              <div class="timer count-number">3</div>
+            </h2>
+            <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Get Awards</small></p>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
 
@@ -227,7 +235,7 @@ include_once 'header.inc'
   </section>
 
 
-    <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+  <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
@@ -256,6 +264,42 @@ include_once 'header.inc'
 
 
   <?php include_once 'footer.inc' ?>
+
+  <script>
+    /**
+     * source
+     * https://codepen.io/r-gine-vienny-lehmann/pen/GbGbMJ
+     */
+    var isAlreadyRun = false;
+
+    $(window).scroll(function() {
+
+      $('.counter-show').each(function(i) {
+
+        var bottom_of_object = $(this).position().top + $(this).outerHeight() / 2;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if (bottom_of_window > (bottom_of_object + 20)) {
+          if (!isAlreadyRun) {
+            $('.count-number').each(function() {
+
+              $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+              }, {
+                duration: 3500,
+                easing: 'swing',
+                step: function(now) {
+                  $(this).text(Math.ceil(now));
+                }
+              });
+            });
+          }
+          isAlreadyRun = true;
+        }
+      });
+
+    });
+  </script>
 </body>
 
 </html>
