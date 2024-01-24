@@ -193,8 +193,8 @@ include_once 'header.inc'
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div class="card d-block">
+            <div class="d-flex justify-content-center">
+              <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 1</h5>
@@ -202,7 +202,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card d-block">
+              <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 2</h5>
@@ -210,7 +210,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card d-block">
+              <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 3</h5>
@@ -221,8 +221,8 @@ include_once 'header.inc'
             </div>
           </div>
           <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card d-block">
+            <div class="d-flex justify-content-center"
+              <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 4</h5>
@@ -230,7 +230,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card d-block">
+              <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 5</h5>
@@ -238,7 +238,7 @@ include_once 'header.inc'
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card d-block">
+              <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title 6</h5>
@@ -249,7 +249,7 @@ include_once 'header.inc'
             </div>
           </div>
           <div class="carousel-item">
-            <div class="cards-wrapper">
+            <div class="d-flex justify-content-center"
               <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
