@@ -470,9 +470,13 @@ source: https://www.youtube.com/watch?v=uKVVSwXdLr0
   align-items: center;
 }
 
-.row>div>img{
+img.l-box{
   cursor:pointer;
 
+}
+
+img.l-box:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 
 #lightbox img{
@@ -482,3 +486,4 @@ source: https://www.youtube.com/watch?v=uKVVSwXdLr0
   background-color: #000;
   border: 2px solid #fff;
 }
+
