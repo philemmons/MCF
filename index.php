@@ -407,9 +407,10 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">001</small>
             </div>
+            <img scr= "images/delivery.png" class= "img-fluid" alt= "Delivery truck icon" >
           </div>
           <div class="card-body">
-            <h5 class="card-title">Quotes or Questions</h5>
+            <h5 class="card-titlept-3">Quotes or Questions</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -419,9 +420,10 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">002</small>
             </div>
+            <img scr= "images/delivery.png" class= "img-fluid" alt= "Delivery truck icon" >
           </div>
           <div class="card-body">
-            <h5 class="card-title">Production and Assembly</h5>
+            <h5 class="card-title pt-3">Production and Assembly</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -431,9 +433,10 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
             </div>
+            <img scr= "images/delivery.png" class= "img-fluid" alt= "Delivery truck icon" >
           </div>
           <div class="card-body">
-            <h5 class="card-title">Delivery</h5>
+            <h5 class="card-title pt-3">Delivery</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
