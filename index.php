@@ -412,7 +412,7 @@ include_once 'header.inc'
         <div class="col-lg-4 p-3 p-lg-5">
           <div class="hiw-icon info-4">
             <div class="d-flex justify-content-center align-items-center">
-              <small class="fc-1">001</small>
+              <small class="fc-1">1st</small>
             </div>
             <img src="../images/quote.png" class="img-fluid img-pos-2" alt="Delivery truck icon">
           </div>
@@ -425,7 +425,7 @@ include_once 'header.inc'
         <div class="col-lg-4 p-3 p-lg-5">
           <div class="hiw-icon info-1">
             <div class="d-flex justify-content-center align-items-center">
-              <small class="fc-1">002</small>
+              <small class="fc-1">2nd</small>
             </div>
             <img src="../images/production.png" class="img-fluid img-pos-1" alt="Delivery truck icon">
           </div>
@@ -438,7 +438,7 @@ include_once 'header.inc'
         <div class="col-lg-4 p-3 p-lg-5">
           <div class="hiw-icon info-4">
             <div class="d-flex justify-content-center align-items-center">
-              <small class="fc-1">003</small>
+              <small class="fc-1">3rd</small>
             </div>
             <img src="../images/delivery.png" class="img-fluid img-pos-1" alt="Delivery truck icon">
           </div>
@@ -448,11 +448,9 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="d-grid gap-2">
-          <div class="col-4 mx-auto">
+        <div class="d-grid justify-content-center">
+          <div class="pb-5">
             <a href="about-us.php" class="btn mcf-button p-3 fs-5">Learn More</a>
-          </div>
-          <div class="col-4 mx-auto pb-5">
             <a href="contact.php" class="btn mcf-button p-3 fs-5">Question</a>
           </div>
         </div>
