@@ -257,7 +257,9 @@ body {
   .img-fluid {
     max-width: 70%;
   }
+}
 
+@media screen and (min-width: 400px){
   .h-rem{
     top: -70rem;
     margin-bottom: -60rem;
