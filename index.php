@@ -473,7 +473,7 @@ include_once 'header.inc'
                       <i class="bi bi-calendar mx-1"></i>01.21.24
                     </li>
                     <li>
-                      <i class="bi bi-chat-dots-fill mx-1"></i>Commented
+                      <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                     </li>
                   </ul>
                   </p>
@@ -501,7 +501,7 @@ include_once 'header.inc'
                       <i class="bi bi-calendar mx-1"></i>01.21.24
                     </li>
                     <li>
-                      <i class="bi bi-chat-dots-fill mx-1"></i>Commented
+                      <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                     </li>
                   </ul>
                   </p>
@@ -525,7 +525,7 @@ include_once 'header.inc'
                       <i class="bi bi-calendar mx-1"></i>01.21.24
                     </li>
                     <li>
-                      <i class="bi bi-chat-dots-fill mx-1"></i>Commented
+                      <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                     </li>
                   </ul>
                   </p>
@@ -552,7 +552,7 @@ include_once 'header.inc'
                       <i class="bi bi-calendar mx-1"></i>01.21.24
                     </li>
                     <li>
-                      <i class="bi bi-chat-dots-fill mx-1"></i>Commented
+                      <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                     </li>
                   </ul>
                   </p>
