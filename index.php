@@ -96,7 +96,7 @@ include_once 'header.inc'
             <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we love.</p>
             <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
 
-            <div class="text-center pb-5">
+            <div class="text-center">
               <a href="about-us.php" class="btn mcf-button p-3 fs-5">More Info</a>
             </div>
 
