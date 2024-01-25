@@ -494,7 +494,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <a href="our-blog.php" class= "mcf-link"><h5 class="card-title">Card title</h5></a>
+                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                 </div>
@@ -522,7 +522,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <a href="our-blog.php" class= "mcf-link"><h5 class="card-title">Card title</h5></a>
+                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -546,7 +546,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <a href="our-blog.php" class= "mcf-link"><h5 class="card-title">Card title</h5></a>
+                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -573,7 +573,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <a href="our-blog.php" class= "mcf-link"><h5 class="card-title">Card title</h5></a>
+                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>

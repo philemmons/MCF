@@ -24,6 +24,7 @@
   --success-color: #00ff18;
 
   --color-30: #0000FF;
+  --color-31: #ff7900;
 
   --ff-main: Figtree, Raleway, Arial, Sans-serif;
   --ff-header: BerkshireSwash;
@@ -418,6 +419,8 @@ a.mcf-button:active{
 
 /**** hyperlinks ****/
 
+/**** blog&post ****/
+
 a.mcf-link,
 a.mch-link:active{
   text-decoration: none;
@@ -429,3 +432,13 @@ a.mcf-link:focus{
   color: var(--color-30);
 }
 
+a.mcf-blog,
+a.mch-blog:active{
+  text-decoration: none;
+  color: var(--color-31);
+}
+
+a.mcf-blog:hover,
+a.mcf-blog:focus{
+  color: var(--color-30);
+}

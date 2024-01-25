@@ -33,7 +33,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <p class="ps-2"><a href="our-blog.php" class= "mcf-link">Message title</a></p>
+                                <h6 class="ps-2"><a href="our-blog.php" class= "mcf-blog">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <p class="ps-2"><a href="our-blog.php" class= "mcf-link">Message title</a></p>
+                                <h6 class="ps-2"><a href="our-blog.php" class= "mcf-blog">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
