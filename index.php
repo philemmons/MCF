@@ -461,10 +461,10 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
               </div>
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <div class="card-body">
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                   <h5 class="card-title">Card title</h5>
@@ -479,10 +479,10 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
               </div>
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <div class="card-body">
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                   <h5 class="card-title">Card title</h5>
@@ -497,15 +497,14 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <div class="card-body">
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
               </div>
             </div>
@@ -515,14 +514,14 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-              <div class="col-lg-6">
+              <div class="col-sm-6">
                 <div class="card-body">
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
               </div>
             </div>
