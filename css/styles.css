@@ -257,14 +257,13 @@ body {
   .img-fluid {
     max-width: 70%;
   }
-}
 
-@media screen and (min-width: 400px){
   .hero-content{
     top: -60rem;
     margin-bottom: -42rem;
   }
 }
+
 
 /**** info section ****/
 
