@@ -591,6 +591,8 @@ include_once 'header.inc'
 
   <?php include_once 'footer.inc' ?>
 
+  <script src= "../js/script.js"></script>
+  
   <script>
     /**
      * source
