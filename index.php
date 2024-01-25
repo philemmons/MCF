@@ -446,7 +446,7 @@ include_once 'header.inc'
 
 
   <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row text-center">
         <div class="col-lg-12 my-2 my-lg-3 pt-5">
           <div class="card-body">
@@ -456,53 +456,82 @@ include_once 'header.inc'
         </div>
       </div>
 
-
-
-
-
-
-
-
-
+      
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-6">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="row g-0">
+
+              <div class="col-md-6">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
