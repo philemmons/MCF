@@ -439,8 +439,7 @@ include_once 'header.inc'
         </div>
 
         <div class="d-grid gap-2 col-6 mx-auto pb-5">
-          <button type="button" class="btn hiw-question p-3" >Question</button>
-         
+          <a href="contact.php" class="btn hiw-question p-3">Question</a>
         </div>
 
       </div>
