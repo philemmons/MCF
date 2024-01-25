@@ -377,4 +377,5 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 button.hiw-question:hover{
   background-color: var(--color-3);
+  border: solid 2px var(--color-1);
 }
