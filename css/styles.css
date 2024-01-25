@@ -396,3 +396,6 @@ a.hiw-question:hover{
 
 /**** recent from blog ****/
 
+.blog-1{
+  background-color: var(--color-11);
+}
