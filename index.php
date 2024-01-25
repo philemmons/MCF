@@ -62,7 +62,7 @@ include_once 'header.inc'
 
   <section id="discover">
     <div class="container-fluid" style="background-color: var(--color-1);">
-      <div class="row py-2 border text-white">
+      <div class="row border text-white">
         <div class="col-lg-3 p-5 info-1 border border-white">
           <h4 class="header-font">Creative Elements</h4>
           <p>In a whimsical creation, the vibrant colors of the pipe cleaners intertwine with dynamic lines, creating a harmonious composition that explores the elements of art.</p>
@@ -85,7 +85,7 @@ include_once 'header.inc'
   </section>
 
   <section class="px-3 py-5 p-lg-5">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 my-2 my-lg-5">
           <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
@@ -114,9 +114,6 @@ include_once 'header.inc'
           <div class="card-body">
             <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
             <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
-            <div class="d-grid gap-2 col-6 mx-auto">
-              <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
-            </div>
           </div>
         </div>
       </div>
@@ -133,6 +130,9 @@ include_once 'header.inc'
         <div class="col-lg-4 p-5 info-4 border border-white">
           <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
         </div>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
       </div>
     </div>
   </section>
