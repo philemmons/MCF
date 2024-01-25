@@ -457,7 +457,7 @@ include_once 'header.inc'
       </div>
 
 
-      <div class="row row-cols-1 row-cols-md-2 g-4 p-3 p-lg-5">
+      <div class="row row-cols-1 row-cols-lg-2 g-4 p-3 p-lg-5">
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
