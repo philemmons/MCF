@@ -459,7 +459,7 @@ include_once 'header.inc'
 
       <div class="row row-cols-1 row-cols-lg-2 g-4 p-3 p-lg-5">
         <div class="col">
-          <div class="card border-0 blog-1">
+          <div class="card border-0 blog-1 rounded-0">
             <div class="row g-0">
               <div class="col-sm-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
@@ -477,7 +477,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col">
-          <div class="card border-0 blog-1">
+          <div class="card border-0 blog-1 rounded-0">
             <div class="row g-0">
               <div class="col-sm-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
@@ -495,7 +495,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col">
-          <div class="card border-0 blog-1">
+          <div class="card border-0 blog-1 rounded-0">
             <div class="row g-0">
               <div class="col-sm-6">
                 <div class="card-body">
@@ -512,7 +512,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col">
-          <div class="card border-0 blog-1">
+          <div class="card border-0 blog-1 rounded-0">
             <div class="row g-0">
               <div class="col-sm-6">
                 <div class="card-body">
