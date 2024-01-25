@@ -466,7 +466,19 @@ include_once 'header.inc'
               </div>
               <div class="col-sm-6">
                 <div class="card-body">
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <p class="card-text"><small class="text-body-secondary">
+                  <div class="d-flex">
+                    <ul class="ul-list ms-3">
+                      <li>
+                        <i class="bi bi-person-fill-check mx-1"></i>Admin
+                        <i class="bi bi-calendar me-1"></i>01.21.24
+                      </li>
+                      <li>
+                        <i class="bi bi-chat-dots-fill"></i>Commented
+                      </li>
+                    </ul>
+                  </div>
+                  </small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
@@ -484,7 +496,19 @@ include_once 'header.inc'
               </div>
               <div class="col-sm-6">
                 <div class="card-body">
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <p class="card-text"><small class="text-body-secondary">
+                  <div class="d-flex">
+                    <ul class="ul-list ms-3">
+                      <li>
+                        <i class="bi bi-person-fill-check mx-1"></i>Admin
+                        <i class="bi bi-calendar me-1"></i>01.21.24
+                      </li>
+                      <li>
+                        <i class="bi bi-chat-dots-fill"></i>Commented
+                      </li>
+                    </ul>
+                  </div>
+                  </small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
@@ -499,7 +523,19 @@ include_once 'header.inc'
             <div class="row g-0">
               <div class="col-sm-6">
                 <div class="card-body">
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <p class="card-text"><small class="text-body-secondary">
+                  <div class="d-flex">
+                    <ul class="ul-list ms-3">
+                      <li>
+                        <i class="bi bi-person-fill-check mx-1"></i>Admin
+                        <i class="bi bi-calendar me-1"></i>01.21.24
+                      </li>
+                      <li>
+                        <i class="bi bi-chat-dots-fill"></i>Commented
+                      </li>
+                    </ul>
+                  </div>
+                  </small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
@@ -516,7 +552,19 @@ include_once 'header.inc'
             <div class="row g-0">
               <div class="col-sm-6">
                 <div class="card-body">
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <p class="card-text"><small class="text-body-secondary">
+                  <div class="d-flex">
+                    <ul class="ul-list ms-3">
+                      <li>
+                        <i class="bi bi-person-fill-check mx-1"></i>Admin
+                        <i class="bi bi-calendar me-1"></i>01.21.24
+                      </li>
+                      <li>
+                        <i class="bi bi-chat-dots-fill"></i>Commented
+                      </li>
+                    </ul>
+                  </div>
+                  </small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
