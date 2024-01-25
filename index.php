@@ -471,10 +471,10 @@ include_once 'header.inc'
                     <ul class="ul-list ms-3">
                       <li>
                         <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar me-1"></i>01.21.24
+                        <i class="bi bi-calendar mx-1"></i>01.21.24
                       </li>
                       <li>
-                        <i class="bi bi-chat-dots-fill"></i>Commented
+                        <i class="bi bi-chat-dots-fill mx-1"></i>Commented
                       </li>
                     </ul>
                   </div>
@@ -501,17 +501,16 @@ include_once 'header.inc'
                     <ul class="ul-list ms-3">
                       <li>
                         <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar me-1"></i>01.21.24
+                        <i class="bi bi-calendar mx-1"></i>01.21.24
                       </li>
                       <li>
-                        <i class="bi bi-chat-dots-fill"></i>Commented
+                        <i class="bi bi-chat-dots-fill mx-1"></i>Commented
                       </li>
                     </ul>
                   </div>
                   </small></p>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
                 </div>
               </div>
             </div>
@@ -528,10 +527,10 @@ include_once 'header.inc'
                     <ul class="ul-list ms-3">
                       <li>
                         <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar me-1"></i>01.21.24
+                        <i class="bi bi-calendar mx-1"></i>01.21.24
                       </li>
                       <li>
-                        <i class="bi bi-chat-dots-fill"></i>Commented
+                        <i class="bi bi-chat-dots-fill mx-1"></i>Commented
                       </li>
                     </ul>
                   </div>
@@ -557,10 +556,10 @@ include_once 'header.inc'
                     <ul class="ul-list ms-3">
                       <li>
                         <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar me-1"></i>01.21.24
+                        <i class="bi bi-calendar mx-1"></i>01.21.24
                       </li>
                       <li>
-                        <i class="bi bi-chat-dots-fill"></i>Commented
+                        <i class="bi bi-chat-dots-fill mx-1"></i>Commented
                       </li>
                     </ul>
                   </div>
