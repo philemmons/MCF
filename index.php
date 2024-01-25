@@ -120,15 +120,15 @@ include_once 'header.inc'
 
       <div class="row text-center">
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one.">
+          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one.">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-2.png" class="img-fluid" alt="MCF's Chenille Stems flower two.">
+          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two.">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three.">
         </div>
       </div>
 
