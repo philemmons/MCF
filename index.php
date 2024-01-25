@@ -131,9 +131,11 @@ include_once 'header.inc'
           <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
         </div>
       </div>
-      <div class="d-grid gap-2 col-6 mx-auto">
+
+      <div class=" text-center pt-4 pb-5">
         <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
       </div>
+      
     </div>
   </section>
 
