@@ -448,11 +448,11 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="d-grid justify-content-evenly">
-          <div class="px-3 pb-5">
+        <div class="d-flex justify-content-evenly">
+          <div>
             <a href="about-us.php" class="btn mcf-button p-3 fs-5">Learn More</a>
           </div>
-          <div class="px-3">
+          <div>
             <a href="contact.php" class="btn mcf-button p-3 fs-5">Question</a>
           </div>
         </div>
