@@ -417,7 +417,7 @@ include_once 'header.inc'
             <img src="../images/quote.png" class="img-fluid img-pos-2" alt="Delivery truck icon">
           </div>
           <div class="card-body">
-            <h5 class="card-titlept-3">Quotes or Questions</h5>
+            <h5 class="card-title pt-3">Quotes or Questions</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -494,7 +494,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
+                  <a href="our-blog.php"><h5 class="card-title">Card title</h5><a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                 </div>
@@ -522,7 +522,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
+                  <a href="our-blog.php"><h5 class="card-title">Card title</h5><a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -546,7 +546,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
+                  <a href="our-blog.php"><h5 class="card-title">Card title</h5><a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -573,7 +573,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
+                  <a href="our-blog.php"><h5 class="card-title">Card title</h5><a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
