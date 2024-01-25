@@ -211,7 +211,7 @@ body {
 
   .navbar-nav>li>a:hover,
   .hiw-question:hover {
-    background-color: var(--color-7);
+    background-color: var(--color-7) !important;
     color: var(--color-2) !important;
   }
 
