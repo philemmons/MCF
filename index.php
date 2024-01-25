@@ -457,11 +457,11 @@ include_once 'header.inc'
       </div>
 
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="row row-cols-1 row-cols-md-2 g-4 p-3 p-lg-5">
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
               </div>
               <div class="col-md-6">
@@ -479,7 +479,7 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
               </div>
               <div class="col-md-6">
@@ -497,8 +497,7 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <div class="card-body">
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                   <h5 class="card-title">Card title</h5>
@@ -516,8 +515,7 @@ include_once 'header.inc'
         <div class="col">
           <div class="card border-0">
             <div class="row g-0">
-
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <div class="card-body">
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                   <h5 class="card-title">Card title</h5>
