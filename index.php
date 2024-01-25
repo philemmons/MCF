@@ -449,7 +449,7 @@ include_once 'header.inc'
         </div>
 
         <div class="row mx-auto">
-          <div class="col-sm-6 pb-5">
+          <div class="col-sm-6 pb-3 pb-sm-5">
             <a href="about-us.php" class="btn mcf-button p-3 fs-5">Learn More</a>
           </div>
           <div class="col-sm-6 pb-5">
