@@ -5,7 +5,7 @@ document.body.appendChild(lightbox)
 const images = document.querySelectorAll('.l-box')
 images.forEach(image => {
     image.addEventListener('click', e=> {
-        lightbox.classslist.add('active')
+        lightbox.classList.add('active')
         const img = document.createElement('img')
         img.src = image.src
         while(lightbox.firstChild){
