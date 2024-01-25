@@ -48,9 +48,9 @@ include_once 'header.inc'
       <div class="col-md-6 banner">
         <h1 class="header-font">Millie's Crazy Flowers</h1>
         <h4 class="font-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
-        <p class="py-2"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
-        <div class="d-grid gap-2 col-4 mx-auto pb-5">
-          <a href="#discover" class="btn hiw-question p-3 fs-5">Discover</a>
+        <p class="pt-2 pb-3"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
+        <div class="d-grid gap-2 col-4 pb-5">
+          <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
         </div>
       </div>
       <div class="col-md-6 banner text-center">
@@ -97,7 +97,7 @@ include_once 'header.inc'
             <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
 
             <div class="d-grid gap-2 col-4 mx-auto pb-5">
-              <a href="about-us.php" class="btn hiw-question p-3 fs-5">More Info</a>
+              <a href="about-us.php" class="btn mcf-button p-3 fs-5">More Info</a>
             </div>
 
           </div>
@@ -115,7 +115,7 @@ include_once 'header.inc'
             <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
             <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
             <div class="d-grid gap-2 col-6 mx-auto">
-              <a href="purchase.php" class="btn hiw-question p-3 fs-5">Order Now</a>
+              <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
             </div>
           </div>
         </div>
@@ -448,10 +448,10 @@ include_once 'header.inc'
 
         <div class="d-grid gap-2">
           <div class="col-4 mx-auto">
-            <a href="about-us.php" class="btn hiw-question p-3 fs-5">Learn More</a>
+            <a href="about-us.php" class="btn mcf-button p-3 fs-5">Learn More</a>
           </div>
           <div class="col-4 mx-auto pb-5">
-            <a href="contact.php" class="btn hiw-question p-3 fs-5">Question</a>
+            <a href="contact.php" class="btn mcf-button p-3 fs-5">Question</a>
           </div>
         </div>
 

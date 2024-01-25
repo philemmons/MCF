@@ -219,7 +219,7 @@ body {
 
 /**** navbar toggle ****/
 .mcf-navbar-light .navbar-toggler,
-.hiw-question {
+.mcf-button {
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
@@ -372,11 +372,11 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   border: solid 1px var(--color-1);
 }
 
-.hiw-question{
+.mcf-button{
   border: solid 2px var(--color-1);
 }
 
-a.hiw-question:hover{
+a.mcf-button:hover{
   background-color: var(--color-3);
   border: solid 2px var(--color-1) !important;
 }
