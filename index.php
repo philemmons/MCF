@@ -49,7 +49,7 @@ include_once 'header.inc'
         <h1 class="header-font">Millie's Crazy Flowers</h1>
         <h4 class="font-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
         <p class="pt-2 pb-3"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
-        <div class="d-grid gap-2 col-4 pb-5">
+        <div class="pb-5">
           <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
         </div>
       </div>
