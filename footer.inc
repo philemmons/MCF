@@ -1,6 +1,6 @@
 <footer>
 
-    <section class="bg-one p-5">
+    <section class="bg-one py-5 px-2 p-lg-5">
         <div class="container-xl">
             <div class="row mb-4">
                 <div class="col-lg-4 px-3">
@@ -76,7 +76,7 @@
                         </ul>
                     </div>
                     <div class="block-8 d-flex">
-                    <i class="bi bi-pencil-square"></i>
+                    <i class="bi bi-pencil-square me-2"></i>
                         <ul class="ul-list ms-3">
                             <li>
                                 <p>
