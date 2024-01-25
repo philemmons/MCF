@@ -244,8 +244,8 @@ body {
 
 .hero-content {
   position: relative;
-  top: -70rem;
-  margin-bottom: -60rem;
+  top: -75rem;
+  margin-bottom: -65rem;
 }
 
 .h-rem {
@@ -254,9 +254,6 @@ body {
 
 @media screen and (min-width: 768px) {
 
-  .img-fluid {
-    max-width: 70%;
-  }
 
   .hero-content{
     top: -60rem;
