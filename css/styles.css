@@ -356,6 +356,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   border-color: var(--color-3);
 }
 
+
 /**** how it works ****/
 
 .hiw-icon {
@@ -383,6 +384,10 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   border: solid 2px var(--color-2);
   height: auto;
   width: 10em;
+}
+
+.mcf-btn-sm{
+  width: 5em !important;
 }
 
 a.mcf-button:hover,

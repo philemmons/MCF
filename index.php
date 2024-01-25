@@ -218,7 +218,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -236,7 +236,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -254,7 +254,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -277,7 +277,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -295,7 +295,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -313,7 +313,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -336,7 +336,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -354,7 +354,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -372,7 +372,7 @@ include_once 'header.inc'
                     <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
                   </blockquote>
                   <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                    <a href="#" class="btn mcf-button mcf-btn-sm" role="button" data-bs-toggle="button">View</a>
                   </div>
                 </div>
                 <div class="card-footer text-body-secondary">
@@ -474,7 +474,7 @@ include_once 'header.inc'
       </div>
 
 
-      <div class="row row-cols-1 row-cols-lg-2 g-4 p-3 p-lg-5">
+      <div class="row row-cols-1 row-cols-lg-2 g-2 p-3 p-lg-5">
         <div class="col">
           <div class="card border-0 blog-1 rounded-0">
             <div class="row g-0">
