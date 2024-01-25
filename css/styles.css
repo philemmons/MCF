@@ -23,6 +23,8 @@
   --error-color: #ff0018;
   --success-color: #00ff18;
 
+  --color-30: #0000FF;
+
   --ff-main: Figtree, Raleway, Arial, Sans-serif;
   --ff-header: BerkshireSwash;
 
@@ -424,6 +426,6 @@ a.mch-link:active{
 
 a.mcf-link:hover,
 a.mcf-link:focus{
-  color: var(--color-20);
+  color: var(--color-30);
 }
 
