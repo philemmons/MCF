@@ -241,6 +241,7 @@ body {
   flex: auto;
 }
 
+
 .hero-content {
   position: relative;
   top: -60rem;
@@ -255,6 +256,11 @@ body {
 
   .img-fluid {
     max-width: 70%;
+  }
+
+  .h-rem{
+    top: -70rem;
+    margin-bottom: -60rem;
   }
 }
 
