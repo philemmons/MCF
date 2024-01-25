@@ -407,7 +407,7 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">001</small>
             </div>
-            <img src= "../images/quote.png" class= "img-fluid img-pos" alt= "Delivery truck icon" >
+            <img src= "../images/quote.png" class= "img-fluid img-pos-2" alt= "Delivery truck icon" >
           </div>
           <div class="card-body">
             <h5 class="card-titlept-3">Quotes or Questions</h5>
@@ -420,7 +420,7 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">002</small>
             </div>
-            <img src= "../images/production.png" class= "img-fluid .img-po" alt= "Delivery truck icon" >
+            <img src= "../images/production.png" class= "img-fluid .img-pos-1" alt= "Delivery truck icon" >
           </div>
           <div class="card-body">
             <h5 class="card-title pt-3">Production and Assembly</h5>
@@ -433,7 +433,7 @@ include_once 'header.inc'
             <div class="d-flex justify-content-center align-items-center">
               <small class="fc-1">003</small>
             </div>
-            <img src= "../images/delivery.png" class= "img-fluid img-pos" alt= "Delivery truck icon" >
+            <img src= "../images/delivery.png" class= "img-fluid img-pos-1" alt= "Delivery truck icon" >
           </div>
           <div class="card-body">
             <h5 class="card-title pt-3">Delivery</h5>

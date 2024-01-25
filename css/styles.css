@@ -361,8 +361,8 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 .hiw-icon>div {
   position: absolute;
-  top: 2px;
-  right: 4px;
+  top: 0px;
+  right: 0px;
   content: '';
   width: 35px;
   height: 35px;
@@ -380,9 +380,16 @@ a.hiw-question:hover{
   border: solid 2px var(--color-1) !important;
 }
 
-.img-pos{
+.img-pos-1{
   max-width: 70%;
   position: absolute;
-  top: 20px;
-  left: 15px;
+  top: 19px;
+  left: 19px;
+}
+
+.img-pos-2{
+  max-width: 60%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
 }
