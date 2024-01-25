@@ -394,8 +394,6 @@ a.mcf-button:active{
   color: var(--color-2) !important;
 }
 
-
-
 .img-pos-1{
   max-width: 70%;
   position: absolute;
@@ -415,3 +413,17 @@ a.mcf-button:active{
 .blog-1{
   background-color: var(--color-12);
 }
+
+/**** hyperlinks ****/
+
+a.mcf-link,
+a.mch-link:active{
+  text-decoration: none;
+  color: var(--color-4);
+}
+
+a.mcf-link:hover,
+a.mcf-link:focus{
+  color: var(--color-20);
+}
+
