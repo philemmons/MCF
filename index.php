@@ -27,7 +27,7 @@ include_once 'header.inc'
             <a class="nav-link px-2" href="purchase.php">Flowers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="reviews.php">Reviews</a>
+            <a class="nav-link px-2" href="our-blog.php">Blog</a>
           </li>
           <li class="nav-item" style="border-right: none;">
             <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -49,8 +49,10 @@ include_once 'header.inc'
         <h1 class="header-font">Millie's Crazy Flowers</h1>
         <h4 class="font-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
         <p class="py-2"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
+        <div class="d-grid gap-2 col-4 mx-auto pb-5">
+          <a href="#discover" class="btn hiw-question p-3 fs-5">Discover</a>
+        </div>
       </div>
-
       <div class="col-md-6 banner text-center">
         <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
       </div>
@@ -58,7 +60,7 @@ include_once 'header.inc'
   </div>
 
 
-  <section>
+  <section id="discover">
     <div class="container-fluid" style="background-color: var(--color-1);">
       <div class="row py-2 border text-white">
         <div class="col-lg-3 p-5 info-1 border border-white">
@@ -93,6 +95,11 @@ include_once 'header.inc'
             <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
             <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we love.</p>
             <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
+
+            <div class="d-grid gap-2 col-4 mx-auto pb-5">
+              <a href="about-us.php" class="btn hiw-question p-3 fs-5">More Info</a>
+            </div>
+
           </div>
         </div>
       </div>
@@ -107,6 +114,9 @@ include_once 'header.inc'
           <div class="card-body">
             <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
             <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <a href="purchase.php" class="btn hiw-question p-3 fs-5">Order Now</a>
+            </div>
           </div>
         </div>
       </div>
@@ -436,8 +446,13 @@ include_once 'header.inc'
           </div>
         </div>
 
-        <div class="d-grid gap-2 col-6 mx-auto pb-5">
-          <a href="contact.php" class="btn hiw-question p-3 fs-5">Question</a>
+        <div class="d-grid gap-2">
+          <div class="col-4 mx-auto">
+            <a href="about-us.php" class="btn hiw-question p-3 fs-5">Learn More</a>
+          </div>
+          <div class="col-4 mx-auto pb-5">
+            <a href="contact.php" class="btn hiw-question p-3 fs-5">Question</a>
+          </div>
         </div>
 
       </div>
@@ -477,7 +492,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                 </div>
@@ -505,7 +520,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -529,7 +544,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -556,7 +571,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title"><a href="our-blog.php">Card title<a></h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
