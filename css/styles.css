@@ -386,7 +386,7 @@ a.mcf-button:hover{
 a.mcf-button:active{
   background-color: var(--color-7) !important;
   border: solid 2px var(--color-2) !important;
-  color: var(--color-2);
+  color: var(--color-2) !important;
 }
 
 
