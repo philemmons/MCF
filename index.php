@@ -196,7 +196,7 @@ include_once 'header.inc'
           <div class="carousel-item p-3 active">
             <div class="d-flex justify-content-center">
 
-              <div class="card mx-3">
+              <div class="card c-shadow mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
@@ -214,7 +214,7 @@ include_once 'header.inc'
                 </div>
               </div>
 
-              <div class="card d-none d-md-block mx-3">
+              <div class="card c-shadow d-none d-md-block mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
@@ -232,66 +232,7 @@ include_once 'header.inc'
                 </div>
               </div>
 
-              <div class="card d-none d-lg-block mx-3">
-                <div class="card-header">
-                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
-                </div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
-                  </div>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="carousel-item p-3">
-            <div class="d-flex justify-content-center">
-              <div class="card mx-3">
-                <div class="card-header">
-                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
-                </div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
-                  </div>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-
-              <div class="card d-none d-md-block mx-3">
-                <div class="card-header">
-                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
-                </div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                  <div class="text-end">
-                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
-                  </div>
-                </div>
-                <div class="card-footer text-body-secondary">
-                  Commented on 01.24.24
-                </div>
-              </div>
-
-              <div class="card d-none d-lg-block mx-3">
+              <div class="card c-shadow d-none d-lg-block mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
@@ -314,7 +255,7 @@ include_once 'header.inc'
 
           <div class="carousel-item p-3">
             <div class="d-flex justify-content-center">
-              <div class="card mx-3">
+              <div class="card c-shadow mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
@@ -332,7 +273,7 @@ include_once 'header.inc'
                 </div>
               </div>
 
-              <div class="card d-none d-md-block mx-3">
+              <div class="card c-shadow d-none d-md-block mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
@@ -350,7 +291,66 @@ include_once 'header.inc'
                 </div>
               </div>
 
-              <div class="card d-none d-lg-block mx-3">
+              <div class="card c-shadow d-none d-lg-block mx-3">
+                <div class="card-header">
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                  </div>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item p-3">
+            <div class="d-flex justify-content-center">
+              <div class="card c-shadow mx-3">
+                <div class="card-header">
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                  </div>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+
+              <div class="card c-shadow d-none d-md-block mx-3">
+                <div class="card-header">
+                  <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Reviewed by <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-light border-cust py-3" role="button" data-bs-toggle="button">View</a>
+                  </div>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  Commented on 01.24.24
+                </div>
+              </div>
+
+              <div class="card c-shadow d-none d-lg-block mx-3">
                 <div class="card-header">
                   <h6 class="card-title text-center pt-2"><strong>Rated 4.5 out of 5 stars</strong></h6>
                 </div>
@@ -456,10 +456,10 @@ include_once 'header.inc'
         </div>
       </div>
 
-      
+
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
-          <div class="card">
+          <div class="card border-0">
             <div class="row g-0">
               <div class="col-md-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
@@ -477,7 +477,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col">
-          <div class="card">
+          <div class="card border-0">
             <div class="row g-0">
               <div class="col-md-6">
                 <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
@@ -495,7 +495,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col">
-          <div class="card">
+          <div class="card border-0">
             <div class="row g-0">
 
               <div class="col-md-6">
@@ -514,7 +514,7 @@ include_once 'header.inc'
         </div>
 
         <div class="col">
-          <div class="card">
+          <div class="card border-0">
             <div class="row g-0">
 
               <div class="col-md-6">

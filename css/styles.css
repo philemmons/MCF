@@ -330,7 +330,7 @@ body {
 source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 */
 
-.card {
+.c-shadow {
   box-shadow: 2px 6px 8px 0 var(--color-4);
 }
 
@@ -393,3 +393,6 @@ a.hiw-question:hover{
   top: 25px;
   left: 25px;
 }
+
+/**** recent from blog ****/
+
