@@ -33,7 +33,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <p class="ps-2"><a href="our-blog.php">Message title</a></p>
+                                <p class="ps-2"><a href="our-blog.php" class= "mcf-link">Message title</a></p>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <p class="ps-2"><a href="our-blog.php">Message title</a></p>
+                                <p class="ps-2"><a href="our-blog.php" class= "mcf-link">Message title</a></p>
                             </li>
                         </ul>
                     </div>
@@ -70,7 +70,7 @@
                         <ul class="ul-list ms-3">
                             <li>
                                 <p>
-                                    <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                    <a href="mailto:info@yourdomain.com" class= "mcf-link">info@yourdomain.com</a>
                                 </p>
                             </li>
                         </ul>
@@ -80,7 +80,7 @@
                         <ul class="ul-list ms-3">
                             <li>
                                 <p>
-                                    <a href="contact-us.php">Contact Us</a>
+                                    <a href="contact-us.php" class= "mcf-link">Contact Us</a>
                                 </p>
                             </li>
                         </ul>
