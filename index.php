@@ -449,8 +449,10 @@ include_once 'header.inc'
         </div>
 
         <div class="d-grid justify-content-evenly">
-          <div class="pb-5">
+          <div class="px-3 pb-5">
             <a href="about-us.php" class="btn mcf-button p-3 fs-5">Learn More</a>
+          </div>
+          <div class="px-3">
             <a href="contact.php" class="btn mcf-button p-3 fs-5">Question</a>
           </div>
         </div>
