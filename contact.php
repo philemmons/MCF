@@ -213,11 +213,11 @@ include_once 'header.inc'
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn mcf-button p-3 fs-5" name="submit">Submit Message</button>
+                            <button type="submit" class="btn mcf-button" name="submit">Submit Message</button>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn mcf-button p-3 fs-5y" name="reset" value="reset" onclick="return resetFields();">Reset Message</button>
+                            <button type="reset" class="btn mcf-button" name="reset" value="reset" onclick="return resetFields();">Reset Message</button>
                         </div>
                     </form>
                 </div>

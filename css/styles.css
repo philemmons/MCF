@@ -59,7 +59,7 @@ body {
 }
 
 .hero-text-border{
-  
+
 }
 
 .f-italic {
@@ -223,8 +223,7 @@ body {
 }
 
 /**** navbar toggle ****/
-.mcf-navbar-light .navbar-toggler,
-.mcf-button {
+.mcf-navbar-light .navbar-toggler{
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
@@ -384,19 +383,23 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   border: solid 2px var(--color-2);
   height: auto;
   width: 10em;
+  color: var(--color-1) !important;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: var(--color-6);
 }
 
 .mcf-btn-sm {
   width: 5em !important;
 }
 
-a.mcf-button:hover,
-a.mcf-button:focus {
+.mcf-button:hover,
+.mcf-button:focus {
   background-color: var(--color-3);
   border: solid 2px var(--color-1) !important;
 }
 
-a.mcf-button:active {
+.mcf-button:active {
   background-color: var(--color-7) !important;
   border: solid 2px var(--color-2) !important;
   color: var(--color-2) !important;
