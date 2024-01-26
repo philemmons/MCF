@@ -7,7 +7,7 @@
                     <h2 class="header-font mb-4  text-center">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
-                    <h5 class="font-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
+                    <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                     <ul class="ul-list mt-4">
                         <li class="li-horizontal">
                             <a href="#"><i class="bi bi-twitter"></i></a>
@@ -33,7 +33,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="our-blog.php" class= "mcf-blog">Message title</a></h6>
+                                <h6 class="ps-2"><a href="our-blog.php" class="mcf-blog">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="our-blog.php" class= "mcf-blog">Message title</a></h6>
+                                <h6 class="ps-2"><a href="our-blog.php" class="mcf-blog">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -70,17 +70,17 @@
                         <ul class="ul-list ms-3">
                             <li>
                                 <p>
-                                    <a href="mailto:info@yourdomain.com" class= "mcf-link">info@yourdomain.com</a>
+                                    <a href="mailto:info@yourdomain.com" class="mcf-link">info@yourdomain.com</a>
                                 </p>
                             </li>
                         </ul>
                     </div>
                     <div class="block-8 d-flex">
-                    <i class="bi bi-pencil-square me-2"></i>
+                        <i class="bi bi-pencil-square me-2"></i>
                         <ul class="ul-list ms-3">
                             <li>
                                 <p>
-                                    <a href="contact-us.php" class= "mcf-link">Contact Us</a>
+                                    <a href="contact-us.php" class="mcf-link">Contact Us</a>
                                 </p>
                             </li>
                         </ul>
@@ -94,7 +94,7 @@
 
     <section id="footer-image">
         <div class="h-100 d-flex align-items-center justify-content-center px-4">
-            <p>Copyright © 2023 — <?php echo date('Y')?> Millie's Crazy Flowers. All Rights Reserved.
+            <p>Copyright © 2023 — <?php echo date('Y') ?> Millie's Crazy Flowers. All Rights Reserved.
             </p>
         </div>
     </section>

@@ -47,7 +47,7 @@ include_once 'header.inc'
     <div class="row">
       <div class="col-md-6">
         <h1 class="header-font h1-ls">Millie's Crazy Flowers</h1>
-        <h4 class="font-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
+        <h4 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
         <p class="pt-2 pb-3"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
         <div class="pb-5">
           <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
@@ -121,15 +121,15 @@ include_once 'header.inc'
 
       <div class="row text-center">
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one." title= "Zooming in!">
+          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one." title="Zooming in!">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two." title= "Zooming in!">
+          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two." title="Zooming in!">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three." title= "Zooming in!">
+          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three." title="Zooming in!">
         </div>
       </div>
 
@@ -495,7 +495,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
+                  <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                 </div>
@@ -523,7 +523,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
+                  <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -547,7 +547,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
+                  <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -574,7 +574,7 @@ include_once 'header.inc'
                     </li>
                   </ul>
                   </p>
-                  <h4 class="card-title"><a href="our-blog.php" class= "mcf-blog">Card title</a></h4></a>
+                  <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -592,7 +592,7 @@ include_once 'header.inc'
 
   <?php include_once 'footer.inc' ?>
 
-  <script src= "../js/script.js"></script>
+  <script src="../js/script.js"></script>
 
   <script>
     /**
