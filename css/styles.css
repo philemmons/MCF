@@ -2,29 +2,22 @@
 :root {
   --color-1: #ffffff;
   --color-2: #000000;
+  
   --color-3: #47034E;
   --color-4: #5D0565;
   --color-5: #7E3285;
   --color-6: #9F5EA5;
   --color-7: #E0B6E4;
   --color-8: #fff1ff;
+
   --color-10: #052c43;
   --color-11: #bfbfbf;
   --color-12: #f7f7f7;
-
-  --color-20: #FFD300;
-  --color-21: #FFDC26;
-  --color-22: #FFE54C;
-  --color-23: #FFED73;
-  --color-24: #FFF699;
-  --color-25: #FFFFBF;
-
 
   --error-color: #ff0018;
   --success-color: #00ff18;
 
   --color-30: #0000FF;
-  --color-31: #ff7900;
 
   --ff-main: Figtree, Raleway, Arial, Sans-serif;
   --ff-header: BerkshireSwash;
