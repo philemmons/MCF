@@ -3,12 +3,12 @@
     <section class="bg-one py-5 px-2 p-lg-5">
         <div class="container-xl">
             <div class="row mb-4">
-                <div class="col-lg-4 px-3">
+                <div class="col-lg-4 p-3">
                     <h2 class="header-font mb-4  text-center">
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
                     <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
-                    <ul class="ul-list display-3 mt-4">
+                    <ul class="ul-list display-4 mt-4">
                         <li class="li-horizontal">
                             <a href="#" class= "sm-color" ><i class="bi bi-twitter"></i></a>
                         </li>
@@ -22,7 +22,7 @@
                 </div>
 
 
-                <div class="col-md-6 col-lg-4 px-3 ">
+                <div class="col-md-6 col-lg-4 p-3 ">
                     <h2 class="header-font mb-4 text-center">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
                         <a class="blog-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 px-3">
+                <div class="col-md-6 col-lg-4 p-3">
                     <h2 class="header-font mb-4 text-center">Have a Questions?</h2>
 
                     <div class="block-8 d-flex">

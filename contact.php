@@ -50,11 +50,11 @@ include_once 'header.inc'
             </div>
         </section>
 
-        <!-- Section Three -->
+        <!-- Section One -->
         <div id="map"></div>
         <section class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 py-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <h3 class="card-title mb-3">We operate out of Valley Spring, California.</h3>
                         <div class="col-md-12 db-5">
@@ -66,7 +66,7 @@ include_once 'header.inc'
         </section>
 
 
-        <!-- Section One -->
+        <!-- Section Two -->
         <section class="container">
             <div class="row justify-content-center mb-5 pb-3 pb-lg-5">
                 <div class="col-xl-8 col-lg-8 col-md-12 py-5">
@@ -242,7 +242,9 @@ include_once 'header.inc'
             </div>
         </section>
 
-        <section class="p-3 p-lg-5" style="background-color: var(--color-1);">
+
+        <!-- Section Three -->
+        <section class="px-1 py-4" style="background-color: var(--color-1);">
             <div class="container-fluid">
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-3">
@@ -280,7 +282,6 @@ include_once 'header.inc'
 
             </div>
         </section>
-
 
 
         <?php include_once 'footer.inc' ?>
