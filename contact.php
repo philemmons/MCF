@@ -54,7 +54,7 @@ include_once 'header.inc'
     <section class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                <div class="p-3 text-center bg-one hero-text-border" title="Memories are in the making.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
                     <h5 class="mb-6 text-dark px-3 px-md-0">We are here to answer your questions and welcome your feedback.</h5>
                 </div>
             </div>
@@ -146,7 +146,7 @@ include_once 'header.inc'
             <div id="contact-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="We are listening.">
+                    <div class="p-3 text-center bg-one hero-text-border" title="We are listening.">
                         <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
