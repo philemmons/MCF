@@ -121,23 +121,14 @@ include_once 'header.inc'
       <div class="row text-center">
         <div class="col-lg-4 p-5 info-4 border border-white">
           <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one.">
-          <div class= "img-overlay">
-            <h5 class="text-white"><i class="bi bi-search-heart me-2"></i>MCF1 Description</h5>
-          </div>
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
           <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two.">
-          <div class= "img-overlay">
-            <h5 class="text-white"><i class="bi bi-search-heart me-2"></i>MCF1 Description</h5>
-          </div>
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
           <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three.">
-          <div class= "img-overlay">
-            <h5 class="text-white"><i class="bi bi-search-heart me-2"></i>MCF1 Description</h5>
-          </div>
         </div>
       </div>
 
