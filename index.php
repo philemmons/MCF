@@ -120,15 +120,15 @@ include_once 'header.inc'
 
       <div class="row text-center">
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one." data-bs-toggle="tooltip" data-bs-title="Another one here too">
+          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one." title= "Click to zoom in on image">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two.">
+          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two." title= "Click to zoom in on image">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three.">
+          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three." title= "Click to zoom in on image">
         </div>
       </div>
 
