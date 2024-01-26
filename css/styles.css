@@ -133,6 +133,10 @@ body {
   padding: 0;
 }
 
+.ul-list.sm-color{
+  color: var(--color-3);
+}
+
 .li-horizontal {
   display: block;
   padding: 0.5rem;

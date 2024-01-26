@@ -245,7 +245,7 @@ include_once 'header.inc'
         <section class="p-3 p-lg-5" style="background-color: var(--color-1);">
             <div class="container-fluid">
                 <div class="row text-center">
-                    <div class="col-lg-12 my-2 my-lg-3 pt-5">
+                    <div class="col-lg-12 my-2 my-lg-3 pt-3">
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">Gallery</p>
                             <h2 class="card-title header-font mb-3">Latest Collection</h2>
