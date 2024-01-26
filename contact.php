@@ -69,7 +69,7 @@ include_once 'header.inc'
         <!-- Section One -->
         <section class="container">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                     <div class="p-3 text-center hero-text-border banner" title="Please contact us with any questions, suggestions, or concerns.">
                         <p class=" h5 mb-6 px-3 px-md-0">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mcf-to-email'); ?> </p>
                     </div>
@@ -235,20 +235,6 @@ include_once 'header.inc'
 
                             <div class="col-md-6 text-center">
                                 <button type="reset" class="btn mcf-button" name="reset" value="reset" onclick="return resetFields();">Reset Message</button>
-                            </div>
-                            <div class="w-100 text-center">
-                                <h3>Follow us here</h3>
-                                <ul class="ul-list mt-4">
-                                    <li class="li-horizontal">
-                                        <a href="#"><i class="bi bi-twitter"></i></a>
-                                    </li>
-                                    <li class="li-horizontal">
-                                        <a href="#"><i class="bi bi-facebook"></i></a>
-                                    </li>
-                                    <li class="li-horizontal">
-                                        <a href="#"><i class="bi bi-instagram"></i></a>
-                                    </li>
-                                </ul>
                             </div>
                         </form>
                     </div>
