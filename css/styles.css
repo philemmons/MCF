@@ -522,5 +522,6 @@ WIP
 /**** contact us ****/
 
 .bg-contactUs{
-  background-color: var(--color-6);
+  height: 50vh;
+  background-color: var(--color-7);
 }

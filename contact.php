@@ -40,9 +40,9 @@ include_once 'header.inc'
 
     <!-- Hero Section -->
     <section class="container-fluid">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-contactUs" title="We are here to answer your questions and welcome your feedback.">
+        <div class="row justify-content-center align-items-center py-6 mb-5 bg-contactUs" title="We are here to answer your questions and welcome your feedback.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="pt-3 px-3 text-center banner" title="Contact Us">
+                <div class="p-3 text-center banner" title="Contact Us">
                     <h1 class="header-font mb-3 px-3 px-md-0">Contact Us
                     </h1>
                 </div>
