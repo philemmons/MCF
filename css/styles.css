@@ -519,4 +519,8 @@ WIP
   transform:translateY(0);
 }
 
+/**** contact us ****/
 
+.bg-contactUs{
+  background-color: var(--color-6);
+}

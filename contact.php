@@ -40,10 +40,10 @@ include_once 'header.inc'
 
     <!-- Hero Section -->
     <section class="container-fluid">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="We are here to answer your questions and welcome your feedback.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-contactUs" title="We are here to answer your questions and welcome your feedback.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Contact Us">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Contact Us</span>
+                <div class="pt-3 px-3 text-center banner" title="Contact Us">
+                    <h1 class="header-font mb-3 px-3 px-md-0">Contact Us
                     </h1>
                 </div>
             </div>
@@ -51,7 +51,7 @@ include_once 'header.inc'
     </section>
 
     <!-- Section One -->
-    <section class="container-fluid">
+    <section class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
