@@ -525,3 +525,10 @@ WIP
   height: 50vh;
   background-color: var(--color-7);
 }
+
+.banner{
+  border: solid 2px var(--color-1);
+  box-shadow: 2px 6px 8px 0 var(--color-10);
+  background-color: var(--color-4);
+  color: var(--color-1);
+}
