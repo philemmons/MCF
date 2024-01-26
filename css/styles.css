@@ -442,7 +442,6 @@ a.mcf-link:focus {
 
 a.mcf-blog,
 a.mch-blog:active {
-  text-decoration: none;
   color: var(--color-3);
 }
 
