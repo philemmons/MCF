@@ -114,21 +114,22 @@ include_once 'header.inc'
           <div class="card-body">
             <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
             <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
+            <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
           </div>
         </div>
       </div>
 
       <div class="row text-center">
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one." title= "Click to zoom in on image">
+          <img src="images/mcf-flower-1.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower one." title= "Zooming in!">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two." title= "Click to zoom in on image">
+          <img src="images/mcf-flower-2.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower two." title= "Zooming in!">
         </div>
 
         <div class="col-lg-4 p-5 info-4 border border-white">
-          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three." title= "Click to zoom in on image">
+          <img src="images/mcf-flower-3.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower three." title= "Zooming in!">
         </div>
       </div>
 
