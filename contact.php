@@ -42,7 +42,7 @@ include_once 'header.inc'
         <section class="container-fluid">
             <div class="row justify-content-center align-items-end mb-5 bg-contactUs" title="We are here to answer your questions and welcome your feedback.">
                 <div class="col-xl-6 col-lg-7 col-md-9">
-                    <div class="text-center h1-ls banner mb-5" title="Contact Us">
+                    <div class="text-center h1-ls" title="Contact Us">
                         <h1 class="header-font py-4 px-3 px-md-0">Contact Us
                         </h1>
                     </div>
@@ -70,8 +70,8 @@ include_once 'header.inc'
         <section class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center bg-one hero-text-border" title="Please contact us with any questions, suggestions, or concerns.">
-                        <p class=" h5 mb-6 text-dark px-3 px-md-0">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mcf-to-email'); ?> </p>
+                    <div class="p-3 text-center hero-text-border banner" title="Please contact us with any questions, suggestions, or concerns.">
+                        <p class=" h5 mb-6 px-3 px-md-0">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mcf-to-email'); ?> </p>
                     </div>
                 </div>
 
@@ -163,7 +163,7 @@ include_once 'header.inc'
                 <?php if (!empty($statusMsg)) { ?>
                     <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="We are listening.">
-                            <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                            <p class="mb-5 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                         </div>
                     </div>
                 <?php } ?>
@@ -236,9 +236,8 @@ include_once 'header.inc'
                             <div class="col-md-6 text-center">
                                 <button type="reset" class="btn mcf-button" name="reset" value="reset" onclick="return resetFields();">Reset Message</button>
                             </div>
-                            <div class="w-100 mt-5">
+                            <div class="w-100 text-center">
                                 <h3>Follow us here</h3>
-                                <p>
                                 <ul class="ul-list mt-4">
                                     <li class="li-horizontal">
                                         <a href="#"><i class="bi bi-twitter"></i></a>
@@ -250,7 +249,6 @@ include_once 'header.inc'
                                         <a href="#"><i class="bi bi-instagram"></i></a>
                                     </li>
                                 </ul>
-                                </p>
                             </div>
                         </form>
                     </div>

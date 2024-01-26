@@ -2,7 +2,7 @@
 :root {
   --color-1: #ffffff;
   --color-2: #000000;
-  
+
   --color-3: #47034E;
   --color-4: #5D0565;
   --color-5: #7E3285;
@@ -527,3 +527,4 @@ WIP
   background-color: var(--color-4);
   color: var(--color-1);
 }
+
