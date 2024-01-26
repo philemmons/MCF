@@ -153,7 +153,7 @@ include_once 'header.inc'
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 bg-one hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
+                <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                     <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
