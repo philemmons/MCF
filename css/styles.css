@@ -186,7 +186,6 @@ body {
 
 .mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
   text-transform: uppercase;
-  letter-spacing: .1rem;
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
