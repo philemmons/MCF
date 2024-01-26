@@ -71,7 +71,7 @@ include_once 'header.inc'
             <div class="row justify-content-center mb-5 pb-3 pb-lg-5">
                 <div class="col-xl-8 col-lg-8 col-md-12 py-5">
                     <div class="p-3 text-center hero-text-border banner" title="Please contact us with any questions, suggestions, or concerns.">
-                        <p class=" h5 mb-6 px-3 px-md-0">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mcf-to-email'); ?> </p>
+                        <p class=" h5 mb-6 px-3 px-md-0">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mcf-to-email'); ?>. </p>
                     </div>
                 </div>
 
@@ -172,7 +172,7 @@ include_once 'header.inc'
                     <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
-                            <p>We're open for any suggestion or just to have a chat</p>
+                            <p>We're open for any suggestion or just to have a chat.</p>
 
                             <div class="col-md-6">
                                 <label for="contact-fn" class="form-label">First Name</label>

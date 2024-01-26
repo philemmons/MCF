@@ -94,7 +94,7 @@
 
     <section id="footer-image">
         <div class="h-100 d-flex align-items-center justify-content-center px-4">
-            <p>Copyright © 2023 — <?php echo date('Y') ?> Millie's Crazy Flowers. All Rights Reserved.
+            <p>Copyright © 2023-<?php echo date('Y') ?> Millie's Crazy Flowers. All Rights Reserved.
             </p>
         </div>
     </section>
