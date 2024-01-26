@@ -3,55 +3,44 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg">
-    <div class="container">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse.true navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php" aria-current="page">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registration</a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" href="memories.php">Memories</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.php">Contact<span class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<body>
 
+
+  <nav class="navbar navbar-expand-lg mcf-navbar-light">
+    <div class="container-xl">
+      <a class="navbar-brand" href="#">
+        <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
+      </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="pe-2">Menu</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="topNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-2" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="about-us.php">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="our-blog.php">Blog</a>
+          </li>
+          <li class="nav-item" style="border-right: none;">
+            <a class="nav-link active px-2" href="contact.php">Contact Us<span class="visually-hidden">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 <main>
+
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="Please contact us with any questions, feedback, or improvements.">
+    <section class="container-fluid">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="We are here to answer your questions and welcome your feedback.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Contact Us">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Contact Us</span>
@@ -62,12 +51,11 @@ include_once 'header.inc'
     </section>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <section class="container-fluid">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care.<br>We really do.</span>
-                        </h4>
+                    <h5 class="mb-6 text-dark px-3 px-md-0">We are here to answer your questions and welcome your feedback.</h5>
                 </div>
             </div>
 
@@ -81,7 +69,7 @@ include_once 'header.inc'
             $secretKey  = getenv('g-secret-key');
 
             // Email settings 
-            $recipientEmail = getenv('mbar-chair-email');
+            $recipientEmail = getenv('mcf-info-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -120,9 +108,9 @@ include_once 'header.inc'
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
-                            $subject = 'Contact Us Submitted';
+                            $subject = 'MCF Contact Us Submitted';
                             $htmlContent = " 
-                    <h4>Contact Us Form - EN</h4> 
+                    <h4>MCF's Contact Us Form</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 
@@ -140,16 +128,16 @@ include_once 'header.inc'
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'Thank you, your message was sent, and please allow up to 48 hours to reply.';
+                            $statusMsg = 'Thank you! Please allow up to 48 hours for a response.';
                             $postData = '';
                         } else {
-                            $statusMsg = 'reCaptcha verification failed, please try again.';
+                            $statusMsg = 'We apologize, reCaptcha verification failed, and  please try again.';
                         }
                     } else {
-                        $statusMsg = 'Please check the reCAPTCHA checkbox.';
+                        $statusMsg = 'Please check the reCAPTCHA checkbox to prove your human.';
                     }
                 } else {
-                    $statusMsg = 'Please fill all the mandatory fields.';
+                    $statusMsg = 'There wa one or more mandatory fields missing.';
                 }
             }
 
@@ -158,14 +146,14 @@ include_once 'header.inc'
             <div id="contact-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="We are listening.">
                         <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
+                <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                     <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
@@ -173,7 +161,7 @@ include_once 'header.inc'
                             <label for="contact-fn" class="form-label">First Name</label>
                             <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
                             <div class="invalid-feedback">
-                                Please enter your first name.
+                                Your first name is required.
                             </div>
                         </div>
 
@@ -181,7 +169,7 @@ include_once 'header.inc'
                             <label for="contact-ln" class="form-label">Last Name</label>
                             <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Your last name is required.
                             </div>
                         </div>
 
@@ -189,7 +177,7 @@ include_once 'header.inc'
                             <label for="contact-em" class="form-label">Email</label>
                             <input type="email" class="form-control" name="contact-em" id="contact-em" required>
                             <div class="invalid-feedback">
-                                Please enter your email.
+                                Your email is required.
                             </div>
                         </div>
 
@@ -197,7 +185,7 @@ include_once 'header.inc'
                             <label for="contact-phone" class="form-label">Phone(Optional)</label>
                             <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
-                                Please enter a valid phone number.
+                                Please enter a valid phone number( optional).
                             </div>
                         </div>
 
@@ -205,7 +193,7 @@ include_once 'header.inc'
                             <label for="contact-subj" class="form-label">Subject</label>
                             <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
                             <div class="invalid-feedback">
-                                Please enter a subject.
+                                A subject title is required.
                             </div>
                         </div>
 
@@ -225,11 +213,11 @@ include_once 'header.inc'
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Message</button>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Message</button>
                         </div>
                     </form>
                 </div>
@@ -237,7 +225,7 @@ include_once 'header.inc'
 
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mbar-chair-email'); ?> </p>
+                    <p class="mb-6 h5 text-dark">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mcf-to-email'); ?> </p>
                 </div>
             </div>
         </div>
