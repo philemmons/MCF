@@ -8,15 +8,15 @@
                         <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
                     </h2>
                     <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
-                    <ul class="ul-list sm-color display-3 mt-4">
+                    <ul class="ul-list display-3 mt-4">
                         <li class="li-horizontal">
-                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class= "sm-color" ><i class="bi bi-twitter"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class= "sm-color"><i class="bi bi-facebook"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class= "sm-color"><i class="bi bi-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
