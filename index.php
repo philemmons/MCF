@@ -45,15 +45,15 @@ include_once 'header.inc'
 
   <div class="container hero-content">
     <div class="row">
-      <div class="col-md-6 h1-ls">
-        <h1 class="header-font">Millie's Crazy Flowers</h1>
+      <div class="col-md-6">
+        <h1 class="header-font h1-ls">Millie's Crazy Flowers</h1>
         <h4 class="font-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
         <p class="pt-2 pb-3"> Our Mogol Artist hand crafts every beautiful flower that no two are alike.</p>
         <div class="pb-5">
           <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
         </div>
       </div>
-      <div class="col-md-6 h1-ls text-center">
+      <div class="col-md-6 text-center">
         <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
       </div>
     </div>

@@ -173,6 +173,7 @@ body {
   right: 0;
   z-index: 3;
   padding: 0;
+  letter-spacing: 1px;
 }
 
 .navbar-nav>.nav-item>.nav-link {
