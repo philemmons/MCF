@@ -12,7 +12,7 @@ include_once 'header.inc'
         <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
       </a>
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="pe-2">Menu</span>
+        <span class="pe-2">MENU</span>
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="topNavbar">
