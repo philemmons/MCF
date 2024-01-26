@@ -146,7 +146,7 @@ include_once 'header.inc'
             <div id="contact-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center bg-one hero-text-border" title="We are listening.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="We are listening.">
                         <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
