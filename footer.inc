@@ -10,9 +10,6 @@
                     <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                     <ul class="ul-list display-4 mt-4">
                         <li class="li-horizontal">
-                            <a href="#" class= "sm-color" ><i class="bi bi-twitter"></i></a>
-                        </li>
-                        <li class="li-horizontal">
                             <a href="#" class= "sm-color"><i class="bi bi-facebook"></i></a>
                         </li>
                         <li class="li-horizontal">
