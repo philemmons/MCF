@@ -523,6 +523,12 @@ WIP
 .bg-contactUs {
   height: 50vh;
   background-color: var(--color-7);
+  background-image: url('../images/blob-scene.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
 }
 
 .banner {
