@@ -548,7 +548,7 @@ a.mch-crumb:active {
   letter-spacing: 1px;
 }
 
-a.mcf-link:hover,
-a.mcf-link:focus {
+a.mcf-crumb:hover,
+a.mcf-crumb:focus {
   color: var(--color-1);
 }
