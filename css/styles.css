@@ -544,7 +544,8 @@ WIP
 a.mcf-crumb,
 a.mch-crumb:active {
   text-decoration: none;
-  color: var(--color-2);
+  color: var(--color-4);
+  letter-spacing: 1px;
 }
 
 a.mcf-link:hover,
