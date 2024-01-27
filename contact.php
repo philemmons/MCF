@@ -177,7 +177,7 @@ include_once 'header.inc'
                     <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
-                            <p>We're open for any suggestion or just to have a chat.</p>
+                            <p class= "fw-bold">We're open for any suggestion or just to have a chat.</p>
 
                             <div class="col-md-6">
                                 <label for="contact-fn" class="form-label">First Name</label>
