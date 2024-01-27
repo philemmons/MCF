@@ -538,3 +538,16 @@ WIP
   color: var(--color-1);
 }
 
+
+/**** breadcrumbs ****/
+
+a.mcf-crumb,
+a.mch-crumb:active {
+  text-decoration: none;
+  color: var(--color-2);
+}
+
+a.mcf-link:hover,
+a.mcf-link:focus {
+  color: var(--color-1);
+}

@@ -41,9 +41,14 @@ include_once 'header.inc'
         <!-- Hero Section -->
         <section class="container-fluid">
             <div class="row justify-content-center align-items-end mb-5 bg-contactUs" title="We are here to answer your questions and welcome your feedback.">
-                <div class="col-xl-6 col-lg-7 col-md-9">
+            <div class="col-xl-6 col-lg-7 col-md-9">
+                        <div class="text-center">
+                        <p class="fw-bold ">
+                            <a href="index.php" class="mcf-link">Home&gt;</a>&nbsp;<a href="#" class="mcf-link">Contact Us&gt;</a>
+                        </p>
+                    </div>
                     <div class="text-center h1-ls" title="Contact Us">
-                        <h1 class="header-font py-4 px-3 px-md-0">Contact Us
+                        <h1 class="header-font pb-4 px-3 px-md-0">Contact Us
                         </h1>
                     </div>
                 </div>
