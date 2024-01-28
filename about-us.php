@@ -55,7 +55,7 @@ include_once 'header.inc'
             </div>
         </section>
 
-        <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+        <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-6 my-2 my-lg-5">
@@ -64,7 +64,7 @@ include_once 'header.inc'
                     <div class="col-lg-6 my-2 my-lg-5">
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
-                            <h2 class="card-title header-font mb-3">This is our friendship story, the short of it.</h2>
+                            <h2 class="card-title header-font mb-4">This is our friendship story, the short of it.</h2>
                             <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on 05-07-23, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend. </p>
                             <p class="card-text">
                                 Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
@@ -90,7 +90,7 @@ include_once 'header.inc'
         <?php include_once 'tech-stats.inc'; ?>
 
         <?php include_once 'testimonials.inc'; ?>
-
+        <br><br><br>
     </main>
     <?php include_once 'footer.inc' ?>
 
