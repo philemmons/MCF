@@ -18,7 +18,7 @@ include_once 'header.inc'
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link px-2" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="about-us.php">Our Story</a>
@@ -36,11 +36,11 @@ include_once 'header.inc'
             </div>
         </div>
     </nav>
-    <main>
 
+    <main>
         <!-- Hero Section -->
         <section class="container-fluid">
-            <div class="row justify-content-center align-items-end mb-5 bg-contactUs" title="We are here to answer your questions and welcome your feedback.">
+            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-contactUs" title="We are here to answer your questions and welcome your feedback.">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
@@ -177,7 +177,7 @@ include_once 'header.inc'
                     <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
-                            <p class= "fw-bold">We're open for any suggestion or just to have a chat.</p>
+                            <p class="fw-bold">We're open for any suggestion or just to have a chat.</p>
 
                             <div class="col-md-6">
                                 <label for="contact-fn" class="form-label">First Name</label>
@@ -288,37 +288,38 @@ include_once 'header.inc'
             </div>
         </section>
 
+    </main>
 
-        <?php include_once 'footer.inc' ?>
+    <?php include_once 'footer.inc' ?>
 
-        <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script>
 
-        <script>
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (() => {
-                'use strict'
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                const forms = document.querySelectorAll('.needs-validation')
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-                // Loop over them and prevent submission
-                Array.from(forms).forEach(form => {
-                    form.addEventListener('submit', event => {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-            })()
-        </script>
-        <script>
-            function resetFields() {
-                return confirm("Are you sure you want to reset all fields?");
-            }
-        </script>
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
 
 </body>
 

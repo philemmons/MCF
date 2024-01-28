@@ -518,17 +518,24 @@ WIP
   transform: translateY(0);
 }
 
+
 /**** contact us ****/
 
-.bg-contactUs {
+.bg-frame{
   height: 50vh;
   background-color: var(--color-7);
-  background-image: url('../images/blob-scene.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
 
+.bg-img-contactUs {
+  background-image: url('../images/blob-scene-one.png');
+}
+
+.br.img-aboutUs{
+  background-image: url('../images/blob-scene.png');
 }
 
 .banner {
