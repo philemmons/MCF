@@ -48,12 +48,48 @@ include_once 'header.inc'
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Contact Us">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Contact Us
+                        <h1 class="header-font pb-4 px-3 px-md-0">Our Story
                         </h1>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 my-2 my-lg-5">
+                        <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
+                    </div>
+                    <div class="col-lg-6 my-2 my-lg-5">
+                        <div class="card-body">
+                            <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
+                            <h2 class="card-title header-font mb-3">This is our friendship story, the short of it.</h2>
+                            <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on 05-07-23, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend. </p>
+                            <p class="card-text">
+                                Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
+                            </p>
+                            <p class="card-text">
+                                Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs.
+                            </p>
+                            <p class="card-text">
+                                The loving friendship between 'The Vickster' and 'The Milster' will help the most vulnerable grow compassionately and be happy.
+                            </p>
+
+
+                            <div class="text-center">
+                                <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <?php include_once 'tech-stats.inc'; ?>
+
+        <?php include_once 'testimonials.inc'; ?>
 
     </main>
     <?php include_once 'footer.inc' ?>
@@ -61,30 +97,39 @@ include_once 'header.inc'
     <script src="../js/script.js"></script>
 
     <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
+        /**
+         * source
+         * https://codepen.io/r-gine-vienny-lehmann/pen/GbGbMJ
+         */
+        var isAlreadyRun = false;
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
+        $(window).scroll(function() {
 
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
+            $('.counter-show').each(function(i) {
+
+                var bottom_of_object = $(this).position().top + $(this).outerHeight() / 2;
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                if (bottom_of_window > (bottom_of_object + 20)) {
+                    if (!isAlreadyRun) {
+                        $('.count-number').each(function() {
+
+                            $(this).prop('Counter', 0).animate({
+                                Counter: $(this).text()
+                            }, {
+                                duration: 3500,
+                                easing: 'swing',
+                                step: function(now) {
+                                    $(this).text(Math.ceil(now));
+                                }
+                            });
+                        });
                     }
+                    isAlreadyRun = true;
+                }
+            });
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
-    <script>
-        function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
-        }
+        });
     </script>
 
 </body>

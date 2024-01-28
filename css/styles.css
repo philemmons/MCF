@@ -534,10 +534,6 @@ WIP
   background-image: url('../images/blob-scene-one.png');
 }
 
-.br.img-aboutUs{
-  background-image: url('../images/blob-scene.png');
-}
-
 .banner {
   border: solid 2px var(--color-1);
   box-shadow: 2px 6px 8px 0 var(--color-10);
@@ -558,4 +554,10 @@ a.mch-crumb:active {
 a.mcf-crumb:hover,
 a.mcf-crumb:focus {
   color: var(--color-1);
+}
+
+/**** about us ****/
+
+.br.img-aboutUs{
+  background-image: url('../images/wave-scene-one.png');
 }
