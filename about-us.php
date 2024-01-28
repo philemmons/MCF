@@ -56,12 +56,12 @@ include_once 'header.inc'
         </section>
 
         <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 my-2 my-lg-5">
+                    <div class="col-auto my-2 my-lg-5">
                         <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
                     </div>
-                    <div class="col-lg-6 my-2 my-lg-5">
+                    <div class="col-lg-8 my-2 my-lg-5">
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
                             <h2 class="card-title header-font mb-4">This is our friendship story, the short of it.</h2>
