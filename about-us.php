@@ -77,7 +77,7 @@ include_once 'header.inc'
                             </p>
 
 
-                            <div class="text-center">
+                            <div class="text-center pt-3 pt-lg-5">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>
 
