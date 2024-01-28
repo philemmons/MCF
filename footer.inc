@@ -13,10 +13,10 @@
                             <a href="#" class= "sm-color" ><i class="bi bi-pinterest"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#" class= "sm-color"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class= "sm-color"><i class="bi bi-instagram"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#" class= "sm-color"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class= "sm-color"><i class="bi bi-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
