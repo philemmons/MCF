@@ -127,31 +127,31 @@ include_once 'header.inc'
                         </div>
 
 
-                        <h3 class="header-font mb-3">Recent Posts</h3>
-                        <div class="block-8 mb-3 d-flex">
+                        <h3 class="fw-bold mb-3">Recent Posts</h3>
+                        <div class="block-8 d-flex mb-3">
                             <a class="nl-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
 
                             <ul class="ul-list ms-3">
                                 <li class="fs-14">
-                                    <i class="bi bi-calendar me-1"></i>01.21.24
+                                    <i class="bi bi-calendar me-1"></i>02.14.24
                                     <i class="bi bi-person-fill-check mx-1"></i>First name
                                 </li>
                                 <li>
-                                    <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-3">Message title</a></h6>
+                                    <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-3">February title</a></h6>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="block-8 mb-3 d-flex">
+                        <div class="block-8 d-flex mb-3 mb-lg-5">
                             <a class="nl-img rounded" style="background-image: url(images/mcf-flower-1.png);"></a>
 
                             <ul class="ul-list ms-3">
                                 <li class="fs-14">
-                                    <i class="bi bi-calendar me-1"></i>01.21.24
+                                    <i class="bi bi-calendar me-1"></i>01.15.24
                                     <i class="bi bi-person-fill-check mx-1"></i>First name
                                 </li>
                                 <li>
-                                    <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-3">Message title</a></h6>
+                                    <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-3">January title</a></h6>
                                 </li>
                             </ul>
                         </div>

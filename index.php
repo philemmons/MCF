@@ -236,14 +236,14 @@ include_once 'header.inc'
                     <ul class="ul-list ms-3">
                       <li>
                         <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar mx-1"></i>01.21.24
+                        <i class="bi bi-calendar mx-1"></i>02.14.24
                       </li>
                       <li>
                         <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-2">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-2">February title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                   </div>
@@ -264,14 +264,14 @@ include_once 'header.inc'
                     <ul class="ul-list ms-3">
                       <li>
                         <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar mx-1"></i>01.21.24
+                        <i class="bi bi-calendar mx-1"></i>01.15.24
                       </li>
                       <li>
                         <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-2">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-2">January title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
