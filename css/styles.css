@@ -426,7 +426,6 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 a.mcf-link,
 a.mcf-link:active {
-  text-decoration: none;
   color: var(--color-4);
 }
 
