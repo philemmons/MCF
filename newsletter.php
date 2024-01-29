@@ -108,94 +108,8 @@ include_once 'header.inc'
                                 expressionism
                             </li>
                         </ul>
-
-                    </div>
-
-                    <div class="col-lg-4 col-sm-12 col-12">
-                        <div class="row">
-                            <div class="col-sm-6 col-12">
-                                <figure class="figure">
-                                    <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
-                                </figure>
-                            </div>
-                            <div class="col-sm-6 col-12">
-                                <figcaption class="figure-caption">
-                                    <h3>Meet the Speakers Dinner</h3>
-                                </figcaption>
-                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-6 col-12">
-                                <figure class="figure">
-                                    <img src="../images/meeting-in-progress.png" class="figure-img img-fluid" alt="Recovering people are attending a marathon meeting.">
-                                </figure>
-                            </div>
-                            <div class="col-sm-6 col-12">
-                                <figcaption class="figure-caption">
-                                    <h3>Marathon Meetings</h3>
-                                </figcaption>
-                                <p>During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-6 col-12">
-                                <figure class="figure">
-                                    <img src="../images/con-breakfast.png" class="figure-img img-fluid" alt="Join us for a Sunday morning breakfast.">
-                                </figure>
-                            </div>
-                            <div class="col-sm-6 col-12">
-                                <figcaption class="figure-caption">
-                                    <h3>Roundup Breakfast</h3>
-                                </figcaption>
-                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                <p>Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-6 col-12">
-                                <figure class="figure">
-                                    <img src="../images/con-dance.png" class="figure-img img-fluid" alt="A silhouette of fun and fellowship at the Saturday night dance.">
-                                </figure>
-                            </div>
-                            <div class="col-sm-6 col-12">
-                                <figcaption class="figure-caption">
-                                    <h3>Dance and Fellowship</h3>
-                                </figcaption>
-                                <p>After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-6 col-12">
-                                <figure class="figure">
-                                    <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
-                                </figure>
-                            </div>
-                            <div class="col-sm-6 col-12 box-3">
-                                <figcaption class="figure-caption">
-                                    <h3>Ice Cream Social</h3>
-                                </figcaption>
-                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
-                                </p>
-                                <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
-
-                                <p><strong>For more conference info, pick up your program at the Registration desk.</strong></p>
-                            </div>
-                        </div>
-
                     </div>
                 </article>
-
 
                 <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
                     <ul class="pagination justify-content-end">
@@ -212,10 +126,30 @@ include_once 'header.inc'
                     </ul>
                 </nav>
 
+                <div class="d-md-inline-flex">
+                    <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
+                    <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
+                </div>
+
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Meet the Speakers Dinner</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                            <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
-
 
     </main>
 
