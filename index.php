@@ -27,7 +27,7 @@ include_once 'header.inc'
             <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="newsletter.php">Newsletter</a>
+            <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
           </li>
           <li class="nav-item" style="border-right: none;">
             <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -243,7 +243,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl link-offset-2">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-2">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                   </div>
@@ -271,14 +271,14 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl link-offset-2">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-2">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-<!--
+          <!--
           <div class="col">
             <div class="card border-0 nl-1 rounded-0">
               <div class="row g-0">
@@ -295,7 +295,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-mar-2024.php" class="mcf-nl">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
@@ -322,7 +322,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-apr-2024.php" class="mcf-nl">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>

@@ -33,7 +33,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter.php" class="mcf-nl link-offset-3">Message title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-3">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter.php" class="mcf-nl link-offset-3">Message title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-3">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -70,7 +70,7 @@
                         <ul class="ul-list ms-3">
                             <li>
                                 <p>
-                                <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class= "mcf-link link-offset-3 fw-bold" ><?php echo getenv('mcf-info-email'); ?> </a>
+                                    <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class="mcf-link link-offset-3 fw-bold"><?php echo getenv('mcf-info-email'); ?> </a>
                                 </p>
                             </li>
                         </ul>

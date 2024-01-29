@@ -27,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="newsletter.php">Newsletter</a>
+                        <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -70,7 +70,7 @@ include_once 'header.inc'
                                 Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
                             </p>
                             <p class="card-text">
-                                Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class= "mcf-link link-offset-3 fw-bold" >Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs.
+                                Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link link-offset-3 fw-bold">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs.
                             </p>
                             <p class="card-text">
                                 The loving friendship between 'The Vickster' and 'The Milster' will help the most vulnerable grow compassionately and be happy.
