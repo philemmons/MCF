@@ -68,12 +68,12 @@ include_once 'header.inc'
                 </div>
 
                 <div class="row pt-4 mb-5">
-                    <article class="col-lg-8 col-sm-12 col-12">
+                    <article class="col-lg-8 col-sm-12 px-3 px-lg-5">
                         <figure class="figure">
                             <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
                             <figcaption><small> Published 01.28.2024</small>
                         </figure>
-                        <h3>Newsletter Title Here</h3>
+                        <h3>Page 1 - Newsletter Title Here</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
                         </p>
                         <p class="mb-3 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
@@ -109,8 +109,8 @@ include_once 'header.inc'
                                 <li class="page-item active" aria-current="page">
                                     <a class="page-link" href="#">1</a>
                                 </li>
-                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
-                                <li class="page-item disabled">
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item ">
                                     <a class="page-link" href="#">Next</a>
                                 </li>
                             </ul>
@@ -126,7 +126,7 @@ include_once 'header.inc'
 
                         <h3 class="fw-bold mb-4">Join Us on Social Media</h3>
                         <div class="d-flex mb-3 mb-lg-5"">
-                            <ul class=" ul-list display-4 mt-4">
+                            <ul class=" ul-list display-2">
                             <li class="li-horizontal">
                                 <a href="#" class="sm-color"><i class="bi bi-pinterest"></i></a>
                             </li>
@@ -139,8 +139,10 @@ include_once 'header.inc'
                             </ul>
                         </div>
 
-                        <h3 class="fw-bold mb-4">Storytelling Establishes Common Ground and Empathy</h3>
-                        <p class="mb-3 mb-lg-5">Do you want to share a your story about pipe cleaners and love with us as to ? Email <?php echo getenv('mcf-to-email'); ?></p>
+                        <h3 class="fw-bold mb-4">Once Upon A Time</h3>
+                        <p class="mb-3 mb-lg-5">We believe storytelling establishes common ground and empathy. Do you want to share a your story about pipe cleaners and/or love with us? If so, please email <a href="mailto:<?php echo getenv('mcf-info-email'); ?>"><?php echo getenv('mcf-info-email'); ?> </a> </p>
+
+                        <h3 class="fw-bold mb-4">
 
                     </div>
 
