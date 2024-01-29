@@ -118,13 +118,13 @@ include_once 'header.inc'
                     </article>
 
                     <div class="col-lg-4 col-sm-12 col-12">
-                        <h3 class="fw-bold mb-4"> Our Gallery</h3>
+                        <h3 class="fw-bold mb-3"> Our Gallery</h3>
                         <div class="d-flex mb-3 mb-lg-5">
                             <a href=purchase.php> <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
                             <a href=purchase.php><img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
                         </div>
 
-                        <h3 class="fw-bold mb-4">Join Us on Social Media</h3>
+                        <h3 class="fw-bold mb-3">Join Us on Social Media</h3>
                         <div class="d-flex mb-3 mb-lg-5"">
                             <ul class=" ul-list display-2">
                             <li class="li-horizontal">
@@ -139,8 +139,8 @@ include_once 'header.inc'
                             </ul>
                         </div>
 
-                        <h3 class="fw-bold mb-4">Once Upon A Time</h3>
-                        <p class="mb-3 mb-lg-5">We believe storytelling establishes common ground and empathy. Do you want to share a your story about pipe cleaners and/or love with us? If so, please email <a href="mailto:<?php echo getenv('mcf-info-email'); ?>"><?php echo getenv('mcf-info-email'); ?> </a> </p>
+                        <h3 class="fw-bold mb-3">Once Upon A Time</h3>
+                        <p class="mb-3 mb-lg-5">We believe storytelling establishes common ground and empathy. Do you want to share a your story about pipe cleaners and/or love with us? If so, please email <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class= "mcf-link link-offset-3" ><?php echo getenv('mcf-info-email'); ?> </a> </p>
 
                         <h3 class="fw-bold mb-4">
 
