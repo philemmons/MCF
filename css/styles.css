@@ -51,9 +51,7 @@ body {
   font-weight: 400;
 }
 
-.hero-text-border{
-
-}
+.hero-text-border {}
 
 .f-italic {
   font-style: italic;
@@ -133,7 +131,7 @@ body {
   padding: 0;
 }
 
-.sm-color{
+.sm-color {
   color: var(--color-3);
 }
 
@@ -144,7 +142,7 @@ body {
 }
 
 /**** recent posts ****/
-.block-8 .blog-img {
+.block-8 .nl-img {
   display: block;
   height: 80px;
   width: 80px;
@@ -154,7 +152,7 @@ body {
   border-radius: 0.25rem !important;
 }
 
-.blog-img {
+.nl-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -220,7 +218,7 @@ body {
 }
 
 /**** navbar toggle ****/
-.mcf-navbar-light .navbar-toggler{
+.mcf-navbar-light .navbar-toggler {
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
@@ -416,18 +414,18 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   left: 25px;
 }
 
-/**** recent from blog ****/
+/**** recent from newsletter ****/
 
-.blog-1 {
+.nl-1 {
   background-color: var(--color-12);
 }
 
 /**** hyperlinks ****/
 
-/**** blog&post ****/
+/**** newsletter&post ****/
 
 a.mcf-link,
-a.mch-link:active {
+a.mcf-link:active {
   text-decoration: none;
   color: var(--color-4);
 }
@@ -437,13 +435,13 @@ a.mcf-link:focus {
   color: var(--color-30);
 }
 
-a.mcf-blog,
-a.mch-blog:active {
+a.mcf-nl,
+a.mcf-nl:active {
   color: var(--color-3);
 }
 
-a.mcf-blog:hover,
-a.mcf-blog:focus {
+a.mcf-nl:hover,
+a.mcf-nl:focus {
   color: var(--color-30);
 }
 
@@ -521,7 +519,7 @@ WIP
 
 /**** contact us ****/
 
-.bg-frame{
+.bg-frame {
   height: 50vh;
   background-color: var(--color-7);
   background-position: center;
@@ -559,12 +557,12 @@ a.mcf-crumb:focus {
 
 /**** about us ****/
 
-.bg-img-ourStory{
+.bg-img-ourStory {
   background-image: url('../images/blob-scatter-one.png');
 }
 
 
-/**** blog ****/
-.bg-img-blog{
+/**** newsletter ****/
+.bg-img-newsletter {
   background-image: url('../images/wave-scene-one.png');
 }

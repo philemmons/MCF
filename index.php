@@ -27,7 +27,7 @@ include_once 'header.inc'
             <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="our-blog.php">Blog</a>
+            <a class="nav-link px-2" href="newsletter.php">Newsletter</a>
           </li>
           <li class="nav-item" style="border-right: none;">
             <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -216,8 +216,8 @@ include_once 'header.inc'
         <div class="row text-center">
           <div class="col-lg-12 my-2 my-lg-3 pt-5">
             <div class="card-body">
-              <p class="card-text  mb-1 tt-upper">Our Blog</p>
-              <h2 class="card-title header-font mb-3">Recent From Blog</h2>
+              <p class="card-text  mb-1 tt-upper">Our Articles</p>
+              <h2 class="card-title header-font mb-3">Recent Newsletter</h2>
             </div>
           </div>
         </div>
@@ -225,7 +225,7 @@ include_once 'header.inc'
 
         <div class="row row-cols-1 row-cols-lg-2 g-2 p-3 p-lg-5">
           <div class="col">
-            <div class="card border-0 blog-1 rounded-0">
+            <div class="card border-0 nl-1 rounded-0">
               <div class="row g-0">
                 <div class="col-sm-6 text-center">
                   <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
@@ -243,7 +243,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                   </div>
@@ -253,7 +253,7 @@ include_once 'header.inc'
           </div>
 
           <div class="col">
-            <div class="card border-0 blog-1 rounded-0">
+            <div class="card border-0 nl-1 rounded-0">
               <div class="row g-0">
                 <div class="col-sm-6 text-center">
                   <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
@@ -271,7 +271,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ include_once 'header.inc'
           </div>
 
           <div class="col">
-            <div class="card border-0 blog-1 rounded-0">
+            <div class="card border-0 nl-1 rounded-0">
               <div class="row g-0">
                 <div class="col-sm-6">
                   <div class="card-body">
@@ -295,7 +295,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ include_once 'header.inc'
           </div>
 
           <div class="col">
-            <div class="card border-0 blog-1 rounded-0">
+            <div class="card border-0 nl-1 rounded-0">
               <div class="row g-0">
                 <div class="col-sm-6">
                   <div class="card-body">
@@ -322,7 +322,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter.php" class="mcf-nl">Card title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>

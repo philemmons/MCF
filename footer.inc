@@ -10,13 +10,13 @@
                     <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                     <ul class="ul-list display-4 mt-4">
                         <li class="li-horizontal">
-                            <a href="#" class= "sm-color" ><i class="bi bi-pinterest"></i></a>
+                            <a href="#" class="sm-color"><i class="bi bi-pinterest"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#" class= "sm-color"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="sm-color"><i class="bi bi-instagram"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#" class= "sm-color"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -25,7 +25,7 @@
                 <div class="col-md-6 col-lg-4 p-3 ">
                     <h2 class="header-font mb-4 text-center">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
-                        <a class="blog-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
+                        <a class="nl-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">
@@ -33,13 +33,13 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="our-blog.php" class="mcf-blog">Message title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter.php" class="mcf-nl">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
 
                     <div class="block-8 mb-4 d-flex">
-                        <a class="blog-img rounded" style="background-image: url(images/mcf-flower-1.png);"></a>
+                        <a class="nl-img rounded" style="background-image: url(images/mcf-flower-1.png);"></a>
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">
@@ -47,7 +47,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="our-blog.php" class="mcf-blog">Message title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter.php" class="mcf-nl">Message title</a></h6>
                             </li>
                         </ul>
                     </div>
