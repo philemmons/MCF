@@ -93,8 +93,8 @@ include_once 'header.inc'
                         </figure>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis.</p>
-<
-                        <ul class="keywords m-3 m-lg-5">
+
+                        <ul class="keywords">
                             <li class="nl-keyword">
                                 mogol Art
                             </li>
