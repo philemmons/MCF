@@ -181,8 +181,8 @@ include_once 'header.inc'
             </div>
         </section>
 
-        <nav aria-label="blog navigation">
-            <ul class="pagination">
+        <nav aria-label="blog navigation" class= "px-3 px-lg-5 pt-3 pt-lg-5 mb-5">
+            <ul class="pagination justify-content-end">
                 <li class="page-item disabled">
                     <a class="page-link">Previous</a>
                 </li>
