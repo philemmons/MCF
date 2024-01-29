@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 p-3">
-                    <h2 class="header-font mb-4 text-center">Have a Questions?</h2>
+                    <h2 class="header-font mb-4 text-center">Have a Question?</h2>
 
                     <div class="block-8 d-flex">
                         <i class="bi bi-map me-2"></i>

@@ -55,6 +55,7 @@ include_once 'header.inc'
             </div>
         </section>
 
+        <!-- Section One -->
         <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container">
                 <div class="row text-center">
@@ -66,32 +67,23 @@ include_once 'header.inc'
                     </div>
                 </div>
 
-
-                <!-- Section One -->
-
                 <div class="row pt-4 mb-5">
                     <article class="col-lg-8 col-sm-12 col-12">
                         <figure class="figure">
                             <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
                             <figcaption><small> Published 01.28.2024</small>
                         </figure>
-
                         <h3>Newsletter Title Here</h3>
-
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
                         </p>
-
                         <p class="mb-3 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
 
-
                         <h3>Newsletter Title Part 2</h3>
-
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
 
                         <figure class="figure">
                             <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
                         </figure>
-
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis.</p>
 
                         <ul class="keywords m-2">
@@ -108,8 +100,6 @@ include_once 'header.inc'
                                 expressionism
                             </li>
                         </ul>
-
-
 
                         <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
                             <ul class="pagination justify-content-end">
@@ -129,48 +119,32 @@ include_once 'header.inc'
 
                     <div class="col-lg-4 col-sm-12 col-12">
                         <h3 class="fw-bold mb-4"> Our Gallery</h3>
-                        <div class="d-flex">
-
-
+                        <div class="d-flex mb-3 mb-lg-5">
                             <a href=purchase.php> <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
-
                             <a href=purchase.php><img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
-
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 col-sm-12 col-12">
                         <h3 class="fw-bold mb-4">Join Us on Social Media</h3>
-                        <div class="d-flex">
-
-                            <ul class="ul-list display-4 mt-4">
-                                <li class="li-horizontal">
-                                    <a href="#" class="sm-color"><i class="bi bi-pinterest"></i></a>
-                                </li>
-                                <li class="li-horizontal">
-                                    <a href="#" class="sm-color"><i class="bi bi-instagram"></i></a>
-                                </li>
-                                <li class="li-horizontal">
-                                    <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
-                                </li>
+                        <div class="d-flex mb-3 mb-lg-5"">
+                            <ul class=" ul-list display-4 mt-4">
+                            <li class="li-horizontal">
+                                <a href="#" class="sm-color"><i class="bi bi-pinterest"></i></a>
+                            </li>
+                            <li class="li-horizontal">
+                                <a href="#" class="sm-color"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="li-horizontal">
+                                <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
+                            </li>
                             </ul>
-                            
                         </div>
+
+                        <h3 class="fw-bold mb-4">Storytelling Establishes Common Ground and Empathy</h3>
+                        <p class="mb-3 mb-lg-5">Do you want to share a your story about pipe cleaners and love with us as to ? Email <?php echo getenv('mcf-to-email'); ?></p>
+
                     </div>
 
-
-
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Meet the Speakers Dinner</h3>
-                        </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                        <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
-                        </p>
-                    </div>
                 </div>
-            </div>
-            </div>
             </div>
         </section>
 
