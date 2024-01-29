@@ -60,8 +60,8 @@ include_once 'header.inc'
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-5">
                         <div class="card-body">
-                            <p class="card-text  mb-1 tt-upper">Latest Article</p>
-                            <h2 class="card-title header-font mb-3">Most Recent Newsletter</h2>
+                            <p class="card-text  mb-1 tt-upper">Our Newsletter</p>
+                            <h2 class="card-title header-font mb-3">Latest Article</h2>
                         </div>
                     </div>
                 </div>
@@ -69,16 +69,46 @@ include_once 'header.inc'
 
                 <!-- Section One -->
 
-                <div class="row pt-4 mb-5">
+                <article class="row pt-4 mb-5">
                     <div class="col-lg-8 col-sm-12 col-12">
                         <figure class="figure">
-                            <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
-                            <figcaption class="figure-caption">
-                                <h2>Guest Speakers</h2>
-                            </figcaption>
-                            <p>At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
-                            </p>
+                            <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
+                            <figcaption><small> Published 01.28.2024</small>
                         </figure>
+
+                        <h3>Newsletter Title Here</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
+                        </p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+
+
+                        <h3>Newsletter Title Part 2</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+
+                        <figure class="figure">
+                            <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
+                        </figure>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis.</p>
+
+                        <ul class="keywords m-3 m-lg-5">
+                            <li class="kw-item">
+                                mogol Art
+                            </li>
+                            <li class="kw-item">
+                                pipe cleaners
+                            </li>
+                            <li class="kw-item">
+                                handmade craft
+                            </li>
+                            <li class="kw-item">
+                                expressionism
+                            </li>
+                        </ul>
+
                     </div>
 
                     <div class="col-lg-4 col-sm-12 col-12">
@@ -164,7 +194,7 @@ include_once 'header.inc'
                         </div>
 
                     </div>
-                </div>
+                </article>
 
 
                 <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
