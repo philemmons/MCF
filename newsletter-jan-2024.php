@@ -73,7 +73,7 @@ include_once 'header.inc'
                             <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
                             <figcaption><small> Published 01.28.2024</small>
                         </figure>
-                        <h3>Page 1 - Newsletter Title Here</h3>
+                        <h3>Page 2 - Newsletter Title Here - January</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
                         </p>
                         <p class="mb-3 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
@@ -103,15 +103,16 @@ include_once 'header.inc'
 
                         <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
                             <ul class="pagination justify-content-end">
+                                <li class="page-item">
+                                    <a class="page-link" href="newsletter-feb-2024.php">Previous</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="newsletter-feb-2024.php">1</a>
+                                </li>
+                                <li class="page-item  active" aria-current="page">
+                                    <a class="page-link" href="newsletter-feb-2024.php">2</a></li>
                                 <li class="page-item disabled">
-                                    <a class="page-link">Previous</a>
-                                </li>
-                                <li class="page-item active" aria-current="page">
-                                    <a class="page-link" href="#">1</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item ">
-                                    <a class="page-link" href="#">Next</a>
+                                    <a class="page-link" href="newsletter-feb-2024.php">Next</a>
                                 </li>
                             </ul>
                         </nav>
