@@ -69,8 +69,8 @@ include_once 'header.inc'
 
                 <!-- Section One -->
 
-                <article class="row pt-4 mb-5">
-                    <div class="col-lg-8 col-sm-12 col-12">
+                <div class="row pt-4 mb-5">
+                    <article class="col-lg-8 col-sm-12 col-12">
                         <figure class="figure">
                             <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
                             <figcaption><small> Published 01.28.2024</small>
@@ -108,45 +108,47 @@ include_once 'header.inc'
                                 expressionism
                             </li>
                         </ul>
+
+
+
+                        <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <a class="page-link">Previous</a>
+                                </li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">1</a>
+                                </li>
+                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </article>
+
+                    <div class="d-flex-lg-4">
+                        <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);" width='50%' height='200px'></a>
+
+                        <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
+                        <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
                     </div>
-                </article>
 
-                <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
-                    <ul class="pagination justify-content-end">
-                        <li class="page-item disabled">
-                            <a class="page-link">Previous</a>
-                        </li>
-                        <li class="page-item active" aria-current="page">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <div class="d-flex-lg-4">
-                <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);"></a>
-
-                    <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
-                    <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
-                </div>
-
-                <div class="col-lg-4 col-sm-12 col-12">
-                    <div class="row">
-                        <div class="col-sm-6 col-12">
-                            <figure class="figure">
-                                <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
-                            </figure>
-                        </div>
-                        <div class="col-sm-6 col-12">
-                            <figcaption class="figure-caption">
-                                <h3>Meet the Speakers Dinner</h3>
-                            </figcaption>
-                            <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                            <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
-                            </p>
+                    <div class="col-lg-4 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <figure class="figure">
+                                    <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <figcaption class="figure-caption">
+                                    <h3>Meet the Speakers Dinner</h3>
+                                </figcaption>
+                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                                <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
