@@ -128,10 +128,14 @@ include_once 'header.inc'
                     </article>
 
                     <div class="col-lg-4 col-sm-12 col-12">
-                        <div class="d-flex">
-                            <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);"></a>
+                        <div class="row">
+                            <div class='col-md-6 col-sm-12'>
 
-                            <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);"></a>
+                                <a href=purchase.php> <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
+
+                                <a href=purchase.php><img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
+
+                            </div>
                         </div>
                     </div>
 
