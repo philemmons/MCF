@@ -81,7 +81,7 @@ include_once 'header.inc'
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
                         </p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+                        <p class= "mb-3 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
 
 
                         <h3>Newsletter Title Part 2</h3>
@@ -93,18 +93,18 @@ include_once 'header.inc'
                         </figure>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis.</p>
-
+<
                         <ul class="keywords m-3 m-lg-5">
-                            <li class="kw-item">
+                            <li class="nl-keyword">
                                 mogol Art
                             </li>
-                            <li class="kw-item">
+                            <li class="nl-keyword">
                                 pipe cleaners
                             </li>
-                            <li class="kw-item">
+                            <li class="nl-keyword">
                                 handmade craft
                             </li>
-                            <li class="kw-item">
+                            <li class="nl-keyword">
                                 expressionism
                             </li>
                         </ul>
@@ -128,7 +128,7 @@ include_once 'header.inc'
                     </article>
 
                     <div class="col-lg-4 col-sm-12 col-12">
-                        <h3 class= "header-font"> Our Gallery</h3>
+                        <h3 class= "header-font text-center mb-4"> Our Gallery</h3>
                         <div class="d-flex">
                             
 
