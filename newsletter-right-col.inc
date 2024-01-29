@@ -22,7 +22,7 @@
     </div>
 
     <div class="block-8 d-flex mb-3 mb-lg-5">
-        <a class="nl-img rounded" style="background-image: url(images/mcf-flower-1.png);"></a>
+        <a class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);"></a>
 
         <ul class="ul-list ms-3">
             <li class="fs-14">

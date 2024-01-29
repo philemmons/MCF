@@ -88,7 +88,7 @@ include_once 'header.inc'
 
                         <ul class="keywords m-2">
                             <li class="nl-keyword">
-                                mogol Art
+                                mogol art
                             </li>
                             <li class="nl-keyword">
                                 pipe cleaners

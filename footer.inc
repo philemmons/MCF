@@ -39,15 +39,15 @@
                     </div>
 
                     <div class="block-8 mb-4 d-flex">
-                        <a class="nl-img rounded" style="background-image: url(images/mcf-flower-1.png);"></a>
+                        <a class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);" alt="Pipe cleaner Valentine Day garland."></a>
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">
-                                <i class="bi bi-calendar me-1"></i>01.15.24
-                                <i class="bi bi-person-fill-check mx-1"></i>First name
+                                <i class="bi bi-calendar me-1"></i>01.28.24
+                                <i class="bi bi-person-fill-check mx-1"></i>Anonymous
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-3">January title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-3">Bending Love: The Artistry of Pipe Cleaners</a></h6>
                             </li>
                         </ul>
                     </div>

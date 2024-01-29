@@ -70,34 +70,30 @@ include_once 'header.inc'
                 <div class="row pt-4 mb-5">
                     <article class="col-lg-8 col-sm-12 px-3 px-lg-5">
                         <figure class="figure">
-                            <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
-                            <figcaption><small> Published 01-15-2024</small>
+                            <img src="../images/nl-img-jan-2024.png" class="figure-img img-fluid" alt="Pipe cleaner Valentine Day garland.">
+                            <figcaption><small> Published 01-28-2024</small>
                         </figure>
-                        <h3>Page 2 - Newsletter Title Here - January</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
+                        <h3>Bending Love: The Artistry of Pipe Cleaners</h3>
+                        <p>Pipe cleaner art is a unique and whimsical form of creative expression that captivates artists and enthusiasts alike. These bendable, fuzzy wires, initially designed for cleaning pipes, have evolved into a versatile medium for crafting imaginative sculptures, intricate designs, and delightful figurines. What sets pipe cleaner art apart is its flexibility, enabling artists to mold and shape these colorful strands into a myriad of forms. The tactile nature of pipe cleaners allows for a hands-on, meditative experience, making it an accessible and enjoyable activity for creators of all ages.
                         </p>
-                        <p class="mb-3 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+                        <p class="mb-3 mb-lg-5">In the realm of love, pipe cleaner art takes on a sentimental and heartfelt dimension. Couples and individuals often use this craft to symbolize their affection and commitment to one another. From crafting miniature representations of shared interests to fashioning personalized gifts, the malleability of pipe cleaners lends itself to the creation of unique tokens of love. The process of collaboratively molding these wire creations can strengthen emotional bonds and serve as a tangible representation of the shared creativity and connection between individuals. Pipe cleaner art becomes not just a medium for self-expression, but a symbol of the enduring and flexible nature of love itself, bending and adapting to the unique contours of each relationship.</p>
 
-                        <h3>Newsletter Title Part 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
-
-                        <figure class="figure">
-                            <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis.</p>
 
                         <ul class="keywords m-2">
                             <li class="nl-keyword">
-                                mogol Art
+                                pipe cleaner art
                             </li>
                             <li class="nl-keyword">
-                                pipe cleaners
+                                creative expression
                             </li>
                             <li class="nl-keyword">
-                                handmade craft
+                                love
                             </li>
                             <li class="nl-keyword">
-                                expressionism
+                               flexibility
+                            </li>
+                            <li class="nl-keyword">
+                               whimsical sculptures
                             </li>
                         </ul>
 

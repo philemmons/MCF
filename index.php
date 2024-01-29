@@ -256,23 +256,23 @@ include_once 'header.inc'
             <div class="card border-0 nl-1 rounded-0">
               <div class="row g-0">
                 <div class="col-sm-6 text-center">
-                  <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+                  <img src="images/nl-img-jan-2024.png" class="img-fluid" alt="Pipe cleaner Valentine Day garland.">
                 </div>
                 <div class="col-sm-6">
                   <div class="card-body">
                     <p class="card-text d-flex">
                     <ul class="ul-list ms-3">
                       <li>
-                        <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar mx-1"></i>01.15.24
+                        <i class="bi bi-person-fill-check mx-1"></i>Anonymous
+                        <i class="bi bi-calendar mx-1"></i>01.28.24
                       </li>
                       <li>
                         <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-2">January title</a></h4></a>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-2">Bending Love: The Artistry of Pipe Cleaners</a></h4></a>
+                    <p class="card-text">Find out more info about pipe cleaners, whimsical sculptures, and love.</p>
                   </div>
                 </div>
               </div>
