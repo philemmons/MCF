@@ -33,7 +33,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-3">February Title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-1">February Title</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>Anonymous
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-3">Bending Love: The Artistry of Pipe Cleaners</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-1">Bending Love: The Artistry of Pipe Cleaners</a></h6>
                             </li>
                         </ul>
                     </div>
