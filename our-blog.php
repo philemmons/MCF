@@ -55,7 +55,7 @@ include_once 'header.inc'
             </div>
         </section>
 
-        <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-3 mb-lg-5" style="background-color: var(--color-1);">
+        <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-5">
@@ -77,6 +77,7 @@ include_once 'header.inc'
                                 <div class="col-sm-6">
                                     <div class="card-body">
                                         <p class="card-text d-flex">
+                                        </p>
                                         <ul class="ul-list ms-3">
                                             <li>
                                                 <i class="bi bi-person-fill-check mx-1"></i>Admin
@@ -86,8 +87,8 @@ include_once 'header.inc'
                                                 <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                                             </li>
                                         </ul>
-                                        </p>
-                                        <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
+                                        <p></p>
+                                        <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                                     </div>
@@ -105,6 +106,7 @@ include_once 'header.inc'
                                 <div class="col-sm-6">
                                     <div class="card-body">
                                         <p class="card-text d-flex">
+                                        </p>
                                         <ul class="ul-list ms-3">
                                             <li>
                                                 <i class="bi bi-person-fill-check mx-1"></i>Admin
@@ -114,8 +116,8 @@ include_once 'header.inc'
                                                 <i class="bi bi-chat-dots-fill mx-1"></i>Comments
                                             </li>
                                         </ul>
-                                        </p>
-                                        <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4></a>
+                                        <p></p>
+                                        <h4 class="card-title"><a href="our-blog.php" class="mcf-blog">Card title</a></h4>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     </div>
                                 </div>
@@ -176,23 +178,23 @@ include_once 'header.inc'
                             </div>
                         </div>
                     </div> -->
-
-                    <nav aria-label="blog navigation" class="pt-3 pt-lg-5">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                                <a class="page-link">Previous</a>
-                            </li>
-                            <li class="page-item active" aria-current="page">
-                                <a class="page-link" href="#">1</a>
-                            </li>
-                            <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
                 </div>
+
+                <nav aria-label="blog navigation" class="col-12 pb-3 pb-lg-5">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item disabled">
+                            <a class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
         </section>
 
