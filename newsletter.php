@@ -126,7 +126,7 @@ include_once 'header.inc'
                     </ul>
                 </nav>
 
-                <div class="d-lg-inline-flex-4">
+                <div class="d-flex-lg-4">
                 <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);"></a>
 
                     <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
