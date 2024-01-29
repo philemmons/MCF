@@ -55,7 +55,7 @@ include_once 'header.inc'
             </div>
         </section>
 
-        <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+        <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-3 mb-lg-5" style="background-color: var(--color-1);">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-5">
@@ -123,7 +123,7 @@ include_once 'header.inc'
                         </div>
                     </div>
 
-                   <!-- <div class="col">
+                    <!-- <div class="col">
                         <div class="card border-0 blog-1 rounded-0">
                             <div class="row g-0">
                                 <div class="col-sm-6">
@@ -177,25 +177,26 @@ include_once 'header.inc'
                         </div>
                     </div> -->
 
+                    <nav aria-label="blog navigation" class="pt-3 pt-lg-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link">Previous</a>
+                            </li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
                 </div>
             </div>
         </section>
 
-        <nav aria-label="blog navigation" class= "px-3 px-lg-5 pt-3 pt-lg-5 mb-5">
-            <ul class="pagination justify-content-end">
-                <li class="page-item disabled">
-                    <a class="page-link">Previous</a>
-                </li>
-                <li class="page-item active" aria-current="page">
-                    <a class="page-link" href="#">1</a>
-                </li>
-                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>-->
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">Next</a>
-                </li>
-            </ul>
 
-        </nav>
 
     </main>
 
