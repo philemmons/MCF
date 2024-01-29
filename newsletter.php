@@ -127,11 +127,12 @@ include_once 'header.inc'
                         </nav>
                     </article>
 
-                    <div class="d-flex-lg-4">
-                        <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);" width='50%' height='200px'></a>
+                    <div class="col-lg-4 col-sm-12 col-12">
+                        <div class="d-flex">
+                            <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);"></a>
 
-                        <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
-                        <img src="images/mcf-flower-1.png" class="img-thumbnail" width='50%' height='200px' alt="MCF's Chenille Stems flower one.">
+                            <a href="#" class="img-thumbnail" style="background-image: url(images/mcf-flower-1.png);"></a>
+                        </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-12 col-12">
