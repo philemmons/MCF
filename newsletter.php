@@ -128,8 +128,9 @@ include_once 'header.inc'
                     </article>
 
                     <div class="col-lg-4 col-sm-12 col-12">
-                        <div class="row">
-                            <div class='col-md-6 col-sm-12'>
+                        <h3 class= "header-font"> Our Gallery</h3>
+                        <div class="d-flex">
+                            
 
                                 <a href=purchase.php> <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
 
