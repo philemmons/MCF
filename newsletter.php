@@ -60,8 +60,8 @@ include_once 'header.inc'
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-5">
                         <div class="card-body">
-                            <p class="card-text  mb-1 tt-upper">Our Newsletter</p>
-                            <h2 class="card-title header-font mb-3">Recent Newsletters</h2>
+                            <p class="card-text  mb-1 tt-upper">Latest Article</p>
+                            <h2 class="card-title header-font mb-3">Most Recent Newsletter</h2>
                         </div>
                     </div>
                 </div>
