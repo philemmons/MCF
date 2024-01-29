@@ -47,7 +47,7 @@ include_once 'header.inc'
                             <a href="index.php" class="mcf-crumb">HOME&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">OUR STORY&gt;</a>
                         </p>
                     </div>
-                    <div class="text-center h1-ls" title="Contact Us">
+                    <div class="text-center h1-ls" title="Yes, the long and the short of it.">
                         <h1 class="header-font pb-4 px-3 px-md-0">Our Story
                         </h1>
                     </div>

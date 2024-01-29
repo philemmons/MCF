@@ -556,8 +556,15 @@ a.mcf-crumb:focus {
   color: var(--color-1);
 }
 
+
 /**** about us ****/
 
 .bg-img-ourStory{
   background-image: url('../images/wave-scene-one.png');
+}
+
+
+/**** blog ****/
+.bg-img-blog{
+  background-image: url('../images/stacked-waves-one.png');
 }
