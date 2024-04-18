@@ -51,7 +51,9 @@ body {
   font-weight: 400;
 }
 
-.hero-text-border {}
+h1 {
+  color: var(--color-1);
+}
 
 .f-italic {
   font-style: italic;
@@ -544,7 +546,7 @@ WIP
 a.mcf-crumb,
 a.mch-crumb:active {
   text-decoration: none;
-  color: var(--color-4);
+  color: var(--color-1);
   letter-spacing: 1px;
 }
 
