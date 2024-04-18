@@ -212,7 +212,7 @@ include_once 'header.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-phone" class="form-label">Phone(Optional)</label>
+                                <label for="contact-phone" class="form-label">Phone (xxx.xxx.xxxx)</label>
                                 <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
                                     Optional, please enter a valid phone number.
