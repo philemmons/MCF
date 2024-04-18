@@ -18,16 +18,16 @@ include_once 'header.inc'
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link px-2" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
+                        <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active px-2" href="newsletter-feb-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link  active px-2" href="newsletter-feb-2024.php" aria-current="page">Newsletter<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>

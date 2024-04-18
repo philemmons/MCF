@@ -18,19 +18,19 @@ include_once 'header.inc'
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link px-2"  href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
+                        <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link active px-2" href="contact.php">Contact Us<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active px-2" href="contact.php" aria-current="page">Contact Us<span class="visually-hidden">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -181,7 +181,7 @@ include_once 'header.inc'
                     <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
-                            
+
                             <p class="fw-bold">We're open for any suggestion or just to have a chat.</p>
 
                             <div class="col-md-6">
@@ -191,7 +191,7 @@ include_once 'header.inc'
                                 <label for="contact-fn" class="form-label">First Name (Required)</label>
                                 <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
                                 <div class="invalid-feedback">
-                                Required, please enter your first name.
+                                    Required, please enter your first name.
                                 </div>
                             </div>
 
@@ -199,7 +199,7 @@ include_once 'header.inc'
                                 <label for="contact-ln" class="form-label">Last Name (Required)</label>
                                 <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
                                 <div class="invalid-feedback">
-                                Required, please enter your last name.
+                                    Required, please enter your last name.
                                 </div>
                             </div>
 
@@ -207,7 +207,7 @@ include_once 'header.inc'
                                 <label for="contact-em" class="form-label">Email (Required)</label>
                                 <input type="email" class="form-control" name="contact-em" id="contact-em" required>
                                 <div class="invalid-feedback">
-                                Required, please enter your email.
+                                    Required, please enter your email.
                                 </div>
                             </div>
 
@@ -223,7 +223,7 @@ include_once 'header.inc'
                                 <label for="contact-subj" class="form-label">Subject (Required)</label>
                                 <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
                                 <div class="invalid-feedback">
-                                Required, please enter a subject.
+                                    Required, please enter a subject.
                                 </div>
                             </div>
 
@@ -231,7 +231,7 @@ include_once 'header.inc'
                                 <label for="contact-ta" class="form-label">Question, Feedback or Improvement (Required)</label>
                                 <textarea class="form-control" name="contact-ta" id="contact-ta" required></textarea>
                                 <div class="invalid-feedback">
-                                Required, please enter your message.
+                                    Required, please enter your message.
                                 </div>
                             </div>
 
