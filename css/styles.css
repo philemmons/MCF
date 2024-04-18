@@ -588,3 +588,8 @@ a.mcf-crumb:focus {
 
 .text-body-secondary {
   color: var(--color-2) !important;
+}
+
+.hero-text-border {
+  border: solid 1px var(--color-10);
+}
