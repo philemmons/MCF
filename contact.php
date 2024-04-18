@@ -178,12 +178,13 @@ include_once 'header.inc'
                 <?php } ?>
 
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
-                        <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                            <fieldset>
-                                <legend class="fw-bold">We're open for any suggestion or just to have a chat.</legend>
+                    <form action="contact.php" method="POST" class="needs-validation" id="myForm" aria-label="Registration Form" novalidate>
+
+                        <fieldset class="text-bg-light pb-3 mb-3">
+                            <legend class="fw-bold">We're open for any suggestion or just to have a chat.</legend>
+                            <div class="row g-3">
                                 <div class="col-md-6">
                                     <label for="beeName" aria-hidden="true" class="visually-hidden">Sunflower Name</label>
                                     <input type="text" name="beeName" id="beeName" style="display:none">
@@ -241,19 +242,19 @@ include_once 'header.inc'
                                         Note: The form will reset if unchecked.
                                     </div>
                                 </div>
+                            </div>
+                        </fieldset>
 
-                                <div class="col-md-6 text-center">
-                                    <button type="submit" class="btn mcf-button" name="submit">Submit Message</button>
-                                </div>
+                        <div class="col-md-6 text-center">
+                            <button type="submit" class="btn mcf-button" name="submit">Submit Message</button>
+                        </div>
 
-                                <div class="col-md-6 text-center">
-                                    <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
-                                    <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
-                                        <p>(A pop up will confirm your reset)</p>
-                                    </div>
-                            </fieldset>
-                        </form>
-                    </div>
+                        <div class="col-md-6 text-center">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
+                            <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
+                                <p>(A pop up will confirm your reset)</p>
+                            </div>
+                    </form>
                 </div>
             </div>
         </section>
