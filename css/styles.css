@@ -610,11 +610,11 @@ a.mcf-crumb:focus {
 /**** container ****/
 
 .shadow-wrap {
-  box-shadow: 0 0 8px 2px var(--color-8);
+  box-shadow: 0 0 8px 2px var(--color-10);
 }
 
 .container.shadow-wrap {
-  background-color: var(--color-2);
+  background-color: var(--color-1);
 }
 
 /**** registration ****/
