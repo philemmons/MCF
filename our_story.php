@@ -21,7 +21,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active px-2" href="about-us.php">Our Story<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active px-2" href="our_story.php">Our Story<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
@@ -70,7 +70,7 @@ include_once 'header.inc'
                                 Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
                             </p>
                             <p class="card-text">
-                                Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link link-offset-3 fw-bold" target= "_blank">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs.
+                                Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link link-offset-3 fw-bold" target="_blank">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs.
                             </p>
                             <p class="card-text">
                                 The loving friendship between 'The Vickster' and 'The Milster' will help the most vulnerable grow compassionately and be happy.
@@ -89,7 +89,8 @@ include_once 'header.inc'
 
         <?php include_once 'tech-stats.inc'; ?>
 
-        <?php //include_once 'testimonials.inc'; ?>
+        <?php //include_once 'testimonials.inc'; 
+        ?>
         <br><br><br>
     </main>
     <?php include_once 'footer.inc' ?>

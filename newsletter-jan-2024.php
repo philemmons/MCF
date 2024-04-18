@@ -21,7 +21,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="about-us.php">Our Story</a>
+                        <a class="nav-link px-2" href="our_story.php">Our Story</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
@@ -90,10 +90,10 @@ include_once 'header.inc'
                                 love
                             </li>
                             <li class="nl-keyword">
-                               flexibility
+                                flexibility
                             </li>
                             <li class="nl-keyword">
-                               whimsical sculptures
+                                whimsical sculptures
                             </li>
                         </ul>
 

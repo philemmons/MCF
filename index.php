@@ -21,7 +21,7 @@ include_once 'header.inc'
             <a class="nav-link active px-2" aria-current="page" href="index.php">Home<span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="about-us.php">Our Story</a>
+            <a class="nav-link px-2" href="our_story.php">Our Story</a>
           </li>
           <li class="nav-item">
             <a class="nav-link px-2" href="purchase.php">Crazy Flowers</a>
@@ -98,7 +98,7 @@ include_once 'header.inc'
               <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
 
               <div class="text-center">
-                <a href="about-us.php" class="btn mcf-button p-3 fs-5">More Info</a>
+                <a href="our_story.php" class="btn mcf-button p-3 fs-5">More Info</a>
               </div>
 
             </div>
@@ -143,7 +143,8 @@ include_once 'header.inc'
 
     <?php include_once 'tech-stats.inc'; ?>
 
-    <?php //include_once 'testimonials.inc'; ?>
+    <?php //include_once 'testimonials.inc'; 
+    ?>
 
 
     <section class="px-3 px-lg-5 pt-3 pt-lg-5">
@@ -199,7 +200,7 @@ include_once 'header.inc'
 
           <div class="row mx-auto">
             <div class="col-sm-6 pb-3 pb-sm-5">
-              <a href="about-us.php" class="btn mcf-button p-3 fs-5">Learn More</a>
+              <a href="our_story.php" class="btn mcf-button p-3 fs-5">Learn More</a>
             </div>
             <div class="col-sm-6 pb-5">
               <a href="contact.php" class="btn mcf-button p-3 fs-5">Question</a>
