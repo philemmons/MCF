@@ -44,7 +44,7 @@ include_once 'header.inc'
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
-                            <a href="index.php" class="mcf-crumb">HOME&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">OUR STORY&gt;</a>
+                            <a href="index.php" class="mcf-crumb">Home&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">Our Story&gt;</a>
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Yes, the long and the short of it.">

@@ -44,11 +44,11 @@ include_once 'header.inc'
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
-                            <a href="index.php" class="mcf-crumb">HOME&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">CONTACT US</a>
+                            <a href="index.php" class="mcf-crumb">Home&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">Purchase</a>
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Contact Us">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Contact Us
+                        <h1 class="header-font pb-4 px-3 px-md-0">Purchase
                         </h1>
                     </div>
                 </div>

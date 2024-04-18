@@ -44,7 +44,7 @@ include_once 'header.inc'
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
-                            <a href="index.php" class="mcf-crumb">HOME&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">CONTACT US&gt;</a>
+                            <a href="index.php" class="mcf-crumb">Home&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">Contact Us&gt;</a>
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Contact Us">
@@ -132,7 +132,7 @@ include_once 'header.inc'
                                 $to = $recipientEmail;
                                 $subject = 'MCF Contact Us Submitted';
                                 $htmlContent = " 
-                    <h4>MCF's Contact Us Form</h4> 
+                    <h4>MCF's Contact Us Form - EN</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 
