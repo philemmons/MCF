@@ -56,7 +56,7 @@ h1 {
 }
 
 a{
-  text-underline-offset: 0.15em !important;
+  text-underline-position: under;
 }
 
 .f-italic {
