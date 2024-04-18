@@ -55,6 +55,10 @@ h1 {
   color: var(--color-1);
 }
 
+a{
+  text-underline-offset: 0.25em !important;
+}
+
 .f-italic {
   font-style: italic;
 }
