@@ -585,3 +585,6 @@ a.mcf-crumb:focus {
   font-size: 10px;
   background: var(--color-3);
 }
+
+.text-body-secondary {
+  color: var(--color-2) !important;
