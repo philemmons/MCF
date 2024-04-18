@@ -553,6 +553,7 @@ a.mch-crumb:active {
 a.mcf-crumb:hover,
 a.mcf-crumb:focus {
   color: var(--color-1);
+  text-decoration: underline;
 }
 
 
