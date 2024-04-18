@@ -377,7 +377,7 @@ include_once 'header.inc'
                                     <div class="col-md-4">
                                         <label for="quanFlower" class="reg-form-label">Quantity (Required)</label>
                                         <select class="form-select" name="quanFlower" id="quanFlower" required>
-                                            <option selected disabled value="0">Choose...</option>
+                                            <option selected disabled value="">Choose...</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
