@@ -89,7 +89,7 @@ include_once 'header.inc'
 
         <?php include_once 'tech-stats.inc'; ?>
 
-        <?php include_once 'testimonials.inc'; ?>
+        <?php //include_once 'testimonials.inc'; ?>
         <br><br><br>
     </main>
     <?php include_once 'footer.inc' ?>
