@@ -4,20 +4,19 @@ session_start();
 /* Update SQL query with named parameters that prevent SQL injection */
 
 if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'))) {  //Check whether the admin has logged in
-    header("Location: login.php");
-    exit();
+    header("Location: _login.php");
 }
 
-include_once 'php/dbConnection.php';
+include_once 'source/dbConnection.php';
 
 $dbConn = getDBConnection();
 
-$nPara[':dCustId'] = $_GET['id'];
-$sql = "DELETE FROM requisition
-            WHERE id = :dCustId ";
+$nPara[':dRegId'] = $_GET['id'];
+$sql = "DELETE FROM registration
+            WHERE id = :dRegId ";
 //echo $sql;
 $stmt = $dbConn->prepare($sql);
 $stmt->execute($nPara);
 
-header("Location: admin.php");
+header("Location: _admin.php");
 exit();

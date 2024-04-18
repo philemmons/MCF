@@ -2,10 +2,10 @@
 
 function getDBConnection()
 {
-    $dbHost = getenv('MBAR_DB_HOST');
-    $dbUser = getenv('MBAR_DB_USER');
-    $dbPW = getenv('MBAR_DB_PW');
-    $dbName = getenv('MBAR_DB_NAME');
+    $dbHost = getenv('MCF_DB_HOST');
+    $dbUser = getenv('MCF_DB_USER');
+    $dbPW = getenv('MCF_DB_PW');
+    $dbName = getenv('MCF_DB_NAME');
 
     try {
         //Creating database connection

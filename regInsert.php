@@ -6,7 +6,10 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'header.inc';
+include_once 'header-top.inc';
+echo "<title>MBAR - Reg Insert </title>";
+include_once 'header-bottom.inc';
+
 include_once 'source/php_source.php';
 include_once 'source/dbConnection.php';
 
@@ -24,6 +27,8 @@ $status = $statusMsg = '';
 
 if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
+    $fPhone = preg_replace('/[^0-9]/', '', $_POST['ins-phone']);
+
     $register = !empty($_POST['ins-reg']) ? htmlspecialchars($_POST['ins-reg'], ENT_QUOTES) : '';
     $ebmb = !empty($_POST['ins-ebmb']) ? htmlspecialchars($_POST['ins-ebmb'], ENT_QUOTES) : '';
     $mtsd = !empty($_POST['ins-mtsd']) ? htmlspecialchars($_POST['ins-mtsd'], ENT_QUOTES) : '';
@@ -32,12 +37,15 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $hhc = !empty($_POST['ins-hhc']) ? htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES) : '';
 
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+    //getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+
     $tos = 1;
 
 
     $sql = "INSERT INTO registration (
                 firstname,
                 lastname,
+                badgename,
                 email,
                 phone,
                 address,
@@ -56,18 +64,24 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 payment,
                 total,
                 paid,
-                tos
+                tos,
+                verification,
+                rstatus,
+                lang
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :rs, :lang
                 )";
-
-    //echo $sql . '<br>';
-
+    /*
+    teequan = :tsq,
+    teesize = :tss,
+    teegender = :tsg,
+    */
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['ins-ln'], ENT_QUOTES));
+    $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['ins-bn'], ENT_QUOTES));
     $nPara[':email'] = strtolower(htmlspecialchars($_POST['ins-em'], ENT_QUOTES));
-    $nPara[':phone'] = strtolower(htmlspecialchars($_POST['ins-phone'], ENT_QUOTES));
+    $nPara[':phone'] = strtolower(htmlspecialchars($fPhone, ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['ins-addr'], ENT_QUOTES));
     $nPara[':city'] = strtolower(htmlspecialchars($_POST['ins-city'], ENT_QUOTES));
     $nPara[':state'] = strtolower(htmlspecialchars($_POST['ins-state'], ENT_QUOTES));
@@ -81,8 +95,16 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':ics'] = strtolower(htmlspecialchars($_POST['ins-ics'], ENT_QUOTES));
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['ins-snd'], ENT_QUOTES));
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES));
+    /*
+    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['ins-tsq'], ENT_QUOTES));
+    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['ins-tss'], ENT_QUOTES));
+    $nPara[':tsg'] = strtolower(htmlspecialchars($_POST['ins-tsg'], ENT_QUOTES));
+    */
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
+    $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
+    $nPara[':rs'] = strtolower(htmlspecialchars($_POST['ins-rs'], ENT_QUOTES));
+    $nPara[':lang'] = strtolower(htmlspecialchars($_POST['ins-lang'], ENT_QUOTES));
 
     // print_r($nPara); die;
 
@@ -100,38 +122,39 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
 ?>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" aria-label="main navigation">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registration</a>
+                        <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
                         <a class="dropdown-item" href="memories.php">Memories</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-who-we-are" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Who We Are</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-who-we-are">
+                        <a class="dropdown-item" href="our_partner.php">Our Partner</a>
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
+                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Potluck</a>
+                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -145,55 +168,57 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     </div>
 </nav>
 
-<main>
+<main id="main-content">
 
-    <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <!-- Hero Part -->
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 bg-body-tertiary bg-img-insert" title="Hiking in the Pfeiffer Big Sur and Julia Pfeiffer Burns State Parks.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Add New Registration</span>
-                    </h1>
-                    <h6> Welcome <?= ucwords($_SESSION['name']) ?></h6>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Add New Registration</span>
+                    </h2>
+                    <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                 </div>
             </div>
         </div>
-    </section>
-
-     <!-- Bottom Navbar -->
-  <nav class="navbar navbar-expand-lg mb-5">
-    <div class="container">
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse.true navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="_login.php">Admin Panel</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="regInsert.php">New Registration<span class="visually-hidden">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="regUpdate.php">Update Registration</a>
-          </li>
-          <?php
-          if (isset($_SESSION["status"])) {
-            echo '<li class="nav-item" style="border-right: none;">';
-            echo '<form method ="POST" id="oneBtn" >';
-            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
-            echo '</form>';
-            echo '</li>';
-          }
-          ?>
-        </ul>
-      </div>
     </div>
-  </nav>
+
+    <!-- Bottom Navbar -->
+    <nav class="navbar navbar-expand-lg mb-5" aria-label="middle navigation">
+        <div class="container">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="_login.php">Admin Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="regInsert.php">New Registration<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regUpdate.php">Update Registration</a>
+                    </li>
+                    <?php
+                    if (isset($_SESSION["status"])) {
+                        echo '<li class="nav-item" style="border-right: none;">';
+                        echo '<div role= "form">';
+                        echo '<form method ="POST" id="oneBtn">';
+                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
+                        echo '</form>';
+                        echo '</div>';
+                        echo '</li>';
+                    }
+                    ?>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
-    <!-- Section One -->
-    <section class="container shadow-wrap">
+    <!-- Part One -->
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
 
             <?php if (!empty($statusMsg)) { ?>
@@ -207,7 +232,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
             <?php } ?>
 
             <div class="col-xl-12 py-4">
-                <h6>New Registration Info</h6>
+                <h3>New Registration Info</h3>
                 <br>
 
                 <form method='POST' name="insertRegForm" class="row g-3 needs-validation" id="insertRegForm" novalidate>
@@ -221,7 +246,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required />
+                            <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required>
                             <label for="ins-fn">First Name *</label>
                         </div>
                         <div class="invalid-feedback">
@@ -239,7 +264,17 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="ins-bn" id="ins-bn" placeholder="Enter badge name">
+                            <label for="ins-bn" class="form-label">Badge Name</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional - Enter badge name.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
                         <div class="form-floating">
                             <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
                             <label for="ins-em" class="form-label">Email *</label>
@@ -279,7 +314,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" disabled>
+                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" value="Auto" disabled>
                             <label for="ins-total">Total</label>
                         </div>
                         <div class="invalid-feedback">
@@ -299,8 +334,17 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
+                            <input type="text" class="form-control" name="ins-vc" id="ins-vc" value="TBD">
+                            <label for="ins-vc" class="form-label">Trans ID</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional - Enter transaction ID.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="form-floating">
                             <select class="form-select" name="ins-hhc" id="ins-hhc">
-                                <option selected disabled value="">Choose...</option>
                                 <option value="5">$5</option>
                                 <option value="10">$10</option>
                                 <option value="20">$20</option>
@@ -309,7 +353,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 <option value="50">$50</option>
                                 <option value="100">$100</option>
                                 <option value="other">Other</option>
-                                <option value="no thank you">No thank you</option>
+                                <option value="no thank you" selected>No thank you</option>
                             </select>
                             <label for="ins-hhc" class="form-label">Helping Hand</label>
                         </div>
@@ -318,7 +362,18 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="ins-dt" id="ins-dt" placeholder="Automatic" value="Auto" disabled>
+                            <label for="ins-dt">Reg Date</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Date time is automatic
+                        </div>
+                    </div>
+
                     <hr>
+
                     <div class="col-lg-4">
                         <div class="form-floating">
                             <input type="text" class="form-control" name="ins-addr" id="ins-addr" placeholder="Enter mail address">
@@ -342,12 +397,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-state" id="ins-state">
-                                <option selected disabled value="">Choose...</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
                                 <option value="AR">Arkansas</option>
-                                <option value="CA">California</option>
+                                <option value="CA" selected>California</option>
                                 <option value="CO">Colorado</option>
                                 <option value="CT">Connecticut</option>
                                 <option value="DE">Delaware</option>
@@ -411,7 +465,22 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             Optional - Enter zip code.
                         </div>
                     </div>
+
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-rs" id="ins-rs">
+                                <option value="complete">Complete</option>
+                                <option selected value="incomplete">Incomplete</option>
+                            </select>
+                            <label for="ins-rs" class="form-label">Status</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional - Select one.
+                        </div>
+                    </div>
+
                     <hr>
+
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-fs" id="ins-fs" required>
@@ -428,7 +497,22 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-lang" id="ins-lang" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="en">English(EN)</option>
+                                <option value="es">Spanish(SP)</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="ins-lang" class="form-label">Language *</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Required - Enter Language.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
                         <div class="form-floating">
                             <input type="text" class="form-control" name="ins-hg" id="ins-hg" placeholder="Enter homegroups(s)">
                             <label for="ins-hg" class="form-label">Homegroup(s)</label>
@@ -442,7 +526,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="form-floating">
                             <select class="form-select" name="ins-reg" id="ins-reg" onChange="optionSND(this)" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option value="before">Before</option>
+                                <option value="ebr">EBR</option>
                                 <option value="after">After</option>
                             </select>
                             <label for="ins-reg" class="form-label">Registration *</label>
@@ -533,7 +617,58 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     </div>
 
                     <hr>
+<!--
+                    <div class="col-lg-3">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-tsq" id="ins-tsq" onChange="optionSHIRT()" required>
+                                <option selected value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <label for="ins-tsq" class="form-label">Quantity</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Required, please enter your quantity
+                        </div>
+                    </div>
 
+                    <div class="col-lg-5">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-tss" id="ins-tss">
+                                <option selected disabled value="none">Choose...</option>
+                                <option value="sm">Small</option>
+                                <option value="med">Medium</option>
+                                <option value="lg">Large</option>
+                                <option value="xl">X-Large</option>
+                                <option value="xxl">XX-Large</option>
+                                <option value="3xl">3X-Large</option>
+                            </select>
+                            <label for="ins-tss" class="form-label">Size</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional, please enter your size
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-tsg" id="ins-tsg">
+                                <option selected disabled value="none">Choose...</option>
+                                <option value="men">Men's</option>
+                                <option value="women">Women's</option>
+                            </select>
+                            <label for="ins-tsg" class="form-label">Style</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional, please enter your style
+                        </div>
+                    </div>
+
+                    <hr>
+            -->
                     <div class="col-lg-3 text-center">
                         <button type="submit" class="btn btn-primary btn-sm" name="submitInsert" value='update'>Submit Registration</button>
                     </div>
@@ -545,11 +680,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-6">
                         <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
                     </div>
-
                 </form>
+
             </div>
         </div>
-    </section>
+    </div>
 
     <?php include_once 'footer.inc' ?>
     <script>
@@ -584,15 +719,13 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
             myArr.forEach(function($key) {
                 if ($obj.value == "yes" || $obj.value == "undecided")
                     document.getElementById($key).value = "no";
-                //else
-                //document.getElementById($key).value = "";
             });
 
         }
 
         function optionSND($obj) {
             let snd = document.getElementById("ins-snd");
-            if ($obj.value == 'before' || $obj.value == 'after')
+            if ($obj.value == 'ebr' || $obj.value == 'after')
                 snd.value = "yes";
         }
 
@@ -604,8 +737,17 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";
-            //else
-            //ebmb.value = "";
+        }
+
+        function optionSHIRT() {
+            let sQua = document.getElementById('ins-tsq');
+            let sSiz = document.getElementById('ins-tss');
+            let sGen = document.getElementById('ins-tsg');
+
+            if (sQua.value == "0") {
+                sSiz.value = "none";
+                sGen.value = "none";
+            }
         }
     </script>
     </body>
