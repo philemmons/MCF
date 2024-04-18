@@ -75,7 +75,7 @@ include_once 'header.inc'
           <div class="col-lg-3 p-5 info-3 border border-white">
             <h4 class="header-font">Expression</h4>
             <p>
-              In a unique fusion of traditional Mongol art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
+              In a unique fusion of sculptural art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
           </div>
           <div class="col-lg-3 p-5 info-4 border border-white">
             <h4 class="header-font">We Care</h4>
@@ -166,8 +166,8 @@ include_once 'header.inc'
               <img src="../images/quote.png" class="img-fluid img-pos-2" alt="Delivery truck icon">
             </div>
             <div class="card-body">
-              <h5 class="card-title pt-3">Quotes or Questions</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title pt-3">Inspiration</h5>
+              <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on 05-07-23, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend.</p>
             </div>
           </div>
 
