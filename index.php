@@ -46,7 +46,7 @@ include_once 'header.inc'
   <div class="container hero-content">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="header-font h1-ls">Millie's Crazy Flowers</h1>
+        <h1 class="header-font h1-ls text-black">Millie's Crazy Flowers</h1>
         <h4 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
         <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
         <div class="pb-5">
