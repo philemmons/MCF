@@ -462,9 +462,9 @@ include_once 'header.inc'
         <!-- Part Payment -->
         <article aria-label="Payment method">
             <div class="container shadow-wrap">
-                <div class="row justify-content-center mb-5">
+                <div class="row justify-content-center py-4 mb-5">
                     <div id="payment-now"></div>
-                    <div class="col-xl-8 col-lg-8 col-md-12 mb-5">
+                    <div class="col-xl-8 col-lg-8 col-md-12 ">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                             <h3 class="card-title mb-3">Preferred Payment Methods
                             </h3>
@@ -497,8 +497,8 @@ include_once 'header.inc'
         <!-- Section One -->
         <div id="map"></div>
         <section class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 ">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <p class="card-title mb-3 h4">We operate out of Valley Springs, California.</p>
                         <div class="col-md-12 db-5">
