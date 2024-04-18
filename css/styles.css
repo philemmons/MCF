@@ -607,3 +607,18 @@ a.mcf-crumb:focus {
   position: absolute;
 }
 
+/**** container ****/
+
+.shadow-wrap {
+  box-shadow: 0 0 8px 2px var(--color-8);
+}
+
+.container.shadow-wrap {
+  background-color: var(--color-2);
+}
+
+/**** registration ****/
+
+.bg-img-registration {
+  background-image: url('../images/field-of-sunflowers.jpg');
+}

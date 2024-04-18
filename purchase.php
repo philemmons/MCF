@@ -40,7 +40,7 @@ include_once 'header.inc'
     <main>
         <!-- Hero Section -->
         <section class="container-fluid">
-            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-contactUs" title="We are here to answer your questions and welcome your feedback.">
+            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-registration" title="MCF's Order Form">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
@@ -61,7 +61,7 @@ include_once 'header.inc'
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-3">
                         <div class="card-body">
-                            <p class="card-text  mb-1 tt-upper">Gallery</p>
+                            <p class="card-text mb-1 tt-upper">Gallery</p>
                             <h2 class="card-title header-font mb-3">Latest Collection</h2>
                         </div>
                     </div>
@@ -99,9 +99,9 @@ include_once 'header.inc'
             <div class="container shadow-wrap">
                 <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                        <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
+                        <div class="p-3  text-bg-light hero-text-border" title="Support, Happiness, and Memories.">
                             <section aria-label="Purchase-Intro">
-                                <h3 class="card-title text-center mb-3">MCF's Order Form</h3>
+                            <h2 class="card-title header-font mb-3">Millie Crazy Flower's Order Form</h2>
                                 <p>We are grateful you have decided to purchase, one or more, Millie's Crazy Flowers. Thank you for supporting our communities most vulnerable, continuous happiness, and taking action. 100% of our proceeds will be donated equally between Southern Oregon Special Olympics and Crossing Bridges Therapeutic Riding Center.</p>
                                 <p>Each flower is $12.50, or two flowers for $20, postage and handling are extra. We'll send you an email with your order and amount due. Please allow for up to 48 hours, once your payment has been received, for us to mail your flowers with USPS.</p>
                             </section>
@@ -372,7 +372,7 @@ include_once 'header.inc'
                             </fieldset>
 
                             <fieldset class="text-bg-light pb-3 mb-3">
-                                <legend>Millie's Crazy Flowers Information</legend>
+                                <legend>Millie's Crazy Flower Information</legend>
                                 <div class="row justify-content-center">
                                     <div class="col-md-4">
                                         <label for="quanFlower" class="reg-form-label">Quantity (Required)</label>
