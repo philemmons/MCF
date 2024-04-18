@@ -244,7 +244,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-2">February title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-feb-2024.php" class="mcf-nl ">February title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                   </div>
@@ -272,7 +272,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-2">Bending Love: The Artistry of Pipe Cleaners</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></h4></a>
                     <p class="card-text">Find out more info about pipe cleaners, whimsical sculptures, and love.</p>
                   </div>
                 </div>

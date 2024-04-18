@@ -1,6 +1,6 @@
 <div class="col-lg-4 col-sm-12 col-12">
     <h3 class="fw-bold mb-3">Once Upon A Time</h3>
-    <p class="mb-3 mb-lg-5">We believe storytelling establishes common ground and empathy. Do you want to share a your story about pipe cleaners and/or love with us? If so, please email <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class="mcf-link link-offset-3 fw-bold"><?php echo getenv('mcf-info-email'); ?> </a> </p>
+    <p class="mb-3 mb-lg-5">We believe storytelling establishes common ground and empathy. Do you want to share a your story about pipe cleaners and/or love with us? If so, please email <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class="mcf-link  fw-bold"><?php echo getenv('mcf-info-email'); ?> </a> </p>
 
 
     <h3 class="fw-bold mb-3">Recent Posts</h3>
@@ -13,7 +13,7 @@
                 <i class="bi bi-person-fill-check mx-1"></i>First name
             </li>
             <li>
-                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl link-offset-1">February title</a></h6>
+                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl ">February title</a></h6>
             </li>
         </ul>
     </div>
@@ -27,7 +27,7 @@
                 <i class="bi bi-person-fill-check mx-1"></i>First name
             </li>
             <li>
-                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl link-offset-1">Bending Love: The Artistry of Pipe Cleaners</a></h6>
+                <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></h6>
             </li>
         </ul>
     </div>
