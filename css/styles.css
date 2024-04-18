@@ -622,3 +622,18 @@ a.mcf-crumb:focus {
 .bg-img-registration {
   background-image: url('../images/field-of-sunflowers.jpg');
 }
+
+fieldset {
+  all: revert;
+}
+
+legend {
+  float: none;
+  width: unset;
+  padding: unset;
+}
+
+.reg-form-label {
+  margin: 0.5rem 0rem;
+}
+
