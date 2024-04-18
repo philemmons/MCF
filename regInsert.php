@@ -10,7 +10,7 @@ include_once 'header-top.inc';
 echo "<title>MBAR - Reg Insert </title>";
 include_once 'header-bottom.inc';
 
-include_once 'source/php_source.php';
+include_once 'php/source.php';
 include_once 'source/dbConnection.php';
 
 $dbConn = getDBConnection();
@@ -617,7 +617,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     </div>
 
                     <hr>
-<!--
+                    <!--
                     <div class="col-lg-3">
                         <div class="form-floating">
                             <select class="form-select" name="ins-tsq" id="ins-tsq" onChange="optionSHIRT()" required>

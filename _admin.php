@@ -9,7 +9,7 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
 include_once 'header-top.inc';
 echo "<title>MBAR - Admin </title>";
 include_once 'header-bottom.inc';
-include_once 'source/php_source.php';
+include_once 'php/source.php';
 
 $dbConn = getDBConnection();
 
@@ -472,34 +472,42 @@ function displayRegAdmin($registration)
                                         <legend>Merchandise</legend>
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                Total Shirts Ordered: <?php //echo getONePara('teequan'); ?>
+                                                Total Shirts Ordered: <?php //echo getONePara('teequan'); 
+                                                                        ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                Total Shirt Sales: <?php //echo getTwoPara('', ''); ?>
+                                                Total Shirt Sales: <?php //echo getTwoPara('', ''); 
+                                                                    ?>
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # SM Shirts: <?php //echo getTwoPara('teesize', 'sm'); ?>
+                                                # SM Shirts: <?php //echo getTwoPara('teesize', 'sm'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # MED Shirts: <?php //echo getTwoPara('teesize', 'med'); ?>
+                                                # MED Shirts: <?php //echo getTwoPara('teesize', 'med'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # LG Shirts: <?php //echo getTwoPara('teesize', 'lg'); ?>
+                                                # LG Shirts: <?php //echo getTwoPara('teesize', 'lg'); 
+                                                                ?>
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # XL Shirts: <?php //echo getTwoPara('teesize', 'xl'); ?>
+                                                # XL Shirts: <?php //echo getTwoPara('teesize', 'xl'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # XXL Shirts: <?php //echo getTwoPara('teesize', 'xxl'); ?>
+                                                # XXL Shirts: <?php //echo getTwoPara('teesize', 'xxl'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # 3XL Shirts: <?php //echo getTwoPara('teesize', '3xl'); ?>
+                                                # 3XL Shirts: <?php //echo getTwoPara('teesize', '3xl'); 
+                                                                ?>
                                             </div>
                                         </div>
 
