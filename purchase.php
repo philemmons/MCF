@@ -24,13 +24,13 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="purchase.php" aria-current="page">Purchase<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link px-2 active" href="purchase.php" aria-current="page">Purchase<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link active px-2" href="contact.php">Contact Us</a>
+                        <a class="nav-link px-2" href="contact.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
