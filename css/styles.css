@@ -525,7 +525,7 @@ WIP
 /**** contact us ****/
 
 .bg-frame {
-  height: 40vh;
+  height: 60vh;
   background-color: var(--color-7);
   background-position: center;
   background-repeat: no-repeat;
@@ -534,7 +534,7 @@ WIP
 }
 
 .bg-img-contactUs {
-  background-image: url('../images/blob-scene-one2.png');
+  background-image: url('../images/blob-scene-one.png');
 }
 
 .banner {
