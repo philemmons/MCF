@@ -424,7 +424,6 @@ include_once 'header.inc'
                                             <option selected disabled value="">Choose...</option>
                                             <option value="venmo">Venmo</option>
                                             <option value="paypal">PayPal</option>
-                                            <option value="check">Check</option>
                                             <option value="cash">Cash</option>
                                         </select>
                                         <div class="invalid-feedback">
