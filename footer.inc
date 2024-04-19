@@ -10,7 +10,7 @@
                     <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                     <ul class="ul-list display-4 mt-4">
                         <li class="li-horizontal">
-                            <a href="www.pinterest.com/littlebee0794/" class="sm-color"><i class="bi bi-pinterest"></i></a>
+                            <a href="https://www.pinterest.com/littlebee0794/" class="sm-color" _target="blank"><i class="bi bi-pinterest"></i></a>
                         </li>
                         <li class="li-horizontal">
                             <a href="#" class="sm-color"><i class="bi bi-instagram"></i></a>
