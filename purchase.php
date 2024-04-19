@@ -285,7 +285,7 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-8">
-                                        <label for="myAddress" class="reg-form-label">Mailing Address</label>
+                                        <label for="myAddress" class="reg-form-label">Mailing Address (Required)</label>
                                         <input type="text" class="form-control" name="myAddress" id="myAddress" required>
                                         <div class="invalid-feedback">
                                             Required, please enter your mailing address.
@@ -293,7 +293,7 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-6">
-                                        <label for="myCity" class="reg-form-label">City</label>
+                                        <label for="myCity" class="reg-form-label">City (Required)</label>
                                         <input type="text" class="form-control" name="myCity" id="myCity" required>
                                         <div class="invalid-feedback">
                                             Required, please enter your city.
@@ -301,7 +301,7 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-3">
-                                        <label for="myState" class="reg-form-label">State</label>
+                                        <label for="myState" class="reg-form-label">State (Required)</label>
                                         <select class="form-select" name="myState" id="myState" required>
                                             <option selected disabled value="">Choose...</option>
                                             <option value="AL">Alabama</option>
@@ -362,7 +362,7 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-3">
-                                        <label for="myZipcode" class="reg-form-label">Zip Code</label>
+                                        <label for="myZipcode" class="reg-form-label">Zip Code (Required)</label>
                                         <input type="text" class="form-control" name="myZipcode" id="myZipcode" required>
                                         <div class="invalid-feedback">
                                             Required, please enter your zip code.
@@ -395,6 +395,7 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-8">
+                                        <p>Note: Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each.</p>
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
                                     </div>
                                 </div>
