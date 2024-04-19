@@ -68,26 +68,26 @@ include_once 'header.inc'
                 </div>
 
                 <div class="row text-center">
-                    <div class="col-lg-2 p-5 info-4 border border-white">
+                    <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-4.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower four." title="Zooming in!">
                     </div>
 
-                    <div class="col-lg-2 p-5 info-4 border border-white">
+                    <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-5.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower five." title="Zooming in!">
                     </div>
 
-                    <div class="col-lg-2 p-5 info-4 border border-white">
+                    <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-6.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
                     </div>
-                    <div class="col-lg-2 p-5 info-4 border border-white">
+                    <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-7.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower seven." title="Zooming in!">
                     </div>
 
-                    <div class="col-lg-2 p-5 info-4 border border-white">
+                    <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-8.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower eight." title="Zooming in!">
                     </div>
 
-                    <div class="col-lg-2 p-5 info-4 border border-white">
+                    <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-9.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower nine." title="Zooming in!">
                     </div>
                 </div>
