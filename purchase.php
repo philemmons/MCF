@@ -101,9 +101,9 @@ include_once 'header.inc'
                     <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                         <div class="p-3  text-bg-light hero-text-border" title="Support, Happiness, and Memories.">
                             <section aria-label="Purchase-Intro">
-                            <h2 class="card-title header-font mb-3">Millie Crazy Flower's Order Form</h2>
-                                <p>We are grateful you have decided to purchase, one or more, Millie's Crazy Flowers. Thank you for supporting our communities most vulnerable, continuous happiness, and taking action. 100% of our proceeds will be donated equally between Southern Oregon Special Olympics and Crossing Bridges Therapeutic Riding Center.</p>
-                                <p>Each flower is $12.50, or two flowers for $20, postage and handling are extra. We'll send you an email with your order and amount due. Please allow for up to 48 hours, once your payment has been received, for us to mail your flowers with USPS.</p>
+                                <h2 class="card-title header-font mb-3">Millie Crazy Flower's Order Form</h2>
+                                <p>We are grateful you have decided to purchase, one or more, Millie's Crazy Flowers. Thank you for supporting our communities most vulnerable, continuous happiness, and taking action. 50% of our proceeds will be donated between Southern Oregon Special Olympics and Crossing Bridges Therapeutic Riding Center.</p>
+                                <p>Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each. We'll send you an email with your order and amount due. Please allow for up to 48 hours, once your payment has been received, for us to mail your flowers with USPS.</p>
                             </section>
                         </div>
                     </div>
@@ -176,8 +176,8 @@ include_once 'header.inc'
                                     $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                     $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
-                                    $total = getTotal($qf);
-                                    $postage = getPostage($qf);
+                                    $total = getAmount($qf, 12.5);
+                                    $postage = getAmount($qf, 6.0);
 
                                     $total += $postage;
 
@@ -216,7 +216,7 @@ include_once 'header.inc'
                                     $statusMsg = 'Your order was sent and thank you once again! A copy of your order form has been emailed to you.';
                                     $postData = '';
 
-                                    regFormData($total, $lang);
+                                    orderFormData($total, $lang);
                                 } else {
                                     $statusMsg = 'reCaptcha verification failed, please try again.';
                                 }
@@ -395,7 +395,7 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-8">
-                                        <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as possible.</p>
+                                        <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
                                     </div>
                                 </div>
                             </fieldset>

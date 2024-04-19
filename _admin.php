@@ -602,12 +602,12 @@ function displayRegAdmin($registration)
 
                             if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
                                 if ($_POST['regType'] == 'incomplete') {
-                                    $registration = getRegType("registration", "incomplete");
+                                    $registration = getOrderType("registration", "incomplete");
                                 } else {
-                                    $registration = getRegType("registration", "complete");
+                                    $registration = getOrderType("registration", "complete");
                                 }
                             } else {
-                                $registration = getRegData("registration", "desc");
+                                $registration = getOrderData("registration", "desc");
                             }
 
                             displayRegAdmin($registration);

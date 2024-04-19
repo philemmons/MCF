@@ -211,7 +211,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                 <?php
                 if (isset($_GET['id'])) {
-                    $regInfo = getRegInfo($_GET['id']);
+                    $regInfo = getOrderInfo($_GET['id']);
                 ?>
                     <form method='POST' name="updateRegForm" class="row g-3 needs-validation" id="updateRegForm" novalidate>
 

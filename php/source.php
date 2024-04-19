@@ -8,109 +8,35 @@ $dbConn = getDBConnection();
  * @input: register form fields
  * @output variables assigned are converted to HTML predefined entities, including quotes, and lowercase
  */
-function regFormData($total, $lang)
+function orderFormData($total, $lang)
 {
-     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang;
-     //$tsq, $tss, $tsg;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $total, $lang;
+
 
      $firstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
      $lastName = isset($_POST['lastName']) ? strtolower(htmlspecialchars($_POST['lastName'], ENT_QUOTES)) : '';
-     $badgeName = isset($_POST['badgeName']) ? strtolower(htmlspecialchars($_POST['badgeName'], ENT_QUOTES)) : '';
      $email = isset($_POST['myEmail']) ? strtolower(htmlspecialchars($_POST['myEmail'], ENT_QUOTES)) : '';
      $phone = isset($_POST['myPhone']) ? strtolower(htmlspecialchars($_POST['myPhone'], ENT_QUOTES)) : '';
      $address = isset($_POST['myAddress']) ? strtolower(htmlspecialchars($_POST['myAddress'], ENT_QUOTES)) : '';
      $city = isset($_POST['myCity']) ? strtolower(htmlspecialchars($_POST['myCity'], ENT_QUOTES)) : '';
      $state = isset($_POST['myState']) ? strtolower(htmlspecialchars($_POST['myState'], ENT_QUOTES)) : '';
      $zc = isset($_POST['myZipcode']) ? strtolower(htmlspecialchars($_POST['myZipcode'], ENT_QUOTES)) : '';
-     $fs = isset($_POST['myFellowship']) ? strtolower(htmlspecialchars($_POST['myFellowship'], ENT_QUOTES)) : '';
-     $hg = isset($_POST['myHomegroup']) ? strtolower(htmlspecialchars($_POST['myHomegroup'], ENT_QUOTES)) : '';
-     $register = isset($_POST['myRegistration']) ? strtolower(htmlspecialchars($_POST['myRegistration'], ENT_QUOTES)) : '';
-     $ebmb = isset($_POST['earlyBirdMealBundle']) ? strtolower(htmlspecialchars($_POST['earlyBirdMealBundle'], ENT_QUOTES)) : '';
-     $mtsd = isset($_POST['meetTheSpeakerDinner']) ? strtolower(htmlspecialchars($_POST['meetTheSpeakerDinner'], ENT_QUOTES)) : '';
-     $rucb = isset($_POST['roundupContinentalBreakfast']) ? strtolower(htmlspecialchars($_POST['roundupContinentalBreakfast'], ENT_QUOTES)) : '';
-     $ics = isset($_POST['iceCreamSocial']) ? strtolower(htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES)) : '';
-     $snd = isset($_POST['saturdayNightDance']) ? strtolower(htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES)) : '';
-     $hhc = isset($_POST['helpingHandContribution']) ? strtolower(htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES)) : '';
-     /*
-     $tsq = isset($_POST['shirtQuantity']) ? strtolower(htmlspecialchars($_POST['shirtQuantity'], ENT_QUOTES)) : '';
-     $tss = isset($_POST['shirtSize']) ? strtolower(htmlspecialchars($_POST['shirtSize'], ENT_QUOTES)) : '';
-     $tsg = isset($_POST['shirtGender']) ? strtolower(htmlspecialchars($_POST['shirtGender'], ENT_QUOTES)) : '';
-     */
+     $qf = isset($_POST['quanFlower']) ? strtolower(htmlspecialchars($_POST['quanFlower'], ENT_QUOTES)) : '';
      $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
 
      saveData($total, $lang);
 }
 
-
-function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc)
-//function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
+//https://math.stackexchange.com/questions/424911/find-closed-form-for-1-2-2-3-4-4-5-6-6-7-8-8-9-10-10-ldots
+// buy 2 get one free formula
+function getAmount($qf, $cost)
 {
-     $amount = 0.00;
-
-     if ($register == "ebr") {
-          $amount += 45.0;
-     } else {
-          $amount += 50.0;
-     }
-
-     if ($ebmb == "yes") {
-          $amount += 35.0;
-     }
-
-     if ($mtsd == "yes") {
-          $amount += 25.0;
-     }
-
-     if ($rucb == "yes") {
-          $amount += 10.0;
-     }
-
-     if ($ics == "yes") {
-          $amount += 5.0;
-     }
-
-     switch ($hhc) {
-          case "100":
-               $amount += 100.0;
-               break;
-          case "50":
-               $amount += 50.0;
-               break;
-          case "45":
-               $amount += 45.0;
-               break;
-          case "35":
-               $amount += 35.0;
-               break;
-          case "20":
-               $amount += 20.0;
-               break;
-          case "10":
-               $amount += 10.0;
-               break;
-          case "5":
-               $amount += 5.0;
-               break;
-          default:
-               $amount += 0.0;
-     }
-
-     /*
-     switch ($tss) {
-          case "xxl" || "3xl":
-               $amount += (31.0 * $tsq);
-               break;
-          case "sm" || "med" || "lg" || "xl":
-               $amount += (26.0 * $tsq);
-               break;
-          default:
-               $amount += 0.0;
-     }
-     */
-
+     $amount = (floor(($qf - 1) / 3.0) +  floor(($qf - 2) / 3.0)) * $cost;
      return $amount;
 }
+
+
 
 /*
 *@input: PDO sql string to be processed with or without parameterized variable(s)
@@ -153,7 +79,7 @@ function getUserInfo($email)
      global $dbConn, $nPara;
 
      $nPara[':dEmail'] = $email;
-     $sql = "SELECT * FROM registration WHERE email like :dEmail ";
+     $sql = "SELECT * FROM requisition WHERE email like :dEmail ";
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($nPara);
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -161,10 +87,10 @@ function getUserInfo($email)
 }
 
 /*
-*@input: Name of the database table - registration
-*@output: all contents of registration table for the user by ascending date with TBA values last
+*@input: Name of the database table - requisition
+*@output: all contents of requisition table for the user by ascending date with TBA values last
 */
-function getRegData($table, $upDown)
+function getOrderData($table, $upDown)
 {
      //$sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY id DESC";
      $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " ORDER BY result IS NULL , result " . $upDown;
@@ -172,10 +98,10 @@ function getRegData($table, $upDown)
 }
 
 /*
-*@input: Name of the database table - registration; Name of the registration status - yes/no
-*@output: all contents of registration table for the user based on registration status
+*@input: Name of the database table - requisition; Name of the requisition status - yes/no
+*@output: all contents of requisition table for the user based on requisition status
 */
-function getRegType($table, $regType)
+function getOrderType($table, $regType)
 {
      global $nPara;
      $nPara[':regType'] = $regType;
@@ -185,85 +111,41 @@ function getRegType($table, $regType)
      return preExeFet($sql);
 }
 
-
-/*
-*@input: Name of the database table - registration
-*@output: Name to appear, homegroup and fellowship of the user by ascending badge name.
-*/
-function getBadgeData($table)
-{
-     $sql = "SELECT CONCAT( UPPER(SUBSTRING(t1.bName, 1, 1)), SUBSTRING(bName, 2, LENGTH(t1.bName)) ) AS BName, UPPER(t1.homegroup) AS HGroup, UPPER(t1.fellowship) AS FShip 
-     FROM ( 
-          SELECT IF( badgename IS NULL OR badgename LIKE '', CONCAT( firstname, ' ', UPPER(SUBSTRING(lastname, 1, 1)), '.' ), badgename ) AS bName, homegroup, fellowship 
-          FROM " . $table . "
-          ) as t1";
-
-     return preExeFetNOPARA($sql);
-}
-
 function saveData($total, $lang)
 {
-     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $total, $lang;
      //$tsq, $tss, $tsg;
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {
 
-          $sql = "INSERT INTO registration (
+          $sql = "INSERT INTO requisition (
                     firstname,
                     lastname,
-                    badgename,
                     email,
                     phone,
                     address,
                     city,
                     state,
                     zipcode,
-                    fellowship,
-                    homegroup,
-                    registration,
-                    ebmb,
-                    speakerdinner,
-                    breakfast,
-                    icecream,
-                    dance,
-                    helpinghand,
+                    quanflowers,
                     tos,
                     payment,
                     total,
                     lang
                 ) VALUES (
-                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, :lang
+                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :qf, :cBox, :pm, $total, :lang
                 )";
-/*
-teequan,
-teesize,
-teegender,
 
-:tsq, :tss, :tsg,
-
-$nPara[':tsq'] =$tsq
-$nPara[':tss'] =$tss
-$nPara[':tsg'] =$tsg
-*/
           $nPara[':firstName'] = $firstName;
           $nPara[':lastName'] = $lastName;
-          $nPara[':badgeName'] = $badgeName;
           $nPara[':email'] = $email;
           $nPara[':phone'] = $phone;
           $nPara[':address'] = $address;
           $nPara[':city'] = $city;
           $nPara[':state'] = $state;
           $nPara[':zc'] = $zc;
-          $nPara[':fs'] = $fs;
-          $nPara[':hg'] = $hg;
-          $nPara[':register'] = $register;
-          $nPara[':ebmb'] = $ebmb;
-          $nPara[':mtsd'] = $mtsd;
-          $nPara[':rucb'] = $rucb;
-          $nPara[':ics'] = $ics;
-          $nPara[':snd'] = $snd;
-          $nPara[':hhc'] = $hhc;
+          $nPara[':qf'] = $qf;
           $nPara[':cBox'] = $cBox;
           $nPara[':pm'] = $pm;
           $nPara[':lang'] = $lang;
@@ -314,12 +196,12 @@ function goMain()
 }
 
 //regInsert.php and regUpdate.php
-function getRegInfo($regID)
+function getOrderInfo($regID)
 {
      global $dbConn, $nPara;
 
      $nPara[':dRegId'] = $regID;
-     $sql = "SELECT * FROM registration WHERE id = :dRegId ";
+     $sql = "SELECT * FROM requisition WHERE id = :dRegId ";
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($nPara);
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -352,27 +234,4 @@ function formatPhone($phoneNumber)
      }
 
      return $phoneNumber;
-}
-
-function oneOrBlank($yun)
-{
-
-     if ($yun == "yes") return 1;
-     return "";
-}
-
-function caseFellowship($aado)
-{
-
-     if ($aado == "a.a.") return "AA";
-     if ($aado == "al-anon") return "Al-Anon";
-     if ($aado == "double winner") return "Double Winner";
-     if ($aado == "other") return "Other";
-}
-
-function noThankYou($nty)
-{
-
-     if ($nty == "no thank you") return "";
-     return $nty;
 }
