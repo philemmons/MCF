@@ -176,10 +176,10 @@ include_once 'header.inc'
                                     $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                     $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
-                                    $total = getAmount($qf, 12.5);
+                                    $subtotal = getAmount($qf, 12.5);
                                     $postage = getAmount($qf, 6.0);
 
-                                    $total += $postage;
+                                    $total = $postage + $subtotal;
 
                                     // Send email notification to the site admin 
                                     $to = $email;
@@ -194,8 +194,9 @@ include_once 'header.inc'
                     <p><b>State: </b>" . $state . "</p> 
                     <p><b>Zip Code: </b>" . $zc . "</p> 
                     <p><b>Quantity: </b>" . $qf . "</p> 
-                    <p><b>Postage: </b>$" . $postage . ".00</p>
-                    <p><b>Amount Due: </b>$" . $total . ".00</p> 
+                    <p><b>Subtotal: </b>$" . number_format($subtotal, 2) . "</p> 
+                    <p><b>Postage: </b>$" . number_format($postage, 2) . "</p>
+                    <p><b>Amount Due: </b>$" . number_format($total, 2) . "</p> 
                     <p><b>I agreed with the ToS and understand my purchase is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p>
                     <p>Thank you and we appreciate you support!</p>
