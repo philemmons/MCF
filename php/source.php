@@ -32,7 +32,10 @@ function orderFormData($total, $lang)
 // buy 2 get one free formula
 function getAmount($qf, $cost)
 {
-     $amount = (floor(($qf - 1) / 3.0) +  floor(($qf - 2) / 3.0)) * $cost;
+     if (!is_double($qf))
+          $qf = doubleval($qf);
+
+     $amount = (floor(($qf + 1) / 3.0) +  floor(($qf + 2) / 3.0)) * $cost;
      return $amount;
 }
 
