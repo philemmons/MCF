@@ -30,12 +30,12 @@ function orderFormData($total, $lang)
 
 //https://math.stackexchange.com/questions/424911/find-closed-form-for-1-2-2-3-4-4-5-6-6-7-8-8-9-10-10-ldots
 // buy 2 get one free formula
-function getAmount($qf, $cost)
+function getAmount($item, $cost)
 {
-     if (!is_double($qf))
-          $qf = doubleval($qf);
+     if (!is_double($item))
+          $item = doubleval($item);
 
-     $amount = (floor(($qf + 1) / 3.0) +  floor(($qf + 2) / 3.0)) * $cost;
+     $amount = (floor(($item + 1) / 3.0) +  floor(($item + 2) / 3.0)) * $cost;
      return $amount;
 }
 
