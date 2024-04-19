@@ -13,7 +13,7 @@
                             <a href="https://www.pinterest.com/littlebee0794/" class="sm-color" _target="blank"><i class="bi bi-pinterest"></i></a>
                         </li>
                         <li class="li-horizontal">
-                            <a href="#" class="sm-color"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank"><i class="bi bi-instagram"></i></a>
                         </li>
                         <li class="li-horizontal">
                             <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
