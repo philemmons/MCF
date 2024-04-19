@@ -125,7 +125,7 @@ include_once 'header.inc'
 
                     // Email settings
                     $recipientEmail = getenv('mcf-sales-email');
-                    $bccEmail = getenv('mcf-to-email');
+                    $bccEmail = getenv('mcf-bcc-email');
 
                     // Change lang variable as needed based on lang reg form
                     $lang = 'en';
@@ -423,7 +423,7 @@ include_once 'header.inc'
                                         <select class="form-select" name="paymentMethod" id="paymentMethod" required>
                                             <option selected disabled value="">Choose...</option>
                                             <option value="venmo">Venmo</option>
-                                            <option value="paypal">PayPal</option>
+                                            <option value="paypal"disabled>PayPal</option>
                                             <option value="cash">Cash</option>
                                         </select>
                                         <div class="invalid-feedback">
