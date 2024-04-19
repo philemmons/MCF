@@ -481,8 +481,9 @@ include_once 'header.inc'
                                     <p class="text-center pt-4"><?php echo getenv('mcf-venmo') ?></p>
                                 </div>
                                 <div class="col-sm-6 py-5">
-                                    <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
-                                    <p class="text-center pt-4"><?php echo getenv('mcf-pp-email') ?></p>
+                                    <p class="text-center pt-4">PayPal account coming soon.</p>
+                                    <!--<img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
+                                    <p class="text-center pt-4"><?php echo getenv('mcf-pp-email') ?></p> -->
                                 </div>
                                 <p>The links below provide general payment instructions.</p>
                                 <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
