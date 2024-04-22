@@ -419,8 +419,11 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                             <div class="col-lg-2">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="upd-tos" placeholder="Default" name="upd-tos" value="<?= $orderInfo['tos'] ?>" disabled>
+                                    <input type="number" class="form-control" id="upd-tos" placeholder="Default" name="upd-tos" value="<?= $orderInfo['tos'] ?>" required>
                                     <label for="upd-tos">Terms of Service</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter TOS of one.
                                 </div>
                             </div>
 
