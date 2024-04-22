@@ -6,9 +6,8 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'header-top.inc';
-echo "<title>MBAR - Reg Update </title>";
-include_once 'header-bottom.inc';
+include_once 'header.inc';
+include_once 'php/source.php';
 
 include_once 'php/source.php';
 include_once 'source/dbConnection.php';
@@ -27,76 +26,50 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     $fPhone = preg_replace('/[^0-9]/', '', $_POST['upd-phone']);
 
-    $register = !empty($_POST['upd-reg']) ? htmlspecialchars($_POST['upd-reg'], ENT_QUOTES) : '';
-    $ebmb = !empty($_POST['upd-ebmb']) ? htmlspecialchars($_POST['upd-ebmb'], ENT_QUOTES) : '';
-    $mtsd = !empty($_POST['upd-mtsd']) ? htmlspecialchars($_POST['upd-mtsd'], ENT_QUOTES) : '';
-    $rucb = !empty($_POST['upd-rucb']) ? htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES) : '';
-    $ics = !empty($_POST['upd-ics']) ? htmlspecialchars($_POST['upd-ics'], ENT_QUOTES) : '';
-    $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
+    $qf = !empty($_POST['upd-qf']) ? htmlspecialchars($_POST['upd-qf'], ENT_QUOTES) : '';
 
-    $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
-    //getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+    $subtotal = getAmount($qf, 12.5);
+    $postage = getAmount($qf, 6.0);
+
+    $total = $postage + $subtotal;
 
     $sql = "UPDATE registration
             SET 
-                badgename = :badgeName,
+                firstname = :firstName,
+                lastname = :lastName,
+                email = :email,
                 phone = :phone,
                 address = :address,
                 city = :city,
                 state = :state,
                 zipcode = :zc,
-                fellowship = :fs,
-                homegroup = :hg,
-                ebmb = :ebmb,
-                speakerdinner = :mtsd,
-                breakfast = :rucb,
-                icecream = :ics,
-                dance = :snd,
-                helpinghand = :hhc,
+                quanflowers = :qf,
+                tos = :tos,
                 payment = :pm,
                 total = $total,
                 paid = :paid,
-                verification = :verify,
                 rstatus = :rs,
-                lang = :lang
+                lang = :lang,
+                transid = :tid
             WHERE id = :reg_id";
-
-    /*
-    teequan = :tsq,
-    teesize = :tss,
-    teegender = :tsg,
-    */
 
 
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
-    //$nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
-    //$nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
-    $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['upd-bn'], ENT_QUOTES));
-    //$nPara[':email'] = strtolower(htmlspecialchars($_POST['upd-em'], ENT_QUOTES));
+    $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
+    $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
+    $nPara[':email'] = strtolower(htmlspecialchars($_POST['upd-em'], ENT_QUOTES));
     $nPara[':phone'] = strtolower(htmlspecialchars($fPhone, ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['upd-addr'], ENT_QUOTES));
     $nPara[':city'] = strtolower(htmlspecialchars($_POST['upd-city'], ENT_QUOTES));
     $nPara[':state'] = strtolower(htmlspecialchars($_POST['upd-state'], ENT_QUOTES));
     $nPara[':zc'] = strtolower(htmlspecialchars($_POST['upd-zc'], ENT_QUOTES));
-    $nPara[':fs'] = strtolower(htmlspecialchars($_POST['upd-fs'], ENT_QUOTES));
-    $nPara[':hg'] = strtolower(htmlspecialchars($_POST['upd-hg'], ENT_QUOTES));
-    //$nPara[':register'] = strtolower(htmlspecialchars($_POST['upd-reg'], ENT_QUOTES));
-    $nPara[':ebmb'] = strtolower(htmlspecialchars($_POST['upd-ebmb'], ENT_QUOTES));
-    $nPara[':mtsd'] = strtolower(htmlspecialchars($_POST['upd-mtsd'], ENT_QUOTES));
-    $nPara[':rucb'] = strtolower(htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES));
-    $nPara[':ics'] = strtolower(htmlspecialchars($_POST['upd-ics'], ENT_QUOTES));
-    $nPara[':snd'] = strtolower(htmlspecialchars($_POST['upd-snd'], ENT_QUOTES));
-    $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
-    /*
-    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES));
-    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['upd-tss'], ENT_QUOTES));
-    $nPara[':tsg'] = strtolower(htmlspecialchars($_POST['upd-tsg'], ENT_QUOTES));
-    */
+    $nPara[':qf'] = strtolower(htmlspecialchars($_POST['upd-qf'], ENT_QUOTES));
+    $nPara[':tos'] = strtolower(htmlspecialchars($_POST['upd-tos'], ENT_QUOTES));
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
-    $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
     $nPara[':rs'] = strtolower(htmlspecialchars($_POST['upd-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['upd-lang'], ENT_QUOTES));
+    $nPara[':tid'] = strtolower(htmlspecialchars($_POST['upd-tid'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -106,650 +79,401 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="main navigation">
-    <div class="container">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
-                        <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="register-now.php">Registration</a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" href="memories.php">Memories</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-who-we-are" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Who We Are</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-who-we-are">
-                        <a class="dropdown-item" href="our_partner.php">Our Partner</a>
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Potluck</a>
-                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
-                </li>
-                <li class="nav-item style=" border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<body>
 
-<main id="main-content">
-
-    <!-- Hero Part -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Update Registration</span>
-                    </h2>
-                    <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand-lg mb-5" aria-label="middle navigation">
-        <div class="container">
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg mcf-navbar-light">
+        <div class="container-xl">
+            <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
+                <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="pe-2">Menu</span>
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <div class="collapse navbar-collapse" id="topNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="_login.php">Admin Panel</a>
+                        <a class="nav-link px-2" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="regInsert.php">New Registration</a>
+                        <a class="nav-link px-2" href="our_story.php">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="regUpdate.php">Update Registration<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
-                    <?php
-                    if (isset($_SESSION["status"])) {
-                        echo '<li class="nav-item">';
-                        echo '<div role= "form">';
-                        echo '<form method ="POST">';
-                        echo '<input type="submit" value="LogOut" class="nav-link log-input px-2" name="logout">';
-                        echo '</form>';
-                        echo '</div>';
-                        echo '</li>';
-                    }
-                    ?>
+                    <li class="nav-item">
+                        <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
+                    </li>
+                    <li class="nav-item" style="border-right: none;">
+                        <a class="nav-link px-2" href="contact.php" aria-current="page">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-12 py-4">
-                <h3>Update Registration Info</h3>
-                <p>Currently, the first name, last name, email, pre-registration type, and reg date text fields are NOT updatable by request. Let me know if they need to be changed.
-                </p>
-                <br>
+    <main id="main-content">
 
-                <?php
-                if (isset($_GET['id'])) {
-                    $regInfo = getOrderInfo($_GET['id']);
-                ?>
-                    <form method='POST' name="updateRegForm" class="row g-3 needs-validation" id="updateRegForm" novalidate>
+        <!-- Hero Section -->
+        <section class="container-fluid">
+            <div class="row justify-content-center align-items-end bg-frame bg-img-login" title="Welcome Admin">
+                <div class="col-xl-6 col-lg-7 col-md-9">
+                    <div class="text-center">
+                        <p class="fw-bold ">
+                            <a href="index.php" class="mcf-crumb">Home&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">Order Update</a>
+                        </p>
+                    </div>
+                    <div class="text-center h1-ls" title="Order Update">
+                        <h1 class="header-font pb-4 px-3 px-md-0">Order Update
+                        </h1>
+                        <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        <div class="col-lg-1">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="upd-id" placeholder="Default - auto incremented" name="upd-id" value="<?= $regInfo['id'] ?>" disabled>
-                                <label for="upd-id">RegID</label>
-                            </div>
-                        </div>
+        <!-- Bottom Navbar -->
+        <nav class="navbar navbar-expand-lg mb-5 mcf-navbar-dark" aria-label="middle navigation">
+            <div class="container">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavBar" aria-controls="bottomNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="pe-2">Admin Menu</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bottomNavBar">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link px-2" aria-current="page" href="_admin.php">Admin Panel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="orderInsert.php">New Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2 active" href="orderUpdate.php">Update Order<span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <?php
+                        if (isset($_SESSION["status"])) {
+                            echo '<li class="nav-item">';
+                            echo '<div role= "form">';
+                            echo '<form method ="POST" >';
+                            echo '<input type="submit" value="LogOut" class="nav-link log-input px-2" name="logout">';
+                            echo '</form>';
+                            echo '</div>';
+                            echo '</li>';
+                        }
+                        ?>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $regInfo['firstname'] ?>" required>
-                                <label for="upd-fn">First Name</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Enter first name.
-                            </div>
-                        </div>
+        <!-- Part One -->
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-12 py-4">
+                    <h3>Update Order Information</h3>
+                    
+                    <br>
 
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $regInfo['lastname'] ?>" required>
-                                <label for="upd-ln" class="form-label">Last Name</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Enter last name.
-                            </div>
-                        </div>
+                    <?php
+                    if (isset($_GET['id'])) {
+                        $orderInfo = getOrderInfo($_GET['id']);
+                    ?>
+                        <form method='POST' name="updateRegForm" class="row g-3 needs-validation" id="updateRegForm" novalidate>
 
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-bn" id="upd-bn" placeholder="Enter BN" value="<?= $regInfo['badgename'] ?>">
-                                <label for="upd-bn" class="form-label">Badge Name</label>
+                            <div class="col-lg-1">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="upd-id" placeholder="Default - auto incremented" name="upd-id" value="<?= $orderInfo['id'] ?>" disabled>
+                                    <label for="upd-id">RegID</label>
+                                </div>
                             </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter badge name.
-                            </div>
-                        </div>
 
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $regInfo['email'] ?>" required>
-                                <label for="upd-em" class="form-label">Email</label>
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $orderInfo['firstname'] ?>" required>
+                                    <label for="upd-fn">First Name</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter first name.
+                                </div>
                             </div>
-                            <div class="invalid-feedback">
-                                Required - Enter email.
-                            </div>
-                        </div>
 
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= formatPhone($regInfo['phone']); ?>">
-                                <label for="upd-phone" class="form-label">Phone</label>
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $orderInfo['lastname'] ?>" required>
+                                    <label for="upd-ln" class="form-label">Last Name</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter last name.
+                                </div>
                             </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter phone number.
-                            </div>
-                        </div>
 
-                        <hr>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-pm" id="upd-pm" required>
-                                    <option value="<?= $regInfo['payment'] ?>" selected> <?php echo $regInfo['payment'] ?></option>
-                                    <option value="venmo">Venmo</option>
-                                    <option value="cash">Cash</option>
-                                    <option value="check">Check</option>
-                                    <option value="paypal">PayPal</option>
-                                </select>
-                                <label for="upd-pm" class="form-label">Payment Method</label>
+                            <div class="col-lg-3">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $orderInfo['email'] ?>" required>
+                                    <label for="upd-em" class="form-label">Email</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter email.
+                                </div>
                             </div>
-                            <div class="invalid-feedback">
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= formatPhone($orderInfo['phone']); ?>">
+                                    <label for="upd-phone" class="form-label">Phone</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Optional - Enter phone number.
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <select class="form-select" name="upd-pm" id="upd-pm" required>
+                                        <option value="<?= $orderInfo['payment'] ?>" selected> <?php echo $orderInfo['payment'] ?></option>
+                                        <option value="venmo">Venmo</option>
+                                        <option value="cash">Cash</option>
+                                        <option value="check">Check</option>
+                                        <option value="paypal">PayPal</option>
+                                    </select>
+                                    <label for="upd-pm" class="form-label">Payment Method</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Select one.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $orderInfo['total'] ?>">
+                                    <label for="upd-total">Total</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter total amount.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $orderInfo['paid'] ?>">
+                                    <label for="upd-paid">Paid</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter paid amount.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-tid" id="upd-tid" placeholder="Enter Code" value="<?= $orderInfo['transid'] ?>">
+                                    <label for="upd-tid" class="form-label">Trans ID</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Optional - Enter transaction ID.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="upd-dt" placeholder="Default" name="upd-dt" value="<?= $orderInfo['datetime'] ?>" disabled>
+                                    <label for="upd-dt">Order Date</label>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="col-lg-4">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-addr" id="upd-addr" placeholder="Enter MA" value="<?= $orderInfo['address'] ?>" required>
+                                    <label for="upd-addr" class="form-label">Address</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter address.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-city" id="upd-city" placeholder="Enter CI" value="<?= $orderInfo['city'] ?>" required>
+                                    <label for="upd-city" class="form-label">City</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                Required - Enter city.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <select class="form-select" name="upd-state" id="upd-state" required>
+                                        <option value="<?= $orderInfo['state'] ?>" selected> <?php echo $orderInfo['state'] ?></option>
+                                        <option value="AL">Alabama</option>
+                                        <option value="AK">Alaska</option>
+                                        <option value="AZ">Arizona</option>
+                                        <option value="AR">Arkansas</option>
+                                        <option value="CA">California</option>
+                                        <option value="CO">Colorado</option>
+                                        <option value="CT">Connecticut</option>
+                                        <option value="DE">Delaware</option>
+                                        <option value="DC">District of Columbia</option>
+                                        <option value="FL">Florida</option>
+                                        <option value="GA">Georgia</option>
+                                        <option value="HI">Hawaii</option>
+                                        <option value="ID">Idaho</option>
+                                        <option value="IL">Illinois</option>
+                                        <option value="IN">Indiana</option>
+                                        <option value="IA">Iowa</option>
+                                        <option value="KS">Kansas</option>
+                                        <option value="KY">Kentucky</option>
+                                        <option value="LA">Louisiana</option>
+                                        <option value="ME">Maine</option>
+                                        <option value="MD">Maryland</option>
+                                        <option value="MA">Massachusetts</option>
+                                        <option value="MI">Michigan</option>
+                                        <option value="MN">Minnesota</option>
+                                        <option value="MS">Mississippi</option>
+                                        <option value="MO">Missouri</option>
+                                        <option value="MT">Montana</option>
+                                        <option value="NE">Nebraska</option>
+                                        <option value="NV">Nevada</option>
+                                        <option value="NH">New Hampshire</option>
+                                        <option value="NJ">New Jersey</option>
+                                        <option value="NM">New Mexico</option>
+                                        <option value="NY">New York</option>
+                                        <option value="NC">North Carolina</option>
+                                        <option value="ND">North Dakota</option>
+                                        <option value="OH">Ohio</option>
+                                        <option value="OK">Oklahoma</option>
+                                        <option value="OR">Oregon</option>
+                                        <option value="PA">Pennsylvania</option>
+                                        <option value="RI">Rhode Island</option>
+                                        <option value="SC">South Carolina</option>
+                                        <option value="SD">South Dakota</option>
+                                        <option value="TN">Tennessee</option>
+                                        <option value="TX">Texas</option>
+                                        <option value="UT">Utah</option>
+                                        <option value="VT">Vermont</option>
+                                        <option value="VA">Virginia</option>
+                                        <option value="WA">Washington</option>
+                                        <option value="WV">West Virginia</option>
+                                        <option value="WI">Wisconsin</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
+                                    <label for="upd-state" class="form-label">State</label>
+                                </div>
+                                <div class="invalid-feedback">
                                 Required - Select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>">
-                                <label for="upd-total">Total</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Enter total amount.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="number" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $regInfo['paid'] ?>">
-                                <label for="upd-paid">Paid</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Enter paid amount.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-vc" id="upd-vc" placeholder="Enter Code" value="<?= $regInfo['verification'] ?>">
-                                <label for="upd-vc" class="form-label">Trans ID</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter transaction ID.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-hhc" id="upd-hhc">
-                                    <option value="<?= $regInfo['helpinghand'] ?>" selected> <?php echo $regInfo['helpinghand'] ?></option>
-                                    <option value="5">$5</option>
-                                    <option value="10">$10</option>
-                                    <option value="20">$20</option>
-                                    <option value="35">$35</option>
-                                    <option value="45">$45</option>
-                                    <option value="50">$50</option>
-                                    <option value="100">$100</option>
-                                    <option value="other">Other</option>
-                                    <option value="no thank you">No thank you</option>
-                                </select>
-                                <label for="upd-hhc" class="form-label">Helping Hand</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter Contribution.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="upd-dt" placeholder="Default" name="upd-dt" value="<?= $regInfo['datetime'] ?>" disabled>
-                                <label for="upd-dt">Reg Date</label>
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <div class="col-lg-4">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-addr" id="upd-addr" placeholder="Enter MA" value="<?= $regInfo['address'] ?>">
-                                <label for="upd-addr" class="form-label">Address</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter address.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-city" id="upd-city" placeholder="Enter CI" value="<?= $regInfo['city'] ?>">
-                                <label for="upd-city" class="form-label">City</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter city.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-state" id="upd-state">
-                                    <option value="<?= $regInfo['state'] ?>" selected> <?php echo $regInfo['state'] ?></option>
-                                    <option value="AL">Alabama</option>
-                                    <option value="AK">Alaska</option>
-                                    <option value="AZ">Arizona</option>
-                                    <option value="AR">Arkansas</option>
-                                    <option value="CA">California</option>
-                                    <option value="CO">Colorado</option>
-                                    <option value="CT">Connecticut</option>
-                                    <option value="DE">Delaware</option>
-                                    <option value="DC">District of Columbia</option>
-                                    <option value="FL">Florida</option>
-                                    <option value="GA">Georgia</option>
-                                    <option value="HI">Hawaii</option>
-                                    <option value="ID">Idaho</option>
-                                    <option value="IL">Illinois</option>
-                                    <option value="IN">Indiana</option>
-                                    <option value="IA">Iowa</option>
-                                    <option value="KS">Kansas</option>
-                                    <option value="KY">Kentucky</option>
-                                    <option value="LA">Louisiana</option>
-                                    <option value="ME">Maine</option>
-                                    <option value="MD">Maryland</option>
-                                    <option value="MA">Massachusetts</option>
-                                    <option value="MI">Michigan</option>
-                                    <option value="MN">Minnesota</option>
-                                    <option value="MS">Mississippi</option>
-                                    <option value="MO">Missouri</option>
-                                    <option value="MT">Montana</option>
-                                    <option value="NE">Nebraska</option>
-                                    <option value="NV">Nevada</option>
-                                    <option value="NH">New Hampshire</option>
-                                    <option value="NJ">New Jersey</option>
-                                    <option value="NM">New Mexico</option>
-                                    <option value="NY">New York</option>
-                                    <option value="NC">North Carolina</option>
-                                    <option value="ND">North Dakota</option>
-                                    <option value="OH">Ohio</option>
-                                    <option value="OK">Oklahoma</option>
-                                    <option value="OR">Oregon</option>
-                                    <option value="PA">Pennsylvania</option>
-                                    <option value="RI">Rhode Island</option>
-                                    <option value="SC">South Carolina</option>
-                                    <option value="SD">South Dakota</option>
-                                    <option value="TN">Tennessee</option>
-                                    <option value="TX">Texas</option>
-                                    <option value="UT">Utah</option>
-                                    <option value="VT">Vermont</option>
-                                    <option value="VA">Virginia</option>
-                                    <option value="WA">Washington</option>
-                                    <option value="WV">West Virginia</option>
-                                    <option value="WI">Wisconsin</option>
-                                    <option value="WY">Wyoming</option>
-                                </select>
-                                <label for="upd-state" class="form-label">State</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-zc" id="upd-zc" placeholder="Enter ZC" value="<?= $regInfo['zipcode'] ?>">
-                                <label for=" upd-zc" class="form-label">Zip Code</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter zip code.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-rs" id="upd-rs">
-                                    <option value="<?= $regInfo['rstatus'] ?>" selected> <?php echo $regInfo['rstatus'] ?></option>
-                                    <option value="complete">Complete</option>
-                                    <option value="incomplete">Incomplete</option>
-                                </select>
-                                <label for="upd-rs" class="form-label">Status</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Select one.
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-fs" id="upd-fs" required>
-                                    <option value="<?= $regInfo['fellowship'] ?>" selected> <?php echo $regInfo['fellowship'] ?></option>
-                                    <option value="a.a.">A.A.</option>
-                                    <option value="al-anon">Al-Anon</option>
-                                    <option value="double winner">Double Winner</option>
-                                    <option value="other">Other</option>
-                                </select>
-                                <label for="upd-fs" class="form-label">Fellowship</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Enter Fellowship.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-lang" id="upd-lang" required>
-                                    <option value="<?= $regInfo['lang'] ?>" selected> <?php echo $regInfo['lang'] ?></option>
-                                    <option value="en">English(EN)</option>
-                                    <option value="es">Spanish(ES)</option>
-                                    <option value="other">Other</option>
-                                </select>
-                                <label for="upd-lang" class="form-label">Language</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Enter language.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-hg" id="upd-hg" placeholder="Enter HO" value="<?= $regInfo['homegroup'] ?>">
-                                <label for="upd-hg" class="form-label">Homegroup(s)</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Enter Homegroup(s).
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-reg" id="upd-reg" onChange="optionSND(this)" required>
-                                    <option value="<?= $regInfo['registration'] ?>" selected> <?php echo $regInfo['registration'] ?></option>
-                                    <option value="ebr">EBR</option>
-                                    <option value="after">After</option>
-                                </select>
-                                <label for="upd-reg" class="form-label">Registration</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Required - Please check one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-snd" id="upd-snd">
-                                    <option value="<?= $regInfo['dance'] ?>" selected> <?php echo $regInfo['dance'] ?></option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                    <option value="undecided">Undecided</option>
-                                </select>
-                                <label for="upd-snd" class="form-label">Saturday Night Dance</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Please select one.
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-ebmb" id="upd-ebmb" onChange="optionEBMB(this)" required>
-                                    <option value="<?= $regInfo['ebmb'] ?>" selected> <?php echo $regInfo['ebmb'] ?></option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                    <option value="undecided">Undecided</option>
-                                </select>
-                                <label for="upd-ebmb" class="form-label">Early Bird Meal Bundle</label>
+                                </div>
                             </div>
 
-                            <div class="invalid-feedback">
-                                Required - Please select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-mtsd" id="upd-mtsd" onChange="optionCHANGE()" required>
-                                    <option value="<?= $regInfo['speakerdinner'] ?>" selected> <?php echo $regInfo['speakerdinner'] ?></option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                    <option value="undecided">Undecided</option>
-                                </select>
-                                <label for="upd-mtsd" class="form-label">Speaker's Dinner</label>
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-zc" id="upd-zc" placeholder="Enter ZC" value="<?= $orderInfo['zipcode'] ?>" required>
+                                    <label for=" upd-zc" class="form-label">Zip Code</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter zip code.
+                                </div>
                             </div>
 
-                            <div class="invalid-feedback">
-                                Required - Please select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-rucb" id="upd-rucb" onChange="optionCHANGE()" required>
-                                    <option value="<?= $regInfo['breakfast'] ?>" selected> <?php echo $regInfo['breakfast'] ?></option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                    <option value="undecided">Undecided</option>
-                                </select>
-                                <label for="upd-rucb" class="form-label">Continental Breakfast</label>
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="upd-qf" id="upd-qf" placeholder="Enter QF" value="<?= $orderInfo['quanflowers'] ?>" required>
+                                    <label for=" upd-qf" class="form-label"># Flowers</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter flower quantity.
+                                </div>
                             </div>
 
-                            <div class="invalid-feedback">
-                                Required - Please select one.
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <select class="form-select" name="upd-rs" id="upd-rs">
+                                        <option value="<?= $orderInfo['rstatus'] ?>" selected> <?php echo $orderInfo['rstatus'] ?></option>
+                                        <option value="complete">Complete</option>
+                                        <option value="incomplete">Incomplete</option>
+                                    </select>
+                                    <label for="upd-rs" class="form-label">Status</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Optional - Select one.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-ics" id="upd-ics" onChange="optionCHANGE()" required>
-                                    <option value="<?= $regInfo['icecream'] ?>" selected> <?php echo $regInfo['icecream'] ?></option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                    <option value="undecided">Undecided</option>
-                                </select>
-                                <label for="upd-ics" class="form-label">Ice Cream Social</label>
+                            <hr>
+
+                            <div class="col-lg-2">
+                                <div class="form-floating">
+                                    <select class="form-select" name="upd-lang" id="upd-lang" required>
+                                        <option value="<?= $orderInfo['lang'] ?>" selected> <?php echo $orderInfo['lang'] ?></option>
+                                        <option value="en">English(EN)</option>
+                                        <option value="es">Spanish(ES)</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <label for="upd-lang" class="form-label">Language</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Required - Enter language.
+                                </div>
                             </div>
-                            <div class="invalid-feedback">
-                                Required - Please select one.
+
+                            <hr>
+
+                            <div class="col-lg-3 text-center">
+                                <button type="submit" class="btn mcf-button btn-sm" name="submitUpdate" value='update'>Update Registration</button>
                             </div>
-                        </div>
 
-                        <hr>
-                        <!--
-                        <div class="col-lg-3">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-tsq" id="upd-tsq" onChange="optionSHIRT()" required>
-                                    <option value="<?= $regInfo['teequan'] ?>" selected> <?php echo $regInfo['teequan'] ?></option>
-                                    <option value="0">0</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
-                                <label for="upd-tsq" class="form-label">Tee Quantity</label>
+                            <div class="col-lg-3 text-center">
+                                <button type="reset" name="reset" value="reset" class="btn mcf-button btn-sm"> Reset Registration</button>
                             </div>
-                            <div class="invalid-feedback">
-                                Required, please enter your quantity
+
+                            <div class="col-lg-6">
+
+                            <?php } else {  ?>
+                                <p class="h6"> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</p>
+
+                                <div class="col-lg-12">
+                                <?php } ?>
+
+                                <a href="_admin.php" class="btn mcf-button btn-sm" style="float:right;">Return to Admin</a>
+
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="col-lg-5">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-tss" id="upd-tss">
-                                    <<option value="<?= $regInfo['teesize'] ?>" selected> <?php echo $regInfo['teesize'] ?></option>
-                                        <option value="none">None</option>
-                                        <option value="sm">Small</option>
-                                        <option value="med">Medium</option>
-                                        <option value="lg">Large</option>
-                                        <option value="xl">X-Large</option>
-                                        <option value="xxl">XX-Large</option>
-                                        <option value="3xl">3X-Large</option>
-                                </select>
-                                <label for="upd-tss" class="form-label">Tee Size</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional, please enter your size
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-tsg" id="upd-tsg">
-                                    <option value="<?= $regInfo['teegender'] ?>" selected> <?php echo $regInfo['teegender'] ?></option>
-                                    <option value="none">None</option>
-                                    <option value="men">Men's</option>
-                                    <option value="women">Women's</option>
-                                </select>
-                                <label for="upd-tsg" class="form-label">Tee Style</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional, please enter your style
-                            </div>
-                        </div>
-
-                        <hr>
--->
-                        <div class="col-lg-3 text-center">
-                            <button type="submit" class="btn btn-primary btn-sm" name="submitUpdate" value='update'>Update Registration</button>
-                        </div>
-
-                        <div class="col-lg-3 text-center">
-                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm"> Reset Registration</button>
-                        </div>
-
-                        <div class="col-lg-6">
-
-                        <?php } else {  ?>
-                            <p class="h6"> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</p>
-
-                            <div class="col-lg-12">
-                            <?php } ?>
-
-                            <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
-
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                </div>
             </div>
         </div>
-    </div>
 
-    <?php include_once 'footer.inc' ?>
+        <?php include_once 'footer.inc' ?>
 
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (() => {
+                'use strict'
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                const forms = document.querySelectorAll('.needs-validation')
 
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
+                // Loop over them and prevent submission
+                Array.from(forms).forEach(form => {
+                    form.addEventListener('submit', event => {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
-    <script>
-        /**
-         * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
-         */
-        function optionEBMB($obj) {
-
-            let myArr = ['upd-mtsd', 'upd-rucb', 'upd-ics'];
-
-            myArr.forEach(function($key) {
-                if ($obj.value == "yes" || $obj.value == "undecided")
-                    document.getElementById($key).value = "no";
-                //else
-                //document.getElementById($key).value = "";
-            });
-
-        }
-
-        function optionSND($obj) {
-            let snd = document.getElementById("upd-snd");
-            if ($obj.value == 'ebr' || $obj.value == 'after')
-                snd.value = "yes";
-        }
-
-        function optionCHANGE() {
-            let ebmb = document.getElementById('upd-ebmb');
-            let mtsd = document.getElementById('upd-mtsd');
-            let rucb = document.getElementById('upd-rucb');
-            let ics = document.getElementById('upd-ics');
-
-            if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
-                ebmb.value = "no";
-            //else
-            //ebmb.value = "";
-        }
-
-        function optionSHIRT() {
-            let sQua = document.getElementById('upd-tsq');
-            let sSiz = document.getElementById('upd-tss');
-            let sGen = document.getElementById('upd-tsg');
-
-            if (sQua.value == "0") {
-                sSiz.value = "none";
-                sGen.value = "none";
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+        </script>
+        <script>
+            function myReset(thisForm) {
+                document.getElementById(thisForm).reset();
             }
-        }
-    </script>
-    <script>
-        function myReset(thisForm) {
-            document.getElementById(thisForm).reset();
-        }
-    </script>
+        </script>
 
-    </body>
+</body>
 
-    </html>
+</html>
