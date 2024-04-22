@@ -420,11 +420,11 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <hr>
 
                             <div class="col-lg-3 text-center">
-                                <button type="submit" class="btn mcf-button btn-sm mcf-btn-wide" name="submitUpdate" value='update'>Update Order</button>
+                                <button type="submit" class="btn mcf-button btn-sm" name="submitUpdate" value='update'>Update Order</button>
                             </div>
 
                             <div class="col-lg-3 text-center">
-                                <button type="reset" name="reset" value="reset" class="btn mcf-button btn-sm mcf-btn-wide"> Reset Order</button>
+                                <button type="reset" name="reset" value="reset" class="btn mcf-button btn-sm"> Reset Order</button>
                             </div>
 
                             <div class="col-lg-6">
@@ -435,7 +435,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 <div class="col-lg-12">
                                 <?php } ?>
 
-                                <a href="_admin.php" class="btn mcf-button btn-sm mcf-btn-wide" style="float:right;">Return to Admin</a>
+                                <a href="_admin.php" class="btn mcf-button btn-sm" style="float:right;">Return to Admin</a>
 
                                 </div>
                             </div>
