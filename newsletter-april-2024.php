@@ -73,16 +73,16 @@ include_once 'header.inc'
                             <img src="../images/special-day.png" class="figure-img img-fluid" alt="Hand written Special Day logo with a red heart.">
                             <figcaption><small> Published 04-22-2024</small>
                         </figure>
-                        <h3>Page 1 - Introducing Millie's Crazy Flowers: Handcrafted Elegance for Every Occasion - April</h3>
+                        <h3>Introducing Millie's Crazy Flowers: Handcrafted Elegance for Every Occasion - April</h3>
                         <p>Millie's Crazy Flowers offer a whimsical and delightful addition to any occasion. Priced at $12.50 each, these handcrafted wonders are not only affordable but also come with a special offer: buy two and get one free! Need to deck out a large event? No problem. While each flower is meticulously crafted by hand, we are dedicated to fulfilling even the most sizable orders with care and precision. Furthermore, we are more than happy to support your cause by offering donations for specific events. Simply reach out to us via our contact form, providing details of your organization, contact person, event address, and required donation date. We'll promptly get in touch, ensuring a seamless delivery five days prior to your event. And don't worry about color preferences; our talented artists will strive to meet your specifications. Your satisfaction is our priority. So, whether it's brightening up your space or supporting a worthy cause, Millie's Crazy Flowers are here to make your moments even more memorable.
                         </p>
-
+<!--
                         <p class="mb-3 mb-lg-5">More info here</p>
                         <h3>Newsletter Title Part 2</h3>
                         <p>Even more info</p>
-
+-->
                         <figure class="figure">
-                            <img src="../images/mcf-flower-10" class="figure-img img-fluid" alt="The flowers could be displayed against a clean, neutral background to emphasize their beauty and elegance.">
+                            <img src="../images/mcf-flower-10.png" class="figure-img img-fluid" alt="The flowers could be displayed against a clean, neutral background to emphasize their beauty and elegance.">
                         </figure>
                         <p>Buy Two, Get One Free - A vibrant bouquet of Millie's Crazy Flowers arranged in a decorative vase, showcasing their colorful petals and intricate handcrafted details.</p>
 

@@ -5,7 +5,7 @@
 
     <h3 class="fw-bold mb-3">Recent Posts</h3>
     <div class="block-8 d-flex mb-3">
-        <a class="nl-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
+        <a class="nl-img rounded" style="background-image: url(images/special-day.png);"></a>
 
         <ul class="ul-list ms-3">
             <li class="fs-14">
@@ -53,9 +53,6 @@
 
     <h3 class="fw-bold mb-3"> Our Gallery</h3>
     <div class="d-flex mb-3 mb-lg-5">
-        <a href=purchase.php>
-            <img src="images/mcf-flower-4.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower four." title="Zooming in!">
-        </a>
         <a href=purchase.php>
             <img src="images/mcf-flower-6.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
         </a>

@@ -27,12 +27,12 @@
                 <div class="col-md-6 col-lg-4 p-3 ">
                     <h2 class="header-font mb-4 text-center">Recent Posts</h2>
                     <div class="block-8 mb-4 d-flex">
-                        <a class="nl-img rounded" style="background-image: url(images/mcf-flower-2.png);"></a>
+                        <a class="nl-img rounded" style="background-image: url(images/special-day.png);"></a>
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">
                                 <i class="bi bi-calendar me-1"></i>04.22.24
-                                <i class="bi bi-person-fill-check mx-1"></i>Jeanne
+                                <i class="bi bi-person-fill-check mx-1"></i>Jeanne E.
                             </li>
                             <li>
                                 <h6 class="ps-2"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></h6>
