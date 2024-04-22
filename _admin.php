@@ -230,7 +230,7 @@ function displayOrderAdmin($requisition)
                             echo '<li class="nav-item">';
                             echo '<div role= "form">';
                             echo '<form method ="POST" >';
-                            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
+                            echo '<input type="submit" value="LogOut" class="nav-link log-input px-2" name="logout">';
                             echo '</form>';
                             echo '</div>';
                             echo '</li>';

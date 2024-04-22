@@ -207,6 +207,8 @@ a {
   letter-spacing: 1px;
 }
 
+
+
 @media screen and (max-width: 991.98px) {
   .mcf-navbar-light {
     background: var(--color-3) !important;
