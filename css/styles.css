@@ -181,7 +181,7 @@ a {
   letter-spacing: 1px;
 }
 
-.mcf-navbar-dark{
+.mcf-navbar-dark {
   background: var(--color-10);
   letter-spacing: 1px;
 }
@@ -191,22 +191,21 @@ a {
 }
 
 .navbar-nav>li>a:hover,
-.log-input:hover  {
+.log-input:hover {
   background-color: var(--color-5);
   color: var(--color-1) !important;
 }
 
-.mcf-navbar-light .navbar-nav>.nav-item .nav-link.active {
+.navbar-nav>.nav-item>.nav-link.active {
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
 }
 
-.log-input{
+.log-input {
   color: var(--color-1);
   letter-spacing: 1px;
 }
-
 
 
 @media screen and (max-width: 991.98px) {
@@ -217,7 +216,6 @@ a {
     top: 0;
   }
 
-  .mcf-navbar-light .navbar-brand,
   .navbar-nav>.nav-item>.nav-link {
     color: var(--color-1);
   }
@@ -234,8 +232,7 @@ a {
 }
 
 /**** navbar toggle ****/
-.mcf-navbar-light .navbar-toggler,
-.mcf-navbar-dark .navbar-toggler{
+.navbar-toggler {
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
@@ -405,7 +402,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   width: 5em !important;
 }
 
-.mcf-btn-wide{
+.mcf-btn-wide {
   width: revert;
 }
 
