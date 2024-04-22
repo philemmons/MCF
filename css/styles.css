@@ -55,7 +55,7 @@ h1 {
   color: var(--color-1);
 }
 
-a{
+a {
   text-underline-position: under;
 }
 
@@ -621,6 +621,10 @@ a.mcf-crumb:focus {
 
 .bg-img-registration {
   background-image: url('../images/field-of-sunflowers.jpg');
+}
+
+.bg-img-login {
+  background-image: url('../images/lock-bg-image.png');
 }
 
 fieldset {

@@ -58,7 +58,7 @@ if (isset($_POST['logout'])) {
 
     <!-- Hero Section -->
     <section class="container-fluid">
-      <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-contactUs" title="We are here to answer your questions and welcome your feedback.">
+      <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-login" title="Welcome Admin">
         <div class="col-xl-6 col-lg-7 col-md-9">
           <div class="text-center">
             <p class="fw-bold ">
