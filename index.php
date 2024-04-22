@@ -230,7 +230,7 @@ include_once 'header.inc'
             <div class="card border-0 nl-1 rounded-0 h-100">
               <div class="row g-0">
                 <div class="col-sm-6 text-center">
-                  <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
+                <img src="../images/special-day.png" class="figure-img img-fluid" alt="Hand written Special Day logo with a red heart.">
                 </div>
                 <div class="col-sm-6">
                   <div class="card-body">
