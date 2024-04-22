@@ -202,7 +202,7 @@ function displayOrderAdmin($requisition)
                     <div class="text-center h1-ls" title="Admin Panel">
                         <h1 class="header-font pb-4 px-3 px-md-0">Admin Panel
                         </h1>
-                        <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
+                        <p class="h6 text-light"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                     </div>
                 </div>
             </div>
