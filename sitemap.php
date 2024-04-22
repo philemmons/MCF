@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
