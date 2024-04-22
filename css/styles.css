@@ -229,7 +229,8 @@ a {
 }
 
 /**** navbar toggle ****/
-.mcf-navbar-light .navbar-toggler {
+.mcf-navbar-light .navbar-toggler,
+.mcf-navbar-dark .navbar-toggler{
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
