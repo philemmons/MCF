@@ -7,10 +7,9 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
 }
 
 include_once 'header.inc';
-include_once 'php/source.php';
 
 include_once 'php/source.php';
-include_once 'source/dbConnection.php';
+include_once 'php/dbConnection.php';
 
 $dbConn = getDBConnection();
 
