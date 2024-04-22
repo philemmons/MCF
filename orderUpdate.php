@@ -32,7 +32,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     $total = $postage + $subtotal;
 
-    $sql = "UPDATE registration
+    $sql = "UPDATE requisition
             SET 
                 firstname = :firstName,
                 lastname = :lastName,

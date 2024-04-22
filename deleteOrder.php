@@ -12,7 +12,7 @@ include_once 'source/dbConnection.php';
 $dbConn = getDBConnection();
 
 $nPara[':dRegId'] = $_GET['id'];
-$sql = "DELETE FROM registration
+$sql = "DELETE FROM requisition
             WHERE id = :dRegId ";
 //echo $sql;
 $stmt = $dbConn->prepare($sql);

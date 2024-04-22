@@ -112,7 +112,7 @@ function displayOrderAdmin($requisition)
         echo "<td>" . $eachOrder['email'] . "</td>";
 
         echo "<td>
-    <a href='regUpdate.php?id=" . $eachOrder['id'] . "'>
+    <a href='orderUpdate.php?id=" . $eachOrder['id'] . "'>
       <button type=\"button\" class=\"btn btn-success btn-sm\"> Update </button>
     </a>";
         echo "</td>";
