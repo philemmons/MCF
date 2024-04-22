@@ -202,9 +202,9 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     </li>
                     <?php
                     if (isset($_SESSION["status"])) {
-                        echo '<li class="nav-item" style="border-right: none;">';
+                        echo '<li class="nav-item">';
                         echo '<div role= "form">';
-                        echo '<form method ="POST" id="oneBtn">';
+                        echo '<form method ="POST" >';
                         echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
                         echo '</form>';
                         echo '</div>';
