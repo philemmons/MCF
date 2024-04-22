@@ -82,7 +82,7 @@ include_once 'header.inc'
                         <p>Even more info</p>
 -->
                         <figure class="figure">
-                            <img src="../images/mcf-flower-10.png" class="figure-img img-fluid" alt="The flowers could be displayed against a clean, neutral background to emphasize their beauty and elegance.">
+                            <img src="../images/mcf-flower-6.png" class="figure-img img-fluid" alt="The flowers could be displayed against a clean, neutral background to emphasize their beauty and elegance.">
                         </figure>
                         <p>Buy Two, Get One Free - A vibrant bouquet of Millie's Crazy Flowers arranged in a decorative vase, showcasing their colorful petals and intricate handcrafted details.</p>
 
