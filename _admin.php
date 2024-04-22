@@ -424,7 +424,7 @@ function displayOrderAdmin($requisition)
                                 $orders = getOrderData("requisition", "desc");
                             }
 
-                            displayOrderAdmin($requisition);
+                            displayOrderAdmin($orders);
                             ?>
                         </tbody>
                     </table>
