@@ -22,12 +22,6 @@ if (isset($_POST['logout'])) {
 
 /**** pricing ****/
 
-$subtotal = getAmount($qf, 12.5);
-$postage = getAmount($qf, 6.0);
-
-$orderTotal = $postage + $subtotal;
-
-
 if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
     if ($_POST['regType'] == 'incomplete') {
         $statusMsg = "Incomplete Orders";
@@ -158,6 +152,8 @@ function displayOrderAdmin($requisition)
         }
     }
 </script>
+
+<body>
 
 <nav class="navbar navbar-expand-lg mcf-navbar-light">
     <div class="container-xl">
