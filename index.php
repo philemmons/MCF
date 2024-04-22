@@ -94,7 +94,7 @@ include_once 'header.inc'
           <div class="col-lg-6 my-2 my-lg-5">
             <div class="card-body">
               <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
-              <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we love.</p>
+              <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we loved.</p>
               <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
 
               <div class="text-center">
