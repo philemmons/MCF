@@ -181,6 +181,11 @@ a {
   letter-spacing: 1px;
 }
 
+.mcf-navbar-dark{
+  background: var(--color-10);
+  letter-spacing: 1px;
+}
+
 .navbar-nav>.nav-item>.nav-link {
   color: var(--color-1);
 }
