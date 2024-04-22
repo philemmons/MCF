@@ -73,32 +73,32 @@ if (isset($_POST['logout'])) {
       </div>
     </section>
 
-    <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand-lg mcf-navbar-light">
-      <div class="container-xl">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="bottomNavbar">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
-              <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
-            </li>
-            <?php
-            if (isset($_SESSION["status"])) {
-              echo '<li class="nav-item" style="border-right: none;">';
-              echo '<div role= "form">';
-              echo '<form method ="POST" id="oneBtn" >';
-              echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
-              echo '</form>';
-              echo '</div>';
-              echo '</li>';
-            }
-            ?>
-          </ul>
-        </div>
+  <!-- Bottom Navbar -->
+  <nav class="navbar navbar-expand-lg mb-5">
+    <div class="container">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
+            <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
+          </li>
+          <?php
+          if (isset($_SESSION["status"])) {
+            echo '<li class="nav-item" style="border-right: none;">';
+            echo '<div role= "form">';
+            echo '<form method ="POST" id="oneBtn" >';
+            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
+            echo '</form>';
+            echo '</div>';
+            echo '</li>';
+          }
+          ?>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <!-- Part One -->
     <div class="container shadow-wrap">
