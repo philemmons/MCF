@@ -121,27 +121,27 @@ include_once 'header.inc'
         </div>
 
         <div class="row text-center">
-          <div class="col-lg-4 p-5 info-4 border border-white">
+          <div class="col-lg-4 p-1 info-4 border border-white">
             <img src="images/mcf-flower-5.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower five." title="Zooming in!">
           </div>
 
-          <div class="col-lg-4 p-5 info-4 border border-white">
+          <div class="col-lg-4 p-1 info-4 border border-white">
             <img src="images/mcf-flower-6.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
           </div>
 
-          <div class="col-lg-4 p-5 info-4 border border-white">
+          <div class="col-lg-4 p-1 info-4 border border-white">
             <img src="images/mcf-flower-7.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower seven." title="Zooming in!">
           </div>
 
-          <div class="col-lg-4 p-5 info-4 border border-white">
+          <div class="col-lg-4 p-1 info-4 border border-white">
             <img src="images/mcf-flower-8.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower eight." title="Zooming in!">
           </div>
 
-          <div class="col-lg-4 p-5 info-4 border border-white">
+          <div class="col-lg-4 p-1 info-4 border border-white">
             <img src="images/mcf-flower-9.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower nine." title="Zooming in!">
           </div>
 
-          <div class="col-lg-4 p-5 info-4 border border-white">
+          <div class="col-lg-4 p-1 info-4 border border-white">
             <img src="images/mcf-flower-10.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower ten." title="Zooming in!">
           </div>
         </div>
@@ -206,7 +206,7 @@ include_once 'header.inc'
             </div>
             <div class="card-body">
               <h5 class="card-title pt-3">Delivery</h5>
-              <p class="card-text">Our current postage and handling charge is $6 for each flower, but when you buy two, then the third one gets free delivery. For larger quantities, delivery costs are adjustable, and we will email a final amount for you. We only deliver in the continental United States at this time through the USPS. If you need your flowers sooner, we are able to make arrangements with UPS or FedEx. 
+              <p class="card-text">Our current postage and handling charge is $6 for each flower, but when you buy two, then the third one gets free delivery. For larger quantities, delivery costs are adjustable, and we will email a final amount for you. We only deliver in the continental United States at this time through the USPS. If you need your flowers sooner, we are able to make arrangements with UPS or FedEx.
               </p>
             </div>
           </div>
@@ -242,7 +242,7 @@ include_once 'header.inc'
             <div class="card border-0 nl-1 rounded-0 h-100">
               <div class="row g-0">
                 <div class="col-sm-6 text-center">
-                <img src="../images/special-day.png" class="figure-img img-fluid" alt="Hand written Special Day logo with a red heart.">
+                  <img src="../images/special-day.png" class="figure-img img-fluid" alt="Hand written Special Day logo with a red heart.">
                 </div>
                 <div class="col-sm-6">
                   <div class="card-body">
