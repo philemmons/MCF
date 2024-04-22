@@ -181,6 +181,12 @@ a {
   letter-spacing: 1px;
 }
 
+/**** bottom navbar ****/
+.mcf-navbar-dark{
+  background: var(--color-10);
+  letter-spacing: 1px;
+}
+
 .navbar-nav>.nav-item>.nav-link {
   color: var(--color-1);
 }
@@ -190,25 +196,25 @@ a {
   color: var(--color-1) !important;
 }
 
-.mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
+div[class^= "mcf-navbar-"] .navbar-nav>.nav-item>.nav-link.active {
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
 }
 
 @media screen and (max-width: 991.98px) {
-  .mcf-navbar-light {
+  .div[class^= "mcf-navbar-"] {
     background: var(--color-3) !important;
     padding: 1em;
     position: relative;
     top: 0;
   }
 
-  .mcf-navbar-light .navbar-brand {
+  .div[class^= "mcf-navbar-"] .navbar-brand {
     color: var(--color-1);
   }
 
-  .mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
+  .div[class^= "mcf-navbar-"] .navbar-nav>.nav-item>.nav-link.active {
     background-color: var(--color-6)
   }
 
@@ -224,7 +230,7 @@ a {
 }
 
 /**** navbar toggle ****/
-.mcf-navbar-light .navbar-toggler {
+.div[class^= "mcf-navbar-"] .navbar-toggler {
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
