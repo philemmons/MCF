@@ -116,7 +116,7 @@ function getOrderType($table, $regType)
 
 function saveData($total, $lang)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $total, $lang;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $total, $lang, $transid;
      //$tsq, $tss, $tsg;
      global $dbConn, $nPara;
 

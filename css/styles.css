@@ -190,7 +190,8 @@ a {
   color: var(--color-1);
 }
 
-.navbar-nav>li>a:hover {
+.navbar-nav>li>a:hover,
+.log-input:hover  {
   background-color: var(--color-5);
   color: var(--color-1) !important;
 }

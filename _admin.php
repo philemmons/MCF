@@ -6,9 +6,7 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'header-top.inc';
-echo "<title>MBAR - Admin </title>";
-include_once 'header-bottom.inc';
+include_once 'header.inc';
 include_once 'php/source.php';
 
 $dbConn = getDBConnection();
@@ -19,34 +17,32 @@ if (isset($_POST['logout'])) {
     header("Location: index.php");
 }
 
-/**** registration totals ****/
+/**** order totals ****/
 
 
-/**** event pricing ****/
+/**** pricing ****/
 
-$preregPrice = 45.0;
-$regPrice = 50.0;
-$ebmbPrice = 35.0;
-$mtsdPrice = 25.0;
-$rucbPrice = 10.0;
-$icsPrice = 5.0;
-$sndPrice = 5.0;
+$subtotal = getAmount($qf, 12.5);
+$postage = getAmount($qf, 6.0);
+
+$orderTotal = $postage + $subtotal;
+
 
 if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
     if ($_POST['regType'] == 'incomplete') {
-        $statusMsg = "Incomplete Registrations";
+        $statusMsg = "Incomplete Orders";
     } else {
-        $statusMsg = "Archived Registrations";
+        $statusMsg = "Completed Orders";
     }
 } else {
-    $statusMsg = "All Registrations";
+    $statusMsg = "All Orders";
 }
 
 function getZeroPara()
 {
     global $dbConn;
 
-    $sql = "SELECT count(*) as result FROM registration";
+    $sql = "SELECT count(*) as result FROM requisition";
     //echo $sql . '<br>';
     $tot =  preExeFetNOPARA($sql);
     //print_r($tot);
@@ -58,7 +54,7 @@ function getOnePara($alpha)
 {
     global $dbConn;
 
-    $sql = "SELECT SUM(" . $alpha . ") as result FROM registration";
+    $sql = "SELECT SUM(" . $alpha . ") as result FROM requisition";
     //echo $sql . '<br>';
     $tot =  preExeFetNOPARA($sql);
     //print_r($tot);
@@ -70,7 +66,7 @@ function getTwoPara($alpha, $beta)
 {
     global $dbConn;
 
-    $sql = "SELECT count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
+    $sql = "SELECT count(*) as result FROM requisition where " . $alpha . " like '" . $beta . "'";
     //echo $sql . '<br>';
     $tot =  preExeFetNOPARA($sql);
     //print_r($tot);
@@ -81,7 +77,7 @@ function getTwoParaSum($alpha, $beta)
 {
     global $dbConn;
 
-    $sql = "SELECT sum(total) as result FROM registration where " . $alpha . " like '" . $beta . "'";
+    $sql = "SELECT sum(total) as result FROM requisition where " . $alpha . " like '" . $beta . "'";
     //echo $sql . '<br>';
     $tot =  preExeFetNOPARA($sql);
     //print_r($tot);
@@ -92,7 +88,7 @@ function getHelpHand()
 {
     global $dbConn;
 
-    $sql = "SELECT SUM( CAST(helpinghand AS UNSIGNED) ) AS result FROM registration WHERE helpinghand REGEXP '[0-9]'";
+    $sql = "SELECT SUM( CAST(helpinghand AS UNSIGNED) ) AS result FROM requisition WHERE helpinghand REGEXP '[0-9]'";
     //echo $sql . '<br>';
     $tot =  preExeFetNOPARA($sql);
     //print_r($tot);
@@ -108,58 +104,44 @@ function displayTot($tot)
 }
 
 
-/* registration display with update and delete buttons for each */
-function displayRegAdmin($registration)
+/* requisition display with update and delete buttons for each */
+function displayOrderAdmin($requisition)
 {
-    foreach ($registration as $eachReg) {
+    foreach ($requisition as $eachOrder) {
 
-        $fPhone = formatPhone($eachReg['phone']);
+        $fPhone = formatPhone($eachOrder['phone']);
 
         echo "<tr>";
-        echo "<td>" . $eachReg['result'] . "</td>";
-        echo "<td>" . $eachReg['firstname'] . "</td>";
-        echo "<td>" . $eachReg['lastname'] . "</td>";
-        echo "<td>" . $eachReg['email'] . "</td>";
+        echo "<td>" . $eachOrder['result'] . "</td>";
+        echo "<td>" . $eachOrder['firstname'] . "</td>";
+        echo "<td>" . $eachOrder['lastname'] . "</td>";
+        echo "<td>" . $eachOrder['email'] . "</td>";
 
         echo "<td>
-    <a href='regUpdate.php?id=" . $eachReg['id'] . "'>
+    <a href='regUpdate.php?id=" . $eachOrder['id'] . "'>
       <button type=\"button\" class=\"btn btn-success btn-sm\"> Update </button>
     </a>";
         echo "</td>";
 
         echo "<td>
-    <a href='deleteReg.php?id=" . $eachReg['id'] . "' onclick= 'return confirmDelete(\"" . $eachReg['email'] . "\")' >
+    <a href='deleteReg.php?id=" . $eachOrder['id'] . "' onclick= 'return confirmDelete(\"" . $eachOrder['email'] . "\")' >
       <button type=\"button\" class=\"btn btn-danger btn-sm\"> Delete </button>
     </a>";
         echo "</td>";
 
-        echo "<td>" . $eachReg['payment'] . "</td>";
-        echo "<td>" . $eachReg['total'] . "</td>";
-        echo "<td>" . $eachReg['paid'] . "</td>";
-        echo "<td>" . $eachReg['rstatus'] . "</td>";
-        echo "<td>" . $eachReg['verification'] . "</td>";
-        echo "<td>" . $eachReg['badgename'] . "</td>";
+        echo "<td>" . $eachOrder['payment'] . "</td>";
+        echo "<td>" . $eachOrder['total'] . "</td>";
+        echo "<td>" . $eachOrder['paid'] . "</td>";
+        echo "<td>" . $eachOrder['rstatus'] . "</td>";
         echo "<td>" . $fPhone . "</td>";
-        echo "<td>" . $eachReg['address'] . "</td>";
-        echo "<td>" . $eachReg['city'] . "</td>";
-        echo "<td>" . $eachReg['state'] . "</td>";
-        echo "<td>" . $eachReg['zipcode'] . "</td>";
-        echo "<td>" . $eachReg['fellowship'] . "</td>";
-        echo "<td>" . $eachReg['lang'] . "</td>";
-        echo "<td>" . $eachReg['homegroup'] . "</td>";
-        echo "<td>" . $eachReg['registration'] . "</td>";
-        echo "<td>" . $eachReg['ebmb'] . "</td>";
-        echo "<td>" . $eachReg['speakerdinner'] . "</td>";
-        echo "<td>" . $eachReg['breakfast'] . "</td>";
-        echo "<td>" . $eachReg['icecream'] . "</td>";
-        echo "<td>" . $eachReg['dance'] . "</td>";
-        echo "<td>" . $eachReg['helpinghand'] . "</td>";
-        /*
-        echo "<td>" . $eachReg['teequan'] . "</td>";
-        echo "<td>" . $eachReg['teesize'] . "</td>";
-        echo "<td>" . $eachReg['teegender'] . "</td>";
-        */
-        echo "<td>" . $eachReg['tos'] . "</td>";
+        echo "<td>" . $eachOrder['address'] . "</td>";
+        echo "<td>" . $eachOrder['city'] . "</td>";
+        echo "<td>" . $eachOrder['state'] . "</td>";
+        echo "<td>" . $eachOrder['zipcode'] . "</td>";
+        echo "<td>" . $eachOrder['quanflowers'] . "</td>";
+        echo "<td>" . $eachOrder['lang'] . "</td>";
+        echo "<td>" . $eachOrder['tos'] . "</td>";
+        echo "<td>" . $eachOrder['transid'] . "</td>";
         echo "</tr>";
     }
 }
@@ -177,81 +159,74 @@ function displayRegAdmin($registration)
     }
 </script>
 
-<nav class="navbar navbar-expand-lg" aria-label="main navigation">
-    <div class="container">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg mcf-navbar-light">
+    <div class="container-xl">
+        <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
+            <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="pe-2">Menu</span>
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="topNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
-                        <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="register-now.php">Registration</a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" href="memories.php">Memories</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-committees" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-committees">
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Potluck</a>
-                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
-                    </div>
+                    <a class="nav-link px-2" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link px-2" href="our_story.php">Our Story</a>
                 </li>
-                <li class="nav-item style=" border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="purchase.php">Purchase</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
+                </li>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link px-2" href="contact.php" aria-current="page">Contact Us</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
+
 <main id="main-content">
-    <!-- Hero Part -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
-                    </h2>
-                    <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
+
+    <!-- Hero Section -->
+    <section class="container-fluid">
+        <div class="row justify-content-center align-items-end bg-frame bg-img-login" title="Welcome Admin">
+            <div class="col-xl-6 col-lg-7 col-md-9">
+                <div class="text-center">
+                    <p class="fw-bold ">
+                        <a href="index.php" class="mcf-crumb">Home&gt;</a>&nbsp;&nbsp;<a href="#" class="mcf-crumb">Admin Panel</a>
+                    </p>
+                </div>
+                <div class="text-center h1-ls" title="Admin Panel">
+                    <h1 class="header-font pb-4 px-3 px-md-0">Admin Panel
+                    </h1>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand-lg mb-5" aria-label="middle navigation">
+    <nav class="navbar navbar-expand-lg mb-5 mcf-navbar-dark" aria-label="middle navigation">
         <div class="container">
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavBar" aria-controls="bottomNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="pe-2">Admin Menu</span>
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <div class="collapse navbar-collapse" id="bottomNavBar">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="_admin-test.php">Admin Test Panel<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link px-2 active" aria-current="page" href="_admin.php">Admin Panel<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="regInsert.php">New Registration</a>
+                        <a class="nav-link px-2" href="orderInsert.php">New Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="regUpdate.php">Update Registration</a>
+                        <a class="nav-link px-2" href="orderUpdate.php">Update Order</a>
                     </li>
                     <?php
                     if (isset($_SESSION["status"])) {
@@ -278,7 +253,7 @@ function displayRegAdmin($registration)
                         <div class="accordion-item">
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <strong>Online Registration Summary (Click to Display)</strong>
+                                    <strong>Online Order Summary (Click to Display)</strong>
                                 </button>
                             </h3>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -286,25 +261,19 @@ function displayRegAdmin($registration)
 
                                     <div class='row text-center'>
                                         <div class="col-sm-6 pt-2 pb-4">
-                                            <a href="exportData.php" target='_blank' class="btn btn-primary">CSV Export All Data</a>
-                                        </div>
-                                        <div class="col-sm-6 pt-2 pb-4">
-                                            <a href="exportBadge.php" target='_blank' class="btn btn-primary">CSV Export Badge Data</a>
+                                            <a href="exportData.php" target='_blank' class="btn mcf-button">CSV Export All Data</a>
                                         </div>
                                     </div>
 
 
                                     <fieldset>
-                                        <legend>Pre Registration Info</legend>
+                                        <legend>Order Info</legend>
                                         <div class='row pb-3'>
                                             <div class="col-sm-4">
-                                                Total Registrations: <?php echo getZeroPara(); ?>
+                                                Total Orders: <?php echo getZeroPara(); ?>
                                             </div>
                                             <div class="col-sm-4">
-                                                Early Bird Reg 7-1-24: <?php echo getTwoPara('registration', 'ebr'); ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
+                                                Total Flowers Ordered: <?php echo getOnePara('quanflowers'); ?>
                                             </div>
                                         </div>
                                     </fieldset>
@@ -315,28 +284,25 @@ function displayRegAdmin($registration)
                                         <legend>Revenue Breakdown</legend>
                                         <div class='row pb-3'>
                                             <div class='col-sm-3'>
-                                                Total Amount Due: $<?php echo getOnePara('total'); ?>.00
+                                                Total Amount Due: $<?php echo number_format(getOnePara('total'), 2); ?>
                                             </div>
                                             <div class='col-sm-3'>
-                                                Total Amount Paid: $<?php echo getOnePara('paid'); ?>.00
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Total Helping Hands: $<?php echo getHelpHand(); ?>.00
+                                                Total Amount Paid: $<?php echo number_format(getOnePara('paid'), 2); ?>
                                             </div>
                                         </div>
 
                                         <div class='row pb-3'>
                                             <div class='col-sm-3'>
-                                                Cash: $<?php echo getTwoParaSum('payment', 'cash'); ?>.00
+                                                Cash: $<?php echo number_format(getTwoParaSum('payment', 'cash'), 2); ?>
                                             </div>
                                             <div class="col-sm-3">
-                                                Check: $<?php echo getTwoParaSum('payment', 'check'); ?>.00
+                                                Check: $<?php echo number_format(getTwoParaSum('payment', 'check'), 2); ?>
                                             </div>
                                             <div class='col-sm-3'>
-                                                Venmo: $<?php echo getTwoParaSum('payment', 'venmo'); ?>.00
+                                                Venmo: $<?php echo number_format(getTwoParaSum('payment', 'venmo'), 2); ?>
                                             </div>
                                             <div class='col-sm-3'>
-                                                PayPal: $<?php echo getTwoParaSum('payment', 'paypal'); ?>.00
+                                                PayPal: $<?php echo number_format(getTwoParaSum('payment', 'paypal'), 2); ?>
                                             </div>
                                         </div>
 
@@ -354,88 +320,19 @@ function displayRegAdmin($registration)
                                                 # of PayPal: <?php echo getTwoPara('payment', 'paypal'); ?>
                                             </div>
                                         </div>
-
-                                        <div class='row pb-3'>
-                                            <div class="col-sm-3">
-                                                Dinner Only: $<?php echo (getTwoPara('speakerdinner', 'yes') * $mtsdPrice); ?>.00
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Breakfast Only: $<?php echo (getTwoPara('breakfast', 'yes') * $rucbPrice); ?>.00
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Ice Cream Only: $<?php echo (getTwoPara('icecream', 'yes') * $icsPrice); ?>.00
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Meal Bundle Only: $<?php echo (getTwoPara('ebmb', 'yes') * $ebmbPrice); ?>.00
-                                            </div>
-                                        </div>
-
-                                        <div class='row pb-3'>
-                                            <div class="col-sm-3">
-                                                Pre Reg: $<?php echo (getTwoPara('registration', 'ebr') * $preregPrice); ?>.00
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Normal Reg: $<?php echo (getTwoPara('registration', 'after') * $regPrice); ?>.00
-                                            </div>
-                                        </div>
-
-
                                     </fieldset>
 
                                     <br>
 
                                     <fieldset>
                                         <legend>Activity Details</legend>
-                                        <div class='row pb-3'>
-                                            <div class='col-sm-3'>
-                                                Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Total Dance: <?php echo (getZeroPara() - getTwoPara('dance', 'no')); ?>
-                                            </div>
-                                        </div>
-
-                                        <div class='row pb-3'>
-                                            <div class="col-sm-3">
-                                                Dinner Only: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Breakfast Only: <?php echo getTwoPara('breakfast', 'yes'); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Ice Cream Only: <?php echo getTwoPara('icecream', 'yes'); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Meal Bundle Only: <?php echo getTwoPara('ebmb', 'yes'); ?>
-                                            </div>
-                                        </div>
+                                        <p>To Be Determined</p>
                                     </fieldset>
 
                                     <br>
 
                                     <fieldset>
-                                        <legend>Fellowship Stats</legend>
-                                        <div class='row pb-3'>
-                                            <div class="col-sm-3">
-                                                AA: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon'); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Both: <?php echo getTwoPara('fellowship', 'double winner'); ?>
-                                            </div>
-                                            <div class='col-sm-3'>
-                                                Other: <?php echo getTwoPara('fellowship', 'other'); ?>
-                                            </div>
-                                        </div>
-
+                                        <legend>Customer Stats</legend>
                                         <div class='row pb-3'>
                                             <div class='col-sm-3'>
                                                 English: <?php echo getTwoPara('lang', 'en'); ?>
@@ -448,71 +345,6 @@ function displayRegAdmin($registration)
                                             </div>
                                         </div>
                                     </fieldset>
-
-                                    <br>
-
-                                    <fieldset>
-                                        <legend>Dance Dance Dance</legend>
-                                        <div class='row pb-3'>
-                                            <div class="col-sm-4">
-                                                I'll be wearing my dancing shoes: <?php echo getTwoPara('dance', 'yes'); ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                Undecided: <?php echo getTwoPara('dance', 'undecided'); ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                I would rather be knitting: <?php echo getTwoPara('dance', 'no'); ?>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-
-                                    <br>
-
-                                    <fieldset>
-                                        <legend>Merchandise</legend>
-                                        <div class="row pb-3">
-                                            <div class="col-sm-4">
-                                                Total Shirts Ordered: <?php //echo getONePara('teequan'); 
-                                                                        ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                Total Shirt Sales: <?php //echo getTwoPara('', ''); 
-                                                                    ?>
-                                            </div>
-                                        </div>
-
-                                        <div class="row pb-3">
-                                            <div class="col-sm-4">
-                                                # SM Shirts: <?php //echo getTwoPara('teesize', 'sm'); 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # MED Shirts: <?php //echo getTwoPara('teesize', 'med'); 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # LG Shirts: <?php //echo getTwoPara('teesize', 'lg'); 
-                                                                ?>
-                                            </div>
-                                        </div>
-
-                                        <div class="row pb-3">
-                                            <div class="col-sm-4">
-                                                # XL Shirts: <?php //echo getTwoPara('teesize', 'xl'); 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # XXL Shirts: <?php //echo getTwoPara('teesize', 'xxl'); 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # 3XL Shirts: <?php //echo getTwoPara('teesize', '3xl'); 
-                                                                ?>
-                                            </div>
-                                        </div>
-
-                                    </fieldset>
-
 
                                 </div>
                             </div>
@@ -534,7 +366,7 @@ function displayRegAdmin($registration)
                         <div class="row">
                             <div class="col-sm-3 pt-3">
                                 <div class="input-group">
-                                    <label for="regType" class="reg-form-label px-2">Registration Status</label>
+                                    <label for="regType" class="reg-form-label px-2">Order Status</label>
                                     <select class="form-select" name="regType">
                                         <option value="all" selected>All</option>
                                         <option value="incomplete">Incomplete</option>
@@ -544,7 +376,7 @@ function displayRegAdmin($registration)
                             </div>
 
                             <div class="col-sm-3 pt-3">
-                                <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
+                                <input type="submit" value="search" name="filterForm" class="btn mcf-button" />
                             </div>
 
                             <?php if (!empty($statusMsg)) { ?>
@@ -558,7 +390,7 @@ function displayRegAdmin($registration)
                     </form>
 
                     <table class="table table-hover display nowrap" style="width:100%;" id="adminDisplay">
-                        <caption>Admin Registrations</caption>
+                        <caption>Admin Orders</caption>
                         <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
                         <thead class='table-dark text-center'>
                             <tr>
@@ -566,35 +398,21 @@ function displayRegAdmin($registration)
                                 <th>First</th>
                                 <th>Last</th>
                                 <th>Email</th>
-                                <th>Alter</th>
-                                <th>Remove</th>
+                                <th>Update</th>
+                                <th>Delete</th>
                                 <th>Payment</th>
                                 <th>Due</th>
                                 <th>Paid</th>
                                 <th>Status</th>
-                                <th>Tran ID</th>
-                                <th>Badge Name</th>
                                 <th>Phone</th>
                                 <th>Address</th>
                                 <th>City</th>
                                 <th>State</th>
                                 <th>Zip Code</th>
-                                <th>Fellowship</th>
+                                <th># Flowers</th>
                                 <th>Language</th>
-                                <th>Home Group</th>
-                                <th>Reg Type</th>
-                                <th>EBMB</th>
-                                <th>Dinner</th>
-                                <th>BreakFast</th>
-                                <th>Ice Cream</th>
-                                <th>Dance</th>
-                                <th>Help-Hand</th>
-                                <!--
-                                <th>#Shirts</th>
-                                <th>Size</th>
-                                <th>Style</th>
-                            -->
                                 <th>TOS</th>
+                                <th>TransID</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -602,15 +420,15 @@ function displayRegAdmin($registration)
 
                             if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
                                 if ($_POST['regType'] == 'incomplete') {
-                                    $registration = getOrderType("registration", "incomplete");
+                                    $orders = getOrderType("requisition", "incomplete");
                                 } else {
-                                    $registration = getOrderType("registration", "complete");
+                                    $orders = getOrderType("requisition", "complete");
                                 }
                             } else {
-                                $registration = getOrderData("registration", "desc");
+                                $orders = getOrderData("requisition", "desc");
                             }
 
-                            displayRegAdmin($registration);
+                            displayOrderAdmin($requisition);
                             ?>
                         </tbody>
                     </table>
