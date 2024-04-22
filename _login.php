@@ -33,7 +33,7 @@ if (isset($_POST['logout'])) {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="topNavbar">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link px-2" href="index.php">Home</a>
           </li>
@@ -80,8 +80,8 @@ if (isset($_POST['logout'])) {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="bottomNavbar">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
               <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
             </li>
             <?php
