@@ -280,7 +280,7 @@ function displayOrderAdmin($requisition)
                                         <legend>Revenue Breakdown</legend>
                                         <div class='row pb-3'>
                                             <div class='col-sm-3'>
-                                                Total Amount Due: $<?php echo number_format(getOnePara('total'), 2); ?>
+                                                Total Amount Due: $<?php echo getOnePara('total'); ?>
                                             </div>
                                             <div class='col-sm-3'>
                                                 Total Amount Paid: $<?php echo number_format(getOnePara('paid'), 2); ?>
