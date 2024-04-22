@@ -292,20 +292,20 @@ function displayOrderAdmin($requisition)
                                             <div class='row pb-3'>
                                                 <div class='col-sm-3'>
                                                     Cash: $<?php $sqlVal = getTwoParaSum('payment', 'cash');
-                                                            echo (is_null($sqlVal)) ? 0.00 : number_format($sqlVal, 2); ?>
+                                                            echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
 
                                                 </div>
                                                 <div class="col-sm-3">
                                                     Check: $<?php $sqlVal = getTwoParaSum('payment', 'check');
-                                                            echo (is_null($sqlVal)) ? 0.00 : number_format($sqlVal, 2); ?>
+                                                            echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
                                                 </div>
                                                 <div class='col-sm-3'>
                                                     Venmo: $<?php $sqlVal = getTwoParaSum('payment', 'venmo');
-                                                            echo (is_null($sqlVal)) ? 0.00 : number_format($sqlVal, 2); ?>
+                                                            echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
                                                 </div>
                                                 <div class='col-sm-3'>
                                                     PayPal: $<?php $sqlVal = getTwoParaSum('payment', 'paypal');
-                                                                echo (is_null($sqlVal)) ? 0.00 : number_format($sqlVal, 2); ?>
+                                                                echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
                                                 </div>
                                             </div>
 
