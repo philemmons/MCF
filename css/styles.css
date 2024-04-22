@@ -394,6 +394,10 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   width: 5em !important;
 }
 
+.mcf-btn-wide{
+  width: revert;
+}
+
 .mcf-button:hover,
 .mcf-button:focus {
   background-color: var(--color-3);

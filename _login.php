@@ -107,9 +107,9 @@ if (isset($_POST['logout'])) {
           <div class="p-3 text-center text-bg-light hero-text-border" title="Please login to continue.">
             <h3 class="fw-bold text-dark px-md-0">Welcome
             </h3>
-            <div class="d-grid col-sm-8 mx-auto p-2">
+            <div class="d-grid col-6 mx-auto p-2">
               <!-- Button trigger modal -->
-              <button type="button" class="btn mcf-button" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+              <button type="button" class="btn mcf-button mcf-btn-width" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
               <?php
               if (isset($_POST['login'])) {
                 goMain();
