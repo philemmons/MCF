@@ -27,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active px-2" href="newsletter-feb-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link  active px-2" href="newsletter-april-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -100,16 +100,16 @@ include_once 'header.inc'
                         <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
                             <ul class="pagination justify-content-end">
                                 <li class="page-item">
-                                    <a class="page-link" href="newsletter-feb-2024.php">Previous</a>
+                                    <a class="page-link" href="newsletter-april-2024.php">Previous</a>
                                 </li>
                                 <li class="page-item">
-                                    <a class="page-link" href="newsletter-feb-2024.php">1</a>
+                                    <a class="page-link" href="newsletter-april-2024.php">1</a>
                                 </li>
                                 <li class="page-item  active" aria-current="page">
-                                    <a class="page-link" href="newsletter-feb-2024.php">2</a>
+                                    <a class="page-link" href="newsletter-april-2024.php">2</a>
                                 </li>
                                 <li class="page-item disabled">
-                                    <a class="page-link" href="newsletter-feb-2024.php">Next</a>
+                                    <a class="page-link" href="newsletter-april-2024.php">Next</a>
                                 </li>
                             </ul>
                         </nav>

@@ -27,7 +27,7 @@ include_once 'header.inc'
             <a class="nav-link px-2" href="purchase.php">Purchase</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
+            <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
           </li>
           <li class="nav-item" style="border-right: none;">
             <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -244,7 +244,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-feb-2024.php" class="mcf-nl ">February title</a></h4></a>
+                    <h4 class="card-title"><a href="newsletter-april-2024.php" class="mcf-nl ">February title</a></h4></a>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                   </div>

@@ -27,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2 active" href="purchase.php" aria-current="page">Purchase<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
+                        <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -423,7 +423,7 @@ include_once 'header.inc'
                                         <select class="form-select" name="paymentMethod" id="paymentMethod" required>
                                             <option selected disabled value="">Choose...</option>
                                             <option value="venmo">Venmo</option>
-                                            <option value="paypal"disabled>PayPal</option>
+                                            <option value="paypal" disabled>PayPal</option>
                                             <option value="cash">Cash</option>
                                         </select>
                                         <div class="invalid-feedback">

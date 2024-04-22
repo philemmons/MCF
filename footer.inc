@@ -15,9 +15,11 @@
                         <li class="li-horizontal">
                             <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank"><i class="bi bi-instagram"></i></a>
                         </li>
+                        <!--
                         <li class="li-horizontal">
                             <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
                         </li>
+                        -->
                     </ul>
                 </div>
 
@@ -33,7 +35,7 @@
                                 <i class="bi bi-person-fill-check mx-1"></i>First name
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl ">February Title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-april-2024.php" class="mcf-nl ">February Title</a></h6>
                             </li>
                         </ul>
                     </div>

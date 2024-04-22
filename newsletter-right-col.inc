@@ -13,7 +13,7 @@
                 <i class="bi bi-person-fill-check mx-1"></i>First name
             </li>
             <li>
-                <h6 class="ps-2"><a href="newsletter-feb-2024.php" class="mcf-nl ">February title</a></h6>
+                <h6 class="ps-2"><a href="newsletter-april-2024.php" class="mcf-nl ">February title</a></h6>
             </li>
         </ul>
     </div>
@@ -37,22 +37,32 @@
     <div class="d-flex mb-3 mb-lg-5"">
                             <ul class=" ul-list display-2">
         <li class="li-horizontal">
-            <a href="#" class="sm-color"><i class="bi bi-pinterest"></i></a>
+            <a href="https://www.pinterest.com/littlebee0794/" class="sm-color" _target="blank"><i class="bi bi-pinterest"></i></a>
         </li>
         <li class="li-horizontal">
-            <a href="#" class="sm-color"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank"><i class="bi bi-instagram"></i></a>
         </li>
+        <!--
         <li class="li-horizontal">
             <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
         </li>
+        -->
         </ul>
     </div>
 
 
     <h3 class="fw-bold mb-3"> Our Gallery</h3>
     <div class="d-flex mb-3 mb-lg-5">
-        <a href=purchase.php> <img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
-        <a href=purchase.php><img src="images/mcf-flower-1.png" class="img-fluid" alt="MCF's Chenille Stems flower one."></a>
+        <a href=purchase.php>
+            <img src="images/mcf-flower-4.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower four." title="Zooming in!">
+        </a>
+        <a href=purchase.php>
+            <img src="images/mcf-flower-6.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
+        </a>
+        <a href=purchase.php>
+            <img src="images/mcf-flower-8.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower eight." title="Zooming in!">
+        </a>
+
     </div>
 
 </div>

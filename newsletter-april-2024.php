@@ -27,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active px-2" href="newsletter-feb-2024.php" aria-current="page">Newsletter<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link  active px-2" href="newsletter-april-2024.php" aria-current="page">Newsletter<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -71,33 +71,36 @@ include_once 'header.inc'
                     <article class="col-lg-8 col-sm-12 px-3 px-lg-5">
                         <figure class="figure">
                             <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
-                            <figcaption><small> Published 02-14-2024</small>
+                            <figcaption><small> Published 04-22-2024</small>
                         </figure>
-                        <h3>Page 1 - Newsletter Title Here - February</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.
+                        <h3>Page 1 - Introducing Millie's Crazy Flowers: Handcrafted Elegance for Every Occasion - April</h3>
+                        <p>Millie's Crazy Flowers offer a whimsical and delightful addition to any occasion. Priced at $12.50 each, these handcrafted wonders are not only affordable but also come with a special offer: buy two and get one free! Need to deck out a large event? No problem. While each flower is meticulously crafted by hand, we are dedicated to fulfilling even the most sizable orders with care and precision. Furthermore, we are more than happy to support your cause by offering donations for specific events. Simply reach out to us via our contact form, providing details of your organization, contact person, event address, and required donation date. We'll promptly get in touch, ensuring a seamless delivery five days prior to your event. And don't worry about color preferences; our talented artists will strive to meet your specifications. Your satisfaction is our priority. So, whether it's brightening up your space or supporting a worthy cause, Millie's Crazy Flowers are here to make your moments even more memorable.
                         </p>
-                        <p class="mb-3 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
 
+                        <p class="mb-3 mb-lg-5">More info here</p>
                         <h3>Newsletter Title Part 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+                        <p>Even more info</p>
 
                         <figure class="figure">
-                            <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
+                            <img src="../images/mcf-flower-10" class="figure-img img-fluid" alt="The flowers could be displayed against a clean, neutral background to emphasize their beauty and elegance.">
                         </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis.</p>
+                        <p>Buy Two, Get One Free - A vibrant bouquet of Millie's Crazy Flowers arranged in a decorative vase, showcasing their colorful petals and intricate handcrafted details.</p>
 
                         <ul class="keywords m-2">
                             <li class="nl-keyword">
-                                mogol art
+                            millie's crazy flowers
                             </li>
                             <li class="nl-keyword">
-                                pipe cleaners
+                            handcrafted
                             </li>
                             <li class="nl-keyword">
-                                handmade craft
+                            occasion
                             </li>
                             <li class="nl-keyword">
-                                expressionism
+                            special offer
+                            </li>
+                            <li class="nl-keyword">
+                            donation
                             </li>
                         </ul>
 
@@ -107,7 +110,7 @@ include_once 'header.inc'
                                     <a class="page-link">Previous</a>
                                 </li>
                                 <li class="page-item active" aria-current="page">
-                                    <a class="page-link" href="newsletter-feb-2024.php">1</a>
+                                    <a class="page-link" href="newsletter-april-2024.php">1</a>
                                 </li>
                                 <li class="page-item">
                                     <a class="page-link" href="newsletter-jan-2024.php">2</a>

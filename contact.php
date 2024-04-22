@@ -18,7 +18,7 @@ include_once 'header.inc'
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2"  href="index.php">Home</a>
+                        <a class="nav-link px-2" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
@@ -27,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
+                        <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link active px-2" href="contact.php" aria-current="page">Contact Us<span class="visually-hidden">(current)</span></a>

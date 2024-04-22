@@ -27,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="newsletter-feb-2024.php">Newsletter</a>
+                        <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>
