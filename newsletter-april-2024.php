@@ -70,7 +70,7 @@ include_once 'header.inc'
                 <div class="row pt-4 mb-5">
                     <article class="col-lg-8 col-sm-12 px-3 px-lg-5">
                         <figure class="figure">
-                            <img src="../images/img-placeholder.jpg" class="figure-img img-fluid" alt="Tropical beach image placeholder.">
+                            <img src="../images/special-day.png" class="figure-img img-fluid" alt="Hand written Special Day logo with a red heart.">
                             <figcaption><small> Published 04-22-2024</small>
                         </figure>
                         <h3>Page 1 - Introducing Millie's Crazy Flowers: Handcrafted Elegance for Every Occasion - April</h3>
@@ -88,19 +88,19 @@ include_once 'header.inc'
 
                         <ul class="keywords m-2">
                             <li class="nl-keyword">
-                            millie's crazy flowers
+                                millie's crazy flowers
                             </li>
                             <li class="nl-keyword">
-                            handcrafted
+                                handcrafted
                             </li>
                             <li class="nl-keyword">
-                            occasion
+                                occasion
                             </li>
                             <li class="nl-keyword">
-                            special offer
+                                special offer
                             </li>
                             <li class="nl-keyword">
-                            donation
+                                donation
                             </li>
                         </ul>
 

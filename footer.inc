@@ -31,11 +31,11 @@
 
                         <ul class="ul-list ms-3">
                             <li class="fs-14">
-                                <i class="bi bi-calendar me-1"></i>02.14.24
-                                <i class="bi bi-person-fill-check mx-1"></i>First name
+                                <i class="bi bi-calendar me-1"></i>04.22.24
+                                <i class="bi bi-person-fill-check mx-1"></i>Jeanne
                             </li>
                             <li>
-                                <h6 class="ps-2"><a href="newsletter-april-2024.php" class="mcf-nl ">February Title</a></h6>
+                                <h6 class="ps-2"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -62,8 +62,8 @@
                         <i class="bi bi-map me-2"></i>
                         <ul class="ul-list ms-3">
                             <li>
-                                <p>
-                                    P.O. Box 5040, Valley Springs, California, 93933, USA</p>
+                                <p>Valley Springs, California, 95252, USA
+                                </p>
                             </li>
                         </ul>
                     </div>
