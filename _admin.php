@@ -259,7 +259,7 @@ function displayOrderAdmin($requisition)
 
                                         <div class='row text-center'>
                                             <div class="col-sm-6 pt-2 pb-4">
-                                                <a href="exportData.php" target='_blank' class="btn mcf-button">CSV Export All Data</a>
+                                                <a href="exportData.php" target='_blank' class="btn mcf-button mcf-btn-wide">CSV Export All Data</a>
                                             </div>
                                         </div>
 
