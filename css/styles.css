@@ -196,7 +196,7 @@ a {
   color: var(--color-1) !important;
 }
 
-.mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
+.mcf-navbar-light .navbar-nav>.nav-item .nav-link.active {
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
@@ -217,16 +217,13 @@ a {
     top: 0;
   }
 
-  .mcf-navbar-light .navbar-brand {
-    color: var(--color-1);
-  }
-
-  .mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
-    background-color: var(--color-6)
-  }
-
+  .mcf-navbar-light .navbar-brand,
   .navbar-nav>.nav-item>.nav-link {
     color: var(--color-1);
+  }
+
+  .mcf-navbar-light .navbar-nav>.nav-item .nav-link.active {
+    background-color: var(--color-6)
   }
 
   .navbar-nav>li>a:hover {
