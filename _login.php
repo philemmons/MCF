@@ -58,7 +58,7 @@ if (isset($_POST['logout'])) {
 
     <!-- Hero Section -->
     <section class="container-fluid">
-      <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-login" title="Welcome Admin">
+      <div class="row justify-content-center align-items-end bg-frame bg-img-login" title="Welcome Admin">
         <div class="col-xl-6 col-lg-7 col-md-9">
           <div class="text-center">
             <p class="fw-bold ">
@@ -76,10 +76,11 @@ if (isset($_POST['logout'])) {
   <!-- Bottom Navbar -->
   <nav class="navbar navbar-expand-lg mb-5">
     <div class="container">
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavBar" aria-controls="bottomNavBar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="pe-2">Admin Menu</span>
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <div class="collapse navbar-collapse" id="bottomNavBar">
         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
           <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
             <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
