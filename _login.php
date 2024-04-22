@@ -144,11 +144,11 @@ if (isset($_POST['logout'])) {
               </div>
 
               <div class="d-grid col-sm-5 mx-auto pt-3">
-                <input type="submit" name="login" value="Login" class="btn mcf-button">
+                <input type="submit" name="login" value="Login" class="btn mcf-button mcf-btn-wide">
               </div>
 
               <div class="d-grid col-sm-5 mx-auto pt-3">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn mcf-button mcf-btn-wide" data-bs-dismiss="modal">Cancel</button>
               </div>
             </form>
 
