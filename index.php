@@ -181,7 +181,7 @@ include_once 'header.inc'
             </div>
             <div class="card-body">
               <h5 class="card-title pt-3">Production and Assembly</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Millie's Crazy Flowers start with hundreds of solid colored pipe cleaners. Our artist selects the colors and gently twists the pipe cleaners together. Next, Victoria loops and locks the ends of the twisted pipe cleaners which create a petal. Each petal is slightly different. Once the petals are completed, they are separated by general colors and made into flowers. The finished flower is approximately seven inches across.</p>
             </div>
           </div>
 
@@ -194,7 +194,8 @@ include_once 'header.inc'
             </div>
             <div class="card-body">
               <h5 class="card-title pt-3">Delivery</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Our current postage and handling charge is $6 for each flower, but when you buy two, then the third one gets free delivery. For larger quantities, delivery costs are adjustable, and we will email a final amount for you. We only deliver in the continental United States at this time through the USPS. If you need your flowers sooner, we are able to make arrangements with UPS or FedEx. 
+              </p>
             </div>
           </div>
 
@@ -244,8 +245,8 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-april-2024.php" class="mcf-nl ">February title</a></h4></a>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4 class="card-title"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></h4></a>
+                    <p class="card-text">Millie's Crazy Flowers offer a whimsical and delightful addition to any occasion. Read more here.</p>
 
                   </div>
                 </div>
