@@ -8,7 +8,7 @@ include_once 'header.inc'
 
     <nav class="navbar navbar-expand-lg mcf-navbar-light">
         <div class="container-xl">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand bg-light-subtle" href="index.php">
                 <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +76,7 @@ include_once 'header.inc'
                         <h3>Introducing Millie's Crazy Flowers: Handcrafted Elegance for Every Occasion - April</h3>
                         <p>Millie's Crazy Flowers offer a whimsical and delightful addition to any occasion. Priced at $12.50 each, these handcrafted wonders are not only affordable but also come with a special offer: buy two and get one free! Need to deck out a large event? No problem. While each flower is meticulously crafted by hand, we are dedicated to fulfilling even the most sizable orders with care and precision. Furthermore, we are more than happy to support your cause by offering donations for specific events. Simply reach out to us via our contact form, providing details of your organization, contact person, event address, and required donation date. We'll promptly get in touch, ensuring a seamless delivery five days prior to your event. And don't worry about color preferences; our talented artists will strive to meet your specifications. Your satisfaction is our priority. So, whether it's brightening up your space or supporting a worthy cause, Millie's Crazy Flowers are here to make your moments even more memorable.
                         </p>
-<!--
+                        <!--
                         <p class="mb-3 mb-lg-5">More info here</p>
                         <h3>Newsletter Title Part 2</h3>
                         <p>Even more info</p>
