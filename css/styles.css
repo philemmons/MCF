@@ -181,12 +181,6 @@ a {
   letter-spacing: 1px;
 }
 
-/**** bottom navbar ****/
-.mcf-navbar-dark{
-  background: var(--color-10);
-  letter-spacing: 1px;
-}
-
 .navbar-nav>.nav-item>.nav-link {
   color: var(--color-1);
 }
@@ -196,25 +190,25 @@ a {
   color: var(--color-1) !important;
 }
 
-div[class^= "mcf-navbar-"] .navbar-nav>.nav-item>.nav-link.active {
+.mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
 }
 
 @media screen and (max-width: 991.98px) {
-  .div[class^= "mcf-navbar-"] {
+  .mcf-navbar-light {
     background: var(--color-3) !important;
     padding: 1em;
     position: relative;
     top: 0;
   }
 
-  .div[class^= "mcf-navbar-"] .navbar-brand {
+  .mcf-navbar-light .navbar-brand {
     color: var(--color-1);
   }
 
-  .div[class^= "mcf-navbar-"] .navbar-nav>.nav-item>.nav-link.active {
+  .mcf-navbar-light .navbar-nav>.nav-item>.nav-link.active {
     background-color: var(--color-6)
   }
 
@@ -230,7 +224,7 @@ div[class^= "mcf-navbar-"] .navbar-nav>.nav-item>.nav-link.active {
 }
 
 /**** navbar toggle ****/
-.div[class^= "mcf-navbar-"] .navbar-toggler {
+.mcf-navbar-light .navbar-toggler {
   border: none;
   color: var(--color-1) !important;
   cursor: pointer;
