@@ -259,7 +259,7 @@ include_once 'header.inc'
 
 
         <!-- Section Three -->
-        <section class="px-1 py-4" style="background-color: var(--color-1);">
+        <section class="px-1 py-4 mb-5" style="background-color: var(--color-1);">
             <div class="container-fluid">
                 <div class="row text-center">
                     <div class="col-lg-12 my-2 my-lg-3 pt-3">
