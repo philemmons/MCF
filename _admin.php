@@ -118,7 +118,7 @@ function displayOrderAdmin($requisition)
         echo "</td>";
 
         echo "<td>
-    <a href='deleteReg.php?id=" . $eachOrder['id'] . "' onclick= 'return confirmDelete(\"" . $eachOrder['email'] . "\")' >
+    <a href='deleteOrder.php?id=" . $eachOrder['id'] . "' onclick= 'return confirmDelete(\"" . $eachOrder['email'] . "\")' >
       <button type=\"button\" class=\"btn btn-danger btn-sm\"> Delete </button>
     </a>";
         echo "</td>";
