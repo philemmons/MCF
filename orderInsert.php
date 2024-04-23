@@ -416,7 +416,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
 
                         <hr>
-                        
+
                         <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-dt" id="ins-dt" placeholder="Automatic" value="Auto" disabled>
@@ -463,10 +463,12 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
                                 <p>(A pop up will confirm your reset)</p>
                             </div>
+                        </div>
 
-                            <div class="col-lg-6">
-                                <a href="_admin.php" class="btn mcf-button btn-sm" style="float:right;">Return to Admin</a>
-                            </div>
+                        <div class="col-lg-6">
+                            <a href="_admin.php" class="btn mcf-button btn-sm" style="float:right;">Return to Admin</a>
+                        </div>
+                        
                     </form>
 
                 </div>
