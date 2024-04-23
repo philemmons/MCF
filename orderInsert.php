@@ -415,6 +415,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
+                        <hr>
+                        
                         <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-dt" id="ins-dt" placeholder="Automatic" value="Auto" disabled>
@@ -449,6 +451,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 Required - Enter TOS of one.
                             </div>
                         </div>
+
                         <hr>
 
                         <div class="col-lg-3 text-center">
