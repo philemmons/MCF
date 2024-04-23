@@ -341,7 +341,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                         <hr>
 
-                        <div class="col-lg-2">
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <select class="form-select" name="ins-pm" id="ins-pm" required>
                                     <option selected disabled value="">Choose...</option>
