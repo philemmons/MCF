@@ -180,7 +180,7 @@ function displayOrderAdmin($requisition)
                         <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link px-2" href="contact.php" >Contact Us</a>
+                        <a class="nav-link px-2" href="contact.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -208,14 +208,14 @@ function displayOrderAdmin($requisition)
             </div>
         </section>
 
-        <!-- Bottom Navbar -->
+        <!-- Middle Navbar -->
         <nav class="navbar navbar-expand-lg mb-5 mcf-navbar-dark" aria-label="middle navigation">
             <div class="container">
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavBar" aria-controls="bottomNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#midNavBar" aria-controls="midNavBar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="pe-2">Admin Menu</span>
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="bottomNavBar">
+                <div class="collapse navbar-collapse" id="midNavBar">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link px-2 active" aria-current="page" href="_admin.php">Admin Panel<span class="visually-hidden">(current)</span></a>

@@ -1,12 +1,11 @@
 User-agent: *
 
-Disallow: /source/
+Disallow: /php/
 Disallow: /wip/
 Disallow: /_login.php
 Disallow: /_admin.php
-Disallow: /deleteReg.php
+Disallow: /deleteOrder.php
 Disallow: /exportData.php
-Disallow: /regInsert.php
-Disallow: /regUpdate.php
-Disallow: /audio-transcript/
+Disallow: /orderInsert.php
+Disallow: /orderUpdate.php
 Disallow: /js/
