@@ -37,7 +37,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $tos = 1;
 
 
-    $sql = "INSERT INTO registration (
+    $sql = "INSERT INTO requisition (
                 firstname,
                 lastname,
                 email,
