@@ -41,7 +41,7 @@ include_once 'header.inc';
     <main>
         <!-- Hero Section -->
         <section class="container-fluid">
-            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-" title="MCF's Order Form">
+            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
@@ -62,7 +62,7 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                         <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
                             <section aria-label="accessibility statement">
-                                <h2 class="card-title header-font mb-3">MCF's Accessibility Statement</h2>
+                                <h2 class="card-title header-font mb-3">MCF's Accessibility Accord</h2>
                                 <p class="mb-3 text-dark">millies.crazyflowers.art is committed to creating an inclusive online environment that caters to individuals with disabilities. Through a significant investment of resources, the website aims to make its services easily usable and accessible for everyone, regardless of any disability they may have. This commitment stems from a strong belief in the fundamental rights of all individuals to live with dignity, equality, and independence. By prioritizing accessibility, millies.crazyflowers.art strives to ensure that its platform is welcoming and accommodating to a diverse range of users, fostering an environment where everyone can fully participate and engage with its offerings.</p>
                             </section>
                         </div>
@@ -70,7 +70,7 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                         <div class="p-3 text-bg-light hero-text-border" title="">
                             <section aria-label="accessibility method">
-                                <h2 class="card-title header-font mb-3">Accessibility and Inclusion</h2>
+                                <h2 class="card-title header-font mb-3">Accessibility, Inclusion and Belonging</h2>
 
                                 <p class="mb-3 text-dark">millies.crazyflowers.art is committed to surpassing the standards set by the W3C WAI Web Content Accessibility Guidelines 2.1. Leveraging various site checkers, the platform enhances its adherence to the Web Content Accessibility Guidelines (WCAG 2.2), ensuring continuous improvement in accessibility.</p>
 
@@ -89,7 +89,7 @@ include_once 'header.inc';
                                 <h3 class="card-title header-font mb-3">Reach Out</h3>
 
 
-                                <p class="mb-3 text-dark">If you need to report an accessibility issue, have questions, or require assistance, please reach out to millies.crazyflowers.art technical support using the following contact information: - Email: <a href="mailto:sysadmin@millies.crazyflowers.art" class="bb-link">ADA request for SysAdmin</a></p>
+                                <p class="mb-3 text-dark">If you need to report an accessibility issue, have questions, or require assistance, please reach out to millies.crazyflowers.art technical support using the following contact information: - Email: <a href="mailto:sysadmin@crazyflowers.art">ADA request for SysAdmin</a></p>
                             </section>
                         </div>
                     </div>
