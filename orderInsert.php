@@ -205,20 +205,20 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required>
-                                <label for="ins-fn">First Name (Required)</label>
+                                <label for="ins-fn">First Name*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter first name.
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-ln" id="ins-ln" placeholder="Enter last name" required>
-                                <label for="ins-ln" class="form-label">Last Name (Required)</label>
+                                <label for="ins-ln" class="form-label">Last Name*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter last name.
@@ -227,10 +227,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                         <hr>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
-                                <label for="ins-em" class="form-label">Email (Required)</label>
+                                <label for="ins-em" class="form-label">Email*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter email.
@@ -249,10 +249,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                         <hr>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-addr" id="ins-addr" placeholder="Enter mail address" required>
-                                <label for="ins-addr" class="form-label">Address (Required)</label>
+                                <label for="ins-addr" class="form-label">Address*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter address.
@@ -262,14 +262,14 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-city" id="ins-city" placeholder="Enter city" required>
-                                <label for="ins-city" class="form-label">City (Required)</label>
+                                <label for="ins-city" class="form-label">City*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter city.
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="ins-state" id="ins-state" required>
                                     <option value="AL">Alabama</option>
@@ -324,17 +324,17 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                     <option value="WI">Wisconsin</option>
                                     <option value="WY">Wyoming</option>
                                 </select>
-                                <label for="ins-state" class="form-label">State (Required)</label>
+                                <label for="ins-state" class="form-label">State*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Select one.
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-zc" id="ins-zc" placeholder="Enter zip code" required>
-                                <label for=" ins-zc" class="form-label">Zip Code (Required)</label>
+                                <label for=" ins-zc" class="form-label">Zip Code*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter zip code.
@@ -352,7 +352,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                     <option value="check">Check</option>
                                     <option value="paypal">PayPal</option>
                                 </select>
-                                <label for="ins-pm" class="form-label">Payment Method (Required)</label>
+                                <label for="ins-pm" class="form-label">Payment Method*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Select one.
@@ -372,7 +372,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" value=0 required>
-                                <label for="ins-paid">Paid (Required)</label>
+                                <label for="ins-paid">Paid*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter paid amount.
@@ -394,7 +394,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-qf" id="ins-qf" placeholder="1 or more" value="" required>
-                                <label for="ins-qf" class="form-label"># Flowers (Required)</label>
+                                <label for="ins-qf" class="form-label"># Flowers*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter flower quantity.
@@ -435,7 +435,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                     <option value="es">Spanish(SP)</option>
                                     <option value="other">Other</option>
                                 </select>
-                                <label for="ins-lang" class="form-label">Language (Required)</label>
+                                <label for="ins-lang" class="form-label">Language*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter Language.
@@ -445,7 +445,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="number" class="form-control" id="ins-tos" placeholder="Default" name="ins-tos" value="1" required>
-                                <label for="ins-tos">Terms of Service (Required)</label>
+                                <label for="ins-tos">Terms of Service*</label>
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter TOS of one.
