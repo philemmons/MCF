@@ -141,13 +141,13 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 <div class="collapse navbar-collapse" id="bottomNavBar">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link px-2" aria-current="page" href="_admin.php">Admin Panel</a>
+                            <a class="nav-link px-2" href="_admin.php">Admin Panel</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-2" href="orderInsert.php">New Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-2 active" href="orderUpdate.php">Update Order<span class="visually-hidden">(current)</span></a>
+                            <a class="nav-link px-2 active" aria-current="page" href="orderUpdate.php">Update Order<span class="visually-hidden">(current)</span></a>
                         </li>
                         <?php
                         if (isset($_SESSION["status"])) {
@@ -189,7 +189,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $orderInfo['firstname'] ?>" required>
-                                    <label for="upd-fn">First Name</label>
+                                    <label for="upd-fn">First Name (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter first name.
@@ -199,7 +199,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $orderInfo['lastname'] ?>" required>
-                                    <label for="upd-ln" class="form-label">Last Name</label>
+                                    <label for="upd-ln" class="form-label">Last Name (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter last name.
@@ -209,7 +209,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-4">
                                 <div class="form-floating">
                                     <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $orderInfo['email'] ?>" required>
-                                    <label for="upd-em" class="form-label">Email</label>
+                                    <label for="upd-em" class="form-label">Email (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter email.
@@ -219,7 +219,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= formatPhone($orderInfo['phone']); ?>">
-                                    <label for="upd-phone" class="form-label">Phone</label>
+                                    <label for="upd-phone" class="form-label">Phone (xxx.xxx.xxxx)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Optional - Enter phone number.
@@ -231,7 +231,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-3">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-addr" id="upd-addr" placeholder="Enter MA" value="<?= $orderInfo['address'] ?>" required>
-                                    <label for="upd-addr" class="form-label">Address</label>
+                                    <label for="upd-addr" class="form-label">Address (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter address.
@@ -241,7 +241,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-city" id="upd-city" placeholder="Enter CI" value="<?= $orderInfo['city'] ?>" required>
-                                    <label for="upd-city" class="form-label">City</label>
+                                    <label for="upd-city" class="form-label">City (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter city.
@@ -304,7 +304,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                         <option value="WI">Wisconsin</option>
                                         <option value="WY">Wyoming</option>
                                     </select>
-                                    <label for="upd-state" class="form-label">State</label>
+                                    <label for="upd-state" class="form-label">State (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Select one.
@@ -314,7 +314,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-zc" id="upd-zc" placeholder="Enter ZC" value="<?= $orderInfo['zipcode'] ?>" required>
-                                    <label for=" upd-zc" class="form-label">Zip Code</label>
+                                    <label for=" upd-zc" class="form-label">Zip Code (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter zip code.
@@ -332,7 +332,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                         <option value="check">Check</option>
                                         <option value="paypal">PayPal</option>
                                     </select>
-                                    <label for="upd-pm" class="form-label">Payment Method</label>
+                                    <label for="upd-pm" class="form-label">Payment Method (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Select one.
@@ -342,7 +342,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $orderInfo['total'] ?>">
-                                    <label for="upd-total">Total</label>
+                                    <label for="upd-total">Total (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter total amount.
@@ -352,7 +352,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="number" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $orderInfo['paid'] ?>">
-                                    <label for="upd-paid">Paid</label>
+                                    <label for="upd-paid">Paid (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter paid amount.
@@ -372,7 +372,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-qf" id="upd-qf" placeholder="Enter QF" value="<?= $orderInfo['quanflowers'] ?>" required>
-                                    <label for=" upd-qf" class="form-label"># Flowers</label>
+                                    <label for=" upd-qf" class="form-label"># Flowers (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter flower quantity.
@@ -410,7 +410,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                         <option value="es">Spanish(ES)</option>
                                         <option value="other">Other</option>
                                     </select>
-                                    <label for="upd-lang" class="form-label">Language</label>
+                                    <label for="upd-lang" class="form-label">Language (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter language.
@@ -420,7 +420,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="col-lg-2">
                                 <div class="form-floating">
                                     <input type="number" class="form-control" id="upd-tos" placeholder="Default" name="upd-tos" value="<?= $orderInfo['tos'] ?>" required>
-                                    <label for="upd-tos">Terms of Service</label>
+                                    <label for="upd-tos">Terms of Service (Required)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter TOS of one.

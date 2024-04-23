@@ -108,7 +108,7 @@ include_once 'header.inc'
                         <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
                             <ul class="pagination justify-content-end">
                                 <li class="page-item disabled">
-                                    <a class="page-link">Previous</a>
+                                    <a class="page-link" href="#">Previous</a>
                                 </li>
                                 <li class="page-item active" aria-current="page">
                                     <a class="page-link" href="newsletter-april-2024.php">1</a>

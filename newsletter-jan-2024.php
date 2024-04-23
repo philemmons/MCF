@@ -19,7 +19,7 @@ include_once 'header.inc'
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link px-2"  href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
@@ -28,7 +28,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active px-2" href="newsletter-april-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link  active px-2" aria-current="page"href="newsletter-jan-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>
@@ -107,10 +107,10 @@ include_once 'header.inc'
                                     <a class="page-link" href="newsletter-april-2024.php">1</a>
                                 </li>
                                 <li class="page-item  active" aria-current="page">
-                                    <a class="page-link" href="newsletter-april-2024.php">2</a>
+                                    <a class="page-link" href="newsletter-jan-2024.php">2</a>
                                 </li>
                                 <li class="page-item disabled">
-                                    <a class="page-link" href="newsletter-april-2024.php">Next</a>
+                                    <a class="page-link" href="#">Next</a>
                                 </li>
                             </ul>
                         </nav>

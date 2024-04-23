@@ -180,7 +180,7 @@ function displayOrderAdmin($requisition)
                         <a class="nav-link px-2" href="newsletter-april-2024.php">Newsletter</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link px-2" href="contact.php" aria-current="page">Contact Us</a>
+                        <a class="nav-link px-2" href="contact.php" >Contact Us</a>
                     </li>
                 </ul>
             </div>
