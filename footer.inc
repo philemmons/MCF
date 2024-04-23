@@ -94,7 +94,7 @@
 
     </section>
 
-    
+    <?php include 'footer_bottom_navbar.inc'; ?>
 
     <section id="footer-image">
         <div class="h-100 d-flex align-items-center justify-content-center px-4">
