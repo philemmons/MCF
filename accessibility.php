@@ -62,9 +62,7 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                         <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
                             <section aria-label="accessibility statement">
-                                <h3 class="fw-bold text-primary">
-                                    <span class="text-dark px-3 px-md-0">MCF's Accessibility Statement</span>
-                                </h3>
+                                <h2 class="card-title header-font mb-3">MCF's Accessibility Statement</h2>
                                 <p class="mb-3 text-dark">millies.crazyflowers.art is committed to creating an inclusive online environment that caters to individuals with disabilities. Through a significant investment of resources, the website aims to make its services easily usable and accessible for everyone, regardless of any disability they may have. This commitment stems from a strong belief in the fundamental rights of all individuals to live with dignity, equality, and independence. By prioritizing accessibility, millies.crazyflowers.art strives to ensure that its platform is welcoming and accommodating to a diverse range of users, fostering an environment where everyone can fully participate and engage with its offerings.</p>
                             </section>
                         </div>
@@ -72,29 +70,24 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                         <div class="p-3 text-bg-light hero-text-border" title="">
                             <section aria-label="accessibility method">
-                                <h3 class="fw-bold text-primary">
-                                    <span class="text-dark px-3 px-md-0">Accessibility and Inclusion</span>
-                                </h3>
+                                <h2 class="card-title header-font mb-3">Accessibility and Inclusion</h2>
 
                                 <p class="mb-3 text-dark">millies.crazyflowers.art is committed to surpassing the standards set by the W3C WAI Web Content Accessibility Guidelines 2.1. Leveraging various site checkers, the platform enhances its adherence to the Web Content Accessibility Guidelines (WCAG 2.2), ensuring continuous improvement in accessibility.</p>
 
-                                <h4 class="fw-bold text-primary">
-                                    <span class="text-dark px-3 px-md-0">Disclaimer</span>
-                                </h4>
+                                <h3 class="card-title header-font mb-3">Disclaimer
+                                </h3>
 
                                 <p class="mb-3 text-dark">millies.crazyflowers.art persists in its endeavors to consistently enhance the accessibility of its website and services, firmly believing that it is our collective ethical duty to enable smooth, accessible, and unimpeded usage for individuals with disabilities.</p>
 
                                 <p class="mb-3 text-dark">While we strive to ensure full accessibility for all pages and content on millies.crazyflowers.art, it's possible that certain content has not yet met the strictest accessibility standards. This could be due to challenges in finding or implementing the most suitable technological solutions.</p>
 
-                                <h4 class="fw-bold text-primary">
-                                    <span class="text-dark px-3 px-md-0">We care, we really do.</span>
-                                </h4>
+                                <h3 class="card-title header-font mb-3">We care, we really do.
+                                </h3>
 
                                 <p class="mb-3 text-dark">If you encounter any challenges or need assistance with any aspect of our website, millies.crazyflowers.art, please don't hesitate to reach out to us. We're here to help and support you in any way we can.</p>
 
-                                <h4 class="fw-bold text-primary">
-                                    <span class="text-dark px-3 px-md-0">Reach Out</span>
-                                </h4>
+                                <h3 class="card-title header-font mb-3">Reach Out</h3>
+
 
                                 <p class="mb-3 text-dark">If you need to report an accessibility issue, have questions, or require assistance, please reach out to millies.crazyflowers.art technical support using the following contact information: - Email: <a href="mailto:sysadmin@millies.crazyflowers.art" class="bb-link">ADA request for SysAdmin</a></p>
                             </section>
