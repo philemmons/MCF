@@ -430,8 +430,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <select class="form-select" name="ins-lang" id="ins-lang" required>
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="en">English(EN)</option>
+                                    <option disabled value="">Choose...</option>
+                                    <option value="en" selected>English(EN)</option>
                                     <option value="es">Spanish(SP)</option>
                                     <option value="other">Other</option>
                                 </select>
@@ -468,7 +468,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-6">
                             <a href="_admin.php" class="btn mcf-button btn-sm" style="float:right;">Return to Admin</a>
                         </div>
-                        
+
                     </form>
 
                 </div>
