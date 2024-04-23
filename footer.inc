@@ -94,6 +94,8 @@
 
     </section>
 
+    
+
     <section id="footer-image">
         <div class="h-100 d-flex align-items-center justify-content-center px-4">
             <p class="fw-bold">Copyright © 2023-<?php echo date('Y') ?> Millie's Crazy Flowers. All Rights Reserved.
