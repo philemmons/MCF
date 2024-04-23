@@ -225,8 +225,6 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <hr>
-
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
@@ -343,7 +341,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                         <hr>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="ins-pm" id="ins-pm" required>
                                     <option selected disabled value="">Choose...</option>
@@ -391,7 +389,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                         <hr>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-qf" id="ins-qf" placeholder="1 or more" value="" required>
                                 <label for="ins-qf" class="form-label"># Flowers*</label>
@@ -415,8 +413,6 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <hr>
-
                         <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-dt" id="ins-dt" placeholder="Automatic" value="Auto" disabled>
@@ -427,7 +423,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="ins-lang" id="ins-lang" required>
                                     <option disabled value="">Choose...</option>
@@ -442,7 +438,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="number" class="form-control" id="ins-tos" placeholder="Default" name="ins-tos" value="1" required>
                                 <label for="ins-tos">Terms of Service*</label>
