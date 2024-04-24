@@ -76,7 +76,7 @@ include_once 'header.inc';
                                 </ol>
                                 Engage with us in other related ways, including any sales, marketing, or events.
                                 <br><br>
-                                <strong>Questions or concerns? </strong>Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at sysadmin@crazyflowers.art
+                                <strong>Questions or concerns? </strong>Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>
                                 <br><br>
 
                                 <strong>SUMMARY OF KEY POINTS</strong>
@@ -86,7 +86,7 @@ include_once 'header.inc';
 
                                 <strong>What personal information do we process?</strong>
                                 <br>
-                                When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about&nbsp;><a href="#personalinfo">personal information you disclose to us</a>.
+                                When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about&nbsp;><a href="#personalinfo" class="mcf-link">personal information you disclose to us</a>.
                                 <br><br>
 
                                 <strong>Do we process any sensitive personal information?</strong>
@@ -101,31 +101,31 @@ include_once 'header.inc';
 
                                 <strong>How do we process your information?</strong>
                                 <br>
-                                We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about&nbsp;<a href="#infouse">how we process your information</a>.
+                                We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about&nbsp;<a href="#infouse" class="mcf-link">how we process your information</a>.
 
                                 <br><br>
 
                                 <strong>In what situations and with which parties do we share personal information?</strong>
                                 <br>
-                                We may share information in specific situations and with specific third parties. Learn more about&nbsp;<a href="#whoshare">when and with whom we share your personal information</a>.
+                                We may share information in specific situations and with specific third parties. Learn more about&nbsp;<a href="#whoshare" class="mcf-link">when and with whom we share your personal information</a>.
 
                                 <br><br>
 
                                 <strong>How do we keep your information safe?</strong>
                                 <br>
-                                We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about&nbsp;<a href="#infosafe">how we keep your information safe</a>.
+                                We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about&nbsp;<a href="#infosafe" class="mcf-link">how we keep your information safe</a>.
 
                                 <br><br>
                                 <strong>What are your rights?</strong>
                                 <br>
-                                Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about&nbsp;<a href="#privacyrights">your privacy rights</a>.
+                                Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about&nbsp;<a href="#privacyrights" class="mcf-link">your privacy rights</a>.
                                 <br><br>
 
                                 <strong>How do you exercise your rights?</strong>
-                                <br>The easiest way to exercise your rights is by visiting <a href="https://millies.crazyflowers.art/contact.php" target="_blank">millies.crazyflowers.art/contact.php</a>, or by contacting us directly at sysadmin@crazyflowers.art We will consider and act upon any request in accordance with applicable data protection laws.
+                                <br>The easiest way to exercise your rights is by visiting <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">millies.crazyflowers.art/contact.php</a>, or by contacting us directly at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> We will consider and act upon any request in accordance with applicable data protection laws.
 
                                 <br><br>
-                                Want to learn more about what we do with any information we collect?&nbsp;<a href="#toc">Review the privacy notice in full</a>.
+                                Want to learn more about what we do with any information we collect?&nbsp;<a href="#toc" class="mcf-link">Review the privacy notice in full</a>.
 
                                 <hr>
 
@@ -156,9 +156,9 @@ include_once 'header.inc';
                                     <strong>Payment Data.</strong>
                                     <br>We may collect data necessary to process your payment if you make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is stored by Venmo, PayPal and Zelle. You may find their privacy notice link(s) here:
                                     <ul>
-                                        <li><a href="https://venmo.com/legal/us-user-agreement" target="_blank">https://venmo.com/legal/us-user-agreement</a></li>
-                                        <li><a href="https://www.paypal.com/us/legalhub/privacy-full" target="_blank">https://www.paypal.com/us/legalhub/privacy-full</a></li>
-                                        <li><a href="https://www.zellepay.com/legal/legal-and-privacy" target="_blank">https://www.zellepay.com/legal/legal-and-privacy</a></li>
+                                        <li><a href="https://venmo.com/legal/us-user-agreement" target="_blank" rel="noopener noreferrer" class="mcf-link">https://venmo.com/legal/us-user-agreement</a></li>
+                                        <li><a href="https://www.paypal.com/us/legalhub/privacy-full" target="_blank" rel="noopener noreferrer" class="mcf-link">https://www.paypal.com/us/legalhub/privacy-full</a></li>
+                                        <li><a href="https://www.zellepay.com/legal/legal-and-privacy" target="_blank" rel="noopener noreferrer" class="mcf-link">https://www.zellepay.com/legal/legal-and-privacy</a></li>
                                     </ul>
 
                                     All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.
@@ -224,7 +224,7 @@ include_once 'header.inc';
                                             <ul>
                                                 <li>(a)Google Display Network Impressions Reporting.</li>
                                                 <ul>
-                                                    <li>(i)To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank">https://tools.google.com/dlpage/gaoptout</a></span>. You can opt out of Google Analytics Advertising Features through <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank">Ads Settings</a> and Ad Settings for mobile apps. Other opt out means include <a href="http://optout.networkadvertising.org/" rel="noopener noreferrer" target="_blank">http://optout.networkadvertising.org/</a> and <a href="http://www.networkadvertising.org/mobile-choice" rel="noopener noreferrer" target="_blank">http://www.networkadvertising.org/mobile-choice</a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy &amp; Terms page</a>.
+                                                    <li>(i)To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank" class="mcf-link">https://tools.google.com/dlpage/gaoptout</a></span>. You can opt out of Google Analytics Advertising Features through <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank" class="mcf-link">Ads Settings</a> and Ad Settings for mobile apps. Other opt out means include <a href="http://optout.networkadvertising.org/" rel="noopener noreferrer" target="_blank" class="mcf-link">http://optout.networkadvertising.org/</a> and <a href="http://www.networkadvertising.org/mobile-choice" rel="noopener noreferrer" target="_blank" class="mcf-link">http://www.networkadvertising.org/mobile-choice</a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank" class="mcf-link">Google Privacy &amp; Terms page</a>.
                                                     </li>
                                                 </ul>
                                             </ul>
@@ -238,7 +238,10 @@ include_once 'header.inc';
                                     We may use cookies and other tracking technologies to collect and store your information.
 
                                     <br><br>
-                                    We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
+                                    We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information because they make our website work more efficiently, as well as to provide reporting information. We may use cookies to collect personal information, or that becomes personal information if we combine it with other information.
+                                    <br><br>
+                                    We use first- and third-party cookies for several reasons. Some cookies are required for technical reasons in order for our Website to operate, and we refer to these as "essential" or "strictly necessary" cookies. Other cookies also enable us to track and target the interests of our users to enhance the user's experience with our Online Properties. Third parties serve cookies through our Website for advertising, analytics, and other purposes, such as reCaptcha and form verification.
+                                    If you have any questions, or concerns, please contact us by email <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>
                                     <br><br>
 
                                     <div id="inforetain"><strong>5. HOW LONG DO WE KEEP YOUR INFORMATION?</strong></div>
@@ -267,9 +270,9 @@ include_once 'header.inc';
                                     <br>
                                     <strong>In Short:</strong>
                                     <br>
-                                    We do not knowingly collect data from or market to children under 18 years of age.
+                                    We do NOT knowingly collect data from or market to children under 18 years of age.
                                     <br><br>
-                                    We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at sysadmin@crazyflowers.art
+                                    We do NOT knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>
                                     <br><br>
 
                                     <div id="privacyrights"><strong>8. WHAT ARE YOUR PRIVACY RIGHTS?</strong></div>
@@ -281,7 +284,7 @@ include_once 'header.inc';
                                     <br><br>
                                     <div id="withdrawconsent"><strong>Withdrawing your consent:</strong></div>
                                     <br>
-                                    If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "<a href="#contact">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below.
+                                    If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "<a href="#contact" class="mcf-link">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below.
                                     <br><br>
                                     However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
                                     <br><br>
@@ -289,15 +292,15 @@ include_once 'header.inc';
                                     <br>
                                     If you would at any time like to review or change the information in your account or terminate your account, you can:
                                     <ul>
-                                        <li>(a) contact us using the contact information provided, <a href="https://millies.crazyflowers.art/contact.php" target="_blank">Contact Us</a></li>
-                                        <li>(b) contact us by email, at sysadmin@crazyflowers.art </li>
+                                        <li>(a) contact us using the contact information provided, <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">Contact Us</a></li>
+                                        <li>(b) contact us by email, at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> </li>
                                     </ul>
                                     <br>
                                     Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
                                     <br><br>
                                     <strong><u>Cookies and similar technologies:</u></strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services.
                                     <br><br>
-                                    If you have questions or comments about your privacy rights, you may email us at sysadmin@crazyflowers.art.
+                                    If you have questions or comments about your privacy rights, you may email us at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>.
                                     <br><br>
 
                                     <div id="DNT"><strong>9. CONTROLS FOR DO-NOT-TRACK FEATURES</strong></div>
@@ -418,7 +421,7 @@ include_once 'header.inc';
 
                                     <strong>How do we use and share your personal information?</strong>
                                     <br>
-                                    Learn about how we use your personal information in the section, "<a href="#infouse">HOW DO WE PROCESS YOUR INFORMATION?</a>"
+                                    Learn about how we use your personal information in the section, "<a href="#infouse" class="mcf-link">HOW DO WE PROCESS YOUR INFORMATION?</a>"
                                     <br><br>
 
                                     <strong>Will your information be shared with anyone else?</strong>
@@ -505,8 +508,8 @@ include_once 'header.inc';
                                     To exercise these rights, you can contact us by visiting
                                     <br>
                                     <ul>
-                                        <li>(a) <a href="https://millies.crazyflowers.art/contact.php" target="_blank">https://millies.crazyflowers.art/contact.php</a>,</li>
-                                        <li>(b) or by email to sysadmin@crazyflowers.art,</li>
+                                        <li>(a) <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php</a>,</li>
+                                        <li>(b) or by email to <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>,</li>
                                         <li>(c) or by referring to the contact details at the bottom of this document.</li>
                                     </ul>
 
@@ -527,15 +530,15 @@ include_once 'header.inc';
                                     <div id="contact"><strong>12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</strong></div>
 
                                     <br>
-                                    If you have questions or comments about this notice, you may email us at sysadmin@crazyflowers.art
+                                    If you have questions or comments about this notice, you may email us at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>
                                     <br><br>
 
                                     <div id="request"><strong>13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</strong></div>
                                     <br>
                                     You have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit:
                                     <br>
-                                    <a href="https://millies.crazyflowers.art/contact.php" target="_blank">https://millies.crazyflowers.art/contact.php</a>, or by email to sysadmin@crazyflowers.art.
-                                    
+                                    <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php</a>, or by email to <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>.
+
                             </section>
                         </div>
                     </div>
@@ -556,14 +559,14 @@ include_once 'header.inc';
                         <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                         <ul class="ul-list display-4 mt-4">
                             <li class="li-horizontal">
-                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-pinterest"></i></a>
+                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" target="_blank" rel="noopener noreferrer"><i class="bi bi-pinterest"></i></a>
                             </li>
                             <li class="li-horizontal">
-                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
                             </li>
                             <!--
                     <li class="li-horizontal">
-                        <a href="#" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="sm-color" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
                     </li>
                     -->
                         </ul>

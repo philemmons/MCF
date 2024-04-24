@@ -417,7 +417,7 @@ include_once 'header.inc';
                                 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
 
                                 <br><br>
-                                <a href="https://millies.crazyflowers.art" class="mcf-link  fw-bold" _target="blank" rel="noopener noreferrer">millies.crazyflowers.art</a>
+                                <a href="https://millies.crazyflowers.art" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">millies.crazyflowers.art</a>
                                 <br>
                                 <strong><a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a></strong>
                             </section>
@@ -440,14 +440,14 @@ include_once 'header.inc';
                         <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                         <ul class="ul-list display-4 mt-4">
                             <li class="li-horizontal">
-                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-pinterest"></i></a>
+                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" target="_blank" rel="noopener noreferrer"><i class="bi bi-pinterest"></i></a>
                             </li>
                             <li class="li-horizontal">
-                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
                             </li>
                             <!--
                     <li class="li-horizontal">
-                        <a href="#" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="sm-color" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
                     </li>
                     -->
                         </ul>
