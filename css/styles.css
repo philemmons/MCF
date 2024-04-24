@@ -660,3 +660,8 @@ legend {
 .status-msg.success {
   color: var(--success-color);
 }
+
+/**** TOS ****/
+.bg-img-tos {
+  background-image: url('../images/beautiful-macro-rocks-concept.png');
+}

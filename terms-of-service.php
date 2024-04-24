@@ -41,7 +41,7 @@ include_once 'header.inc';
     <main>
         <!-- Hero Section -->
         <section class="container-fluid">
-            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-">
+            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-tos">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">
@@ -72,7 +72,7 @@ include_once 'header.inc';
 
                                 We operate the website millies.crazyflowers.art (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").
                                 <br><br>
-                                You can contact us by email at <a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a>
+                                You can contact us by email at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>
                                 <br><br>
                                 These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("<strong>you</strong>"), and Millie's Crazy Flowers, concerning your access to and use of the Services. <strong>You agree</strong> that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
                                 <br><br>
@@ -113,7 +113,7 @@ include_once 'header.inc';
                                 <br><br>
                                 Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
                                 <br><br>
-                                If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
+                                If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
                                 <br><br>
                                 We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.
                                 <br><br>
@@ -150,7 +150,7 @@ include_once 'header.inc';
                                 <br><br>
                                 <strong>Copyright infringement</strong>
                                 <br>
-                                We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately contact us by email at <a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a> and refer to the "<a href="#ci">COPYRIGHT INFRINGEMENTS</a>" section below.
+                                We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately contact us by email at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> and refer to the "<a href="#ci">COPYRIGHT INFRINGEMENTS</a>" section below.
                                 <br><br>
 
                                 <div id="urep"><strong>3. USER REPRESENTATIONS</strong></div>
@@ -304,7 +304,7 @@ include_once 'header.inc';
                                 <br><br>
 
                                 <div id="ci"><strong>15. COPYRIGHT INFRINGEMENTS</strong></div>
-                                We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately notify us using the email at <a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a> or the contact information provided below (a "Notification"). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Services infringes your copyright, you should consider first contacting an attorney.
+                                We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately notify us using the email at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> or the contact information provided below (a "Notification"). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Services infringes your copyright, you should consider first contacting an attorney.
 
                                 <br><br>
 
@@ -419,7 +419,7 @@ include_once 'header.inc';
                                 <br><br>
                                 <a href="https://millies.crazyflowers.art" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">millies.crazyflowers.art</a>
                                 <br>
-                                <strong><a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a></strong>
+                                <strong><a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a></strong>
                             </section>
                         </div>
                     </div>
