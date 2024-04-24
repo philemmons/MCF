@@ -15,6 +15,9 @@
                         <a class="nav-link px-2" href="terms-of-service.php">Terms of Service</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link px-2" href="privacy.php">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link px-2" href="sitemap.php">Sitemap</a>
                     </li>
                 </ul>
