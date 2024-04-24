@@ -41,7 +41,7 @@ include_once 'header.inc';
     <main>
         <!-- Hero Section -->
         <section class="container-fluid">
-            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-">
+            <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-access">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
                         <p class="fw-bold ">

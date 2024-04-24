@@ -665,3 +665,8 @@ legend {
 .bg-img-tos {
   background-image: url('../images/beautiful-macro-rocks-concept.png');
 }
+
+/**** accessibilty ****/
+.bg-img-access {
+  background-image: url('../images/accessibility.png');
+}
