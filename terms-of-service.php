@@ -62,11 +62,11 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                         <div class="p-3 text-bg-light hero-text-border" title="">
                             <section aria-label="Terms of Service">
-                                <h2 class="card-title mb-2">TERMS OF SERVICE</h2>
+                                <h2 class="card-title mb-2">millie's.crazyflowers.art Terms of Service</h2>
                                 <p class="mb-3 text-dark">Last updated: April 24, 2024
                                 </p>
                            
-                                <h2 class="card-title mb-2">AGREEMENT TO OUR LEGAL TERMS</h2>
+                                <h2 class="card-title mb-2">Agreement to Our Legal Terms</h2>
                                 <p class="mb-3 text-dark">We are Millie's Crazy Flowers: "Company," "we," "us," "our"
                                 </p>
 
@@ -92,7 +92,7 @@ include_once 'header.inc';
                                 <div id="ip"><strong>2. INTELLECTUAL PROPERTY RIGHTS</strong></div>
                                 <strong>Our intellectual property</strong>
 
-                                <br><br>
+                                <br>
                                 We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the "Content"), as well as the trademarks, service marks, and logos contained therein (the "Marks").
                                 <br><br>
                                 Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.
@@ -100,7 +100,7 @@ include_once 'header.inc';
                                 The Content and Marks are provided in or through the Services "AS IS" for your personal, non-commercial use only.
                                 <br><br>
                                 <strong>Your use of our Services</strong>
-                                <br><br>
+                                <br>
                                 Subject to your compliance with these Legal Terms, including the "<a href="#prohibited">PROHIBITED ACTIVITIES</a>" section below, we grant you a non-exclusive, non-transferable, revocable license to:
                                 <br>
 
@@ -120,7 +120,7 @@ include_once 'header.inc';
                                 Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.
                                 <br><br>
                                 <strong>Your submissions and contributions</strong>
-                                <br><br>
+                                <br>
                                 Please review this section and the "<a href="#prohibited">PROHIBITED ACTIVITIES</a>" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
                                 <br><br>
                                 <strong>Submissions:</strong> By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ("Submissions"), <strong>you agree</strong> to assign to us all intellectual property rights in such Submission. <strong>You agree</strong> that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
@@ -149,6 +149,7 @@ include_once 'header.inc';
                                 <strong>We may remove or edit your Content:</strong> Although we have no obligation to monitor any Contributions, we shall have the right to remove or edit any Contributions at any time without notice if in our reasonable opinion we consider such Contributions harmful or in breach of these Legal Terms. If we remove or edit any such Contributions, we may also suspend or disable your account and report you to the authorities.
                                 <br><br>
                                 <strong>Copyright infringement</strong>
+                                <br>
                                 We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately contact us by email at <a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a> and refer to the "<a href="#copyrightyes">COPYRIGHT INFRINGEMENTS</a>" section below.
                                 <br><br>
 
@@ -156,15 +157,15 @@ include_once 'header.inc';
                                 By using the Services, you represent and warrant that:
                                 <br>
 
-                                <ul>
-                                    <li>1. all registration information you submit will be true, accurate, current, and complete;</li>
-                                    <li>2. you will maintain the accuracy of such information and promptly update such registration information as necessary;</li>
-                                    <li>3. you have the legal capacity and <strong>you agree</strong> to comply with these Legal Terms;</li>
-                                    <li>4. you are not a minor in the jurisdiction in which you reside;</li>
-                                    <li>5. you will not access the Services through automated or non-human means, whether through a bot, script or otherwise;</li>
-                                    <li>6. you will not use the Services for any illegal or unauthorized purpose; and</li>
-                                    <li>7. your use of the Services will not violate any applicable law or regulation.</li>
-                                </ul>
+                                <ol>
+                                    <li>all registration information you submit will be true, accurate, current, and complete;</li>
+                                    <li>you will maintain the accuracy of such information and promptly update such registration information as necessary;</li>
+                                    <li>you have the legal capacity and <strong>you agree</strong> to comply with these Legal Terms;</li>
+                                    <li>you are not a minor in the jurisdiction in which you reside;</li>
+                                    <li>you will not access the Services through automated or non-human means, whether through a bot, script or otherwise;</li>
+                                    <li>you will not use the Services for any illegal or unauthorized purpose; and</li>
+                                    <li>your use of the Services will not violate any applicable law or regulation.</li>
+                                </ol>
 
                                 If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Services (or any portion thereof).
                                 <br><br>
@@ -271,7 +272,6 @@ include_once 'header.inc';
                                     <li>(2) to re-categorize any Contributions to place them in more appropriate locations on the Services; and </li>
                                     <li>(3) to pre-screen or delete any Contributions at any time and for any reason, without notice. We have no obligation to monitor your Contributions.</li>
                                 </ul>
-                                <br><br>
 
                                 <div id="reviews"><strong>11. GUIDELINES FOR REVIEWS</strong></div>
                                 We may provide you areas on the Services to leave reviews or ratings. When posting a review, you must comply with the following criteria: (1) you should have firsthand experience with the person/entity being reviewed; (2) your reviews should not contain offensive profanity, or abusive, racist, offensive, or hateful language; (3) your reviews should not contain discriminatory references based on religion, race, gender, national origin, age, marital status, sexual orientation, or disability; (4) your reviews should not contain references to illegal activity; (5) you should not be affiliated with competitors if posting negative reviews; (6) you should not make any conclusions as to the legality of conduct; (7) you may not post any false or misleading statements; and (8) you may not organize a campaign encouraging others to post reviews, whether positive or negative.
@@ -333,11 +333,11 @@ include_once 'header.inc';
 
                                 <div id="disputes"><strong>19. DISPUTE RESOLUTION</strong></div>
                                 <strong>Informal Negotiations</strong>
-                                <br><br>
+                                <br>
                                 To expedite resolution and control the cost of any dispute, controversy, or claim related to these Legal Terms (each a "Dispute" and collectively, the "Disputes") brought by either you or us (individually, a "Party" and collectively, the "Parties"), the Parties agree to first attempt to negotiate any Dispute (except those Disputes expressly provided below) informally for at least thirty (30) days before initiating arbitration. Such informal negotiations commence upon written notice from one Party to the other Party.
                                 <br><br>
                                 <strong>Binding Arbitration</strong>
-                                <br><br>
+                                <br>
                                 If the Parties are unable to resolve a Dispute through informal negotiations, the Dispute (except those Disputes expressly excluded below) will be finally and exclusively resolved by binding arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced and conducted under the Commercial Arbitration Rules of the American Arbitration Association ("AAA") and, where appropriate, the AAA's Supplementary Procedures for Consumer Related Disputes ("AAA Consumer Rules"), both of which are available at the <strong><a href="http://www.adr.org" rel="noopener noreferrer" target="_blank">American Arbitration Association (AAA) website</a></strong>. Your arbitration fees and your share of arbitrator compensation shall be governed by the AAA Consumer Rules and, where appropriate, limited by the AAA Consumer Rules. If such costs are determined by the arbitrator to be excessive, we will pay all arbitration fees and expenses. The arbitration may be conducted in person, through the submission of documents, by phone, or online. The arbitrator will make a decision in writing, but need not provide a statement of reasons unless requested by either Party. The arbitrator must follow applicable law, and any award may be challenged if the arbitrator fails to do so. Except where otherwise required by the applicable AAA rules or applicable law, the arbitration will take place in <strong>Calaveras County, California</strong>. Except as otherwise provided herein, the Parties may litigate in court to compel arbitration, stay proceedings pending arbitration, or to confirm, modify, vacate, or enter judgment on the award entered by the arbitrator.
                                 <br><br>
                                 If for any reason, a Dispute proceeds in court rather than arbitration, the Dispute shall be commenced or prosecuted in
@@ -355,11 +355,11 @@ include_once 'header.inc';
                                 In no event shall any Dispute brought by either Party related in any way to the Services be commenced more than one (1) years after the cause of action arose. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
                                 <br><br>
                                 <strong>Restrictions</strong>
-                                <br><br>
+                                <br>
                                 The Parties agree that any arbitration shall be limited to the Dispute between the Parties individually. To the full extent permitted by law, (a) no arbitration shall be joined with any other proceeding; (b) there is no right or authority for any Dispute to be arbitrated on a class-action basis or to utilize class action procedures; and (c) there is no right or authority for any Dispute to be brought in a purported representative capacity on behalf of the general public or any other persons.
                                 <br><br>
                                 <strong>Exceptions to Informal Negotiations and Arbitration</strong>
-                                <br><br>
+                                <br>
                                 The Parties agree that the following Disputes are not subject to the above provisions concerning informal negotiations binding arbitration:
                                 <ul>
                                     <li>(a) any Disputes seeking to enforce or protect, or concerning the validity of, any of the intellectual property rights of a Party; </li>
@@ -382,11 +382,11 @@ include_once 'header.inc';
                                 NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO
                                 <br><br>
                                 <strong>THE LESSER OF THE AMOUNT PAID, IF ANY, BY YOU TO US</strong>
-                                <br><br>
+                                <br>
                                 <strong>DURING THE three (3) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING</strong>
-                                <br><br>
+                                <br>
                                 <strong>OR $500.00 USD</strong>
-                                <br><br>
+                                <br>
                                 CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
                                 <br><br>
 
