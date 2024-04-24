@@ -101,7 +101,7 @@ include_once 'header.inc';
                                 <br><br>
                                 <strong>Your use of our Services</strong>
                                 <br>
-                                Subject to your compliance with these Legal Terms, including the "<a href="#pa">PROHIBITED ACTIVITIES</a>" section below, we grant you a non-exclusive, non-transferable, revocable license to:
+                                Subject to your compliance with these Legal Terms, including the "<a href="#pa" class="mcf-link">PROHIBITED ACTIVITIES</a>" section below, we grant you a non-exclusive, non-transferable, revocable license to:
                                 <br>
 
                                 <ul>
@@ -121,7 +121,7 @@ include_once 'header.inc';
                                 <br><br>
                                 <strong>Your submissions and contributions</strong>
                                 <br>
-                                Please review this section and the "<a href="#pa">PROHIBITED ACTIVITIES</a>" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
+                                Please review this section and the "<a href="#pa" class="mcf-link">PROHIBITED ACTIVITIES</a>" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
                                 <br><br>
                                 <strong>Submissions:</strong> By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ("Submissions"), <strong>you agree</strong> to assign to us all intellectual property rights in such Submission. <strong>You agree</strong> that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
                                 <br><br>
@@ -137,7 +137,7 @@ include_once 'header.inc';
                                 <br>
 
                                 <ul>
-                                    <li>(a) confirm that you have read and agree with our "<a href="#pa">PROHIBITED ACTIVITIES</a>" and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
+                                    <li>(a) confirm that you have read and agree with our "<a href="#pa" class="mcf-link">PROHIBITED ACTIVITIES</a>" and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
                                     </li>
                                     <li>(b) to the extent permissible by applicable law, waive any and all moral rights to any such Submission and/or Contribution;</li>
                                     <li>(c) warrant that any such Submission and/or Contributions are original to you or that you have the necessary rights and licenses to submit such Submissions and/or Contributions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions and/or Contributions; and</li>
@@ -150,7 +150,7 @@ include_once 'header.inc';
                                 <br><br>
                                 <strong>Copyright infringement</strong>
                                 <br>
-                                We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately contact us by email at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> and refer to the "<a href="#ci">COPYRIGHT INFRINGEMENTS</a>" section below.
+                                We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately contact us by email at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> and refer to the "<a href="#ci" class="mcf-link">COPYRIGHT INFRINGEMENTS</a>" section below.
                                 <br><br>
 
                                 <div id="urep"><strong>3. USER REPRESENTATIONS</strong></div>
@@ -336,7 +336,7 @@ include_once 'header.inc';
                                 <br><br>
                                 <strong>Binding Arbitration</strong>
                                 <br>
-                                If the Parties are unable to resolve a Dispute through informal negotiations, the Dispute (except those Disputes expressly excluded below) will be finally and exclusively resolved by binding arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced and conducted under the Commercial Arbitration Rules of the American Arbitration Association ("AAA") and, where appropriate, the AAA's Supplementary Procedures for Consumer Related Disputes ("AAA Consumer Rules"), both of which are available at the <strong><a href="http://www.adr.org" rel="noopener noreferrer" target="_blank">American Arbitration Association (AAA) website</a></strong>. Your arbitration fees and your share of arbitrator compensation shall be governed by the AAA Consumer Rules and, where appropriate, limited by the AAA Consumer Rules. If such costs are determined by the arbitrator to be excessive, we will pay all arbitration fees and expenses. The arbitration may be conducted in person, through the submission of documents, by phone, or online. The arbitrator will make a decision in writing, but need not provide a statement of reasons unless requested by either Party. The arbitrator must follow applicable law, and any award may be challenged if the arbitrator fails to do so. Except where otherwise required by the applicable AAA rules or applicable law, the arbitration will take place in <strong>Calaveras County, California</strong>. Except as otherwise provided herein, the Parties may litigate in court to compel arbitration, stay proceedings pending arbitration, or to confirm, modify, vacate, or enter judgment on the award entered by the arbitrator.
+                                If the Parties are unable to resolve a Dispute through informal negotiations, the Dispute (except those Disputes expressly excluded below) will be finally and exclusively resolved by binding arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced and conducted under the Commercial Arbitration Rules of the American Arbitration Association ("AAA") and, where appropriate, the AAA's Supplementary Procedures for Consumer Related Disputes ("AAA Consumer Rules"), both of which are available at the <strong><a href="https://www.adr.org" rel="noopener noreferrer" target="_blank" class="mcf-link">American Arbitration Association (AAA) website</a></strong>. Your arbitration fees and your share of arbitrator compensation shall be governed by the AAA Consumer Rules and, where appropriate, limited by the AAA Consumer Rules. If such costs are determined by the arbitrator to be excessive, we will pay all arbitration fees and expenses. The arbitration may be conducted in person, through the submission of documents, by phone, or online. The arbitrator will make a decision in writing, but need not provide a statement of reasons unless requested by either Party. The arbitrator must follow applicable law, and any award may be challenged if the arbitrator fails to do so. Except where otherwise required by the applicable AAA rules or applicable law, the arbitration will take place in <strong>Calaveras County, California</strong>. Except as otherwise provided herein, the Parties may litigate in court to compel arbitration, stay proceedings pending arbitration, or to confirm, modify, vacate, or enter judgment on the award entered by the arbitrator.
                                 <br><br>
                                 If for any reason, a Dispute proceeds in court rather than arbitration, the Dispute shall be commenced or prosecuted in state and federal courts located in <strong>Calaveras County, California</strong>,
                                 </ul>
@@ -417,7 +417,7 @@ include_once 'header.inc';
                                 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
 
                                 <br><br>
-                                <a href="https://millies.crazyflowers.art" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">millies.crazyflowers.art</a>
+                                <a href="https://millies.crazyflowers.art" class="mcf-link  fw-bold" _target="blank" rel="noopener noreferrer">millies.crazyflowers.art</a>
                                 <br>
                                 <strong><a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a></strong>
                             </section>
@@ -440,14 +440,14 @@ include_once 'header.inc';
                         <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                         <ul class="ul-list display-4 mt-4">
                             <li class="li-horizontal">
-                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" _target="blank"><i class="bi bi-pinterest"></i></a>
+                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-pinterest"></i></a>
                             </li>
                             <li class="li-horizontal">
-                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
                             </li>
                             <!--
                     <li class="li-horizontal">
-                        <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="sm-color" _target="blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
                     </li>
                     -->
                         </ul>
