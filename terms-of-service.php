@@ -62,12 +62,12 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                         <div class="p-3 text-bg-light hero-text-border" title="">
                             <section aria-label="Terms of Service">
-                                <h2 class="card-title mb-2">millie's.crazyflowers.art Terms of Service</h2>
+                                <h2 class="card-title mb-2">MCF's Terms of Service</h2>
                                 <p class="mb-3 text-dark">Last updated: April 24, 2024
                                 </p>
-                           
+
                                 <h2 class="card-title mb-2">Agreement to Our Legal Terms</h2>
-                                <p class="mb-3 text-dark">We are Millie's Crazy Flowers: "Company," "we," "us," "our"
+                                <p class="mb-3 text-dark">We are Millie's Crazy Flowers: "Company," "we," "us," "our", "MCF"
                                 </p>
 
                                 We operate the website millies.crazyflowers.art (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").
@@ -105,8 +105,8 @@ include_once 'header.inc';
                                 <br>
 
                                 <ul>
-                                    <li>access the Services; and</li>
-                                    <li>download or print a copy of any portion of the Content to which you have properly gained access.</li>
+                                    <li>(a) access the Services; and</li>
+                                    <li>(b) download or print a copy of any portion of the Content to which you have properly gained access.</li>
                                 </ul>
 
                                 solely for your personal, non-commercial use.
@@ -137,11 +137,11 @@ include_once 'header.inc';
                                 <br>
 
                                 <ul>
-                                    <li>confirm that you have read and agree with our "<a href="#prohibited">PROHIBITED ACTIVITIES</a>" and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
+                                    <li>(a) confirm that you have read and agree with our "<a href="#prohibited">PROHIBITED ACTIVITIES</a>" and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
                                     </li>
-                                    <li>to the extent permissible by applicable law, waive any and all moral rights to any such Submission and/or Contribution;</li>
-                                    <li>warrant that any such Submission and/or Contributions are original to you or that you have the necessary rights and licenses to submit such Submissions and/or Contributions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions and/or Contributions; and</li>
-                                    <li>warrant and represent that your Submissions and/or Contributions do not constitute confidential information.</li>
+                                    <li>(b) to the extent permissible by applicable law, waive any and all moral rights to any such Submission and/or Contribution;</li>
+                                    <li>(c) warrant that any such Submission and/or Contributions are original to you or that you have the necessary rights and licenses to submit such Submissions and/or Contributions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions and/or Contributions; and</li>
+                                    <li>(d) warrant and represent that your Submissions and/or Contributions do not constitute confidential information.</li>
                                 </ul>
 
                                 You are solely responsible for your Submissions and/or Contributions and you expressly agree to reimburse us for any and all losses that we may suffer because of your breach of (a) this section, (b) any third party's intellectual property rights, or (c) applicable law.
@@ -157,15 +157,15 @@ include_once 'header.inc';
                                 By using the Services, you represent and warrant that:
                                 <br>
 
-                                <ol>
-                                    <li>all registration information you submit will be true, accurate, current, and complete;</li>
-                                    <li>you will maintain the accuracy of such information and promptly update such registration information as necessary;</li>
-                                    <li>you have the legal capacity and <strong>you agree</strong> to comply with these Legal Terms;</li>
-                                    <li>you are not a minor in the jurisdiction in which you reside;</li>
-                                    <li>you will not access the Services through automated or non-human means, whether through a bot, script or otherwise;</li>
-                                    <li>you will not use the Services for any illegal or unauthorized purpose; and</li>
-                                    <li>your use of the Services will not violate any applicable law or regulation.</li>
-                                </ol>
+                                <ul>
+                                    <li>(a)all registration information you submit will be true, accurate, current, and complete;</li>
+                                    <li>(b)you will maintain the accuracy of such information and promptly update such registration information as necessary;</li>
+                                    <li>(c)you have the legal capacity and <strong>you agree</strong> to comply with these Legal Terms;</li>
+                                    <li>(d)you are not a minor in the jurisdiction in which you reside;</li>
+                                    <li>(e)you will not access the Services through automated or non-human means, whether through a bot, script or otherwise;</li>
+                                    <li>(f)you will not use the Services for any illegal or unauthorized purpose; and</li>
+                                    <li>(g)your use of the Services will not violate any applicable law or regulation.</li>
+                                </ul>
 
                                 If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Services (or any portion thereof).
                                 <br><br>
@@ -179,16 +179,8 @@ include_once 'header.inc';
                                 <br><br>
 
                                 <div id="purchases"><strong>6. PURCHASES AND PAYMENT</strong></div>
-                                We accept the following forms of payment:
-                                <br>
-
-                                <ul>
-                                    <li>PayPal</li>
-                                    <li>Venmo</li>
-                                    <li>Cash</li>
-                                    <li>Check</li>
-                                </ul>
-
+                                We currently accept the following forms of payment: PayPal, Venmo, and Cash.
+                                <br><br>
                                 <strong>You agree</strong> to provide current, complete, and accurate purchase and account information for all purchases made via the Services. You further agree to promptly update account and payment information, including email address, payment method, and payment card expiration date, so that we can complete your transactions and contact you as needed. Sales tax will be added to the price of purchases as deemed required by us. We may change prices at any time. All payments shall be in US dollars($USD)
                                 <br><br>
                                 <strong>You agree</strong> to pay all charges at the prices then in effect for your purchases and any applicable shipping fees, and you authorize us to charge your chosen payment provider for any such amounts upon placing your order. We reserve the right to correct any errors or mistakes in pricing, even if we have already requested or received payment.
@@ -204,7 +196,7 @@ include_once 'header.inc';
                                 You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
                                 <br><br>
                                 As a user of the Services, <strong>you agree</strong> not to:
-                                <ul>
+                                <ol>
                                     <li>Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.</li>
                                     <li>Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.</li>
                                     <li>Circumvent, disable, or otherwise interfere with security-related features of the Services, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Services and/or the Content contained therein.</li>
@@ -227,18 +219,18 @@ include_once 'header.inc';
                                     <li>Use a buying agent or purchasing agent to make purchases on the Services.</li>
                                     <li>Make any unauthorized use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.</li>
                                     <li>Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavor or commercial enterprise.</li>
-                                    <ul>
+                                    <ol>
                                         <li>Sell or otherwise transfer your profile.</li>
                                         <li>Use the Services to advertise or offer to sell goods and services.</li>
-                                    </ul>
-                                </ul>
+                                    </ol>
+                                </ol>
 
 
                                 <div id="ugc"><strong>9. USER GENERATED CONTRIBUTIONS</strong></div>
                                 The Services may invite you to chat, contribute to, or participate in blogs, message boards, online forums, and other functionality, and may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or on the Services, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, "Contributions"). Contributions may be viewable by other users of the Services and through third-party websites. As such, any Contributions you transmit may be treated as non-confidential and non-proprietary. When you create or make available any Contributions, you thereby represent and warrant that:
                                 <br>
 
-                                <ul>
+                                <ol>
                                     <li>The creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party.</li>
                                     <li>You are the creator and owner of or have the necessary licenses, rights, consents, releases, and permissions to use and to authorize us, the Services, and other users of the Services to use your Contributions in any manner contemplated by the Services and these Legal Terms.</li>
                                     <li>You have the written consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Services and these Legal Terms.</li>
@@ -252,7 +244,7 @@ include_once 'header.inc';
                                     <li>Your Contributions do not violate any applicable law concerning child pornography, or otherwise intended to protect the health or well-being of minors.</li>
                                     <li>Your Contributions do not include any offensive comments that are connected to race, national origin, gender, sexual preference, or physical handicap.</li>
                                     <li>Your Contributions do not otherwise violate, or link to material that violates, any provision of these Legal Terms, or any applicable law or regulation.</li>
-                                </ul>
+                                </ol>
 
                                 Any use of the Services in violation of the foregoing violates these Legal Terms and may result in, among other things, termination or suspension of your rights to use the Services.
                                 <br><br>
@@ -268,9 +260,9 @@ include_once 'header.inc';
                                 We have the right, in our sole and absolute discretion,
                                 <br>
                                 <ul>
-                                    <li>(1) to edit, redact, or otherwise change any Contributions;</li>
-                                    <li>(2) to re-categorize any Contributions to place them in more appropriate locations on the Services; and </li>
-                                    <li>(3) to pre-screen or delete any Contributions at any time and for any reason, without notice. We have no obligation to monitor your Contributions.</li>
+                                    <li>(a) to edit, redact, or otherwise change any Contributions;</li>
+                                    <li>(b) to re-categorize any Contributions to place them in more appropriate locations on the Services; and </li>
+                                    <li>(c) to pre-screen or delete any Contributions at any time and for any reason, without notice. We have no obligation to monitor your Contributions.</li>
                                 </ul>
 
                                 <div id="reviews"><strong>11. GUIDELINES FOR REVIEWS</strong></div>
@@ -280,18 +272,18 @@ include_once 'header.inc';
                                 <br><br>
 
                                 <div id="thirdparty"><strong>12. THIRD-PARTY WEBSITES AND CONTENT</strong></div>
-                                The Services may contain (or you may be sent via the Site) links to other websites ("Third-Party Websites") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ("Third-Party Content"). Such <strong>Third-Party</strong> Websites and <strong>Third-Party</strong> Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Services or any <strong>Third-Party</strong> Content posted on, available through, or installed from the Services, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the <strong>Third-Party</strong> Websites or the <strong>Third-Party</strong> Content. Inclusion of, linking to, or permitting the use or installation of any <strong>Third-Party</strong> Websites or any <strong>Third-Party</strong> Content does not imply approval or endorsement thereof by us. If you decide to leave the Services and access the <strong>Third-Party</strong> Websites or to use or install any <strong>Third-Party</strong> Content, you do so at your own risk, and you should be aware these Legal Terms no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Services or relating to any applications you use or install from the Services. Any purchases you make through <strong>Third-Party</strong> Websites will be through other websites and from other companies, and we take no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party. <strong>You agree</strong> and acknowledge that we do not endorse the products or services offered on <strong>Third-Party</strong> Websites and you shall hold us blameless from any harm caused by your purchase of such products or services. Additionally, you shall hold us blameless from any losses sustained by you or harm caused to you relating to or resulting in any way from any <strong>Third-Party</strong> Content or any contact with <strong>Third-Party</strong> Websites.
+                                The Services may contain (or you may be sent via the Site) links to other websites ("<strong>Third-Party Websites</strong>") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ("<strong>Third-Party Content</strong>"). Such Third-Party Websites and Third-Party Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Services or any Third-Party Content posted on, available through, or installed from the Services, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the Third-Party Websites or the Third-Party Content. Inclusion of, linking to, or permitting the use or installation of any Third-Party Websites or any Third-Party Content does not imply approval or endorsement thereof by us. If you decide to leave the Services and access the Third-Party Websites or to use or install any Third-Party Content, you do so at your own risk, and you should be aware these Legal Terms no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Services or relating to any applications you use or install from the Services. Any purchases you make through Third-Party Websites will be through other websites and from other companies, and we take no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party. <strong>You agree</strong> and acknowledge that we do not endorse the products or services offered on Third-Party Websites and you shall hold us blameless from any harm caused by your purchase of such products or services. Additionally, you shall hold us blameless from any losses sustained by you or harm caused to you relating to or resulting in any way from any Third-Party Content or any contact with Third-Party Websites.
 
                                 <br><br>
 
                                 <div id="sitemanage"><strong>13. SERVICES MANAGEMENT</strong></div>
                                 We reserve the right, but not the obligation, to:
                                 <ul>
-                                    <li>(1) monitor the Services for violations of these Legal Terms;</li>
-                                    <li>(2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities;</li>
-                                    <li>(3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof;</li>
-                                    <li>(4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and</li>
-                                    <li>(5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.</li>
+                                    <li>(a) monitor the Services for violations of these Legal Terms;</li>
+                                    <li>(b) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities;</li>
+                                    <li>(c) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof;</li>
+                                    <li>(d) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and</li>
+                                    <li>(e) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.</li>
                                 </ul>
 
 
@@ -303,9 +295,6 @@ include_once 'header.inc';
                                 <br><br>
 
                                 <div id="copyrightyes"><strong>15. COPYRIGHT INFRINGEMENTS</strong></div>
-
-
-                                <br><br>
                                 We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately notify us using the email at <a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a> or the contact information provided below (a "Notification"). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Services infringes your copyright, you should consider first contacting an attorney.
 
                                 <br><br>
@@ -313,10 +302,10 @@ include_once 'header.inc';
                                 <div id="terms"><strong>16. TERM AND TERMINATION</strong></div>
                                 These Legal Terms shall remain in full force and effect while you use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE
                                 <br>
-                                <ul>
+                                <ol>
                                     <li>YOUR ACCOUNT AND</li>
                                     <li>ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.</li>
-                                </ul>
+                                </ol>
 
                                 If we terminate or suspend your account for any reason, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
                                 <br><br>
@@ -340,16 +329,8 @@ include_once 'header.inc';
                                 <br>
                                 If the Parties are unable to resolve a Dispute through informal negotiations, the Dispute (except those Disputes expressly excluded below) will be finally and exclusively resolved by binding arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced and conducted under the Commercial Arbitration Rules of the American Arbitration Association ("AAA") and, where appropriate, the AAA's Supplementary Procedures for Consumer Related Disputes ("AAA Consumer Rules"), both of which are available at the <strong><a href="http://www.adr.org" rel="noopener noreferrer" target="_blank">American Arbitration Association (AAA) website</a></strong>. Your arbitration fees and your share of arbitrator compensation shall be governed by the AAA Consumer Rules and, where appropriate, limited by the AAA Consumer Rules. If such costs are determined by the arbitrator to be excessive, we will pay all arbitration fees and expenses. The arbitration may be conducted in person, through the submission of documents, by phone, or online. The arbitrator will make a decision in writing, but need not provide a statement of reasons unless requested by either Party. The arbitrator must follow applicable law, and any award may be challenged if the arbitrator fails to do so. Except where otherwise required by the applicable AAA rules or applicable law, the arbitration will take place in <strong>Calaveras County, California</strong>. Except as otherwise provided herein, the Parties may litigate in court to compel arbitration, stay proceedings pending arbitration, or to confirm, modify, vacate, or enter judgment on the award entered by the arbitrator.
                                 <br><br>
-                                If for any reason, a Dispute proceeds in court rather than arbitration, the Dispute shall be commenced or prosecuted in
-                                <br>
-                                <ul>
-                                    <li>state and federal courts</li>
-                                    <li>located in</li>
-                                    <li>Calaveras County,</li>
-                                    <li>California,</li>
+                                If for any reason, a Dispute proceeds in court rather than arbitration, the Dispute shall be commenced or prosecuted in state and federal courts located in<strong>Calaveras County, California</strong>, 
                                 </ul>
-
-                                <br>
                                 and the Parties hereby consent to, and waive all defenses of lack of personal jurisdiction, and forum non conveniens with respect to venue and jurisdiction in such state and federal courts. Application of the United Nations Convention on Contracts for the International Sale of Goods and the Uniform Computer Information Transaction Act (UCITA) are excluded from these Legal Terms.
                                 <br><br>
                                 In no event shall any Dispute brought by either Party related in any way to the Services be commenced more than one (1) years after the cause of action arose. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
@@ -381,12 +362,8 @@ include_once 'header.inc';
                                 <br><br>
                                 NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO
                                 <br><br>
-                                <strong>THE LESSER OF THE AMOUNT PAID, IF ANY, BY YOU TO US</strong>
-                                <br>
-                                <strong>DURING THE three (3) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING</strong>
-                                <br>
-                                <strong>OR $500.00 USD</strong>
-                                <br>
+                                <strong>THE LESSER OF THE AMOUNT PAID, IF ANY, BY YOU TO US DURING THE three (3) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING OR $500.00 USD</strong>
+                                <br><br>
                                 CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
                                 <br><br>
 
@@ -394,14 +371,13 @@ include_once 'header.inc';
                                 <strong><strong>You agree</strong> to</strong> defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys' fees and expenses, made by any third party due to or arising out of:
                                 <br>
                                 <ul>
-                                    <li>(<strong>1</strong>) your Contributions;</li>
-                                    <li>(<strong>2</strong>) use of the Services; </li>
-                                    <li>(<strong>3</strong>) breach of these Legal Terms; </li>
-                                    <li>(<strong>4</strong>) any breach of your representations and warranties set forth in these Legal Terms; </li>
-                                    <li>(<strong>5</strong>) your violation of the rights of a third party, including but not limited to intellectual property rights; or</li>
-                                    <li>(<strong>6</strong>) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and <strong>you agree</strong> to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.</li>
+                                    <li>(a) your Contributions;</li>
+                                    <li>(b) use of the Services; </li>
+                                    <li>(c) breach of these Legal Terms; </li>
+                                    <li>(d) any breach of your representations and warranties set forth in these Legal Terms; </li>
+                                    <li>(e) your violation of the rights of a third party, including but not limited to intellectual property rights; or</li>
+                                    <li>(f) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and <strong>you agree</strong> to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.</li>
                                 </ul>
-                                <br><br>
 
                                 <div id="userdata"><strong>24. USER DATA</strong></div>
                                 <strong>We will maintain</strong> certain data that you transmit to the Services for the purpose of managing the performance of the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. <strong>You agree</strong> that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
@@ -424,7 +400,7 @@ include_once 'header.inc';
                                 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
 
                                 <br><br>
-                                <strong>Millie's Crazy Flowers</strong>
+                                <a href="https://millies.crazyflowers.art" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">millies.crazyflowers.art</a>
                                 <br>
                                 <strong><a href="mailto:sysadmin@crazyflowers.art">sysadmin@crazyflowers.art</a></strong>
                             </section>
