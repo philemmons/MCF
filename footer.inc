@@ -1,5 +1,4 @@
 <footer>
-
     <section class="bg-one py-5 px-2 p-lg-5">
         <div class="container-xl">
             <div class="row mb-4">
