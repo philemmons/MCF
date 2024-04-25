@@ -9,6 +9,7 @@
   --color-6: #4169e1;
   --color-7: #4cc9f0;
 
+
   --color-8: #caf0f8;
   --color-9: #0e81a5;
 
@@ -250,7 +251,7 @@ a {
 }
 
 #bg-right {
-  background-color: var(--color-);
+  background-color: var(--color-6);
   flex: auto;
 }
 
