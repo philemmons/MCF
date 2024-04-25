@@ -68,20 +68,20 @@ include_once 'header.inc'
     <article aria-label="four goals">
       <div class="container-fluid" style="background-color: var(--color-1);">
         <div class="row border text-white">
-          <div class="col-lg-3 p-5 info-1 border border-white">
+          <div class="col-lg-3 p-5 info-4 border border-white">
             <p class="header-font h4">Creative Elements</p>
             <p>In a whimsical creation, the vibrant colors of the pipe cleaners intertwine with dynamic lines, creating a harmonious composition that explores the elements of art.</p>
           </div>
-          <div class="col-lg-3 p-5 info-2 border border-white">
+          <div class="col-lg-3 p-5 info-3 border border-white">
             <p class="header-font h4">Community</p>
             <p>Exemplifies a holistic approach to supporting and uplifting various charitable endeavors, demonstrating a strong commitment to making a positive impact on the community or society at large.</p>
           </div>
-          <div class="col-lg-3 p-5 info-3 border border-white">
+          <div class="col-lg-3 p-5 info-2 border border-white">
             <p class="header-font h4">Expression</p>
             <p>
               In a unique fusion of sculptural art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
           </div>
-          <div class="col-lg-3 p-5 info-4 border border-white">
+          <div class="col-lg-3 p-5 info-1 border border-white">
             <p class="header-font h4">We Care</p>
             <p>We create a welcoming atmosphere for a satisfying experience.</p>
           </div>
