@@ -56,12 +56,12 @@ include_once 'header.inc';
             </div>
         </section>
 
-        <article aria-label="Our Terms">
+        <article aria-label="Our Privacy">
             <div class="container shadow-wrap">
                 <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                        <div class="p-3 text-bg-light hero-text-border" title="">
-                            <section aria-label="Terms of Service">
+                        <div class="p-3 text-bg-light hero-text-border" >
+                            <section aria-label="Privacy Policy">
                                 <h2 class="card-title mb-2">MCF's Privacy Policy</h2>
                                 <p class="mb-3 text-dark">Last updated: April 24, 2024
                                 </p>
