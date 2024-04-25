@@ -670,3 +670,22 @@ legend {
 .bg-img-access {
   background-image: url('../images/accessibility.png');
 }
+
+/**** skip to main content ****/
+.btn-skip {
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  z-index: 21;
+  left: 0.5em;
+  right: auto;
+  top: 0.5em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out;
+  background-color: var(--color-11);
+}
+
+.btn-skip:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
