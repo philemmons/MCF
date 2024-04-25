@@ -4,7 +4,6 @@
 
 <footer>
 
-
     <article class="bg-one py-5 px-2 p-lg-5" aria-label="You, Them, and Us">
         <div class="container-xl">
             <div class="row mb-4">
@@ -29,7 +28,6 @@
                         -->
                     </ul>
                 </div>
-
 
                 <div class="col-md-6 col-lg-4 p-3 ">
                     <section aria-label="Most recent posts">
@@ -63,8 +61,6 @@
                         </ul>
                     </div>
                 </div>
-
-
 
                 <div class="col-md-6 col-lg-4 p-3">
                     <section aria-label="Contact Info">
@@ -104,8 +100,7 @@
         </div>
     </article>
 
-
-
+    
     <?php include 'footer_bottom_navbar.inc'; ?>
 
     <article id="footer-image" aria-label="Copyright Info">
