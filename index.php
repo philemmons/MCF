@@ -121,7 +121,7 @@ include_once 'header.inc'
               <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
               <section aria-label="Flower collection">
                 <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
-                <p class="card-text small"><strong>Note</strong>: Flowers only are sold not including vases, cards, or trinkets.</p>
+                <p class="card-text small mb-1"><strong>Note</strong>: Flowers only are sold not including vases, cards, or trinkets.</p>
               </section>
             </div>
           </div>
@@ -153,8 +153,8 @@ include_once 'header.inc'
           </div>
         </div>
         
-        <div class="text-center">
-          <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
+        <div class="text-center py-2">
+          <p class="card-text   tt-upper">(Click to zoom in)</p>
         </div>
 
         <div class=" text-center pt-4 pb-5">
