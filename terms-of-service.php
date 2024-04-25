@@ -7,7 +7,7 @@ include_once 'header.inc';
 
 <body id="toTop">
     <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
-    <nav class="navbar navbar-expand-lg mcf-navbar-light">
+    <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
                 <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
