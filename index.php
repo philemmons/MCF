@@ -38,85 +38,89 @@ include_once 'header.inc'
     </div>
   </nav>
 
+  <header id="main-content">
+    <div class="d-flex h-rem">
+      <div id="bg-left"></div>
+      <div id="bg-right"></div>
+    </div>
 
-  <section class="d-flex h-rem">
-    <div id="bg-left"></div>
-    <div id="bg-right"></div>
-  </section>
-
-  <div class="container hero-content">
-    <div class="row">
-      <div class="col-md-6">
-        <h1 class="header-font h1-ls text-black">Millie's Crazy Flowers</h1>
-        <h4 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h4>
-        <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
-        <div class="pb-5">
-          <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="header-font h1-ls text-black">Millie's Crazy Flowers</h1>
+          <p class="f-italic h4">Legacy of love, caring, and lasting friendship towards one another.</p>
+          <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
+          <div class="pb-5">
+            <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
         </div>
       </div>
-      <div class="col-md-6 text-center">
-        <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
-      </div>
     </div>
-  </div>
+  </header>
 
   <main>
 
-    <section id="discover">
+    <article aria-label="four goals">
       <div class="container-fluid" style="background-color: var(--color-1);">
         <div class="row border text-white">
           <div class="col-lg-3 p-5 info-1 border border-white">
-            <h4 class="header-font">Creative Elements</h4>
+            <p class="header-font h4">Creative Elements</p>
             <p>In a whimsical creation, the vibrant colors of the pipe cleaners intertwine with dynamic lines, creating a harmonious composition that explores the elements of art.</p>
           </div>
           <div class="col-lg-3 p-5 info-2 border border-white">
-            <h4 class="header-font">Community</h4>
+            <p class="header-font h4">Community</p>
             <p>Exemplifies a holistic approach to supporting and uplifting various charitable endeavors, demonstrating a strong commitment to making a positive impact on the community or society at large.</p>
           </div>
           <div class="col-lg-3 p-5 info-3 border border-white">
-            <h4 class="header-font">Expression</h4>
+            <p class="header-font h4">Expression</p>
             <p>
               In a unique fusion of sculptural art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
           </div>
           <div class="col-lg-3 p-5 info-4 border border-white">
-            <h4 class="header-font">We Care</h4>
+            <p class="header-font h4">We Care</p>
             <p>We create a welcoming atmosphere for a satisfying experience.</p>
           </div>
         </div>
       </div>
-    </section>
+    </article>
 
-    <section class="px-3 py-5 p-lg-5">
+    <article class="px-3 py-5 p-lg-5" aria-label="About MCF">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 my-2 my-lg-5">
-            <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
+            <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Pipe Cleaner Artist.">
           </div>
           <div class="col-lg-6 my-2 my-lg-5">
             <div class="card-body">
-              <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
-              <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we loved.</p>
-              <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
-
+              <section aria-label="Short about us">
+                <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
+                <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we loved.</p>
+                <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
+              </section>
               <div class="text-center">
-                <a href="our_story.php" class="btn mcf-button p-3 fs-5">More Info</a>
+                <a href="our_story.php" class="btn mcf-button p-3 fs-5">Our Story</a>
               </div>
 
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </article>
 
 
-    <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+    <article class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);" aria-label="Our finished projects">
       <div class="container-fluid">
         <div class="row text-center">
           <div class="col-lg-12 my-2 my-lg-3 pt-5">
             <div class="card-body">
               <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
-              <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
-              <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
+              <section aria-label="Flower collection">
+                <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
+                <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
+              </section>
             </div>
           </div>
         </div>
@@ -152,7 +156,7 @@ include_once 'header.inc'
         </div>
 
       </div>
-    </section>
+    </article>
 
     <?php include_once 'tech-stats.inc'; ?>
 
@@ -160,13 +164,15 @@ include_once 'header.inc'
     ?>
 
 
-    <section class="px-3 px-lg-5">
+    <article class="px-3 px-lg-5" aria-label="Production overview">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12 my-2 my-lg-3 pt-5">
             <div class="card-body">
               <p class="card-text  mb-1 tt-upper">Production Flows</p>
-              <h2 class="card-title header-font mb-3">How it Works</h2>
+              <section aria-label="How it works">
+                <h2 class="card-title header-font mb-3">How it Works</h2>
+              </section>
             </div>
           </div>
         </div>
@@ -180,7 +186,7 @@ include_once 'header.inc'
               <img src="../images/quote.png" class="img-fluid img-pos-2" alt="Delivery truck icon">
             </div>
             <div class="card-body">
-              <h5 class="card-title pt-3">Inspiration</h5>
+              <p class="card-title pt-3 h5">Inspiration</p>
               <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on 05-07-23, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend.</p>
             </div>
           </div>
@@ -193,7 +199,7 @@ include_once 'header.inc'
               <img src="../images/production.png" class="img-fluid img-pos-1" alt="Delivery truck icon">
             </div>
             <div class="card-body">
-              <h5 class="card-title pt-3">Production and Assembly</h5>
+              <p class="card-title pt-3 h5">Production and Assembly</p>
               <p class="card-text">Millie's Crazy Flowers start with hundreds of solid colored pipe cleaners. Our artist selects the colors and gently twists the pipe cleaners together. Next, Victoria loops and locks the ends of the twisted pipe cleaners which create a petal. Each petal is slightly different. Once the petals are completed, they are separated by general colors and made into flowers. The finished flower is approximately seven inches across.</p>
             </div>
           </div>
@@ -206,33 +212,35 @@ include_once 'header.inc'
               <img src="../images/delivery.png" class="img-fluid img-pos-1" alt="Delivery truck icon">
             </div>
             <div class="card-body">
-              <h5 class="card-title pt-3">Delivery</h5>
-              <p class="card-text">Our current postage and handling charge is $6 for each flower, but when you buy two, then the third one gets free delivery. For larger quantities, delivery costs are adjustable, and we will email a final amount for you. We only deliver in the continental United States at this time through the USPS. If you need your flowers sooner, we are able to make arrangements with UPS or FedEx.
+              <p class="card-title pt-3 h5">Delivery</p>
+              <p class="card-text">Our current postage and handling charge is $6 for each flower, but when you buy two, then the third one gets free delivery. For larger quantities, delivery costs are adjustable, and we will email a final amount for you. We only deliver in the continental United States at this time through the <span class="text-uppercase">usps</span><span class="sr-only">(United States Postage Service)</span>. If you need your flowers sooner, we are able to make arrangements with <span class="text-uppercase">ups</span><span class="sr-only">(United Parcel Service)</span> or FedEx <span class="sr-only">(Federal Express)</span>.
               </p>
             </div>
           </div>
 
           <div class="row mx-auto">
             <div class="col-sm-6 pb-3 pb-sm-5">
-              <a href="our_story.php" class="btn mcf-button p-3 fs-5">Learn More</a>
+              <a href="our_story.php" class="btn mcf-button p-3 fs-5">Our Story</a>
             </div>
             <div class="col-sm-6 pb-5">
-              <a href="contact.php" class="btn mcf-button p-3 fs-5">Question</a>
+              <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
             </div>
           </div>
 
         </div>
       </div>
-    </section>
+    </article>
 
 
-    <section class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);">
+    <article class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);" aria-label="Our Articles">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12 my-2 my-lg-3 pt-5">
             <div class="card-body">
               <p class="card-text  mb-1 tt-upper">Our Articles</p>
-              <h2 class="card-title header-font mb-3">Recent Newsletter</h2>
+              <section aria-label="Recent Newsletters">
+                <h2 class="card-title header-font mb-3">Recent Newsletter</h2>
+              </section>
             </div>
           </div>
         </div>
@@ -250,17 +258,16 @@ include_once 'header.inc'
                     <p class="card-text d-flex">
                     <ul class="ul-list ms-3">
                       <li>
-                        <i class="bi bi-person-fill-check mx-1"></i>Jeanne E.
-                        <i class="bi bi-calendar mx-1"></i>04.22.24
+                        <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Jeanne E.
+                        <i class="bi bi-calendar mx-1" aria-hidden="true"></i>04.22.24
                       </li>
                       <li>
-                        <i class="bi bi-chat-dots-fill mx-1"></i>Comments
+                        <i class="bi bi-chat-dots-fill mx-1" aria-hidden="true"></i>Comments
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></h4></a>
+                    <p class="card-title h4"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></p>
                     <p class="card-text">Millie's Crazy Flowers offer a whimsical and delightful addition to any occasion. Read more here.</p>
-
                   </div>
                 </div>
               </div>
@@ -278,11 +285,11 @@ include_once 'header.inc'
                     <p class="card-text d-flex">
                     <ul class="ul-list ms-3">
                       <li>
-                        <i class="bi bi-person-fill-check mx-1"></i>Anonymous
-                        <i class="bi bi-calendar mx-1"></i>01.28.24
+                        <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Anonymous
+                        <i class="bi bi-calendar mx-1" aria-hidden="true"></i>01.28.24
                       </li>
                       <li>
-                        <i class="bi bi-chat-dots-fill mx-1"></i>Comments
+                        <i class="bi bi-chat-dots-fill mx-1" aria-hidden="true"></i>Comments
                       </li>
                     </ul>
                     </p>
@@ -293,64 +300,9 @@ include_once 'header.inc'
               </div>
             </div>
           </div>
-          <!--
-          <div class="col">
-            <div class="card border-0 nl-1 rounded-0 h-100">
-              <div class="row g-0">
-                <div class="col-sm-6">
-                  <div class="card-body">
-                    <p class="card-text d-flex">
-                    <ul class="ul-list ms-3">
-                      <li>
-                        <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar mx-1"></i>01.21.24
-                      </li>
-                      <li>
-                        <i class="bi bi-chat-dots-fill mx-1"></i>Comments
-                      </li>
-                    </ul>
-                    </p>
-                    <h4 class="card-title"><a href="newsletter-mar-2024.php" class="mcf-nl">Card title</a></h4></a>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 text-center">
-                  <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
-                </div>
-              </div>
-            </div>
-<--        </div>
-<!--
-          <div class="col">
-            <div class="card border-0 nl-1 rounded-0 h-100">
-              <div class="row g-0">
-                <div class="col-sm-6">
-                  <div class="card-body">
-                    <p class="card-text d-flex">
-                    <ul class="ul-list ms-3">
-                      <li>
-                        <i class="bi bi-person-fill-check mx-1"></i>Admin
-                        <i class="bi bi-calendar mx-1"></i>01.21.24
-                      </li>
-                      <li>
-                        <i class="bi bi-chat-dots-fill mx-1"></i>Comments
-                      </li>
-                    </ul>
-                    </p>
-                    <h4 class="card-title"><a href="newsletter-apr-2024.php" class="mcf-nl">Card title</a></h4></a>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 text-center">
-                  <img src="images/mcf-flower-3.png" class="img-fluid" alt="MCF's Chenille Stems flower three.">
-                </div>
-              </div>
-            </div>
-          </div>
--->
         </div>
       </div>
-    </section>
+    </article>
 
   </main>
 

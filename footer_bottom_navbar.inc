@@ -1,6 +1,6 @@
 <article aria-label="footer nav bar">
     <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand-lg mcf-navbar-dark" aria-label="Bottom navigation">
+    <nav class="navbar navbar-expand-lg mcf-navbar-dark" aria-label="Bottom Menu">
         <div class="container">
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavBar" aria-controls="bottomNavBar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="pe-2">Bottom Menu</span>
