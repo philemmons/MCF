@@ -284,7 +284,7 @@ include_once 'header.inc';
                                     <br>
                                     You may review, change, or terminate your account at any time.
                                     <br><br>
-                                    <div id="withdrawconsent"><strong>Withdrawing your consent:</strong></div>
+                                    <div id="withdrawconsent"><strong>Withdrawing your consent</strong></div>
                                     If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "<a href="#contact" class="mcf-link">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below.
                                     <br><br>
                                     However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
@@ -299,7 +299,8 @@ include_once 'header.inc';
                                     <br>
                                     Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
                                     <br><br>
-                                    <strong><u>Cookies and similar technologies:</u></strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services.
+                                    <strong>Cookies and similar technologies</strong>
+                                    <br>Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services.
                                     <br><br>
                                     If you have questions or comments about your privacy rights, you may email us at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>.
                                     <br><br>
@@ -322,9 +323,9 @@ include_once 'header.inc';
                                     <div class="table-responsive">
                                         <table class="table table-striped table-bordered">
                                             <thead class="table-dark">
-                                                <th><strong>Category</strong></th>
-                                                <th><strong>Examples</strong></th>
-                                                <th><strong>Collected</strong></th>
+                                                <th>Category</th>
+                                                <th>Examples</th>
+                                                <th>Collected</th>
                                             </thead>
 
                                             <tbody class="table-group-divider">
@@ -489,7 +490,7 @@ include_once 'header.inc';
                                     <br>
                                     We do not process consumer's sensitive personal information.
                                     <br><br>
-                                    <em>Verification process:</em>
+                                    <em>Verification process</em>
                                     <br>
                                     Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g., phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.
                                     <br><br>
