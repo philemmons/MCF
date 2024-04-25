@@ -68,7 +68,7 @@ include_once 'header.inc';
 
 
                                 This privacy notice for MIllie's Crazy Flowers
-                                ("<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), or "<strong>MCF</strong>") describes how and why we might collect, store, use, and/or share ("<strong>process</strong>") your information when you use our services ("<strong>Services</strong>"), such as when you:
+                                ("<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>", or "<strong>MCF</strong>") describes how and why we might collect, store, use, and/or share ("<strong>process</strong>") your information when you use our services ("<strong>Services</strong>"), such as when you:
                                 <br>
                                 <ol>
                                     <li>Visit our website at millies.crazyflowers.art</li>
@@ -86,7 +86,7 @@ include_once 'header.inc';
 
                                 <strong>What personal information do we process?</strong>
                                 <br>
-                                When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about&nbsp;><a href="#personalinfo" class="mcf-link">personal information you disclose to us</a>.
+                                When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about&nbsp;<a href="#personalinfo" class="mcf-link">personal information you disclose to us</a>.
                                 <br><br>
 
                                 <strong>Do we process any sensitive personal information?</strong>
@@ -125,7 +125,9 @@ include_once 'header.inc';
                                 <br>The easiest way to exercise your rights is by visiting <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">millies.crazyflowers.art/contact.php</a>, or by contacting us directly at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> We will consider and act upon any request in accordance with applicable data protection laws.
 
                                 <br><br>
-                                Want to learn more about what we do with any information we collect?&nbsp;<a href="#toc" class="mcf-link">Review the privacy notice in full</a>.
+                                <strong>Want to learn more about what we do with any information we collect?</strong>
+                                <br>
+                                Review the Privacy Policy below in full.
 
                                 <hr>
 
@@ -133,7 +135,7 @@ include_once 'header.inc';
                                 <div id="infocollect"><strong>1. WHAT INFORMATION DO WE COLLECT?</strong></div>
                                 <br>
                                 <div id="personalinfo"><strong>Personal information you disclose to us</strong></div>
-                                <br><br>
+                                <br>
                                 <strong>In Short:</strong>We collect personal information that you provide to us. We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.
                                 <br><br>
                                 <strong>Personal Information Provided by You.</strong>
@@ -283,7 +285,6 @@ include_once 'header.inc';
                                     You may review, change, or terminate your account at any time.
                                     <br><br>
                                     <div id="withdrawconsent"><strong>Withdrawing your consent:</strong></div>
-                                    <br>
                                     If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "<a href="#contact" class="mcf-link">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>" below.
                                     <br><br>
                                     However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
@@ -317,91 +318,91 @@ include_once 'header.inc';
                                     <strong>What categories of personal information do we collect?</strong>
                                     <br>
                                     We have collected the following categories of personal information in the past twelve (12) months:
-
-                                    <br>
-                                    <table style="width: 100%;">
-                                        <tbody>
-
-                                            <tr>
+                                    <br><br>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered">
+                                            <thead class="table-dark">
                                                 <th><strong>Category</strong></th>
                                                 <th><strong>Examples</strong></th>
                                                 <th><strong>Collected</strong></th>
-                                            </tr>
+                                            </thead>
 
-                                            <tr>
-                                                <td>A. Identifiers</td>
-                                                <td>Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name</td>
-                                                <td>NO</td>
-                                            </tr>
+                                            <tbody class="table-group-divider">
+                                                <tr>
+                                                    <td>A. Identifiers</td>
+                                                    <td>Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>B. Personal information as defined in the California Customer Records statute</td>
-                                                <td>Name, contact information, education, employment, employment history, and financial information</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>B. Personal information as defined in the California Customer Records statute</td>
+                                                    <td>Name, contact information, education, employment, employment history, and financial information</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>C. Protected classification characteristics under state or federal law</td>
-                                                <td>Gender and date of birth</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>C. Protected classification characteristics under state or federal law</td>
+                                                    <td>Gender and date of birth</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>D. Commercial information</td>
-                                                <td>Transaction information, purchase history, financial details, and payment information</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>D. Commercial information</td>
+                                                    <td>Transaction information, purchase history, financial details, and payment information</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>E. Biometric information</td>
-                                                <td>Fingerprints and voiceprints</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>E. Biometric information</td>
+                                                    <td>Fingerprints and voiceprints</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>F. Internet or other similar network activity</td>
-                                                <td>Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements</td>
-                                                <td>YES</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>F. Internet or other similar network activity</td>
+                                                    <td>Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements</td>
+                                                    <td>YES</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>G. Geolocation data</td>
-                                                <td>Device location</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>G. Geolocation data</td>
+                                                    <td>Device location</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>H. Audio, electronic, visual, thermal, olfactory, or similar information</td>
-                                                <td>Images and audio, video or call recordings created in connection with our business activities</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>H. Audio, electronic, visual, thermal, olfactory, or similar information</td>
+                                                    <td>Images and audio, video or call recordings created in connection with our business activities</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>I. Professional or employment-related information</td>
-                                                <td>Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>I. Professional or employment-related information</td>
+                                                    <td>Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>J. Education Information</td>
-                                                <td>Student records and directory information</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>J. Education Information</td>
+                                                    <td>Student records and directory information</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>K. Inferences drawn from collected personal information</td>
-                                                <td>Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual's preferences and characteristics</td>
-                                                <td>YES</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>K. Inferences drawn from collected personal information</td>
+                                                    <td>Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual's preferences and characteristics</td>
+                                                    <td>YES</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>L. Sensitive personal Information</td>
-                                                <td>Data that is subject to strict protection guidelines under laws like the GDPR and the CCPA and includes very intimate details.</td>
-                                                <td>NO</td>
-                                            </tr>
+                                                <tr>
+                                                    <td>L. Sensitive personal Information</td>
+                                                    <td>Data that is subject to strict protection guidelines under laws like the GDPR and the CCPA and includes very intimate details.</td>
+                                                    <td>NO</td>
+                                                </tr>
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
 
                                     <br><br>
                                     We will use and retain the collected personal information as needed to provide the Services or for:
