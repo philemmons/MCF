@@ -619,6 +619,20 @@ a.mcf-crumb:focus {
   position: absolute;
 }
 
+/**** back to top ****/
+
+.back-to-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 16px;
+  right: 16px;
+  left: auto;
+  opacity: 0;
+  transition: opacity .5s linear;
+  z-index: 11;
+  background-color: var(--color-11);
+}
+
 /**** container ****/
 
 .shadow-wrap {
