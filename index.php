@@ -102,7 +102,7 @@ include_once 'header.inc'
                 <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we loved.</p>
                 <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
               </section>
-              <div class="text-center">
+              <div class="text-center pt-3">
                 <a href="our_story.php" class="btn mcf-button p-3 fs-5">Our Story</a>
               </div>
 
