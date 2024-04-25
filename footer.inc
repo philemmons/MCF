@@ -3,10 +3,11 @@
 </main>
 
 <footer>
-    <div class="container-xl">
-        <div class="row mb-4">
 
-            <article class="bg-one py-5 px-2 p-lg-5" aria-label="You, Them, and Us">
+
+    <article class="bg-one py-5 px-2 p-lg-5" aria-label="You, Them, and Us">
+        <div class="container-xl">
+            <div class="row mb-4">
                 <div class="col-lg-4 p-3">
                     <section aria-label="Social Media">
                         <h3 class="header-font mb-4  text-center">
@@ -64,7 +65,7 @@
                 </div>
 
 
-          
+
                 <div class="col-md-6 col-lg-4 p-3">
                     <section aria-label="Contact Info">
                         <h3 class="header-font mb-4 text-center">Have a Question?</h3>
@@ -99,10 +100,11 @@
                         </ul>
                     </div>
                 </div>
-            </article>
-
+            </div>
         </div>
-    </div>
+    </article>
+
+
 
     <?php include 'footer_bottom_navbar.inc'; ?>
 
