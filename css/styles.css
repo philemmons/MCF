@@ -3,11 +3,11 @@
   --color-1: #ffffff;
   --color-2: #000000;
 
-  --color-3: #031273;
-  --color-4: #0504aa;
-  --color-5: #2337c6;
-  --color-6: #4169e1;
-  --color-7: #4cc9f0;
+  --color-3: #03045e;
+  --color-4: #0077b6;
+  --color-5: #00b4d8;
+  --color-6: #90e0ef;
+  --color-7: #caf0f8;
 
 
   --color-8: #caf0f8;
@@ -411,7 +411,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 .mcf-button:hover,
 .mcf-button:focus {
-  background-color: var(--color-6);
+  background-color: var(--color-);
   border: solid 2px var(--color-2) !important;
 }
 
