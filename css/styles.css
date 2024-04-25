@@ -633,7 +633,7 @@ a.mcf-crumb:focus {
   opacity: 0;
   transition: opacity .5s linear;
   z-index: 11;
-  background-color: var(--color-21);
+  background-color: var(--color-30);
 }
 
 /**** container ****/
