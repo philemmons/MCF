@@ -554,8 +554,8 @@ WIP
 
 .banner {
   border: solid 2px var(--color-1);
-  box-shadow: 2px 6px 8px 0 var(--color-2);
-  background-color: var(--color-3);
+  box-shadow: 3px 3px 6px 0 var(--color-2);
+  background-color: var(--color-4);
   color: var(--color-1);
 }
 
