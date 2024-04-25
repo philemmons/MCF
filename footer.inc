@@ -6,9 +6,9 @@
     <div class="container-xl">
         <div class="row mb-4">
 
-            <article class="bg-one py-5 px-2 p-lg-5" aria-label="Online Presence">
+            <article class="bg-one py-5 px-2 p-lg-5" aria-label="You, Them, and Us">
                 <div class="col-lg-4 p-3">
-                    <section aria-label="Social media">
+                    <section aria-label="Social Media">
                         <h3 class="header-font mb-4  text-center">
                             <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                         </h3>
@@ -28,9 +28,8 @@
                         -->
                     </ul>
                 </div>
-            </article>
 
-            <article aria-label="Recent Posts">
+
                 <div class="col-md-6 col-lg-4 p-3 ">
                     <section aria-label="Most recent posts">
                         <h3 class="header-font mb-4 text-center">Recent Posts</h3>
@@ -63,11 +62,11 @@
                         </ul>
                     </div>
                 </div>
-            </article>
 
-            <article aria-label="Contact Info">
+
+          
                 <div class="col-md-6 col-lg-4 p-3">
-                    <section aria-label="Contact Us">
+                    <section aria-label="Contact Info">
                         <h3 class="header-font mb-4 text-center">Have a Question?</h3>
                     </section>
                     <div class="block-8 d-flex">
@@ -104,7 +103,7 @@
 
         </div>
     </div>
-    
+
     <?php include 'footer_bottom_navbar.inc'; ?>
 
     <article id="footer-image" aria-label="Copyright Info">
@@ -113,7 +112,6 @@
             </p>
         </div>
     </article>
-
 
 
 </footer>
