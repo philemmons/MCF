@@ -5,7 +5,7 @@
 <footer>
     <div class="container-xl">
         <div class="row mb-4">
-            
+
             <article class="bg-one py-5 px-2 p-lg-5" aria-label="Online Presence">
                 <div class="col-lg-4 p-3">
                     <section aria-label="Social media">
@@ -102,17 +102,19 @@
                 </div>
             </article>
 
-            <?php include 'footer_bottom_navbar.inc'; ?>
-
-            <article id="footer-image" aria-label="Copyright Info">
-                <div class="h-100 d-flex align-items-center justify-content-center px-4">
-                    <p class="fw-bold">Copyright © 2023-<?php echo date('Y') ?> Millie's Crazy Flowers. All Rights Reserved.
-                    </p>
-                </div>
-            </article>
-
         </div>
     </div>
+    
+    <?php include 'footer_bottom_navbar.inc'; ?>
+
+    <article id="footer-image" aria-label="Copyright Info">
+        <div class="h-100 d-flex align-items-center justify-content-center px-4">
+            <p class="fw-bold">Copyright © 2023-<?php echo date('Y') ?> Millie's Crazy Flowers. All Rights Reserved.
+            </p>
+        </div>
+    </article>
+
+
 
 </footer>
 
