@@ -121,7 +121,6 @@ include_once 'header.inc'
               <p class="card-text  mb-1 tt-upper">Our Finished Projects</p>
               <section aria-label="Flower collection">
                 <h2 class="card-title header-font mb-3">Crazy Flower Collection</h2>
-                <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
                 <p class="card-text small"><strong>Note</strong>: Flowers only are sold not including vases, cards, or trinkets.</p>
               </section>
             </div>
@@ -153,6 +152,7 @@ include_once 'header.inc'
             <img src="images/mcf-flower-10.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower ten." title="Zooming in!">
           </div>
         </div>
+        <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
 
         <div class=" text-center pt-4 pb-5">
           <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
