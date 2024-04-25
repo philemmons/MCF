@@ -705,3 +705,8 @@ legend {
   transform: translateY(-4em);
   opacity: 0;
 }
+
+/**** gallery ****/
+.row>.align-btm{
+  align-items: flex-end;
+}

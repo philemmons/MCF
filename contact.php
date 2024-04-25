@@ -277,7 +277,7 @@ include_once 'header.inc'
                     </div>
                 </div>
 
-                <div class="row text-center">
+                <div class="row text-center align-btm">
                     <div class="col-lg-2 p-1 info-4 border border-white">
                         <img src="images/mcf-flower-5.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower five." title="Zooming in!">
                     </div>
