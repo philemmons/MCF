@@ -707,6 +707,6 @@ legend {
 }
 
 /**** gallery ****/
-.row>.align-btm{
-  align-items: flex-end;
+.align-btm{
+  align-items: flex-end !important;
 }
