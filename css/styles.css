@@ -4,18 +4,18 @@
   --color-2: #000000;
 
   --color-3: #03045e;
-  --color-4: #0077b6;
-  --color-5: #00b4d8;
-  --color-6: #90e0ef;
-  --color-7: #caf0f8;
+  --color-4: #023e8a;
+  --color-5: #0077b6;
+  --color-6: #0096c7;
+  --color-7: #00b4d8;
+  --color-8: #48cae4;
+  --color-9: #90e0ef;
+  --color-10: #ade8f4;
+  --color-11: #caf0f8;
 
 
-  --color-8: #caf0f8;
-  --color-9: #0e81a5;
-
-  --color-10: #041f2e;
-  --color-11: #bfbfbf;
-  --color-12: #f7f7f7;
+  --color-21: #bfbfbf;
+  --color-22: #f7f7f7;
 
   --error-color: #a60012;
   --success-color: #006400;
@@ -47,9 +47,9 @@
 body {
   font-family: var(--ff-main);
   line-height: 1.8;
-  background-color: var(--color-11);
+  background-color: var( --color-21);
   margin: auto;
-  color: var(--color-10);
+  color: var(--color-2);
   font-size: 1em;
   font-weight: 400;
 }
@@ -126,7 +126,7 @@ a {
 
 #footer-image {
   background-color: var(--color-7);
-  color: var(--color-10);
+  color: var(--color-2);
   height: 100px;
 }
 
@@ -185,7 +185,7 @@ a {
 }
 
 .mcf-navbar-dark {
-  background: var(--color-10);
+  background: var(--color-2);
   letter-spacing: 1px;
 }
 
@@ -386,7 +386,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   content: '';
   width: 35px;
   height: 35px;
-  background: var(--color-10);
+  background: var(--color-2);
   border-radius: 50%;
   border: solid 1px var(--color-1);
 }
@@ -438,7 +438,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 /**** recent from newsletter ****/
 
 .nl-1 {
-  background-color: var(--color-12);
+  background-color: var(--color-22);
 }
 
 /**** hyperlinks ****/
@@ -554,7 +554,7 @@ WIP
 
 .banner {
   border: solid 2px var(--color-1);
-  box-shadow: 2px 6px 8px 0 var(--color-10);
+  box-shadow: 2px 6px 8px 0 var(--color-2);
   background-color: var(--color-4);
   color: var(--color-1);
 }
@@ -606,7 +606,7 @@ a.mcf-crumb:focus {
 }
 
 .hero-text-border {
-  border: solid 1px var(--color-10);
+  border: solid 1px var(--color-2);
 }
 
 /**** accessibility ****/
@@ -633,13 +633,13 @@ a.mcf-crumb:focus {
   opacity: 0;
   transition: opacity .5s linear;
   z-index: 11;
-  background-color: var(--color-11);
+  background-color: var( --color-21);
 }
 
 /**** container ****/
 
 .shadow-wrap {
-  box-shadow: 0 0 8px 2px var(--color-11);
+  box-shadow: 0 0 8px 2px var( --color-21);
 }
 
 .container.shadow-wrap {
@@ -699,7 +699,7 @@ legend {
   top: 0.5em;
   opacity: 1;
   transition: transform 0.1875s ease-out;
-  background-color: var(--color-11);
+  background-color: var( --color-21);
 }
 
 .btn-skip:not(:focus):not(:hover) {
