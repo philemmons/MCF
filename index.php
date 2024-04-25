@@ -8,7 +8,7 @@ include_once 'header.inc'
   <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
 
   <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
-    <div class="container-xl">
+    <div class="container-xxl">
       <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
         <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
       </a>
@@ -295,7 +295,7 @@ include_once 'header.inc'
                       </li>
                     </ul>
                     </p>
-                    <h4 class="card-title"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></h4></a>
+                    <p class="card-title h4"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></p></a>
                     <p class="card-text">Find out more info about pipe cleaners, whimsical sculptures, and love.</p>
                   </div>
                 </div>

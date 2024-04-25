@@ -179,15 +179,13 @@ a {
   z-index: 3;
   padding: 0;
   letter-spacing: 1px;
+  color: var(-color--2);
 }
 
 .mcf-navbar-dark {
   background: var(--color-10);
   letter-spacing: 1px;
-}
-
-.navbar-nav>.nav-item>.nav-link {
-  color: var(--color-1);
+  color: var(-color--1);
 }
 
 .navbar-nav>li>a:hover,
@@ -248,7 +246,7 @@ a {
 }
 
 #bg-right {
-  background-color: var(--color-7);
+  background-color: var(--color-4);
   flex: auto;
 }
 
