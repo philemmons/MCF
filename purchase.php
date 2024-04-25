@@ -62,8 +62,6 @@ include_once 'header.inc'
 
 
     <main>
-        
-    <?php include_once 'our_gallery.inc'; ?>
 
         <article aria-label="Purchase">
             <div class="container shadow-wrap">
@@ -481,7 +479,7 @@ include_once 'header.inc'
             </div>
         </section>
 
-
+        <?php include_once 'our_gallery.inc'; ?>
 
         <?php include_once 'footer.inc' ?>
 
