@@ -9,6 +9,7 @@
   --color-6: #4361ee;
   --color-7: #4cc9f0;
   --color-8: #caf0f8;
+  --color-9: #0e81a5;
 
   --color-10: #041f2e;
   --color-11: #bfbfbf;
@@ -179,13 +180,15 @@ a {
   z-index: 3;
   padding: 0;
   letter-spacing: 1px;
-  color: var(-color--2);
 }
 
 .mcf-navbar-dark {
   background: var(--color-10);
   letter-spacing: 1px;
-  color: var(-color--1);
+}
+
+.navbar-nav>.nav-item>.nav-link {
+  color: var(--color-1);
 }
 
 .navbar-nav>li>a:hover,
@@ -246,7 +249,7 @@ a {
 }
 
 #bg-right {
-  background-color: var(--color-4);
+  background-color: var(--color-9);
   flex: auto;
 }
 
