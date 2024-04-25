@@ -152,7 +152,10 @@ include_once 'header.inc'
             <img src="images/mcf-flower-10.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower ten." title="Zooming in!">
           </div>
         </div>
-        <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
+        
+        <div class="text-center">
+          <p class="card-text  mb-1 tt-upper">(Click to zoom in)</p>
+        </div>
 
         <div class=" text-center pt-4 pb-5">
           <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
