@@ -128,27 +128,27 @@ include_once 'header.inc'
         </div>
 
         <div class="row text-center align-btm">
-          <div class="col-lg-2 p-1 info-4 border border-white">
+          <div class="col-lg-2 p-1 info-2 border border-white">
             <img src="images/mcf-flower-5.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower five." title="Zooming in!">
           </div>
 
-          <div class="col-lg-2 p-1 info-4 border border-white">
+          <div class="col-lg-2 p-1 info-2 border border-white">
             <img src="images/mcf-flower-6.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
           </div>
 
-          <div class="col-lg-2 p-1 info-4 border border-white">
+          <div class="col-lg-2 p-1 info-2 border border-white">
             <img src="images/mcf-flower-7.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower seven." title="Zooming in!">
           </div>
 
-          <div class="col-lg-2 p-1 info-4 border border-white">
+          <div class="col-lg-2 p-1 info-2 border border-white">
             <img src="images/mcf-flower-8.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower eight." title="Zooming in!">
           </div>
 
-          <div class="col-lg-2 p-1 info-4 border border-white">
+          <div class="col-lg-2 p-1 info-2 border border-white">
             <img src="images/mcf-flower-9.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower nine." title="Zooming in!">
           </div>
 
-          <div class="col-lg-2 p-1 info-4 border border-white">
+          <div class="col-lg-2 p-1 info-2 border border-white">
             <img src="images/mcf-flower-10.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower ten." title="Zooming in!">
           </div>
         </div>
@@ -181,7 +181,7 @@ include_once 'header.inc'
 
         <div class="row text-center">
           <div class="col-lg-4 p-3 p-lg-5">
-            <div class="hiw-icon info-4">
+            <div class="hiw-icon info-2">
               <div class="d-flex justify-content-center align-items-center">
                 <small class="fc-1">1st</small>
               </div>
@@ -194,7 +194,7 @@ include_once 'header.inc'
           </div>
 
           <div class="col-lg-4 p-3 p-lg-5">
-            <div class="hiw-icon info-1">
+            <div class="hiw-icon info-4">
               <div class="d-flex justify-content-center align-items-center">
                 <small class="fc-1">2nd</small>
               </div>
@@ -207,7 +207,7 @@ include_once 'header.inc'
           </div>
 
           <div class="col-lg-4 p-3 p-lg-5">
-            <div class="hiw-icon info-4">
+            <div class="hiw-icon info-2">
               <div class="d-flex justify-content-center align-items-center">
                 <small class="fc-1">3rd</small>
               </div>
