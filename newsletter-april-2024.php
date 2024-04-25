@@ -6,6 +6,7 @@ include_once 'header.inc'
 
 <body id="toTop">
     <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
+
     <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
@@ -37,9 +38,10 @@ include_once 'header.inc'
         </div>
     </nav>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="container-fluid">
+
+    <!-- Hero Section -->
+    <header id="main-content">
+        <div class="container-fluid">
             <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-newsletter" title="A newsletter for all things pipe cleaners and love.">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
@@ -48,13 +50,18 @@ include_once 'header.inc'
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Relevant ideas, stories, and all thing pipe cleaners.">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Our Newsletter
-                        </h1>
+                        <section aria-label="Page Intro">
+                            <h1 class="header-font pb-4 px-3 px-md-0">Our Newsletter
+                            </h1>
+                        </section>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </header>
 
+
+    <main>
         <!-- Section One -->
         <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container">

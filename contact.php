@@ -38,9 +38,10 @@ include_once 'header.inc'
         </div>
     </nav>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="container-fluid">
+
+    <!-- Hero Section -->
+    <header id="main-content">
+        <div class="container-fluid">
             <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-contactUs" title="We are here to answer your questions and welcome your feedback.">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
@@ -49,13 +50,18 @@ include_once 'header.inc'
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Contact Us">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Contact Us
-                        </h1>
+                        <section aria-label="Page Intro">
+                            <h1 class="header-font pb-4 px-3 px-md-0">Contact Us
+                            </h1>
+                        </section>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </header>
 
+
+    <main>
         <!-- Section One -->
         <div id="map"></div>
         <section class="container">

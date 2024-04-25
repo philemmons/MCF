@@ -47,9 +47,11 @@ include_once 'header.inc'
     <div class="container hero-content">
       <div class="row">
         <div class="col-md-6">
-          <h1 class="header-font h1-ls text-black">Millie's Crazy Flowers</h1>
-          <p class="f-italic h4">Legacy of love, caring, and lasting friendship towards one another.</p>
-          <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
+          <section aria-label="Website Intro">
+            <h1 class="header-font h1-ls text-black">Millie's Crazy Flowers</h1>
+            <p class="f-italic h4">Legacy of love, caring, and lasting friendship towards one another.</p>
+            <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
+          </section>
           <div class="pb-5">
             <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
           </div>

@@ -23,6 +23,7 @@ if (isset($_POST['logout'])) {
 
 <body id="toTop">
   <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
+
   <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
     <div class="container-xl">
       <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
@@ -54,10 +55,10 @@ if (isset($_POST['logout'])) {
     </div>
   </nav>
 
-  <main id="main-content">
 
+  <header>
     <!-- Hero Section -->
-    <section class="container-fluid">
+    <div class="container-fluid">
       <div class="row justify-content-center align-items-end bg-frame bg-img-login" title="Welcome Admin">
         <div class="col-xl-6 col-lg-7 col-md-9">
           <div class="text-center">
@@ -71,36 +72,39 @@ if (isset($_POST['logout'])) {
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <!-- Middle Navbar -->
-    <nav class="navbar navbar-expand-lg mb-5 mcf-navbar-dark">
-      <div class="container">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#midNavBar" aria-controls="midNavBar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="pe-2">Admin Menu</span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="midNavBar">
-          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-            <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
-              <a class="nav-link active px-2" aria-current="page" href="_login.php">Admin Panel<span class="visually-hidden">(current)</span></a>
-            </li>
-            <?php
-            if (isset($_SESSION["status"])) {
-              echo '<li class="nav-item">';
-              echo '<div role= "form">';
-              echo '<form method ="POST"  >';
-              echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
-              echo '</form>';
-              echo '</div>';
-              echo '</li>';
-            }
-            ?>
-          </ul>
-        </div>
+
+  <!-- Middle Navbar -->
+  <nav class="navbar navbar-expand-lg mb-5 mcf-navbar-dark" aria-label="Middle menu">
+    <div class="container">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#midNavBar" aria-controls="midNavBar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="pe-2">Admin Menu</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="midNavBar">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
+            <a class="nav-link active px-2" aria-current="page" href="_login.php">Admin Panel<span class="visually-hidden">(current)</span></a>
+          </li>
+          <?php
+          if (isset($_SESSION["status"])) {
+            echo '<li class="nav-item">';
+            echo '<div role= "form">';
+            echo '<form method ="POST"  >';
+            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
+            echo '</form>';
+            echo '</div>';
+            echo '</li>';
+          }
+          ?>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
+  <main id="main-content">
     <!-- Part One -->
     <div class="container shadow-wrap">
       <div class="row justify-content-center mb-5">

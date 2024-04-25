@@ -7,6 +7,7 @@ include_once 'header.inc';
 
 <body id="toTop">
     <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
+
     <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
@@ -38,9 +39,10 @@ include_once 'header.inc';
         </div>
     </nav>
 
-    <main>
+
+    <header id="main-content">
         <!-- Hero Section -->
-        <section class="container-fluid">
+        <div class="container-fluid">
             <div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-tos">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="text-center">
@@ -49,13 +51,18 @@ include_once 'header.inc';
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Terms fo Service">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Terms of Service
-                        </h1>
+                        <section aria-label="Page Intro">
+                            <h1 class="header-font pb-4 px-3 px-md-0">Terms of Service
+                            </h1>
+                        </section>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </header>
 
+
+    <main>
         <article aria-label="Our Terms">
             <div class="container shadow-wrap">
                 <div class="row justify-content-center mb-5">
@@ -442,20 +449,20 @@ include_once 'header.inc';
                                 <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                             </h3>
                             <p class="f-italic h5">Legacy of love, caring, and lasting friendship towards one another.</p>
-                            <ul class="ul-list display-4 mt-4">
-                                <li class="li-horizontal">
-                                    <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" target="_blank"><i class="bi bi-pinterest" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="li-horizontal">
-                                    <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" target="_blank"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-                                </li>
-                                <!--
-                        <li class="li-horizontal">
-                            <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
-                        </li>
-                        -->
-                            </ul>
                         </section>
+                        <ul class="ul-list display-4 mt-4">
+                            <li class="li-horizontal">
+                                <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" target="_blank"><i class="bi bi-pinterest" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="li-horizontal">
+                                <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" target="_blank"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                            </li>
+                            <!--
+                            <li class="li-horizontal">
+                                <a href="#" class="sm-color"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            -->
+                        </ul>
                     </div>
         </article>
 
@@ -498,38 +505,36 @@ include_once 'header.inc';
             <div class="col-md-6 col-lg-4 p-3">
                 <section aria-label="Contact Us">
                     <h3 class="header-font mb-4 text-center">Have a Question?</h3>
-
-                    <div class="block-8 d-flex">
-                        <i class="bi bi-map me-2" aria-hidden="true"></i>
-                        <ul class="ul-list ms-3">
-                            <li>
-                                <p>Valley Springs, California, 95252, USA
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="block-8 d-flex">
-                        <i class="bi bi-send me-2" aria-hidden="true"></i>
-                        <ul class="ul-list ms-3">
-                            <li>
-                                <p>
-                                    <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class="mcf-link  fw-bold"><?php echo getenv('mcf-info-email'); ?> </a>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="block-8 d-flex">
-                        <i class="bi bi-pencil-square me-2" aria-hidden="true"></i>
-                        <ul class="ul-list ms-3">
-                            <li>
-                                <p>
-                                    <a href="contact.php" class="mcf-link  fw-bold">Contact Us</a>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
                 </section>
-            </div>
+                <div class="block-8 d-flex">
+                    <i class="bi bi-map me-2" aria-hidden="true"></i>
+                    <ul class="ul-list ms-3">
+                        <li>
+                            <p>Valley Springs, California, 95252, USA
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-8 d-flex">
+                    <i class="bi bi-send me-2" aria-hidden="true"></i>
+                    <ul class="ul-list ms-3">
+                        <li>
+                            <p>
+                                <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class="mcf-link  fw-bold"><?php echo getenv('mcf-info-email'); ?> </a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-8 d-flex">
+                    <i class="bi bi-pencil-square me-2" aria-hidden="true"></i>
+                    <ul class="ul-list ms-3">
+                        <li>
+                            <p>
+                                <a href="contact.php" class="mcf-link  fw-bold">Contact Us</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
         </article>
 
         <!-- Bottom Navbar -->
