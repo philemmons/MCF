@@ -411,7 +411,6 @@ include_once 'header.inc';
                                         <li>Category F - As long as the user has an account with us</li>
                                     </ul>
 
-                                    <br><br>
                                     We may also collect other personal information outside of these categories through instances where you interact with us in person, online, or by phone or mail in the context of:
                                     <br>
                                     <ol>
@@ -458,14 +457,14 @@ include_once 'header.inc';
 
                                     <strong>Your rights with respect to your personal data</strong>
                                     <br>
-                                    Right to request deletion of the data — Request to delete:
+                                    <em>Right to request deletion of the data — Request to delete:</em>
                                     <br>
                                     You can ask for the deletion of your personal information. If you ask us to delete your personal information, we will respect your request and delete your personal information, subject to certain exceptions provided by law, such as (but not limited to) the exercise by another consumer of his or her right to free speech, our compliance requirements resulting from a legal obligation, or any processing that may be required to protect against illegal activities.
                                     <br><br>
 
                                     Right to be informed — Request to know
                                     <br>
-                                    Depending on the circumstances, you have a right to know:
+                                    <em>Depending on the circumstances, you have a right to know:</em>
                                     <br>
                                     <ul>
                                         <li>(a) whether we collect and use your personal information;</li>
@@ -481,22 +480,22 @@ include_once 'header.inc';
                                     In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re-identify individual data to verify a consumer request.
                                     <br><br>
 
-                                    Right to Non-Discrimination for the Exercise of a Consumer's Privacy Rights:
+                                    <em>Right to Non-Discrimination for the Exercise of a Consumer's Privacy Rights:</em>
                                     <br>
                                     We will not discriminate against you if you exercise your privacy rights.
                                     <br><br>
 
-                                    Right to Limit Use and Disclosure of Sensitive Personal Information:
+                                    <em>Right to Limit Use and Disclosure of Sensitive Personal Information:</em>
                                     <br>
                                     We do not process consumer's sensitive personal information.
                                     <br><br>
-                                    Verification process:
+                                    <em>Verification process:</em>
                                     <br>
                                     Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g., phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.
                                     <br><br>
                                     We will only use personal information provided in your request to verify your identity or authority to make the request. To the extent possible, we will avoid requesting additional information from you for the purposes of verification. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes. We will delete such additionally provided information as soon as we finish verifying you.
                                     <br><br>
-                                    Other privacy rights:
+                                    <strong>Other privacy rights:</strong>
                                     <br>
                                     <ol>
                                         <li>You may object to the processing of your personal information.</li>
@@ -504,7 +503,7 @@ include_once 'header.inc';
                                         <li>You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.</li>
                                         <li>You may request to opt out from future selling or sharing of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than (15) fifteen days from the date of the request submission.</li>
                                     </ol>
-                                    <br>
+                                    
 
                                     To exercise these rights, you can contact us by visiting
                                     <br>
