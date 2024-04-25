@@ -506,7 +506,7 @@ include_once 'header.inc';
                                         <li>You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.</li>
                                         <li>You may request to opt out from future selling or sharing of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than (15) fifteen days from the date of the request submission.</li>
                                     </ol>
-                                    
+
 
                                     To exercise these rights, you can contact us by visiting
                                     <br>
@@ -556,7 +556,7 @@ include_once 'header.inc';
                 <div class="row mb-4">
                     <div class="col-lg-4 p-3">
                         <h2 class="header-font mb-4  text-center">
-                            <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
+                            <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                         </h2>
                         <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                         <ul class="ul-list display-4 mt-4">
@@ -633,7 +633,7 @@ include_once 'header.inc';
                             <ul class="ul-list ms-3">
                                 <li>
                                     <p>
-                                        <a href="contact-us.php" class="mcf-link  fw-bold">Contact Us</a>
+                                        <a href="contact.php" class="mcf-link  fw-bold">Contact Us</a>
                                     </p>
                                 </li>
                             </ul>

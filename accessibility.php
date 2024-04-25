@@ -148,7 +148,7 @@ include_once 'header.inc';
                 <div class="row mb-4">
                     <div class="col-lg-4 p-3">
                         <h2 class="header-font mb-4  text-center">
-                            <a class="navbar-brand" href="index.html">Millie's Crazy Flowers</a>
+                            <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                         </h2>
                         <h5 class="f-italic">Legacy of love, caring, and lasting friendship towards one another.</h5>
                         <ul class="ul-list display-4 mt-4">
@@ -225,7 +225,7 @@ include_once 'header.inc';
                             <ul class="ul-list ms-3">
                                 <li>
                                     <p>
-                                        <a href="contact-us.php" class="mcf-link  fw-bold">Contact Us</a>
+                                        <a href="contact.php" class="mcf-link  fw-bold">Contact Us</a>
                                     </p>
                                 </li>
                             </ul>
