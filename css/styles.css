@@ -398,7 +398,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   color: var(--color-1) !important;
   cursor: pointer;
   font-size: 16px;
-  background-color: var(--color-4);
+  background-color: var(--color-5);
 }
 
 .mcf-btn-sm {
@@ -411,8 +411,8 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 .mcf-button:hover,
 .mcf-button:focus {
-  background-color: var(--color-3);
-  border: solid 2px var(--color-1) !important;
+  background-color: var(--color-6);
+  border: solid 2px var(--color-2) !important;
 }
 
 .mcf-button:active {
