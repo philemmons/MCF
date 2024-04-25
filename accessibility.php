@@ -260,7 +260,9 @@ include_once 'header.inc';
                 </button>
                 <div class="collapse navbar-collapse" id="bottomNavBar">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-
+                        <li class="nav-item">
+                            <a class="nav-link px-2 active" aria-current="page" href="accessibility.php">Accessibility<span class="visually-hidden">(current)</span></a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link px-2" href="terms-of-service.php">Terms of Service</a>
                         </li>

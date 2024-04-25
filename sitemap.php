@@ -226,10 +226,10 @@ include_once 'header.inc';
 							<a class="nav-link px-2" href="terms-of-service.php">Terms of Service</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link px-2" href="privacy.php">Site Map</span></a>
+							<a class="nav-link px-2" href="privacy.php">Site Map</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link px-2 active" aria-current="page" href="sitemap.php">Sitemap<span class="visually-hidden">(current)</a>
+							<a class="nav-link px-2 active" aria-current="page" href="sitemap.php">Sitemap<span class="visually-hidden">(current)</span></a>
 						</li>
 					</ul>
 				</div>
