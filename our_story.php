@@ -91,47 +91,47 @@ include_once 'header.inc'
 
         <?php //include_once 'testimonials.inc'; 
         ?>
-    </main>
 
-    <?php include_once 'footer.inc' ?>
 
-    <script src="../js/script.js"></script>
+        <?php include_once 'footer.inc' ?>
 
-    <script>
-        /**
-         * source
-         * https://codepen.io/r-gine-vienny-lehmann/pen/GbGbMJ
-         */
-        var isAlreadyRun = false;
+        <script src="../js/script.js"></script>
 
-        $(window).scroll(function() {
+        <script>
+            /**
+             * source
+             * https://codepen.io/r-gine-vienny-lehmann/pen/GbGbMJ
+             */
+            var isAlreadyRun = false;
 
-            $('.counter-show').each(function(i) {
+            $(window).scroll(function() {
 
-                var bottom_of_object = $(this).position().top + $(this).outerHeight() / 2;
-                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                $('.counter-show').each(function(i) {
 
-                if (bottom_of_window > (bottom_of_object + 20)) {
-                    if (!isAlreadyRun) {
-                        $('.count-number').each(function() {
+                    var bottom_of_object = $(this).position().top + $(this).outerHeight() / 2;
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-                            $(this).prop('Counter', 0).animate({
-                                Counter: $(this).text()
-                            }, {
-                                duration: 3500,
-                                easing: 'swing',
-                                step: function(now) {
-                                    $(this).text(Math.ceil(now));
-                                }
+                    if (bottom_of_window > (bottom_of_object + 20)) {
+                        if (!isAlreadyRun) {
+                            $('.count-number').each(function() {
+
+                                $(this).prop('Counter', 0).animate({
+                                    Counter: $(this).text()
+                                }, {
+                                    duration: 3500,
+                                    easing: 'swing',
+                                    step: function(now) {
+                                        $(this).text(Math.ceil(now));
+                                    }
+                                });
                             });
-                        });
+                        }
+                        isAlreadyRun = true;
                     }
-                    isAlreadyRun = true;
-                }
-            });
+                });
 
-        });
-    </script>
+            });
+        </script>
 
 </body>
 

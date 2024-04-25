@@ -6,7 +6,7 @@ include_once 'header.inc'
 
 <body id="toTop">
     <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
-    
+
     <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
@@ -300,38 +300,38 @@ include_once 'header.inc'
             </div>
         </section>
 
-    </main>
 
-    <?php include_once 'footer.inc' ?>
 
-    <script src="../js/script.js"></script>
+        <?php include_once 'footer.inc' ?>
 
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
+        <script src="../js/script.js"></script>
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (() => {
+                'use strict'
 
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                const forms = document.querySelectorAll('.needs-validation')
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
-    <script>
-        function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
-        }
-    </script>
+                // Loop over them and prevent submission
+                Array.from(forms).forEach(form => {
+                    form.addEventListener('submit', event => {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+        </script>
+        <script>
+            function resetFields() {
+                return confirm("Are you sure you want to reset all fields?");
+            }
+        </script>
 
 </body>
 

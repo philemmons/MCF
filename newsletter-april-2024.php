@@ -128,11 +128,11 @@ include_once 'header.inc'
             </div>
         </section>
 
-    </main>
 
-    <?php include_once 'footer.inc' ?>
 
-    <script src="../js/script.js"></script>
+        <?php include_once 'footer.inc' ?>
+
+        <script src="../js/script.js"></script>
 
 
 </body>

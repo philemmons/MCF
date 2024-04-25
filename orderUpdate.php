@@ -453,36 +453,36 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 </div>
             </div>
         </div>
-    </main>
 
-    <?php include_once 'footer.inc' ?>
 
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
+        <?php include_once 'footer.inc' ?>
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (() => {
+                'use strict'
 
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                const forms = document.querySelectorAll('.needs-validation')
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
-    <script>
-        function myReset(thisForm) {
-            document.getElementById(thisForm).reset();
-        }
-    </script>
+                // Loop over them and prevent submission
+                Array.from(forms).forEach(form => {
+                    form.addEventListener('submit', event => {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+        </script>
+        <script>
+            function myReset(thisForm) {
+                document.getElementById(thisForm).reset();
+            }
+        </script>
 
 </body>
 

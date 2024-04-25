@@ -427,7 +427,10 @@ include_once 'header.inc';
             </div>
         </article>
 
+        <a href="#toTop" class="btn btn-primary back-to-top" id="back-to-top-link" title="Back to Top" aria-label="Back to Top"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
+
     </main>
+
 
     <footer>
         <section class="bg-one py-5 px-2 p-lg-5">
