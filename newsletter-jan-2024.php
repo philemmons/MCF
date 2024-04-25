@@ -4,9 +4,8 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<body>
-
-
+<body id="toTop">
+    <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
     <nav class="navbar navbar-expand-lg mcf-navbar-light">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
@@ -19,7 +18,7 @@ include_once 'header.inc'
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2"  href="index.php">Home</a>
+                        <a class="nav-link px-2" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
@@ -28,7 +27,7 @@ include_once 'header.inc'
                         <a class="nav-link px-2" href="purchase.php">Purchase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active px-2" aria-current="page"href="newsletter-jan-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link  active px-2" aria-current="page" href="newsletter-jan-2024.php">Newsletter<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
                         <a class="nav-link px-2" href="contact.php">Contact Us</a>

@@ -5,8 +5,8 @@ session_start();  //start or resume an existing session
 include_once 'header.inc';
 ?>
 
-<body>
-
+<body id="toTop">
+    <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
     <nav class="navbar navbar-expand-lg mcf-navbar-light">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
@@ -60,7 +60,7 @@ include_once 'header.inc';
             <div class="container shadow-wrap">
                 <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                        <div class="p-3 text-bg-light hero-text-border" >
+                        <div class="p-3 text-bg-light hero-text-border">
                             <section aria-label="Privacy Policy">
                                 <h2 class="card-title mb-2">MCF's Privacy Policy</h2>
                                 <p class="mb-3 text-dark">Last updated: April 24, 2024

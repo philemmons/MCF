@@ -4,9 +4,8 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<body>
-
-
+<body id="toTop">
+    <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
     <nav class="navbar navbar-expand-lg mcf-navbar-light">
         <div class="container-xl">
             <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
