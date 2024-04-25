@@ -264,50 +264,8 @@ include_once 'header.inc'
             </div>
         </section>
 
-
-        <!-- Section Three -->
-        <section class="px-1 py-4 mb-5" style="background-color: var(--color-1);">
-            <div class="container-fluid">
-                <div class="row text-center">
-                    <div class="col-lg-12 my-2 my-lg-3 pt-3">
-                        <div class="card-body">
-                            <p class="card-text  mb-1 tt-upper">Gallery</p>
-                            <h2 class="card-title header-font mb-3">Latest Collection</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row text-center align-btm">
-                    <div class="col-lg-2 p-1 info-4 border border-white">
-                        <img src="images/mcf-flower-5.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower five." title="Zooming in!">
-                    </div>
-
-                    <div class="col-lg-2 p-1 info-4 border border-white">
-                        <img src="images/mcf-flower-6.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
-                    </div>
-
-                    <div class="col-lg-2 p-1 info-4 border border-white">
-                        <img src="images/mcf-flower-7.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower seven." title="Zooming in!">
-                    </div>
-
-                    <div class="col-lg-2 p-1 info-4 border border-white">
-                        <img src="images/mcf-flower-8.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower eight." title="Zooming in!">
-                    </div>
-
-                    <div class="col-lg-2 p-1 info-4 border border-white">
-                        <img src="images/mcf-flower-9.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower nine." title="Zooming in!">
-                    </div>
-
-                    <div class="col-lg-2 p-1 info-4 border border-white">
-                        <img src="images/mcf-flower-10.png" class="img-fluid l-box" alt="MCF's Chenille Stems flower ten." title="Zooming in!">
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-
+        <?php include_once 'our_gallery.inc'; ?>
+        
         <?php include_once 'footer.inc' ?>
 
         <script src="../js/script.js"></script>
