@@ -13,7 +13,7 @@
   --color-10: #ade8f4;
   --color-11: #caf0f8;
 
-
+  --color-20: #105b6a;
   --color-21: #bfbfbf;
   --color-22: #f7f7f7;
 
@@ -47,7 +47,7 @@
 body {
   font-family: var(--ff-main);
   line-height: 1.8;
-  background-color: var( --color-21);
+  background-color: var(--color-21);
   margin: auto;
   color: var(--color-2);
   font-size: 1em;
@@ -125,13 +125,13 @@ a {
 /**** footer ****/
 
 #footer-image {
-  background-color: var(--color-7);
+  background-color: var(--color-11);
   color: var(--color-2);
   height: 100px;
 }
 
 .bg-one {
-  background-color: var(--color-8);
+  background-color: var(--color-9);
 }
 
 .ul-list {
@@ -185,7 +185,7 @@ a {
 }
 
 .mcf-navbar-dark {
-  background: var(--color-2);
+  background: var(--color-20);
   letter-spacing: 1px;
 }
 
@@ -228,7 +228,7 @@ a {
   }
 
   .navbar-nav>li>a:hover {
-    background-color: var(--color-7);
+    background-color: var(--color-9);
     color: var(--color-2) !important;
   }
 
@@ -246,12 +246,12 @@ a {
 /**** hero-background ****/
 
 #bg-left {
-  background-color: var(--color-8);
+  background-color: var(--color-11);
   flex: auto;
 }
 
 #bg-right {
-  background-color: var(--color-6);
+  background-color: var(--color-4);
   flex: auto;
 }
 
@@ -279,19 +279,19 @@ a {
 /**** info section ****/
 
 .info-1 {
-  background-color: var(--color-6);
+  background-color: var(--color-3);
 }
 
 .info-2 {
-  background-color: var(--color-5);
-}
-
-.info-3 {
   background-color: var(--color-4);
 }
 
+.info-3 {
+  background-color: var(--color-9);
+}
+
 .info-4 {
-  background-color: var(--color-3);
+  background-color: var(--color-10);
 }
 
 .fc-1 {
@@ -392,13 +392,13 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 }
 
 .mcf-button {
-  border: solid 2px var(--color-2);
+  border: solid 2px var(--color-1);
   height: auto;
   width: 10em;
   color: var(--color-1) !important;
   cursor: pointer;
   font-size: 16px;
-  background-color: var(--color-5);
+  background-color: var(--color-3);
 }
 
 .mcf-btn-sm {
@@ -411,12 +411,12 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 .mcf-button:hover,
 .mcf-button:focus {
-  background-color: var(--color-);
+  background-color: var(--color-5);
   border: solid 2px var(--color-2) !important;
 }
 
 .mcf-button:active {
-  background-color: var(--color-7) !important;
+  background-color: var(--color-9) !important;
   border: solid 2px var(--color-2) !important;
   color: var(--color-2) !important;
 }
@@ -457,7 +457,7 @@ a.mcf-link:focus {
 
 a.mcf-nl,
 a.mcf-nl:active {
-  color: var(--color-3);
+  color: var(--color-4);
 }
 
 a.mcf-nl:hover,
@@ -541,7 +541,7 @@ WIP
 
 .bg-frame {
   height: 60vh;
-  background-color: var(--color-7);
+  background-color: var(--color-9);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -555,7 +555,7 @@ WIP
 .banner {
   border: solid 2px var(--color-1);
   box-shadow: 2px 6px 8px 0 var(--color-2);
-  background-color: var(--color-4);
+  background-color: var(--color-3);
   color: var(--color-1);
 }
 
@@ -633,13 +633,13 @@ a.mcf-crumb:focus {
   opacity: 0;
   transition: opacity .5s linear;
   z-index: 11;
-  background-color: var( --color-21);
+  background-color: var(--color-21);
 }
 
 /**** container ****/
 
 .shadow-wrap {
-  box-shadow: 0 0 8px 2px var( --color-21);
+  box-shadow: 0 0 8px 2px var(--color-21);
 }
 
 .container.shadow-wrap {
@@ -699,7 +699,7 @@ legend {
   top: 0.5em;
   opacity: 1;
   transition: transform 0.1875s ease-out;
-  background-color: var( --color-21);
+  background-color: var(--color-21);
 }
 
 .btn-skip:not(:focus):not(:hover) {
@@ -708,6 +708,6 @@ legend {
 }
 
 /**** gallery ****/
-.align-btm{
+.align-btm {
   align-items: flex-end !important;
 }
