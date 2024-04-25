@@ -77,7 +77,7 @@ include_once 'header.inc';
 										<li class="lpage"><a href="https://millies.crazyflowers.art/index.php" title="Millie's Crazy Flowers - Index" class="mcf-link">Millie's Crazy Flowers - Index</a></li>
 										<li class="lpage"><a href="https://millies.crazyflowers.art/our_story.php" title="Millie's Crazy Flowers - Our Story" class="mcf-link">Millie's Crazy Flowers - Our Story</a></li>
 										<li class="lpage"><a href="https://millies.crazyflowers.art/purchase.php" title="Millie's Crazy Flowers - Purchase" class="mcf-link">Millie's Crazy Flowers - Purchase</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-april-2024.php" title="Millie's Crazy Flowers - April Newsletter class= " mcf-link"">Millie's Crazy Flowers - April Newsletter</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-april-2024.php" title="Millie's Crazy Flowers - April Newsletter" class= "mcf-link">Millie's Crazy Flowers - April Newsletter</a></li>
 										<li class="lpage"><a href="https://millies.crazyflowers.art/contact.php" title="Millie's Crazy Flowers - Contact Us" class="mcf-link">Millie's Crazy Flowers - Contact Us</a></li>
 										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-jan-2024.php" title="Millie's Crazy Flowers - January Newsletter" class="mcf-link">Millie's Crazy Flowers - January Newsletter</a></li>
 										<li class="lpage"><a href="https://millies.crazyflowers.art/accessibility.php" title="Millie's Crazy Flowers - Accessibility" class="mcf-link">Millie's Crazy Flowers - Accessibility</a></li>
