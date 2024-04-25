@@ -136,7 +136,9 @@ include_once 'header.inc';
                                 <br>
                                 <div id="personalinfo"><strong>Personal information you disclose to us</strong></div>
                                 <br>
-                                <strong>In Short:</strong>We collect personal information that you provide to us. We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.
+                                <strong>In Short:</strong>
+                                <br>
+                                We collect personal information that you provide to us. We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.
                                 <br><br>
                                 <strong>Personal Information Provided by You.</strong>
                                 <br>
@@ -427,7 +429,7 @@ include_once 'header.inc';
 
                                     <strong>Will your information be shared with anyone else?</strong>
                                     <br>
-                                    We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Learn more about how we disclose personal information to in the section, "<a href="#whoshare">WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a>"
+                                    We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Learn more about how we disclose personal information to in the section, "<a href="#whoshare" class="mcf-link">WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a>"
                                     <br><br>
                                     We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be "selling" of your personal information.
                                     <br><br>
@@ -463,7 +465,7 @@ include_once 'header.inc';
                                     You can ask for the deletion of your personal information. If you ask us to delete your personal information, we will respect your request and delete your personal information, subject to certain exceptions provided by law, such as (but not limited to) the exercise by another consumer of his or her right to free speech, our compliance requirements resulting from a legal obligation, or any processing that may be required to protect against illegal activities.
                                     <br><br>
 
-                                    Right to be informed — Request to know
+                                    <strong>Right to be informed — Request to know</strong>
                                     <br>
                                     <em>Depending on the circumstances, you have a right to know:</em>
                                     <br>
@@ -490,7 +492,7 @@ include_once 'header.inc';
                                     <br>
                                     We do not process consumer's sensitive personal information.
                                     <br><br>
-                                    <em>Verification process</em>
+                                    <strong>Verification process</strong>
                                     <br>
                                     Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g., phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.
                                     <br><br>
@@ -514,7 +516,6 @@ include_once 'header.inc';
                                         <li>(c) or by referring to the contact details at the bottom of this document.</li>
                                     </ul>
 
-                                    <br>
                                     If you have a complaint about how we handle your data, we would like to hear from you.
                                     <br><br>
 
