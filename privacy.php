@@ -129,7 +129,7 @@ include_once 'header.inc';
                                 <br><br>
 
                                 <strong>How do you exercise your rights?</strong>
-                                <br>The easiest way to exercise your rights is by visiting <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">millies.crazyflowers.art/contact.php</a>, or by contacting us directly at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> We will consider and act upon any request in accordance with applicable data protection laws.
+                                <br>The easiest way to exercise your rights is by visiting <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">millies.crazyflowers.art/contact.php<span class="sr-only">(Opens a new window)</span></a>, or by contacting us directly at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> We will consider and act upon any request in accordance with applicable data protection laws.
 
                                 <br><br>
                                 <strong>Want to learn more about what we do with any information we collect?</strong>
@@ -167,9 +167,9 @@ include_once 'header.inc';
                                     <strong>Payment Data.</strong>
                                     <br>We may collect data necessary to process your payment if you make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is stored by Venmo, PayPal and Zelle. You may find their privacy notice link(s) here:
                                     <ul>
-                                        <li><a href="https://venmo.com/legal/us-user-agreement" target="_blank" rel="noopener noreferrer" class="mcf-link">https://venmo.com/legal/us-user-agreement</a></li>
-                                        <li><a href="https://www.paypal.com/us/legalhub/privacy-full" target="_blank" rel="noopener noreferrer" class="mcf-link">https://www.paypal.com/us/legalhub/privacy-full</a></li>
-                                        <li><a href="https://www.zellepay.com/legal/legal-and-privacy" target="_blank" rel="noopener noreferrer" class="mcf-link">https://www.zellepay.com/legal/legal-and-privacy</a></li>
+                                        <li><a href="https://venmo.com/legal/us-user-agreement" target="_blank" rel="noopener noreferrer" class="mcf-link">venmo.com/legal/us-user-agreement<span class="sr-only">(Opens a new window)</span></a></li>
+                                        <li><a href="https://www.paypal.com/us/legalhub/privacy-full" target="_blank" rel="noopener noreferrer" class="mcf-link">www.paypal.com/us/legalhub/privacy-full<span class="sr-only">(Opens a new window)</span></a></li>
+                                        <li><a href="https://www.zellepay.com/legal/legal-and-privacy" target="_blank" rel="noopener noreferrer" class="mcf-link">www.zellepay.com/legal/legal-and-privacy<span class="sr-only">(Opens a new window)</span></a></li>
                                     </ul>
 
                                     All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.
@@ -235,7 +235,7 @@ include_once 'header.inc';
                                             <ul>
                                                 <li>(a)Google Display Network Impressions Reporting.</li>
                                                 <ul>
-                                                    <li>(i)To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank" class="mcf-link">https://tools.google.com/dlpage/gaoptout</a></span>. You can opt out of Google Analytics Advertising Features through <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank" class="mcf-link">Ads Settings</a> and Ad Settings for mobile apps. Other opt out means include <a href="http://optout.networkadvertising.org/" rel="noopener noreferrer" target="_blank" class="mcf-link">http://optout.networkadvertising.org/</a> and <a href="http://www.networkadvertising.org/mobile-choice" rel="noopener noreferrer" target="_blank" class="mcf-link">http://www.networkadvertising.org/mobile-choice</a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank" class="mcf-link">Google Privacy &amp; Terms page</a>.
+                                                    <li>(i)To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank" class="mcf-link">https://tools.google.com/dlpage/gaoptout<span class="sr-only">(Opens a new window)</span></a>. You can opt out of Google Analytics Advertising Features through <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank" class="mcf-link">Ads Settings<span class="sr-only">(Opens a new window)</span></a> and Ad Settings for mobile apps. Other opt out means include <a href="http://optout.networkadvertising.org/" rel="noopener noreferrer" target="_blank" class="mcf-link">http://optout.networkadvertising.org/<span class="sr-only">(Opens a new window)</span></a> and <a href="http://www.networkadvertising.org/mobile-choice" rel="noopener noreferrer" target="_blank" class="mcf-link">http://www.networkadvertising.org/mobile-choice<span class="sr-only">(Opens a new window)</span></a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank" class="mcf-link">Google Privacy &amp; Terms page<span class="sr-only">(Opens a new window)</span></a>.
                                                     </li>
                                                 </ul>
                                             </ul>
@@ -302,7 +302,7 @@ include_once 'header.inc';
                                     <br>
                                     If you would at any time like to review or change the information in your account or terminate your account, you can:
                                     <ul>
-                                        <li>(a) contact us using the contact information provided, <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">Contact Us</a></li>
+                                        <li>(a) contact us using the contact information provided, <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">Contact Us<span class="sr-only">(Opens a new window)</span></a></li>
                                         <li>(b) contact us by email, at <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a> </li>
                                     </ul>
                                     <br>
@@ -518,7 +518,7 @@ include_once 'header.inc';
                                     To exercise these rights, you can contact us by visiting
                                     <br>
                                     <ul>
-                                        <li>(a) <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php</a>,</li>
+                                        <li>(a) <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php<span class="sr-only">(Opens a new window)</span></a>,</li>
                                         <li>(b) or by email to <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>,</li>
                                         <li>(c) or by referring to the contact details at the bottom of this document.</li>
                                     </ul>
@@ -546,7 +546,7 @@ include_once 'header.inc';
                                     <br>
                                     You have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit:
                                     <br>
-                                    <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php</a>, or by email to <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>.
+                                    <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php<span class="sr-only">(Opens a new window)</span></a>, or by email to <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>.
                             </section>
                         </div>
                     </div>

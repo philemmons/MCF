@@ -78,13 +78,13 @@ include_once 'header.inc'
                                     Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
                                 </p>
                                 <p class="card-text">
-                                    Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs and <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon</a> that "empowers athletes to exceed their personal bests on and off the playing field."
+                                    Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center<span class="sr-only">(Opens a new window)</span></a> that will provide sponsorship for the special needs and <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon<span class="sr-only">(Opens a new window)</span></a> that "empowers athletes to exceed their personal bests on and off the playing field."
                                 </p>
                                 <p class="card-text">
                                     The loving friendship between 'The Vickster' and 'The Milster' will help the most vulnerable grow compassionately, find happiness, and have fun.
                                 </p>
                             </section>
-                            
+
                             <div class="text-center pt-3 pt-lg-5">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>

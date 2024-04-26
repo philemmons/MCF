@@ -96,7 +96,7 @@ include_once 'header.inc';
 									<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
 								</div>
 								<div id="xml-source">
-									Page created with <a href="https://www.xml-sitemaps.com" target="_blank" class="mcf-link" rel="noopener noreferrer">Google XML sitemap and html sitemaps generator</a> | Copyright &copy; 2005-2024 XML-Sitemaps.com
+									Page created with <a href="https://www.xml-sitemaps.com" target="_blank" class="mcf-link" rel="noopener noreferrer">Google XML sitemap and html sitemaps generator<span class="sr-only">(Opens a new window)</span></a> | Copyright &copy; 2005-2024 XML-Sitemaps.com
 								</div>
 							</section>
 						</div>
