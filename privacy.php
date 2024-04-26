@@ -232,14 +232,14 @@ include_once 'header.inc';
                                     <ol>
                                         <li><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
                                         <li><strong>When we use Google Analytics.</strong> We may share your information with Google Analytics to track and analyze the use of the Services. The Google Analytics Advertising Features that we may use include:
-                                            <ul>
-                                                <li>(a)Google Display Network Impressions Reporting.</li>
-                                                <ul>
-                                                    <li>(i)To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank" class="mcf-link">https://tools.google.com/dlpage/gaoptout<span class="sr-only">(Opens a new window)</span></a>. You can opt out of Google Analytics Advertising Features through <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank" class="mcf-link">Ads Settings<span class="sr-only">(Opens a new window)</span></a> and Ad Settings for mobile apps. Other opt out means include <a href="http://optout.networkadvertising.org/" rel="noopener noreferrer" target="_blank" class="mcf-link">http://optout.networkadvertising.org/<span class="sr-only">(Opens a new window)</span></a> and <a href="http://www.networkadvertising.org/mobile-choice" rel="noopener noreferrer" target="_blank" class="mcf-link">http://www.networkadvertising.org/mobile-choice<span class="sr-only">(Opens a new window)</span></a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank" class="mcf-link">Google Privacy &amp; Terms page<span class="sr-only">(Opens a new window)</span></a>.
-                                                    </li>
-                                                </ul>
-                                            </ul>
                                     </ol>
+                                    (a)Google Display Network Impressions Reporting.
+                                    <ul>
+                                        <li>(i)To opt out of being tracked by Google Analytics across the Services, visit <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank" class="mcf-link">https://tools.google.com/dlpage/gaoptout<span class="sr-only">(Opens a new window)</span></a>. You can opt out of Google Analytics Advertising Features through <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank" class="mcf-link">Ads Settings<span class="sr-only">(Opens a new window)</span></a> and Ad Settings for mobile apps. Other opt out means include <a href="http://optout.networkadvertising.org/" rel="noopener noreferrer" target="_blank" class="mcf-link">http://optout.networkadvertising.org/<span class="sr-only">(Opens a new window)</span></a> and <a href="http://www.networkadvertising.org/mobile-choice" rel="noopener noreferrer" target="_blank" class="mcf-link">http://www.networkadvertising.org/mobile-choice<span class="sr-only">(Opens a new window)</span></a>. For more information on the privacy practices of Google, please visit the <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank" class="mcf-link">Google Privacy &amp; Terms page<span class="sr-only">(Opens a new window)</span></a>.
+                                        </li>
+                                    </ul>
+
+
 
                                     <br>
                                     <div id="cookies"><strong>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</strong></div>
