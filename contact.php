@@ -159,14 +159,14 @@ include_once 'header.inc'
 
                     <div id="contact-us"></div>
                     <?php if (!empty($statusMsg)) { ?>
-                        <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                        <div class="col-xl-8 col-lg-8 col-md-12 mb-5">
                             <div class="p-3 text-center text-bg-light hero-text-border" title="We are listening.">
                                 <p class="mb-5 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                             </div>
                         </div>
                     <?php } ?>
 
-                    <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="col-xl-10 col-lg-10 col-md-12 mb-5">
                         <div class="p-3 text-bg-light hero-text-border" title="Millie's Crazy Flowers Contact Us Form.">
 
                             <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
@@ -262,7 +262,7 @@ include_once 'header.inc'
         <article aria-label="Business Based City Map">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="col-xl-10 col-lg-10 col-md-12 mb-5">
                         <div class="p-3 text-center text-bg-light hero-text-border">
                             <section aria-label="Base of Operations">
                                 <h3 class="card-title header-font mb-3">We operate out of Valley Springs, California.</h3>
