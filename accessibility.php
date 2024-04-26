@@ -122,6 +122,7 @@ include_once 'header.inc';
                                 <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                             </h3>
                             <p class="h5 f-italics">Legacy of love, caring, and lasting friendship towards one another.</p>
+                            <span class="sr-only">(The above without italics: Legacy of love, caring, and lasting friendship towards one another.)</span>
                         </section>
                         <ul class="ul-list display-4 mt-4">
                             <li class="li-horizontal">
