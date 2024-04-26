@@ -197,6 +197,7 @@ a {
 .log-input:hover {
   background-color: var(--color-4);
   color: var(--color-1) !important;
+  text-decoration: underline;
 }
 
 .navbar-nav>.nav-item>.nav-link.active {
