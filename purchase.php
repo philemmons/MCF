@@ -440,9 +440,9 @@ include_once 'header.inc'
                                 </h3>
                                 <p><strong>Please add your order name or email in your payment.</strong>
                                 </p>
-                                <p class="bb-link">Remember: Your payment completes your order!
+                                <p class="mcf-link">Remember: Your payment completes your order!
                                 </p>
-                                <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mcf-to-email') ?>" class="bb-link">Tech Support</a>.
+                                <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mcf-to-email') ?>" class="mcf-link">Tech Support</a>.
                                 </p>
                             </section>
                             <div class="row justify-content-center">
@@ -456,8 +456,8 @@ include_once 'header.inc'
                                     <p class="text-center pt-4"><?php echo getenv('mcf-pp-email') ?></p> -->
                                 </div>
                                 <p>The links below provide general payment instructions.</p>
-                                <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
-                                <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to PayPal">How do I send payments with PayPal?<span class="sr-only">(Opens a new window)</span></a></p>
+                                <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="mcf-link" target="_blank" rel="noopener noreferrer" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
+                                <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="mcf-link" target="_blank" rel="noopener noreferrer" title="Direct link to PayPal">How do I send payments with PayPal?<span class="sr-only">(Opens a new window)</span></a></p>
                             </div>
                         </div>
 
