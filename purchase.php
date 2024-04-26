@@ -436,14 +436,14 @@ include_once 'header.inc'
                     <div class="col-xl-8 col-lg-8 col-md-12 ">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                             <section aria-label="Preferred Method">
-                            <h3 class="card-title header-font mb-3">Preferred Payment Methods
-                            </h3>
-                            <p><strong>Please add your order name or email in your payment.</strong>
-                            </p>
-                            <p class="bb-link">Remember: Your payment completes your order!
-                            </p>
-                            <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mcf-to-email') ?>" class="bb-link">Tech Support</a>.
-                            </p>
+                                <h3 class="card-title header-font mb-3">Preferred Payment Methods
+                                </h3>
+                                <p><strong>Please add your order name or email in your payment.</strong>
+                                </p>
+                                <p class="bb-link">Remember: Your payment completes your order!
+                                </p>
+                                <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mcf-to-email') ?>" class="bb-link">Tech Support</a>.
+                                </p>
                             </section>
                             <div class="row justify-content-center">
                                 <div class="col-sm-6 py-5">
@@ -469,18 +469,20 @@ include_once 'header.inc'
         <!-- Section One -->
         <div id="map"></div>
         <article aria-label="Business Based City Map">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-xl-10 col-lg-10 col-md-12 ">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
-                        <p class="card-title mb-3 h2 header-font">We operate out of Valley Springs, California.</p>
-                        <div class="col-md-12 db-5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25088.668857840803!2d-120.83613645418204!3d38.184731983234784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80908114b17cbaf5%3A0x2a7cf4cabd8c124d!2sValley%20Springs%2C%20CA%2095252!5e0!3m2!1sen!2sus!4v1706303237454!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Valley Springs, California" aria-hidden="true"></iframe>
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-xl-10 col-lg-10 col-md-12 ">
+                        <div class="p-3 text-center text-bg-light hero-text-border">
+                            <section aria-label="Base of Operations">
+                                <h3 class="card-title mb-3 header-font">We operate out of Valley Springs, California.</h3>
+                            </section>
+                            <div class="col-md-12 db-5">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25088.668857840803!2d-120.83613645418204!3d38.184731983234784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80908114b17cbaf5%3A0x2a7cf4cabd8c124d!2sValley%20Springs%2C%20CA%2095252!5e0!3m2!1sen!2sus!4v1706303237454!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Valley Springs, California" aria-hidden="true"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </article>
 
         <?php include_once 'our_gallery.inc'; ?>
