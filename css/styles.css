@@ -552,7 +552,7 @@ WIP
 }
 
 .bg-img-contactUs {
-  background-image: url('../images/blob-scene-one.png');
+  background-image: url('../images/keyboard-blue-email.png');
 }
 
 .banner {
@@ -582,7 +582,7 @@ a.mcf-crumb:focus {
 /**** about us ****/
 
 .bg-img-ourStory {
-  background-image: url('../images/blob-scatter-one.png');
+  background-image: url('../images/emotion-rocks.png');
 }
 
 
@@ -683,6 +683,11 @@ legend {
 
 /**** TOS ****/
 .bg-img-tos {
+  background-image: url('../images/zen-mini.png');
+}
+
+/**** sitemap ****/
+.bg-img-sitemap {
   background-image: url('../images/beautiful-macro-rocks-concept.png');
 }
 

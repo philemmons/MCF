@@ -43,7 +43,7 @@ include_once 'header.inc';
 	<header id="main-content">
 		<!-- Hero Section -->
 		<div class="container-fluid">
-			<div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-tos">
+			<div class="row justify-content-center align-items-end mb-5 bg-frame bg-img-sitemap">
 				<div class="col-xl-6 col-lg-7 col-md-9">
 					<div class="text-center">
 						<p class="fw-bold ">
