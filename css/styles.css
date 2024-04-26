@@ -748,4 +748,5 @@ a.page-link{
 
 .active>.page-link{
   background-color: var(--color-3) !important;
+  color: var(--color-1) !important;
 }
