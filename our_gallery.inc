@@ -1,4 +1,4 @@
-<article class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);" aria-label="Our finished projects">
+<article id="discover" class="px-3 px-lg-5 pt-3 pt-lg-5" style="background-color: var(--color-1);" aria-label="Our finished projects">
       <div class="container-fluid">
         <div class="row text-center">
           <div class="col-lg-12 my-2 my-lg-3 pt-5">
