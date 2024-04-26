@@ -29,11 +29,12 @@
 
   --bs-navbar-toggler-focus-width: var(--color-20) !important;
 
-  /**** pagination ****/
+  /**** pagination 
   --bs-pagination-color: var(--color-3) !important;
   --bs-pagination-active-bg: var(--color-3) !important;
   --bs-pagination-disabled-color: var(--color-2) !important;
-  
+  ****/
+
 }
 
 /**** typography and spacing ****/
@@ -69,7 +70,6 @@ h1 {
 a {
   text-underline-position: under;
 }
-
 
 .py-6 {
   padding-top: 6rem !important;
@@ -173,8 +173,6 @@ h6 {
   float: left;
 }
 
-
-
 /**** recent posts ****/
 .block-8 .nl-img {
   display: block;
@@ -236,7 +234,6 @@ h6 {
   letter-spacing: 1px;
 }
 
-
 @media screen and (max-width: 991.98px) {
   .mcf-navbar-light {
     background: var(--color-3) !important;
@@ -281,7 +278,6 @@ h6 {
   flex: auto;
 }
 
-
 .hero-content {
   position: relative;
   top: -75rem;
@@ -300,7 +296,6 @@ h6 {
     margin-bottom: -42rem;
   }
 }
-
 
 /**** info section ****/
 
@@ -359,7 +354,6 @@ h6 {
   }
 }
 
-
 /**** tech statistics ****/
 
 .tech-stat-numb {
@@ -371,9 +365,7 @@ h6 {
 }
 
 /**** testimonials ****/
-/**
-source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
-*/
+/** source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/ **/
 
 .c-shadow {
   box-shadow: 2px 6px 8px 0 var(--color-4);
@@ -392,7 +384,6 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 .border-cust {
   border-color: var(--color-3);
 }
-
 
 /**** how it works ****/
 
@@ -467,8 +458,6 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
   background-color: var(--color-22);
 }
 
-/**** hyperlinks ****/
-
 /**** newsletter&post ****/
 
 a.mcf-link,
@@ -492,10 +481,7 @@ a.mcf-nl:focus {
 }
 
 /**** lightbox ****/
-
-/**
-source: https://www.youtube.com/watch?v=uKVVSwXdLr0
-*/
+/** source: https://www.youtube.com/watch?v=uKVVSwXdLr0 **/
 
 #lightbox {
   position: fixed;
@@ -526,12 +512,8 @@ img.l-box {
   border: 2px solid #fff;
 }
 
-
 /**** image overlay ****/
-/**
-source - https://www.youtube.com/watch?v=exb2ab72Xhs
-WIP
-*/
+/** source - https://www.youtube.com/watch?v=exb2ab72Xhs   WIP **/
 
 .img-overlay {
   position: relative;
@@ -562,7 +544,6 @@ WIP
   transform: translateY(0);
 }
 
-
 /**** contact us ****/
 
 .bg-frame {
@@ -585,7 +566,6 @@ WIP
   color: var(--color-1);
 }
 
-
 /**** breadcrumbs ****/
 
 a.mcf-crumb,
@@ -601,12 +581,10 @@ a.mcf-crumb:focus {
   text-decoration: underline;
 }
 
-
 /**** our story ****/
 .bg-img-ourStory {
   background-image: url('../images/emotion-rocks.png');
 }
-
 
 /**** newsletter ****/
 .bg-img-newsletter {
@@ -703,8 +681,6 @@ legend {
   color: var(--success-color);
 }
 
-
-
 /**** sitemap ****/
 .bg-img-sitemap {
   background-image: url('../images/zen-sand-rock.png');
@@ -730,8 +706,6 @@ legend {
 .bg-img-sitemap {
   background-image: url('../images/zen-sand-rock.png');
 }
-
-
 
 /**** skip to main content ****/
 .btn-skip {
@@ -761,4 +735,17 @@ legend {
   max-width: 50%;
   height: 100%;
   padding: .25rem !important;
+}
+
+/**** pagination ****/
+li.page-item.disabled{
+  color: var(--color-2) !important;
+}
+
+a.page-item{
+ color: var(--color-3) !important;
+}
+
+.active>.page-link{
+  background-color: var(--color-3) !important;
 }
