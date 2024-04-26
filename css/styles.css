@@ -17,7 +17,7 @@
   --color-20: #105b6a;
   --color-21: #bfbfbf;
   --color-22: #f7f7f7;
-  
+
 
   --error-color: #a60012;
   --success-color: #006400;
@@ -650,8 +650,8 @@ a.mcf-crumb:focus {
 
 /**** registration ****/
 
-.bg-img-registration {
-  background-image: url('../images/field-of-sunflowers.jpg');
+.bg-img-purchase {
+  background-image: url('../images/sunflower.png');
 }
 
 .bg-img-login {
@@ -733,7 +733,7 @@ legend {
   align-items: flex-end !important;
 }
 
-.img-fluid-sm{
+.img-fluid-sm {
   max-width: 50%;
   height: 100%;
   padding: .25rem !important;
