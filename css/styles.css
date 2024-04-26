@@ -742,7 +742,7 @@ li.page-item.disabled{
   color: var(--color-2) !important;
 }
 
-a.page-item{
+a.page-link{
  color: var(--color-3) !important;
 }
 
