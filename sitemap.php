@@ -98,8 +98,6 @@ include_once 'header.inc';
 								<div id="xml-source">
 									Page created with <a href="https://www.xml-sitemaps.com" target="_blank" class="mcf-link" rel="noopener noreferrer">Google XML sitemap and html sitemaps generator</a> | Copyright &copy; 2005-2024 XML-Sitemaps.com
 								</div>
-
-
 							</section>
 						</div>
 					</div>

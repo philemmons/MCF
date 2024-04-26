@@ -547,7 +547,6 @@ include_once 'header.inc';
                                     You have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit:
                                     <br>
                                     <a href="https://millies.crazyflowers.art/contact.php" target="_blank" rel="noopener noreferrer" class="mcf-link">https://millies.crazyflowers.art/contact.php</a>, or by email to <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">sysadmin@crazyflowers.art</a>.
-
                             </section>
                         </div>
                     </div>

@@ -225,15 +225,15 @@ include_once 'header.inc'
                                         <label for="firstName" class="reg-form-label">First Name (Required)</label>
                                         <input type="text" class="form-control" name="firstName" id="firstName" required>
                                         <div class="invalid-feedback">
-                                            Required, please enter your first name.
+                                            Please enter your first name.
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
-                                        <label for="lastName" class="reg-form-label">Last Name or Initial (Required)</label>
+                                        <label for="lastName" class="reg-form-label">Last Name (Required)</label>
                                         <input type="text" class="form-control" name="lastName" id="lastName" required>
                                         <div class="invalid-feedback">
-                                            Required, please enter your last name or initial.
+                                            Please enter your last name.
                                         </div>
                                     </div>
 
@@ -241,7 +241,7 @@ include_once 'header.inc'
                                         <label for="myEmail" class="reg-form-label">Email (Required)</label>
                                         <input type="email" class="form-control" name="myEmail" id="myEmail" required>
                                         <div class="invalid-feedback">
-                                            Required, please enter your email.
+                                            Please enter your email.
                                         </div>
                                     </div>
 
@@ -257,7 +257,7 @@ include_once 'header.inc'
                                         <label for="myAddress" class="reg-form-label">Mailing Address (Required)</label>
                                         <input type="text" class="form-control" name="myAddress" id="myAddress" required>
                                         <div class="invalid-feedback">
-                                            Required, please enter your mailing address.
+                                            Please enter your mailing address.
                                         </div>
                                     </div>
 
@@ -265,7 +265,7 @@ include_once 'header.inc'
                                         <label for="myCity" class="reg-form-label">City (Required)</label>
                                         <input type="text" class="form-control" name="myCity" id="myCity" required>
                                         <div class="invalid-feedback">
-                                            Required, please enter your city.
+                                            Please enter your city.
                                         </div>
                                     </div>
 
@@ -326,7 +326,7 @@ include_once 'header.inc'
                                             <option value="WY">Wyoming</option>
                                         </select>
                                         <div class="invalid-feedback">
-                                            Required, please select your state.
+                                            Please select your state.
                                         </div>
                                     </div>
 
@@ -334,7 +334,7 @@ include_once 'header.inc'
                                         <label for="myZipcode" class="reg-form-label">Zip Code (Required)</label>
                                         <input type="text" class="form-control" name="myZipcode" id="myZipcode" required>
                                         <div class="invalid-feedback">
-                                            Required, please enter your zip code.
+                                            Please enter your zip code.
                                         </div>
                                     </div>
                                 </div>
@@ -359,7 +359,7 @@ include_once 'header.inc'
                                             <option value="10">10</option>
                                         </select>
                                         <div class="invalid-feedback">
-                                            Required, please enter your quantity.
+                                            Please enter your quantity.
                                         </div>
                                     </div>
 
@@ -395,7 +395,7 @@ include_once 'header.inc'
                                             <option value="cash">Cash</option>
                                         </select>
                                         <div class="invalid-feedback">
-                                            Required, please select one.
+                                            Please select one.
                                         </div>
                                     </div>
                                 </div>
@@ -435,6 +435,7 @@ include_once 'header.inc'
                     <div id="payment-now"></div>
                     <div class="col-xl-8 col-lg-8 col-md-12 ">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
+                            <section aria-label="Preferred Method">
                             <h3 class="card-title header-font mb-3">Preferred Payment Methods
                             </h3>
                             <p><strong>Please add your order name or email in your payment.</strong>
@@ -443,6 +444,7 @@ include_once 'header.inc'
                             </p>
                             <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mcf-to-email') ?>" class="bb-link">Tech Support</a>.
                             </p>
+                            </section>
                             <div class="row justify-content-center">
                                 <div class="col-sm-6 py-5">
                                     <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
@@ -466,18 +468,20 @@ include_once 'header.inc'
 
         <!-- Section One -->
         <div id="map"></div>
-        <section class="container">
+        <article aria-label="Business Based City Map">
+        <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 ">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <p class="card-title mb-3 h4 header-font">We operate out of Valley Springs, California.</p>
+                        <p class="card-title mb-3 h2 header-font">We operate out of Valley Springs, California.</p>
                         <div class="col-md-12 db-5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25088.668857840803!2d-120.83613645418204!3d38.184731983234784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80908114b17cbaf5%3A0x2a7cf4cabd8c124d!2sValley%20Springs%2C%20CA%2095252!5e0!3m2!1sen!2sus!4v1706303237454!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25088.668857840803!2d-120.83613645418204!3d38.184731983234784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80908114b17cbaf5%3A0x2a7cf4cabd8c124d!2sValley%20Springs%2C%20CA%2095252!5e0!3m2!1sen!2sus!4v1706303237454!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Valley Springs, California" aria-hidden="true"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        </article>
 
         <?php include_once 'our_gallery.inc'; ?>
 
