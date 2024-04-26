@@ -195,7 +195,7 @@ a {
 
 .navbar-nav>li>a:hover,
 .log-input:hover {
-  background-color: var(--color-5);
+  background-color: var(--color-4);
   color: var(--color-1) !important;
 }
 
