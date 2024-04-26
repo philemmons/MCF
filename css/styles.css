@@ -690,11 +690,7 @@ legend {
 /**** accessibilty ****/
 .bg-img-access {
   background-image: url('../images/accessibility.png');
-}
-
-.bg-img-access::before {
-  content: "";
-  background-color: rgba(0,0,0,0.25);
+  filter:brightness(0.75);
 }
 
 /**** TOS ****/
