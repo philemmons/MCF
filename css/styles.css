@@ -714,3 +714,8 @@ legend {
 .align-btm {
   align-items: flex-end !important;
 }
+
+.img-fluid-sm{
+  max-width: 50%;
+  height: auto;
+}
