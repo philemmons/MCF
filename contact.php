@@ -276,8 +276,6 @@ include_once 'header.inc'
             </div>
         </article>
 
-
-
         <?php include_once 'our_gallery.inc'; ?>
 
         <?php include_once 'footer.inc' ?>
