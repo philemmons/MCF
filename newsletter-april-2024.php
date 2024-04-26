@@ -116,24 +116,24 @@ include_once 'header.inc'
 
                             <nav aria-label="newsletter navigation" class="col-12 pb-3 pb-lg-5">
                                 <ul class="pagination justify-content-end">
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#">Previous</a>
-                                    </li>
-                                    <li class="page-item active" aria-current="page">
-                                        <a class="page-link" href="newsletter-april-2024.php">1</a>
+                                    <li class="page-item">
+                                        <a class="page-link" href="newsletter-april-2024.php">Previous</a>
                                     </li>
                                     <li class="page-item">
+                                        <a class="page-link" href="newsletter-april-2024.php">1</a>
+                                    </li>
+                                    <li class="page-item  active" aria-current="page">
                                         <a class="page-link" href="newsletter-jan-2024.php">2</a>
                                     </li>
-                                    <li class="page-item ">
-                                        <a class="page-link" href="newsletter-jan-2024.php">Next</a>
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#">Next</a>
                                     </li>
                                 </ul>
                             </nav>
+
+                            <?php include_once 'newsletter-right-col.inc'; ?>
+
                         </div>
-
-                        <?php include_once 'newsletter-right-col.inc'; ?>
-
                     </div>
                 </div>
             </div>
