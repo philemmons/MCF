@@ -51,18 +51,18 @@
     </div>
 
 
-    <h3 class="fw-bold mb-3"> Our Gallery</h3>
+    <a href="index.php#discover" class="mcf-link">
+        <h3 class="fw-bold mb-3">Our Gallery</h3>
+    </a>
     <div class="d-flex flex-wrap mb-3 mb-lg-5">
         <img src="images/mcf-flower-6.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">
 
+        <img src="images/mcf-flower-1.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower one." title="Zooming in!">
+
+        <img src="images/mcf-flower-2.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower two." title="Zooming in!">
+
         <img src="images/mcf-flower-8.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower eight." title="Zooming in!">
 
-        <img src="images/mcf-flower-5.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower five." title="Zooming in!">
-
-        <img src="images/mcf-flower-1.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower one." title="Zooming in!">
     </div>
 
-    <div class=" text-center pt-4 pb-5">
-        <a href="purchase.php" class="btn mcf-button p-3 fs-5">Order Now</a>
-    </div>
 </div>
