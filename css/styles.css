@@ -579,8 +579,7 @@ a.mcf-crumb:focus {
 }
 
 
-/**** about us ****/
-
+/**** our story ****/
 .bg-img-ourStory {
   background-image: url('../images/emotion-rocks.png');
 }
@@ -588,7 +587,7 @@ a.mcf-crumb:focus {
 
 /**** newsletter ****/
 .bg-img-newsletter {
-  background-image: url('../images/newsletter.png');
+  background-image: url('../images/green-flower-black-rock.png');
 }
 
 .nl-keyword {
@@ -681,10 +680,7 @@ legend {
   color: var(--success-color);
 }
 
-/**** TOS ****/
-.bg-img-tos {
-  background-image: url('../images/zen-rock-stack.png');
-}
+
 
 /**** sitemap ****/
 .bg-img-sitemap {
@@ -694,6 +690,21 @@ legend {
 /**** accessibilty ****/
 .bg-img-access {
   background-image: url('../images/accessibility.png');
+}
+
+/**** TOS ****/
+.bg-img-tos {
+  background-image: url('../images/beautiful-macro-rocks-concept.png');
+}
+
+/**** privacy ****/
+.bg-img-privacy {
+  background-image: url('../images/zen-rock-stack.png');
+}
+
+/**** sitemap ****/
+.bg-img-sitemap {
+  background-image: url('../images/zen-sand-rock.png');
 }
 
 
