@@ -479,7 +479,7 @@ include_once 'header.inc';
                                     <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Jeanne E.
                                 </li>
                                 <li>
-                                    <h6 class="ps-2"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></h6>
+                                    <p class="ps-2 h6"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -493,7 +493,7 @@ include_once 'header.inc';
                                     <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Anonymous
                                 </li>
                                 <li>
-                                    <h6 class="ps-2"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></h6>
+                                    <p class="ps-2 h6"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></p>
                                 </li>
                             </ul>
                         </div>
