@@ -462,7 +462,7 @@ source: https://codingyaar.com/bootstrap-4-carousel-multiple-items-responsive/
 
 a.mcf-link,
 a.mcf-link:active {
-  color: var(--color-4);
+  color: var(--color-3);
 }
 
 a.mcf-link:hover,
@@ -472,7 +472,7 @@ a.mcf-link:focus {
 
 a.mcf-nl,
 a.mcf-nl:active {
-  color: var(--color-4);
+  color: var(--color-3);
 }
 
 a.mcf-nl:hover,
