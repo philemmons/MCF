@@ -121,10 +121,10 @@ include_once 'header.inc'
                                     </li>
                                 </ul>
                             </nav>
-
-                            <?php include_once 'newsletter-right-col.inc'; ?>
-                            
                         </div>
+
+                        <?php include_once 'newsletter-right-col.inc'; ?>
+                        
                     </div>
                 </div>
             </div>
