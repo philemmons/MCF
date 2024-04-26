@@ -692,6 +692,11 @@ legend {
   background-image: url('../images/accessibility.png');
 }
 
+.bg-img-access::before {
+  content: "";
+  background-color: rgba(0,0,0,0.25);
+}
+
 /**** TOS ****/
 .bg-img-tos {
   background-image: url('../images/beautiful-macro-rocks-concept.png');
