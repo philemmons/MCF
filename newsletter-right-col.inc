@@ -36,7 +36,7 @@
         </ul>
     </div>
 
-    <section aria-label="Social media">
+    <section aria-label="Visit us on social media">
         <h3 class="bswash-font mb-3">Join Us on Social Media</h3>
     </section>
 
