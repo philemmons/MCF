@@ -460,7 +460,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="col-lg-3 text-center">
                             <button type="reset" class="btn mcf-button" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
                             <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
-                                <p>(A pop up will confirm your reset)</p>
+                                <p>(A pop up will confirm your reset form)</p>
                             </div>
                         </div>
 
