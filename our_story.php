@@ -62,7 +62,7 @@ include_once 'header.inc'
 
     <main>
 
-        <section class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
+        <article class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-auto my-2 my-lg-5">
@@ -71,19 +71,20 @@ include_once 'header.inc'
                     <div class="col-lg-8 my-2 my-lg-5">
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
-                            <h2 class="card-title header-font mb-4">This is our friendship story, the short of it.</h2>
-                            <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on 05-07-23, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend. </p>
-                            <p class="card-text">
-                                Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
-                            </p>
-                            <p class="card-text">
-                                Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs and <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon</a> that "empowers athletes to exceed their personal bests on and off the playing field."
-                            </p>
-                            <p class="card-text">
-                                The loving friendship between 'The Vickster' and 'The Milster' will help the most vulnerable grow compassionately, find happiness, and have fun.
-                            </p>
-
-
+                            <section aria-label="About Millie's Crazy Flower">
+                                <h2 class="card-title header-font mb-4">This is our friendship story, the short of it.</h2>
+                                <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on May 7th, 2023, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend. </p>
+                                <p class="card-text">
+                                    Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.
+                                </p>
+                                <p class="card-text">
+                                    Under Millie's Legacy, 50% of all proceeds will be donated to charity, <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center</a> that will provide sponsorship for the special needs and <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon</a> that "empowers athletes to exceed their personal bests on and off the playing field."
+                                </p>
+                                <p class="card-text">
+                                    The loving friendship between 'The Vickster' and 'The Milster' will help the most vulnerable grow compassionately, find happiness, and have fun.
+                                </p>
+                            </section>
+                            
                             <div class="text-center pt-3 pt-lg-5">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>
@@ -92,7 +93,7 @@ include_once 'header.inc'
                     </div>
                 </div>
             </div>
-        </section>
+        </article>
 
         <?php include_once 'tech-stats.inc'; ?>
 
