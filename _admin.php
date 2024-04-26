@@ -200,7 +200,7 @@ function displayOrderAdmin($requisition)
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Admin Panel">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Admin Panel
+                        <h1 class="bswash-font pb-4 px-3 px-md-0">Admin Panel
                         </h1>
                         <p class="h6 text-light"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                     </div>
@@ -244,7 +244,7 @@ function displayOrderAdmin($requisition)
         </div>
     </nav>
 
-    
+
     <main id="main-content">
         <!-- Part One -->
         <div class="container shadow-wrap">
@@ -260,8 +260,8 @@ function displayOrderAdmin($requisition)
                                 </h3>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        
-                                    <!--
+
+                                        <!--
                                         <div class='row text-center'>
                                             <div class="col-sm-6 pt-2 pb-4">
                                                 <a href="exportData.php" target='_blank' class="btn mcf-button mcf-btn-wide">CSV Export All Data</a>

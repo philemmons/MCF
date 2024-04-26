@@ -50,7 +50,7 @@ include_once 'header.inc'
                     </div>
                     <div class="text-center h1-ls" title="Relevant ideas, stories, and all thing pipe cleaners.">
                         <section aria-label="Page Intro">
-                            <h1 class="header-font pb-4 px-3 px-md-0">Our Newsletter
+                            <h1 class="bswash-font pb-4 px-3 px-md-0">Our Newsletter
                             </h1>
                         </section>
                     </div>
@@ -68,7 +68,7 @@ include_once 'header.inc'
                         <div class="col-lg-12 my-2 my-lg-3 pt-5">
                             <div class="card-body">
                                 <p class="card-text  mb-1 tt-upper">Our Newsletter</p>
-                                <h2 class="card-title header-font mb-3">Latest Article</h2>
+                                <h2 class="card-title bswash-font mb-3">Latest Article</h2>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ include_once 'header.inc'
                         </div>
 
                         <?php include_once 'newsletter-right-col.inc'; ?>
-                        
+
                     </div>
                 </div>
             </div>

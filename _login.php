@@ -67,7 +67,7 @@ if (isset($_POST['logout'])) {
             </p>
           </div>
           <div class="text-center h1-ls" title="Admin Login">
-            <h1 class="header-font pb-4 px-3 px-md-0">Admin Login
+            <h1 class="bswash-font pb-4 px-3 px-md-0">Admin Login
             </h1>
           </div>
         </div>

@@ -51,7 +51,7 @@ include_once 'header.inc'
                     </div>
                     <div class="text-center h1-ls" title="Contact Us">
                         <section aria-label="Page Intro">
-                            <h1 class="header-font pb-4 px-3 px-md-0">Purchase
+                            <h1 class="bswash-font pb-4 px-3 px-md-0">Purchase
                             </h1>
                         </section>
                     </div>
@@ -69,7 +69,7 @@ include_once 'header.inc'
                     <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                         <div class="p-3  text-bg-light hero-text-border" title="Support, Happiness, and Memories.">
                             <section aria-label="Purchase-Intro">
-                                <h2 class="card-title header-font mb-3">Millie's Crazy Flowers' Order Form</h2>
+                                <h2 class="card-title bswash-font mb-3">Millie's Crazy Flowers' Order Form</h2>
                                 <p>We are grateful you have decided to purchase, one or more, Millie's Crazy Flowers. Thank you for supporting our communities most vulnerable, promoting happiness, and taking action! 50% of our proceeds will be donated between <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon<span class="sr-only">(Opens a new window)</span></a> and <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center<span class="sr-only">(Opens a new window)</span></a>.</p>
                                 <p>Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each. We'll send you an email with your order and amount due. Please allow for up to 48 hours, once your payment has been received, for us to mail your flowers with USPS.</p>
                             </section>
@@ -436,7 +436,7 @@ include_once 'header.inc'
                     <div class="col-xl-8 col-lg-8 col-md-12 ">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                             <section aria-label="Preferred Method">
-                                <h3 class="card-title header-font mb-3">Preferred Payment Methods
+                                <h3 class="card-title bswash-font mb-3">Preferred Payment Methods
                                 </h3>
                                 <p><strong>Please add your order name or email in your payment.</strong>
                                 </p>

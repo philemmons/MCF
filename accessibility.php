@@ -52,7 +52,7 @@ include_once 'header.inc';
                     </div>
                     <div class="text-center h1-ls" title="Accessibility">
                         <section aria-label="Page Intro">
-                            <h1 class="header-font pb-4 px-3 px-md-0">Accessibility
+                            <h1 class="bswash-font pb-4 px-3 px-md-0">Accessibility
                             </h1>
                         </section>
                     </div>
@@ -70,7 +70,7 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                         <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
                             <section aria-label="accessibility statement">
-                                <h2 class="card-title header-font mb-3">MCF's Accessibility Accord</h2>
+                                <h2 class="card-title bswash-font mb-3">MCF's Accessibility Accord</h2>
                                 <p class="mb-3 text-dark">millies.crazyflowers.art is committed to creating an inclusive online environment that caters to individuals with disabilities. Through a significant investment of resources, the website aims to make its services easily usable and accessible for everyone, regardless of any disability they may have. This commitment stems from a strong belief in the fundamental rights of all individuals to live with dignity, equality, and independence. By prioritizing accessibility, millies.crazyflowers.art strives to ensure that its platform is welcoming and accommodating to a diverse range of users, fostering an environment where everyone can fully participate and engage with its offerings.</p>
                             </section>
                         </div>
@@ -78,23 +78,23 @@ include_once 'header.inc';
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                         <div class="p-3 text-bg-light hero-text-border" title="">
                             <section aria-label="accessibility method">
-                                <h2 class="card-title header-font mb-3">Accessibility, Inclusion and Belonging</h2>
+                                <h2 class="card-title bswash-font mb-3">Accessibility, Inclusion and Belonging</h2>
 
                                 <p class="mb-3 text-dark">millies.crazyflowers.art is committed to surpassing the standards set by the W3C WAI Web Content Accessibility Guidelines 2.1. Leveraging various site checkers, the platform enhances its adherence to the Web Content Accessibility Guidelines (WCAG 2.2), ensuring continuous improvement in accessibility.</p>
 
-                                <h3 class="card-title header-font mb-3">Disclaimer
+                                <h3 class="card-title bswash-font mb-3">Disclaimer
                                 </h3>
 
                                 <p class="mb-3 text-dark">millies.crazyflowers.art persists in its endeavors to consistently enhance the accessibility of its website and services, firmly believing that it is our collective ethical duty to enable smooth, accessible, and unimpeded usage for individuals with disabilities.</p>
 
                                 <p class="mb-3 text-dark">While we strive to ensure full accessibility for all pages and content on millies.crazyflowers.art, it's possible that certain content has not yet met the strictest accessibility standards. This could be due to challenges in finding or implementing the most suitable technological solutions.</p>
 
-                                <h3 class="card-title header-font mb-3">We care, we really do.
+                                <h3 class="card-title bswash-font mb-3">We care, we really do.
                                 </h3>
 
                                 <p class="mb-3 text-dark">If you encounter any challenges or need assistance with any aspect of our website, millies.crazyflowers.art, please don't hesitate to reach out to us. We're here to help and support you in any way we can.</p>
 
-                                <h3 class="card-title header-font mb-3">Reach Out</h3>
+                                <h3 class="card-title bswash-font mb-3">Reach Out</h3>
 
 
                                 <p class="mb-3 text-dark">If you need to report an accessibility issue, have questions, or require assistance, please reach out to millies.crazyflowers.art technical support using the following contact information: - Email: <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">ADA request for SysAdmin</a></p>
@@ -118,7 +118,7 @@ include_once 'header.inc';
                 <div class="row mb-4">
                     <div class="col-lg-4 p-3">
                         <section aria-label="Social Media">
-                            <h3 class="header-font mb-4  text-center">
+                            <h3 class="bswash-font mb-4  text-center">
                                 <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                             </h3>
                             <p class="f-italic h5">Legacy of love, caring, and lasting friendship towards one another.</p>
@@ -127,7 +127,7 @@ include_once 'header.inc';
                             <li class="li-horizontal">
                                 <a href="https://www.pinterest.com/littlebee0794/_created/" class="sm-color" target="_blank"><i class="bi bi-pinterest" aria-hidden="true"></i><span class="sr-only">(Opens a new window to Pinterest)</span></a>
                             </li>
-                            
+
                             <li class="li-horizontal">
                                 <a href="https://www.instagram.com/littlebee0714/?hl=en" class="sm-color" target="_blank"><i class="bi bi-instagram" aria-hidden="true"></i><span class="sr-only">(Opens a new window to Instagram)</span></a>
                             </li>
@@ -141,7 +141,7 @@ include_once 'header.inc';
 
                     <div class="col-md-6 col-lg-4 p-3 ">
                         <section aria-label="Most recent posts">
-                            <h3 class="header-font mb-4 text-center">Recent Posts</h3>
+                            <h3 class="bswash-font mb-4 text-center">Recent Posts</h3>
                         </section>
                         <div class="block-8 mb-4 d-flex">
                             <div class="nl-img rounded" style="background-image: url(images/special-day.png);"></div>
@@ -174,7 +174,7 @@ include_once 'header.inc';
 
                     <div class="col-md-6 col-lg-4 p-3">
                         <section aria-label="Contact Info">
-                            <h3 class="header-font mb-4 text-center">Have a Question?</h3>
+                            <h3 class="bswash-font mb-4 text-center">Have a Question?</h3>
                         </section>
                         <div class="block-8 d-flex">
                             <i class="bi bi-map me-2" aria-hidden="true"></i>

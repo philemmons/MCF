@@ -48,7 +48,7 @@ include_once 'header.inc'
       <div class="row">
         <div class="col-md-6">
           <section aria-label="Website Intro">
-            <h1 class="header-font h1-ls text-black">Millie's Crazy Flowers</h1>
+            <h1 class="bswash-font h1-ls text-black">Millie's Crazy Flowers</h1>
             <p class="f-italic h4">Legacy of love, caring, and lasting friendship towards one another.</p>
             <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
           </section>
@@ -69,20 +69,20 @@ include_once 'header.inc'
       <div class="container-fluid" style="background-color: var(--color-1);">
         <div class="row border text-white">
           <div class="col-lg-3 p-5 info-1 border border-white">
-            <p class="header-font h4">Creative Elements</p>
+            <p class="bswash-font h4">Creative Elements</p>
             <p>In a whimsical creation, the vibrant colors of the pipe cleaners intertwine with dynamic lines, creating a harmonious composition that explores the elements of art.</p>
           </div>
           <div class="col-lg-3 p-5 info-2 border border-white">
-            <p class="header-font h4">Community</p>
+            <p class="bswash-font h4">Community</p>
             <p>Exemplifies a holistic approach to supporting and uplifting various charitable endeavors, demonstrating a strong commitment to making a positive impact on the community or society at large.</p>
           </div>
           <div class="col-lg-3 p-5 info-3 border border-white fc-2">
-            <p class="header-font h4">Expression</p>
+            <p class="bswash-font h4">Expression</p>
             <p>
               In a unique fusion of sculptural art and contemporary expressionism, the vibrant hues of pipe cleaners blend seamlessly.</p>
           </div>
           <div class="col-lg-3 p-5 info-4 border border-white fc-2">
-            <p class="header-font h4">We Care</p>
+            <p class="bswash-font h4">We Care</p>
             <p>We create a welcoming atmosphere for a satisfying experience.</p>
           </div>
         </div>
@@ -98,7 +98,7 @@ include_once 'header.inc'
           <div class="col-lg-6 my-2 my-lg-5">
             <div class="card-body">
               <section aria-label="Short about us">
-                <h2 class="card-title header-font mb-4">About Millie's Crazy Flowers</h2>
+                <h2 class="card-title bswash-font mb-4">About Millie's Crazy Flowers</h2>
                 <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder to those we loved.</p>
                 <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is LOVE.</small></p>
               </section>
@@ -113,7 +113,7 @@ include_once 'header.inc'
     </article>
 
     <?php include_once 'our_gallery.inc'; ?>
-    
+
     <?php include_once 'tech-stats.inc'; ?>
 
     <?php //include_once 'testimonials.inc'; 
@@ -127,7 +127,7 @@ include_once 'header.inc'
             <div class="card-body">
               <p class="card-text  mb-1 tt-upper">Production Flows</p>
               <section aria-label="How it works">
-                <h2 class="card-title header-font mb-3">How it Works</h2>
+                <h2 class="card-title bswash-font mb-3">How it Works</h2>
               </section>
             </div>
           </div>

@@ -52,7 +52,7 @@ include_once 'header.inc';
                     </div>
                     <div class="text-center h1-ls" title="Terms fo Service">
                         <section aria-label="Page Intro">
-                            <h1 class="header-font pb-4 px-3 px-md-0">Terms of Service
+                            <h1 class="bswash-font pb-4 px-3 px-md-0">Terms of Service
                             </h1>
                         </section>
                     </div>
@@ -442,7 +442,7 @@ include_once 'header.inc';
                 <div class="row mb-4">
                     <div class="col-lg-4 p-3">
                         <section aria-label="Social Media">
-                            <h3 class="header-font mb-4  text-center">
+                            <h3 class="bswash-font mb-4  text-center">
                                 <a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
                             </h3>
                             <p class="f-italic h5">Legacy of love, caring, and lasting friendship towards one another.</p>
@@ -462,7 +462,7 @@ include_once 'header.inc';
 
                     <div class="col-md-6 col-lg-4 p-3 ">
                         <section aria-label="Most recent posts">
-                            <h3 class="header-font mb-4 text-center">Recent Posts</h3>
+                            <h3 class="bswash-font mb-4 text-center">Recent Posts</h3>
                         </section>
                         <div class="block-8 mb-4 d-flex">
                             <div class="nl-img rounded" style="background-image: url(images/special-day.png);"></div>
@@ -495,7 +495,7 @@ include_once 'header.inc';
 
                     <div class="col-md-6 col-lg-4 p-3">
                         <section aria-label="Contact Info">
-                            <h3 class="header-font mb-4 text-center">Have a Question?</h3>
+                            <h3 class="bswash-font mb-4 text-center">Have a Question?</h3>
                         </section>
                         <div class="block-8 d-flex">
                             <i class="bi bi-map me-2" aria-hidden="true"></i>

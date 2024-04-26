@@ -108,7 +108,7 @@ a {
   letter-spacing: 4px;
 }
 
-.header-font {
+.bswash-font {
   font-family: var(--ff-header);
 }
 
@@ -690,7 +690,7 @@ legend {
 /**** accessibilty ****/
 .bg-img-access {
   background-image: url('../images/accessibility.png');
-    
+
 }
 
 /**** TOS ****/

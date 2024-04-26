@@ -50,7 +50,7 @@ include_once 'header.inc'
                     </div>
                     <div class="text-center h1-ls" title="Yes, the long and the short of it.">
                         <section aria-label="Page Intro">
-                            <h1 class="header-font pb-4 px-3 px-md-0">Our Story
+                            <h1 class="bswash-font pb-4 px-3 px-md-0">Our Story
                             </h1>
                         </section>
                     </div>
@@ -72,7 +72,7 @@ include_once 'header.inc'
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
                             <section aria-label="About Millie's Crazy Flower">
-                                <h2 class="card-title header-font mb-4">This is our friendship story, the short of it.</h2>
+                                <h2 class="card-title bswash-font mb-4">This is our friendship story, the short of it.</h2>
                                 <p class="card-text">The Crazy Flowers were showcased at Millie H. celebration of life on May 7th, 2023, because it was a gentle reminder of the love, caring, and lasting friendship from Victoria. Victoria - 'The Vickster' and Millie - 'The Milster' always had fun when they were together by sharing pizza, watching movies, shopping, and just hanging out. Victoria's contribution was expressed by creating one of a kind, twisted colors of pipe cleaners, into beautiful petals, just like her friend. </p>
                                 <p class="card-text">
                                     Millie's Legacy of friendship is love, compassion, and laughter. Victoria is honoring her by sharing them with everyone.

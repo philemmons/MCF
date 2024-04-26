@@ -1,11 +1,11 @@
 <aside class="col-lg-4 col-sm-12 col-12" aria-label="Newsletter right column">
     <section aria-label="Brief about us">
-        <h3 class="fw-bold mb-3">Once Upon A Time</h3>
+        <h3 class="bswash-font fw-bold mb-3">Once Upon A Time</h3>
         <p class="mb-3 mb-lg-5">We believe storytelling establishes common ground and empathy. Do you want to share a your story about pipe cleaners and/or love with us? If so, please email <a href="mailto:<?php echo getenv('mcf-info-email'); ?>" class="mcf-link  fw-bold"><?php echo getenv('mcf-info-email'); ?> </a> </p>
     </section>
 
     <section aria-label="Newsletter List">
-        <h3 class="fw-bold mb-3">Recent Posts</h3>
+        <h3 class="bswash-font fw-bold mb-3">Recent Posts</h3>
     </section>
 
     <div class="block-8 d-flex mb-3">
@@ -37,7 +37,7 @@
     </div>
 
     <section aria-label="Social media">
-        <h3 class="fw-bold mb-3">Join Us on Social Media</h3>
+        <h3 class="bswash-font fw-bold mb-3">Join Us on Social Media</h3>
     </section>
 
     <div class="d-flex mb-3 mb-lg-5">
@@ -55,7 +55,7 @@
     </div>
 
     <a href="index.php#discover" class="mcf-link">
-        <h3 class="fw-bold mb-3">Our Gallery</h3>
+        <h3 class="bswash-font fw-bold mb-3">Our Gallery</h3>
     </a>
     <div class="d-flex flex-wrap mb-3 mb-lg-5">
         <img src="images/mcf-flower-6.png" class="img-fluid-sm l-box" alt="MCF's Chenille Stems flower six." title="Zooming in!">

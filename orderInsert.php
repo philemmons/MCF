@@ -135,7 +135,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </p>
                     </div>
                     <div class="text-center h1-ls" title="Order Update">
-                        <h1 class="header-font pb-4 px-3 px-md-0">Add New Order
+                        <h1 class="bswash-font pb-4 px-3 px-md-0">Add New Order
                         </h1>
                         <p class="h6 text-light"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                     </div>
