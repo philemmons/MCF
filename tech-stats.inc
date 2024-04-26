@@ -4,7 +4,7 @@
       <div class="col-lg-12 my-2 my-lg-3 pt-5">
         <div class="card-body">
           <p class="card-text  mb-1 tt-upper">Reviews About Our Flowers</p>
-          <p class="card-title header-font h2">Technical Statistics</p>
+          <p class="card-title bswash-font h2">Technical Statistics</p>
         </div>
       </div>
     </div>
