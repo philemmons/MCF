@@ -717,5 +717,6 @@ legend {
 
 .img-fluid-sm{
   max-width: 50%;
-  height: auto;
+  height: 100%;
+  padding: .25rem !important;
 }
