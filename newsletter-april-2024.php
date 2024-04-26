@@ -87,10 +87,10 @@ include_once 'header.inc'
                                 </p>
                             </section>
                             <!--
-                        <p class="mb-3 mb-lg-5">More info here</p>
-                        <h3>Newsletter Title Part 2</h3>
-                        <p>Even more info</p>
-                        -->
+                            <p class="mb-3 mb-lg-5">More info here</p>
+                            <h3>Newsletter Title Part 2</h3>
+                            <p>Even more info</p>
+                            -->
                             <figure class="figure">
                                 <img src="../images/mcf-flower-6.png" class="figure-img img-fluid shadow" alt="The flowers could be displayed against a clean, neutral background to emphasize their beauty and elegance.">
                             </figure>
@@ -139,12 +139,9 @@ include_once 'header.inc'
             </div>
         </article>
 
-
-
         <?php include_once 'footer.inc' ?>
 
         <script src="../js/script.js"></script>
-
 
 </body>
 

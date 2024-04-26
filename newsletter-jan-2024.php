@@ -73,6 +73,7 @@ include_once 'header.inc'
                         </div>
                     </div>
 
+
                     <div class="row pt-4 mb-5">
                         <div class="col-lg-8 col-sm-12 px-3 px-lg-5">
                             <figure class="figure">
@@ -120,21 +121,18 @@ include_once 'header.inc'
                                     </li>
                                 </ul>
                             </nav>
+
+                            <?php include_once 'newsletter-right-col.inc'; ?>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
-
-        <?php include_once 'newsletter-right-col.inc'; ?>
-
-        </div>
-        </div>
-        </div>
-        </article>
-
-
 
         <?php include_once 'footer.inc' ?>
 
         <script src="../js/script.js"></script>
-
 
 </body>
 
