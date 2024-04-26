@@ -28,6 +28,12 @@
   --ff-header: BerkshireSwash;
 
   --bs-navbar-toggler-focus-width: var(--color-20) !important;
+
+  /**** pagination ****/
+  --bs-pagination-color: var(--color-3) !important;
+  --bs-pagination-active-bg: var(--color-3) !important;
+  --bs-pagination-disabled-color: var(--color-2) !important;
+  
 }
 
 /**** typography and spacing ****/
@@ -167,9 +173,7 @@ h6 {
   float: left;
 }
 
-a>.page-link{
-color: var(--color-3) !important;
-}
+
 
 /**** recent posts ****/
 .block-8 .nl-img {
