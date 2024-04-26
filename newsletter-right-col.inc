@@ -5,7 +5,7 @@
 
     <h3 class="fw-bold mb-3">Recent Posts</h3>
     <div class="block-8 d-flex mb-3">
-        <a class="nl-img rounded" style="background-image: url(images/special-day.png);"></a>
+        <div class="nl-img rounded" style="background-image: url(images/special-day.png);"></div>
 
         <ul class="ul-list ms-3">
             <li class="fs-14">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="block-8 d-flex mb-3 mb-lg-5">
-        <a class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);"></a>
+        <div class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);"></div>
 
         <ul class="ul-list ms-3">
             <li class="fs-14">

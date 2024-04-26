@@ -143,7 +143,7 @@ include_once 'header.inc';
                             <h3 class="header-font mb-4 text-center">Recent Posts</h3>
                         </section>
                         <div class="block-8 mb-4 d-flex">
-                            <a class="nl-img rounded" style="background-image: url(images/special-day.png);"></a>
+                            <div class="nl-img rounded" style="background-image: url(images/special-day.png);"></div>
 
                             <ul class="ul-list ms-3">
                                 <li class="fs-14">
@@ -157,7 +157,7 @@ include_once 'header.inc';
                         </div>
 
                         <div class="block-8 mb-4 d-flex">
-                            <a class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);" alt="Pipe cleaner Valentine Day garland."></a>
+                            <div class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);" alt="Pipe cleaner Valentine Day garland."></div>
 
                             <ul class="ul-list ms-3">
                                 <li class="fs-14">
