@@ -97,7 +97,7 @@ include_once 'header.inc';
                                 <h3 class="card-title header-font mb-3">Reach Out</h3>
 
 
-                                <p class="mb-3 text-dark">If you need to report an accessibility issue, have questions, or require assistance, please reach out to millies.crazyflowers.art technical support using the following contact information: - Email: <a href="mailto:sysadmin@crazyflowers.art">ADA request for SysAdmin</a></p>
+                                <p class="mb-3 text-dark">If you need to report an accessibility issue, have questions, or require assistance, please reach out to millies.crazyflowers.art technical support using the following contact information: - Email: <a href="mailto:sysadmin@crazyflowers.art" class="mcf-link">ADA request for SysAdmin</a></p>
                             </section>
                         </div>
                     </div>
