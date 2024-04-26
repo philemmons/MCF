@@ -683,7 +683,7 @@ legend {
 
 /**** TOS ****/
 .bg-img-tos {
-  background-image: url('../images/zen-mini.png');
+  background-image: url('../images/zen-rock-stack.png');
 }
 
 /**** sitemap ****/
@@ -695,6 +695,8 @@ legend {
 .bg-img-access {
   background-image: url('../images/accessibility.png');
 }
+
+
 
 /**** skip to main content ****/
 .btn-skip {
