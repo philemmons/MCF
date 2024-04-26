@@ -106,7 +106,6 @@ h6 {
   line-height: 1.5 !important;
 }
 
-
 .f-italics{
   font-style: italic;
 }
@@ -166,6 +165,10 @@ h6 {
   display: block;
   padding: 0.5rem;
   float: left;
+}
+
+a>.page-link{
+color: var(--color-3);
 }
 
 /**** recent posts ****/
