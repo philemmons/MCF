@@ -120,7 +120,7 @@ include_once 'header.inc';
 							<h3 class="bswash-font mb-4  text-center">
 								<a class="navbar-brand" href="index.php">Millie's Crazy Flowers</a>
 							</h3>
-							<p class="h5">Legacy of love, caring, and lasting friendship towards one another.</p>
+							<p class="h5 f-italics">Legacy of love, caring, and lasting friendship towards one another.</p>
 						</section>
 						<ul class="ul-list display-4 mt-4">
 							<li class="li-horizontal">

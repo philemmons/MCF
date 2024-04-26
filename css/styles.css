@@ -106,6 +106,10 @@ h6 {
   line-height: 1.5 !important;
 }
 
+
+.f-italics{
+  font-style: italic;
+}
 /**** clearfix ****/
 
 .clearfix::after {
