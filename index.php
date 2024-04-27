@@ -17,7 +17,7 @@ include_once 'header.inc'
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="topNavbar">
-        <ul class="navbar-nav ms-auto my-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
           <li class="nav-item">
             <a class="nav-link active px-2" href="index.php" aria-current="page">Home<span class="visually-hidden">(current)</span></a>
           </li>
