@@ -764,3 +764,8 @@ a.page-link{
   background-color: var(--color-3) !important;
   color: var(--color-1) !important;
 }
+
+/**** data table ****/
+.dataTables_wrapper .dataTables_filter {
+  margin-bottom: 0.5rem !important;
+}
