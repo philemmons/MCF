@@ -28,13 +28,6 @@
   --ff-header: BerkshireSwash;
 
   --bs-navbar-toggler-focus-width: var(--color-20) !important;
-
-  /**** pagination 
-  --bs-pagination-color: var(--color-3) !important;
-  --bs-pagination-active-bg: var(--color-3) !important;
-  --bs-pagination-disabled-color: var(--color-2) !important;
-  ****/
-
 }
 
 /**** typography and spacing ****/
@@ -52,17 +45,16 @@
   font-family: Raleway;
   src: url('../fonts/Raleway-VariableFont_wght.ttf');
 }
-/**
+
 body {
   font-family: var(--ff-main);
   line-height: 1.8;
   background-color: var(--color-21);
   margin: auto;
   color: var(--color-2);
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 400;
 }
-**/
 
 h1 {
   color: var(--color-1);

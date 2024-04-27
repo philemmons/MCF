@@ -83,7 +83,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
         <div class="container-xl">
-            <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
+            <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="/">
                 <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">

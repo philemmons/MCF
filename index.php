@@ -9,7 +9,7 @@ include_once 'header.inc'
 
   <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
     <div class="container-xxl">
-      <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="index.php">
+      <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="/">
         <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
       </a>
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,7 +141,7 @@ include_once 'header.inc'
               <div class="d-flex justify-content-center align-items-center">
                 <small class="fc-1">1st</small>
               </div>
-              <img src="../images/quote.png" class="img-fluid img-pos-2" alt="Delivery truck icon">
+              <img src="../images/quote.png" class="img-fluid img-pos-2" alt="Pen and Paper icon">
             </div>
             <div class="card-body">
               <p class="card-title pt-3 h5">Inspiration</p>
@@ -154,7 +154,7 @@ include_once 'header.inc'
               <div class="d-flex justify-content-center align-items-center">
                 <small class="fc-1">2nd</small>
               </div>
-              <img src="../images/production.png" class="img-fluid img-pos-1" alt="Delivery truck icon">
+              <img src="../images/production.png" class="img-fluid img-pos-1" alt="Mechanical Gear icon">
             </div>
             <div class="card-body">
               <p class="card-title pt-3 h5">Production and Assembly</p>
@@ -167,7 +167,7 @@ include_once 'header.inc'
               <div class="d-flex justify-content-center align-items-center">
                 <small class="fc-1">3rd</small>
               </div>
-              <img src="../images/delivery.png" class="img-fluid img-pos-1" alt="Delivery truck icon">
+              <img src="../images/delivery.png" class="img-fluid img-pos-1" alt="Delivery Box icon">
             </div>
             <div class="card-body">
               <p class="card-title pt-3 h5">Delivery</p>
