@@ -187,6 +187,16 @@ h6 {
   font-size: 14px;
 }
 
+/**** logo and title ****/
+
+.mcf-logo--title{
+  font-family: var(--ff-header);
+  color: var(--color-1);
+  letter-spacing: 2px;
+  margin-bottom: 0 !important;
+  padding: 0 1rem;
+}
+
 /**** navbar ****/
 
 .mcf-navbar-light {

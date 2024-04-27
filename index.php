@@ -7,15 +7,10 @@ include_once 'header.inc'
 <body id="toTop">
   <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
 
-  <div class="d-flex h-rem">
-    <div id="bg-left"></div>
-    <div id="bg-right"></div>
-  </div>
-
   <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
     <div class="container-xxl">
-      <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="/">
-        <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
+      <a class="navbar-brand" href="/">
+        <p class="mcf-logo-title h3"><img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="70" height="40" class="px-2">Millie's Crazy Flowers</p>
       </a>
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="pe-2">MENU</span>
@@ -44,6 +39,11 @@ include_once 'header.inc'
   </nav>
 
   <header id="main-content">
+    <div class="d-flex h-rem">
+      <div id="bg-left"></div>
+      <div id="bg-right"></div>
+    </div>
+
     <div class="container hero-content">
       <div class="row">
         <div class="col-md-6">
