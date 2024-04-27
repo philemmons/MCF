@@ -11,7 +11,7 @@ include_once 'header.inc';
 	<nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
 		<div class="container-xxl">
 			<a class="navbar-brand" href="/">
-				<p class="mcf-logo-title h4"><img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="60" height="40" class="pe-2">Millie's Crazy Flowers</p>
+				<p class="mcf-logo-title h4"><img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." class="pe-2">Millie's Crazy Flowers</p>
 			</a>
 			<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="pe-2">MENU</span>
