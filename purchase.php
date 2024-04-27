@@ -344,7 +344,7 @@ include_once 'header.inc'
 
                             <fieldset class="text-bg-light pb-3 mb-3">
                                 <legend>Millie's Crazy Flower Information</legend>
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-md-4">
                                         <label for="quanFlower" class="reg-form-label">Quantity (Required)</label>
                                         <select class="form-select" name="quanFlower" id="quanFlower" required>
@@ -370,7 +370,7 @@ include_once 'header.inc'
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <label for="customerLead" class="reg-form-label">How did you hear about us? (Optional)</label>
                                         <select class="form-select" name="customerLead" id="customerLead">
                                             <option selected disabled value="">Choose...</option>
@@ -388,7 +388,7 @@ include_once 'header.inc'
                                             Please enter your answer.
                                         </div>
                                     </div>
-                                  
+
                                 </div>
                             </fieldset>
 
