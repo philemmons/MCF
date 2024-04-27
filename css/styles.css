@@ -275,7 +275,7 @@ h6 {
   background-color: var(--color-3);
 }
 
-navbar-toggler-icon {
+.navbar-toggler-icon {
   background-image: url('../images/white-toggler.png') !important;
 }
 /**** hero-background ****/
