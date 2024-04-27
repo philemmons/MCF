@@ -53,9 +53,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 paid,
                 rstatus,
                 lang,
-                transid
+                transid,
+                buyerlead
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :qf, $tos, :pm, $total, :paid, :rs, :lang, :tid
+                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :qf, $tos, :pm, $total, :paid, :rs, :lang, :tid, :bl
                 )";
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
@@ -72,6 +73,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':rs'] = strtolower(htmlspecialchars($_POST['ins-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['ins-lang'], ENT_QUOTES));
     $nPara[':tid'] = strtolower(htmlspecialchars($_POST['ins-tid'], ENT_QUOTES));
+    $nPara[':bl'] = strtolower(htmlspecialchars($_POST['ins-bl'], ENT_QUOTES));
 
     // print_r($nPara); die;
 
@@ -448,6 +450,29 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter TOS of one.
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="col-lg-6">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-bl" id="ins-bl">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="craft show">Craft Show</option>
+                                    <option value="event">Event</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="flyer">Flyer</option>
+                                    <option value="google">Google</option>
+                                    <option value="instagram">Instagram</option>
+                                    <option value="pinterest">Pinterest</option>
+                                    <option value="word of mouth">Word of Mouth</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="ins-bl" class="form-label">Customer Lead</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Select one.
                             </div>
                         </div>
 

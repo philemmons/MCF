@@ -143,6 +143,7 @@ include_once 'header.inc'
                                     $qf = !empty($_POST['quanFlower']) ? htmlspecialchars($_POST['quanFlower'], ENT_QUOTES) : '';
                                     $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                     $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
+                                    $bl = !empty($_POST['buyerLead']) ? htmlspecialchars($_POST['buyerLead'], ENT_QUOTES) : '';
 
                                     $subtotal = getAmount($qf, 12.5);
                                     $postage = getAmount($qf, 6.0);
@@ -167,6 +168,7 @@ include_once 'header.inc'
                     <p><b>Amount Due: </b>$" . number_format($total, 2) . "</p> 
                     <p><b>I agreed with the ToS and understand my purchase is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p>
+                    <p><b>How did you hear about us: </b>" . $bl . "</p>
                     <p>Thank you and we appreciate you support!</p>
                 ";
 
@@ -367,6 +369,26 @@ include_once 'header.inc'
                                         <p>Note: Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each.</p>
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
                                     </div>
+
+                                    <div class="col-md-6">
+                                        <label for="customerLead" class="reg-form-label">How did you hear about us? (Optional)</label>
+                                        <select class="form-select" name="customerLead" id="customerLead">
+                                            <option selected disabled value="">Choose...</option>
+                                            <option value="craft show">Craft Show</option>
+                                            <option value="event">Event</option>
+                                            <option value="facebook">Facebook</option>
+                                            <option value="flyer">Flyer</option>
+                                            <option value="google">Google</option>
+                                            <option value="instagram">Instagram</option>
+                                            <option value="pinterest">Pinterest</option>
+                                            <option value="word of mouth">Word of Mouth</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please enter your answer.
+                                        </div>
+                                    </div>
+
                                 </div>
                             </fieldset>
 

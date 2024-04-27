@@ -133,9 +133,10 @@ function displayOrderAdmin($requisition)
         echo "<td>" . $eachOrder['state'] . "</td>";
         echo "<td>" . $eachOrder['zipcode'] . "</td>";
         echo "<td>" . $eachOrder['quanflowers'] . "</td>";
+        echo "<td>" . $eachOrder['buyerlead'] . "</td>";
+        echo "<td>" . $eachOrder['transid'] . "</td>";
         echo "<td>" . $eachOrder['lang'] . "</td>";
         echo "<td>" . $eachOrder['tos'] . "</td>";
-        echo "<td>" . $eachOrder['transid'] . "</td>";
         echo "</tr>";
     }
 }
@@ -334,7 +335,35 @@ function displayOrderAdmin($requisition)
 
                                         <fieldset>
                                             <legend>Activity Details</legend>
-                                            <p>To Be Determined</p>
+                                            <div class='row pb-3'>
+                                                <div class='col-sm-4'>
+                                                    Craft Show: <?php echo getTwoPara('buyerlead', 'craft show'); ?>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    Event: <?php echo getTwoPara('buyerlead', 'event'); ?>
+                                                </div>
+                                                <div class='col-sm-4'>
+                                                    Facebook: <?php echo getTwoPara('buyerlead', 'facebook'); ?>
+                                                </div>
+                                                <div class='col-sm-4'>
+                                                    Flyer: <?php echo getTwoPara('buyerlead', 'flyer'); ?>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    Google: <?php echo getTwoPara('buyerlead', 'google'); ?>
+                                                </div>
+                                                <div class='col-sm-4'>
+                                                    Instagram: <?php echo getTwoPara('buyerlead', 'instagram'); ?>
+                                                </div>
+                                                <div class='col-sm-4'>
+                                                    Pinterest: <?php echo getTwoPara('buyerlead', 'pinterest'); ?>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    Word of Mouth: <?php echo getTwoPara('buyerlead', 'word of mouth'); ?>
+                                                </div>
+                                                <div class='col-sm-4'>
+                                                    Other(default): <?php echo getTwoPara('buyerlead', 'other'); ?>
+                                                </div>
+                                            </div>
                                         </fieldset>
 
                                         <br>
@@ -418,9 +447,10 @@ function displayOrderAdmin($requisition)
                                     <th>State</th>
                                     <th>Zip Code</th>
                                     <th># Flowers</th>
+                                    <th>Lead</th>
+                                    <th>TransID</th>
                                     <th>Language</th>
                                     <th>TOS</th>
-                                    <th>TransID</th>
                                 </tr>
                             </thead>
                             <tbody>

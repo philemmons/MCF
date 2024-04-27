@@ -49,7 +49,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 paid = :paid,
                 rstatus = :rs,
                 lang = :lang,
-                transid = :tid
+                transid = :tid,
+                buyerlead = :bl
             WHERE id = :reg_id";
 
 
@@ -69,6 +70,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':rs'] = strtolower(htmlspecialchars($_POST['upd-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['upd-lang'], ENT_QUOTES));
     $nPara[':tid'] = strtolower(htmlspecialchars($_POST['upd-tid'], ENT_QUOTES));
+    $nPara[':bl'] = strtolower(htmlspecialchars($_POST['upd-bl'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -429,6 +431,30 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter TOS of one.
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="col-lg-6">
+                                <div class="form-floating">
+                                    <select class="form-select" name="upd-bl" id="upd-bl">
+                                        <option value="<?= $orderInfo['buyerlead'] ?>" selected> <?php echo $orderInfo['buyerlead'] ?></option>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option value="craft show">Craft Show</option>
+                                        <option value="event">Event</option>
+                                        <option value="facebook">Facebook</option>
+                                        <option value="flyer">Flyer</option>
+                                        <option value="google">Google</option>
+                                        <option value="instagram">Instagram</option>
+                                        <option value="pinterest">Pinterest</option>
+                                        <option value="word of mouth">Word of Mouth</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <label for="upd-pm" class="form-label">Customer Lead (Optional)</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Optional - Select one.
                                 </div>
                             </div>
 

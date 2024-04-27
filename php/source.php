@@ -10,7 +10,7 @@ $dbConn = getDBConnection();
  */
 function orderFormData($total, $lang)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $total, $lang;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $bl, $total, $lang;
 
 
      $firstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
@@ -24,6 +24,7 @@ function orderFormData($total, $lang)
      $qf = isset($_POST['quanFlower']) ? strtolower(htmlspecialchars($_POST['quanFlower'], ENT_QUOTES)) : '';
      $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
+     $bl = isset($_POST['customerLead']) ? strtolower(htmlspecialchars($_POST['customerLead'], ENT_QUOTES)) : '';
 
      saveData($total, $lang);
 }
@@ -116,8 +117,8 @@ function getOrderType($table, $regType)
 
 function saveData($total, $lang)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $total, $lang, $transid;
-     //$tsq, $tss, $tsg;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $bl, $total, $lang;
+ 
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {
@@ -134,10 +135,11 @@ function saveData($total, $lang)
                     quanflowers,
                     tos,
                     payment,
+                    buyerlead,
                     total,
                     lang
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :qf, :cBox, :pm, $total, :lang
+                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :qf, :cBox, :pm, :bl, $total, :lang
                 )";
 
           $nPara[':firstName'] = $firstName;
@@ -151,6 +153,7 @@ function saveData($total, $lang)
           $nPara[':qf'] = $qf;
           $nPara[':cBox'] = $cBox;
           $nPara[':pm'] = $pm;
+          $nPara[':bl'] = $bl;
           $nPara[':lang'] = $lang;
 
           $stmt = $dbConn->prepare($sql);
