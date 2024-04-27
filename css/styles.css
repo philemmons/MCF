@@ -200,7 +200,7 @@ h6 {
 /**** navbar ****/
 
 .mcf-navbar-light {
-  background: var(--color-20);
+  background-color: var(--color-20);
   position: absolute;
   top: 2rem;
   left: 0;
@@ -211,7 +211,7 @@ h6 {
 }
 
 .mcf-navbar-dark {
-  background: var(--color-20);
+  background-color: var(--color-20);
   letter-spacing: 1px;
 }
 
@@ -219,7 +219,12 @@ h6 {
   color: var(--color-1);
 }
 
-.navbar-nav>li>a:hover,
+.navbar-nav>li>a:hover{
+  color: var(--color-1) !important;
+  text-decoration: underline;
+
+}
+
 .log-input:hover {
   background-color: var(--color-4);
   color: var(--color-1) !important;
@@ -230,6 +235,7 @@ h6 {
   font-style: italic;
   background-color: var(--color-3);
   color: var(--color-1);
+  text-decoration: underline;
 }
 
 .log-input {
