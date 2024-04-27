@@ -12,7 +12,7 @@ include_once 'header.inc'
     <div id="bg-right"></div>
   </div>
 
-  <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
+  <nav class="navbar navbar-expand-lg mcf-navbar-dark" aria-label="main menu">
     <div class="container-xxl">
       <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="/">
         <img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." width="50" height="40">
