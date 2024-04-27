@@ -189,7 +189,7 @@ h6 {
 
 /**** logo and title ****/
 
-.mcf-logo--title{
+.mcf-logo-title{
   font-family: var(--ff-header);
   color: var(--color-1);
   letter-spacing: 2px;
