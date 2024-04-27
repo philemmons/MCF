@@ -190,6 +190,7 @@ h6 {
 /**** navbar ****/
 
 .mcf-navbar-light {
+  background: var(--color-20);
   position: absolute;
   top: 2rem;
   left: 0;
