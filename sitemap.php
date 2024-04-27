@@ -80,17 +80,17 @@ include_once 'header.inc';
 								<div id="cont">
 									<ul class="level-0">
 										<li class="lhead">/ <span class="lcount">11 pages</span></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/" title="Millie's Crazy Flowers - Homepage" class="mcf-link">Millie's Crazy Flowers - Homepage</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/index.php" title="Millie's Crazy Flowers - Index" class="mcf-link">Millie's Crazy Flowers - Index</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/our_story.php" title="Millie's Crazy Flowers - Our Story" class="mcf-link">Millie's Crazy Flowers - Our Story</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/purchase.php" title="Millie's Crazy Flowers - Purchase" class="mcf-link">Millie's Crazy Flowers - Purchase</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-april-2024.php" title="Millie's Crazy Flowers - April Newsletter" class="mcf-link">Millie's Crazy Flowers - April Newsletter</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/contact.php" title="Millie's Crazy Flowers - Contact Us" class="mcf-link">Millie's Crazy Flowers - Contact Us</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-jan-2024.php" title="Millie's Crazy Flowers - January Newsletter" class="mcf-link">Millie's Crazy Flowers - January Newsletter</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/accessibility.php" title="Millie's Crazy Flowers - Accessibility" class="mcf-link">Millie's Crazy Flowers - Accessibility</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/terms-of-service.php" title="Millie's Crazy Flowers - ToS" class="mcf-link">Millie's Crazy Flowers - Tos</a></li>
-										<li class="lpage"><a href="https://millies.crazyflowers.art/privacy.php" title="Millie's Crazy Flowers - Privacy Policy" class="mcf-link">Millie's Crazy Flowers - Privacy Policy</a></li>
-										<li class="lpage last-page"><a href="https://millies.crazyflowers.art/sitemap.php" title="Millie's Crazy Flowers - Site Map" class="mcf-link">Millie's Crazy Flowers - Site Map</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/" title="Homepage" class="mcf-link">Millie's Crazy Flowers - Homepage</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/index.php" title="Index" class="mcf-link">Millie's Crazy Flowers - Index</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/our_story.php" title="Our Story" class="mcf-link">Millie's Crazy Flowers - Our Story</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/purchase.php" title="Purchase" class="mcf-link">Millie's Crazy Flowers - Purchase</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-april-2024.php" title="April Newsletter" class="mcf-link">Millie's Crazy Flowers - April Newsletter</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/contact.php" title="Contact Us" class="mcf-link">Millie's Crazy Flowers - Contact Us</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/newsletter-jan-2024.php" title="January Newsletter" class="mcf-link">Millie's Crazy Flowers - January Newsletter</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/accessibility.php" title="Accessibility" class="mcf-link">Millie's Crazy Flowers - Accessibility</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/terms-of-service.php" title="T.O.S." class="mcf-link">Millie's Crazy Flowers - Terms of Service</a></li>
+										<li class="lpage"><a href="https://millies.crazyflowers.art/privacy.php" title="Privacy Policy" class="mcf-link">Millie's Crazy Flowers - Privacy Policy</a></li>
+										<li class="lpage last-page"><a href="https://millies.crazyflowers.art/sitemap.php" title="Site Map" class="mcf-link">Millie's Crazy Flowers - Site Map</a></li>
 									</ul>
 									<hr>
 									<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
