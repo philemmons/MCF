@@ -451,7 +451,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                         <option value="word of mouth">Word of Mouth</option>
                                         <option value="other">Other</option>
                                     </select>
-                                    <label for="upd-pm" class="form-label">Customer Lead (Optional)</label>
+                                    <label for="upd-bl" class="form-label">Customer Lead (Optional)</label>
                                 </div>
                                 <div class="invalid-feedback">
                                     Optional - Select one.
