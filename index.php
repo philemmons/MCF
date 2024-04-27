@@ -49,7 +49,7 @@ include_once 'header.inc'
         <div class="col-md-6">
           <section aria-label="Website Intro">
             <h1 class="bswash-font h1-ls text-black">Millie's Crazy Flowers</h1>
-            <p class="h4 f-italics">Legacy of love, caring, and lasting friendship towards one another.</p>
+            <p class="h4 f-italics pe-5">Legacy of love, caring, and lasting friendship towards one another.</p>
             <span class="sr-only">(The above without italics: Legacy of love, caring, and lasting friendship towards one another.)</span>
 
             <p class="pt-2 pb-3"> Our artist hand crafts every beautiful flower that no two are alike.</p>
