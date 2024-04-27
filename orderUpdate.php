@@ -440,7 +440,6 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 <div class="form-floating">
                                     <select class="form-select" name="upd-bl" id="upd-bl">
                                         <option value="<?= $orderInfo['buyerlead'] ?>" selected> <?php echo $orderInfo['buyerlead'] ?></option>
-                                        <option selected disabled value="">Choose...</option>
                                         <option value="craft show">Craft Show</option>
                                         <option value="event">Event</option>
                                         <option value="facebook">Facebook</option>
