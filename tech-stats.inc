@@ -5,7 +5,7 @@
         <div class="card-body">
           <p class="card-text  mb-1 tt-upper">Reviews About Our Flowers</p>
           <section aria-label="Detailed numbers">
-            <h2 class="card-title header-font">Technical Statistics</h2>
+            <h2 class="card-title bswash-font">Technical Statistics</h2>
           </section>
         </div>
       </div>
