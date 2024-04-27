@@ -370,7 +370,7 @@ include_once 'header.inc'
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
                                     </div>
 
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <label for="customerLead" class="reg-form-label">How did you hear about us? (Optional)</label>
                                         <select class="form-select" name="customerLead" id="customerLead">
                                             <option selected disabled value="">Choose...</option>
