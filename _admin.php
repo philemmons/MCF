@@ -334,7 +334,7 @@ function displayOrderAdmin($requisition)
                                         <br>
 
                                         <fieldset>
-                                            <legend>Activity Details</legend>
+                                            <legend>Customer Leads</legend>
                                             <div class='row pb-3'>
                                                 <div class='col-sm-4'>
                                                     Craft Show: <?php echo getTwoPara('buyerlead', 'craft show'); ?>
@@ -413,7 +413,7 @@ function displayOrderAdmin($requisition)
                                 </div>
 
                                 <div class="col-sm-3 pt-3">
-                                    <input type="submit" value="search" name="filterForm" class="btn mcf-button" />
+                                    <button type="submit" value="search" name="filterForm" class="btn mcf-button">View Status</button>
                                 </div>
 
                                 <?php if (!empty($statusMsg)) { ?>
