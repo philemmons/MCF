@@ -389,7 +389,6 @@ include_once 'header.inc'
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>We want to focus on you, and are interested in opinions.</p>
                                     </div>
 
                                 </div>
