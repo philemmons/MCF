@@ -7,6 +7,11 @@ include_once 'header.inc'
 <body id="toTop">
   <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
 
+  <div class="d-flex h-rem">
+    <div id="bg-left"></div>
+    <div id="bg-right"></div>
+  </div>
+
   <nav class="navbar navbar-expand-lg mcf-navbar-light" aria-label="main menu">
     <div class="container-xxl">
       <a class="navbar-brand bg-light-subtle p-1 border border-primary" href="/">
@@ -39,11 +44,6 @@ include_once 'header.inc'
   </nav>
 
   <header id="main-content">
-    <div class="d-flex h-rem">
-      <div id="bg-left"></div>
-      <div id="bg-right"></div>
-    </div>
-
     <div class="container hero-content">
       <div class="row">
         <div class="col-md-6">
