@@ -272,9 +272,12 @@ h6 {
   color: var(--color-1) !important;
   cursor: pointer;
   font-size: 16px;
-  background-color: var(--color-6);
+  background-color: var(--color-3);
 }
 
+navbar-toggler-icon {
+  background-image: url('../images/white-toggler.png');
+}
 /**** hero-background ****/
 
 #bg-left {
