@@ -255,7 +255,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                     Optional - Select one.
                                 </div>
                             </div>
-                            
+
                             <hr>
 
                             <div class="col-lg-3">

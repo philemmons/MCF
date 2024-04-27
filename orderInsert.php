@@ -272,7 +272,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 Optional - Select one.
                             </div>
                         </div>
-                        
+
                         <hr>
 
                         <div class="col-lg-4">
