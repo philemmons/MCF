@@ -193,7 +193,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 </div>
                             </div>
 
-                            <div class="col-lg-2">
+                            <div class="col-lg-3">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $orderInfo['firstname'] ?>" required>
                                     <label for="upd-fn">First Name (Required)</label>
@@ -203,7 +203,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 </div>
                             </div>
 
-                            <div class="col-lg-2">
+                            <div class="col-lg-3">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $orderInfo['lastname'] ?>" required>
                                     <label for="upd-ln" class="form-label">Last Name (Required)</label>
@@ -223,7 +223,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 </div>
                             </div>
 
-                            <div class="col-lg-2">
+                            <hr>
+
+                            <div class="col-lg-3">
                                 <div class="form-floating">
                                     <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= formatPhone($orderInfo['phone']); ?>">
                                     <label for="upd-phone" class="form-label">Phone (xxx.xxx.xxxx)</label>
@@ -233,6 +235,27 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 </div>
                             </div>
 
+                            <div class="col-lg-3">
+                                <div class="form-floating">
+                                    <select class="form-select" name="upd-bl" id="upd-bl">
+                                        <option value="<?= $orderInfo['buyerlead'] ?>" selected> <?php echo $orderInfo['buyerlead'] ?></option>
+                                        <option value="craft show">Craft Show</option>
+                                        <option value="event">Event</option>
+                                        <option value="facebook">Facebook</option>
+                                        <option value="flyer">Flyer</option>
+                                        <option value="google">Google</option>
+                                        <option value="instagram">Instagram</option>
+                                        <option value="pinterest">Pinterest</option>
+                                        <option value="word of mouth">Word of Mouth</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <label for="upd-bl" class="form-label">Customer Lead (Optional)</label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Optional - Select one.
+                                </div>
+                            </div>
+                            
                             <hr>
 
                             <div class="col-lg-3">
@@ -431,29 +454,6 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 </div>
                                 <div class="invalid-feedback">
                                     Required - Enter TOS of one.
-                                </div>
-                            </div>
-
-                            <hr>
-
-                            <div class="col-lg-6">
-                                <div class="form-floating">
-                                    <select class="form-select" name="upd-bl" id="upd-bl">
-                                        <option value="<?= $orderInfo['buyerlead'] ?>" selected> <?php echo $orderInfo['buyerlead'] ?></option>
-                                        <option value="craft show">Craft Show</option>
-                                        <option value="event">Event</option>
-                                        <option value="facebook">Facebook</option>
-                                        <option value="flyer">Flyer</option>
-                                        <option value="google">Google</option>
-                                        <option value="instagram">Instagram</option>
-                                        <option value="pinterest">Pinterest</option>
-                                        <option value="word of mouth">Word of Mouth</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                    <label for="upd-bl" class="form-label">Customer Lead (Optional)</label>
-                                </div>
-                                <div class="invalid-feedback">
-                                    Optional - Select one.
                                 </div>
                             </div>
 

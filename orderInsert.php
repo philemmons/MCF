@@ -210,7 +210,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <div class="col-lg-2">
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required>
                                 <label for="ins-fn">First Name*</label>
@@ -220,7 +220,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <div class="col-lg-2">
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="ins-ln" id="ins-ln" placeholder="Enter last name" required>
                                 <label for="ins-ln" class="form-label">Last Name*</label>
@@ -230,7 +230,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="form-floating">
                                 <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
                                 <label for="ins-em" class="form-label">Email*</label>
@@ -239,6 +239,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 Required - Enter email.
                             </div>
                         </div>
+
+                        <hr>
 
                         <div class="col-lg-3">
                             <div class="form-floating">
@@ -250,6 +252,27 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                         </div>
 
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-bl" id="ins-bl">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="craft show">Craft Show</option>
+                                    <option value="event">Event</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="flyer">Flyer</option>
+                                    <option value="google">Google</option>
+                                    <option value="instagram">Instagram</option>
+                                    <option value="pinterest">Pinterest</option>
+                                    <option value="word of mouth">Word of Mouth</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="ins-bl" class="form-label">Customer Lead</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Select one.
+                            </div>
+                        </div>
+                        
                         <hr>
 
                         <div class="col-lg-4">
@@ -450,29 +473,6 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter TOS of one.
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <div class="col-lg-6">
-                            <div class="form-floating">
-                                <select class="form-select" name="ins-bl" id="ins-bl">
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="craft show">Craft Show</option>
-                                    <option value="event">Event</option>
-                                    <option value="facebook">Facebook</option>
-                                    <option value="flyer">Flyer</option>
-                                    <option value="google">Google</option>
-                                    <option value="instagram">Instagram</option>
-                                    <option value="pinterest">Pinterest</option>
-                                    <option value="word of mouth">Word of Mouth</option>
-                                    <option value="other">Other</option>
-                                </select>
-                                <label for="ins-bl" class="form-label">Customer Lead</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional - Select one.
                             </div>
                         </div>
 
