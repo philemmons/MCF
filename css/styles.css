@@ -256,7 +256,8 @@ h6 {
   }
 
   .mcf-navbar-light .navbar-nav>.nav-item .nav-link.active {
-    background-color: var(--color-6)
+    background-color: var(--color-6);
+    text-decoration: underline;
   }
 
   .navbar-nav>li>a:hover {
