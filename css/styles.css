@@ -56,10 +56,10 @@
 body {
   font-family: var(--ff-main);
   line-height: 1.8;
-  background-color: var(--color-20);
+  background-color: var(--color-21);
   margin: auto;
   color: var(--color-2);
-  font-size: 1em;
+  font-size: 1.125em;
   font-weight: 400;
 }
 
