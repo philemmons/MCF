@@ -344,7 +344,7 @@ include_once 'header.inc'
 
                             <fieldset class="text-bg-light pb-3 mb-3">
                                 <legend>Millie's Crazy Flower Information</legend>
-                                <div class="row justify-content-center">
+                                <div class="row">
                                     <div class="col-md-4">
                                         <label for="quanFlower" class="reg-form-label">Quantity (Required)</label>
                                         <select class="form-select" name="quanFlower" id="quanFlower" required>
@@ -388,9 +388,7 @@ include_once 'header.inc'
                                             Please enter your answer.
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                    </div>
-
+                                  
                                 </div>
                             </fieldset>
 
