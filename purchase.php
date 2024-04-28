@@ -343,7 +343,7 @@ include_once 'header.inc'
                             </fieldset>
 
                             <fieldset class="text-bg-light pb-3 mb-3">
-                                <legend>Millie's Crazy Flower Information</legend>
+                                <legend>Order Information</legend>
                                 <div class="row justify-content-center">
                                     <div class="col-md-4">
                                         <label for="quanFlower" class="reg-form-label">Quantity (Required)</label>
@@ -365,7 +365,7 @@ include_once 'header.inc'
                                         </div>
                                     </div>
 
-                                    <div class="col-md-8">
+                                    <div class="col-md-4">
                                         <p>Note: Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each.</p>
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
                                     </div>
