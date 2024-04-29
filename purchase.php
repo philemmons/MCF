@@ -94,6 +94,7 @@ include_once 'header.inc'
                     // Email settings
                     $recipientEmail = getenv('mcf-sales-email');
                     $bccEmail = getenv('mcf-bcc-email');
+                    $bccEmail2 = getenv('mcf-bcc-email2');
 
                     // Change lang variable as needed based on lang reg form
                     $lang = 'en';
@@ -178,7 +179,7 @@ include_once 'header.inc'
                                     // More headers 
                                     $headers .= 'From: MCF Sales<' . $recipientEmail . '>' . "\r\n";
 
-                                    $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
+                                    $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "," . $bccEmail2 . "\r\n";
 
                                     // Send email 
                                     mail($to, $subject, $htmlContent, $headers);
