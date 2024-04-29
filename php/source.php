@@ -24,7 +24,7 @@ function orderFormData($total, $lang)
      $qf = isset($_POST['quanFlower']) ? strtolower(htmlspecialchars($_POST['quanFlower'], ENT_QUOTES)) : '';
      $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
-     $bl = isset($_POST['customerLead']) ? strtolower(htmlspecialchars($_POST['customerLead'], ENT_QUOTES)) : '';
+     $bl = isset($_POST['buyerLead']) ? strtolower(htmlspecialchars($_POST['buyerLead'], ENT_QUOTES)) : '';
 
      saveData($total, $lang);
 }
@@ -118,7 +118,7 @@ function getOrderType($table, $regType)
 function saveData($total, $lang)
 {
      global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $qf, $cBox, $pm, $bl, $total, $lang;
- 
+
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {

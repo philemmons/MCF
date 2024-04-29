@@ -372,8 +372,8 @@ include_once 'header.inc'
                                     </div>
 
                                     <div class="col-md-4">
-                                        <label for="customerLead" class="reg-form-label">How did you hear about us? (Optional)</label>
-                                        <select class="form-select" name="customerLead" id="customerLead">
+                                        <label for="buyerLead" class="reg-form-label">How did you hear about us? (Optional)</label>
+                                        <select class="form-select" name="buyerLead" id="buyerLead">
                                             <option selected disabled value="">Choose...</option>
                                             <option value="craft show">Craft Show</option>
                                             <option value="event">Event</option>
