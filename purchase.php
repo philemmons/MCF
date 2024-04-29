@@ -413,7 +413,7 @@ include_once 'header.inc'
                                         <select class="form-select" name="paymentMethod" id="paymentMethod" required>
                                             <option selected disabled value="">Choose...</option>
                                             <option value="venmo">Venmo</option>
-                                            <option value="paypal" disabled>PayPal</option>
+                                            <option value="paypal">PayPal</option>
                                             <option value="cash">Cash</option>
                                         </select>
                                         <div class="invalid-feedback">
@@ -473,8 +473,7 @@ include_once 'header.inc'
                                     <p class="text-center pt-4"><?php echo getenv('mcf-venmo') ?></p>
                                 </div>
                                 <div class="col-sm-6 py-5">
-                                    <p class="text-center pt-4">PayPal account coming soon.</p>
-                                    <!--<img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
+                                    <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
                                     <p class="text-center pt-4"><?php echo getenv('mcf-pp-email') ?></p> -->
                                 </div>
                                 <p>The links below provide general payment instructions.</p>
