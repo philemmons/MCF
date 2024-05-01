@@ -44,7 +44,7 @@
         <div class="card border-0 nl-1 rounded-0 h-100">
           <div class="row g-0 shadow">
             <div class="col-sm-6 text-center">
-              <img src="../images/nl-img-jan-2024.png" class="img-fluid">
+              <img src="../images/nl-img-jan-2024.png" class="img-fluid" alt="Heart shaped pipe cleaners chain together">
             </div>
             <div class="col-sm-6">
               <div class="card-body">
