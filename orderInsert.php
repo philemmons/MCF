@@ -106,7 +106,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
             <div class="collapse navbar-collapse" id="topNavbar">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-2" href="index.php">Home</a>
+                        <a class="nav-link px-2" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-2" href="our_story.php">Our Story</a>
