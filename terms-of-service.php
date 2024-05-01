@@ -480,7 +480,7 @@ include_once 'header.inc';
                         </div>
 
                         <div class="block-8 mb-4 d-flex">
-                            <div class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);" alt="Pipe cleaner Valentine Day garland."></div>
+                            <div class="nl-img rounded" style="background-image: url(images/nl-img-jan-2024.png);"></div>
 
                             <ul class="ul-list ms-3">
                                 <li class="fs-14">

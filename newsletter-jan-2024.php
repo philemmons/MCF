@@ -77,7 +77,7 @@ include_once 'header.inc'
                     <div class="row pt-4 mb-5">
                         <div class="col-lg-8 col-sm-12 px-3 px-lg-5">
                             <figure class="figure">
-                                <img src="../images/nl-img-jan-2024.png" class="figure-img img-fluid shadow" alt="Pipe cleaner Valentine Day garland.">
+                                <img src="../images/nl-img-jan-2024.png" class="figure-img img-fluid shadow">
                                 <figcaption><small> Published 01-28-2024</small>
                             </figure>
                             <section aria-label="Past Article">

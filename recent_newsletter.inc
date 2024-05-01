@@ -22,15 +22,15 @@
             <div class="col-sm-6">
               <div class="card-body">
                 <div class="card-text d-flex">
-                <ul class="ul-list ms-3">
-                  <li>
-                    <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Jeanne E.
-                    <i class="bi bi-calendar mx-1" aria-hidden="true"></i>04.22.24
-                  </li>
-                  <li>
-                    <i class="bi bi-chat-dots-fill mx-1" aria-hidden="true"></i>Comments
-                  </li>
-                </ul>
+                  <ul class="ul-list ms-3">
+                    <li>
+                      <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Jeanne E.
+                      <i class="bi bi-calendar mx-1" aria-hidden="true"></i>04.22.24
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-dots-fill mx-1" aria-hidden="true"></i>Comments
+                    </li>
+                  </ul>
                 </div>
                 <p class="card-title h4"><a href="newsletter-april-2024.php" class="mcf-nl ">Handcrafted Elegance for Every Occasion</a></p>
                 <p class="card-text">Millie's Crazy Flowers offer a whimsical and delightful addition to any occasion. Read more here.</p>
@@ -44,20 +44,20 @@
         <div class="card border-0 nl-1 rounded-0 h-100">
           <div class="row g-0 shadow">
             <div class="col-sm-6 text-center">
-              <img src="../images/nl-img-jan-2024.png" class="img-fluid" alt="Pipe cleaner Valentine Day garland.">
+              <img src="../images/nl-img-jan-2024.png" class="img-fluid">
             </div>
             <div class="col-sm-6">
               <div class="card-body">
                 <div class="card-text d-flex">
-                <ul class="ul-list ms-3">
-                  <li>
-                    <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Anonymous
-                    <i class="bi bi-calendar mx-1" aria-hidden="true"></i>01.28.24
-                  </li>
-                  <li>
-                    <i class="bi bi-chat-dots-fill mx-1" aria-hidden="true"></i>Comments
-                  </li>
-                </ul>
+                  <ul class="ul-list ms-3">
+                    <li>
+                      <i class="bi bi-person-fill-check mx-1" aria-hidden="true"></i>Anonymous
+                      <i class="bi bi-calendar mx-1" aria-hidden="true"></i>01.28.24
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-dots-fill mx-1" aria-hidden="true"></i>Comments
+                    </li>
+                  </ul>
                 </div>
                 <p class="card-title h4"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></p>
                 <p class="card-text">Find out more info about pipe cleaners, whimsical sculptures, and love.</p>
