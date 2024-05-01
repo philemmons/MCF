@@ -773,5 +773,5 @@ a.page-link{
 /**** iframe gmap ****/
 
 iframe{
-  height: 100%;
+  width: 100%;
 }
