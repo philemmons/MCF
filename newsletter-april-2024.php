@@ -79,7 +79,7 @@ include_once 'header.inc'
                         <div class="col-lg-8 col-sm-12 px-3 px-lg-5">
                             <figure class="figure">
                                 <img src="../images/special-day.png" class="figure-img img-fluid shadow" alt="Hand written Special Day logo with a red heart.">
-                                <figcaption><small> Published 04-22-2024</small>
+                                <figcaption><small> Published 04-22-2024</small></figcaption>
                             </figure>
                             <section aria-label="Current Article">
                                 <h3>Introducing Millie's Crazy Flowers: Handcrafted Elegance for Every Occasion - April</h3>
