@@ -44,7 +44,7 @@
         <div class="card border-0 nl-1 rounded-0 h-100">
           <div class="row g-0 shadow">
             <div class="col-sm-6 text-center">
-              <img src="images/nl-img-jan-2024.png" class="img-fluid" alt="Pipe cleaner Valentine Day garland.">
+              <img src="../images/nl-img-jan-2024.png" class="img-fluid" alt="Pipe cleaner Valentine Day garland.">
             </div>
             <div class="col-sm-6">
               <div class="card-body">
