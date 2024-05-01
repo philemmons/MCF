@@ -769,3 +769,9 @@ a.page-link{
 .dataTables_wrapper .dataTables_filter {
   margin-bottom: 0.5rem !important;
 }
+
+/**** iframe gmap ****/
+
+iframe{
+  height: 100%;
+}
