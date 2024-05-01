@@ -59,7 +59,7 @@
                   </li>
                 </ul>
                 </p>
-                <p class="card-title h4"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></p></a>
+                <p class="card-title h4"><a href="newsletter-jan-2024.php" class="mcf-nl ">Bending Love: The Artistry of Pipe Cleaners</a></p>
                 <p class="card-text">Find out more info about pipe cleaners, whimsical sculptures, and love.</p>
               </div>
             </div>
