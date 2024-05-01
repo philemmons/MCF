@@ -59,7 +59,7 @@ include_once 'header.inc'
           </div>
         </div>
         <div class="col-md-6 text-center">
-          <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart." />
+          <img src="../images/mcf-wreath.png" class="img-fluid mx-auto" alt="Gorgeous floral wreath shaped like a heart.">
         </div>
       </div>
     </div>
