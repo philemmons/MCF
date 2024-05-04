@@ -100,7 +100,7 @@ include_once 'header.inc'
         <?php //include_once 'testimonials.inc'; 
         ?>
 
-        <article class="px-3 mb-5" aria-label="Customer Service">
+        <article class="px-3" aria-label="Customer Service">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 my-2 my-lg-5 pt-3">
