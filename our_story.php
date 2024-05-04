@@ -65,7 +65,7 @@ include_once 'header.inc'
         <article class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-4 my-2 my-lg-5">
+                    <div class="col-md-4 my-2 my-lg-5 text-center">
                         <img src="images/mcf-vh.png" class="img-fluid rounded" alt="MCF's Chenille Stems Artist.">
                     </div>
                     <div class="col-md-7  my-2 my-lg-5">

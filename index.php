@@ -94,7 +94,7 @@ include_once 'header.inc'
     <article class="px-3 py-5 p-lg-5" aria-label="About MCF">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-4 my-2 my-lg-5">
+          <div class="col-md-4 my-2 my-lg-5 text-center">
             <img src="images/mcf-vh.png" class="img-fluid rounded" alt="MCF's Pipe Cleaner Artist.">
           </div>
           <div class="col-md-5 my-2 my-lg-5">
