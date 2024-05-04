@@ -110,14 +110,14 @@ include_once 'header.inc'
                                 <h2 class="card-title bswash-font mb-3 text-center">Happiness Guarantee</h2>
                                     </div>
                                 <p class="card-text px-5">Our main priority here at Millie's Crazy Flowers is <em>your</em> happiness. Which means we stand by our product 100% with you, no matter what, no questions asked, no hesitations, no ifs, no ands, no buts. If you have an issue, we will make it right. Refund it. Send you new flowers. Whatever it takes. Just reach out to our Customer Happiness Unit. We're here for you. Happiness. Guarantee.</p>
-                                <p class="card-text px-5">MCF's Customer Happiness Unit is your go-to when you need a suggestion, a refund, or just a reason to smile. Seriously, reach out. Even just to say hallo.</p>
+                                <p class="card-text px-5 pb-4">MCF's Customer Happiness Unit is your go-to when you need a suggestion, a refund, or just a reason to smile. Seriously, reach out. Even just to say hallo.</p>
                             </section>
                         </div>
                         <div class="row text-center">
-                            <div class="col-sm-6 py-4">
+                            <div class="col-sm-6 mb-3">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>
-                            <div class="col-sm-6 py-4">
+                            <div class="col-sm-6 pb-3 mb-3">
                                 <a href="terms-of-service.php#hgrp" class="btn mcf-button p-3 fs-5">Terms of Service</a>
                             </div>
                         </div>
