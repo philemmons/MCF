@@ -100,6 +100,30 @@ include_once 'header.inc'
         <?php //include_once 'testimonials.inc'; 
         ?>
 
+        <article class="px-3 px-lg-5" aria-label="Customer Service">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12 my-2 my-lg-3 pt-5">
+                        <div class="card-body">
+                            <p class="card-text  mb-1 tt-upper">Why buy from us?</p>
+                            <section aria-label="Our Guarantee">
+                                <h2 class="card-title bswash-font mb-3">Happiness Guarantee</h2>
+                                <p class="card-text">Our main priority here at Millie's Crazy Flowers is <em>your</em> happiness. Which means we stand by our product 100% with you, no matter what, no questions asked, no hesitations, no ifs, no ands, no buts. If you have an issue, we will make it right. Refund it. Send you new flowers. Whatever it takes. Just reach out to our Customer Happiness Unit. We're here for you. Happiness. Guarantee.</p>
+                                <p class="card-text">MCF's Customer Happiness Unit is your go-to when you need a suggestion, a refund, or just a reason to smile. Seriously, reach out. Even just to say hallo.</p>
+                            </section>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class="col-sm-6 pb-5">
+                                <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
+                            </div>
+                            <div class="col-sm-6 pb-3 pb-sm-5">
+                                <a href="terms-of-service.php#hgrp" class="btn mcf-button p-3 fs-5">Terms of Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
 
         <?php include_once 'footer.inc' ?>
 

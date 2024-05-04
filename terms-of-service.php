@@ -195,8 +195,14 @@ include_once 'header.inc';
                                 We reserve the right to refuse any order placed through the Services. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed by or under the same customer account, the same payment method, and/or orders that use the same billing or shipping address. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers, or distributors.
                                 <br><br>
 
-                                <div id="rp"><strong>7. RETURN POLICY</strong></div>
-                                Please review our Return Policy posted on the Services prior to making any purchases.
+                                <div id="hgrp"><strong>7. HAPPINESS GUARANTEE RETURN POLICY</strong></div>
+                                While our primary goal is to ensure our customers' complete satisfaction with our products, MCF reserves the right, at its discretion, to fulfill the Happiness Guarantee through various methods, including but not limited to issuing exchanges or replacements, providing refunds, or offering MCF gift codes for use on our website. Any misuse or violation of the Happiness Guarantee or associated terms, as determined by MCF, may result in an individual being ineligible for future benefits under the Happiness Guarantee. If deemed ineligible, MCF may take additional actions, such as restricting refund, return, or exchange privileges, or preventing future purchases by the individual.
+                                <br><br>
+                                MCF retains the right to cancel, amend, or modify the Happiness Guarantee and related offers at any time, at its discretion. Refunds, exchanges, or replacements are typically provided only for initial product purchases and not for products or gift cards received through previous returns or exchanges, unless determined otherwise by MCF.
+                                <br><br>
+                                For exchanges or replacements, MCF will ship replacement items only to the country where the original items were shipped. Delivery within the United States generally takes 7-10 business days.
+                                <br><br>
+                                Requests for returns, exchanges, or replacements generated through automated means or processes not provided by MCF, or any methods that circumvent the proper claim process, will be void. Products provided as replacements or exchanges are not eligible for donation items and should not be resold.
                                 <br><br>
 
                                 <div id="pa"><strong>8. PROHIBITED ACTIVITIES</strong></div>
