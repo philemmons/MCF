@@ -64,11 +64,11 @@ include_once 'header.inc'
 
         <article class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-auto my-2 my-lg-5">
+                <div class="row g-0">
+                    <div class="col-sm-4 my-2 my-lg-5">
                         <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
                     </div>
-                    <div class="col-lg-8 col-md-8  my-2 my-lg-5">
+                    <div class="col-sm-8  my-2 my-lg-5">
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
                             <section aria-label="About Millie's Crazy Flower">
