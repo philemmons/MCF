@@ -91,7 +91,7 @@ include_once 'header.inc'
       </div>
     </article>
 
-    <article class="px-3 py-5 p-lg-5" aria-label="About MCF">
+    <article class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" aria-label="About MCF">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-4 my-2 my-lg-5 text-center">
@@ -180,7 +180,7 @@ include_once 'header.inc'
             <div class="col-sm-6 pb-3 pb-sm-5">
               <a href="our_story.php" class="btn mcf-button p-3 fs-5">Our Story</a>
             </div>
-            <div class="col-sm-6 pb-5">
+            <div class="col-sm-6 ">
               <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
             </div>
           </div>
