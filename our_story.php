@@ -119,7 +119,7 @@ include_once 'header.inc'
                             <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                         </div>
                         <div class="col-sm-6 pb-5">
-                            <a href="terms-of-service.php#hgrp" class="btn mcf-button p-3 fs-5">Happiness Guarantee</a>
+                            <a href="terms-of-service.php#hgrp" class="btn mcf-button p-3 fs-5">Terms of Service</a>
                         </div>
                     </div>
                 </div>
