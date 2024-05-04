@@ -68,7 +68,7 @@ include_once 'header.inc'
                     <div class="col-auto my-2 my-lg-5">
                         <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Chenille Stems Artist.">
                     </div>
-                    <div class="col-lg-8 my-2 my-lg-5">
+                    <div class="col-lg-8 col-md-8  my-2 my-lg-5">
                         <div class="card-body">
                             <p class="card-text  mb-1 tt-upper">About Millie's Crazy Flowers</p>
                             <section aria-label="About Millie's Crazy Flower">
@@ -100,11 +100,12 @@ include_once 'header.inc'
         <?php //include_once 'testimonials.inc'; 
         ?>
 
-        <article class="px-3 px-lg-5" aria-label="Customer Service">
+        <article class="px-3 px-lg-5 mt-5" aria-label="Customer Service">
             <div class="container">
                 <div class="row text-center">
+                    
                     <div class="col-lg-12 my-2 my-lg-3 pt-5">
-                        <div class="card-body">
+                        <div class="card-body px-5 mb-5">
                             <p class="card-text  mb-1 tt-upper">Why buy from us?</p>
                             <section aria-label="Our Guarantee">
                                 <h2 class="card-title bswash-font mb-3">Happiness Guarantee</h2>
