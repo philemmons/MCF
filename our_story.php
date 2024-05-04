@@ -85,7 +85,7 @@ include_once 'header.inc'
                                 </p>
                             </section>
 
-                            <div class="text-center pt-3 pt-lg-5">
+                            <div class="text-center py-4">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>
 
@@ -114,10 +114,10 @@ include_once 'header.inc'
                             </section>
                         </div>
                         <div class="row text-center">
-                            <div class="col-sm-6 pb-5">
+                            <div class="col-sm-6 py-4">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>
-                            <div class="col-sm-6 pb-3 pb-sm-5">
+                            <div class="col-sm-6 py-4">
                                 <a href="terms-of-service.php#hgrp" class="btn mcf-button p-3 fs-5">Terms of Service</a>
                             </div>
                         </div>
