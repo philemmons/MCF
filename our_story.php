@@ -102,8 +102,7 @@ include_once 'header.inc'
 
         <article class="px-3 px-lg-5 mt-5" aria-label="Customer Service">
             <div class="container">
-                <div class="row text-center">
-                    
+                <div class="row">
                     <div class="col-lg-12 my-2 my-lg-3 pt-5">
                         <div class="card-body px-5 mb-5">
                             <p class="card-text  mb-1 tt-upper text-center">Why buy from us?</p>
@@ -114,11 +113,11 @@ include_once 'header.inc'
                                 <p class="card-text px-5">MCF's Customer Happiness Unit is your go-to when you need a suggestion, a refund, or just a reason to smile. Seriously, reach out. Even just to say hallo.</p>
                             </section>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6 pb-5 mx-auto">
+                        <div class="row text-center">
+                            <div class="col-sm-6 pb-5">
                                 <a href="contact.php" class="btn mcf-button p-3 fs-5">Contact Us</a>
                             </div>
-                            <div class="col-sm-6 pb-3 pb-sm-5 mx-auto">
+                            <div class="col-sm-6 pb-3 pb-sm-5">
                                 <a href="terms-of-service.php#hgrp" class="btn mcf-button p-3 fs-5">Terms of Service</a>
                             </div>
                         </div>
