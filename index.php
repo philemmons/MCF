@@ -93,11 +93,11 @@ include_once 'header.inc'
 
     <article class="px-3 py-5 p-lg-5" aria-label="About MCF">
       <div class="container">
-        <div class="row g-0">
-          <div class="col-sm-6 my-2 my-lg-5">
-            <img src="images/mcf-vh.png" class="img-fluid rounded float-end" alt="MCF's Pipe Cleaner Artist.">
+        <div class="row justify-content-center">
+          <div class="col-md-4 my-2 my-lg-5">
+            <img src="images/mcf-vh.png" class="img-fluid rounded" alt="MCF's Pipe Cleaner Artist.">
           </div>
-          <div class="col-sm-6 my-2 my-lg-5">
+          <div class="col-md-5 my-2 my-lg-5">
             <div class="card-body">
               <section aria-label="Short about us">
                 <h2 class="card-title bswash-font mb-4">About Millie's Crazy Flowers</h2>
