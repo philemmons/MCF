@@ -63,7 +63,7 @@ include_once 'header.inc'
     <main>
 
         <article class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" style="background-color: var(--color-1);" aria-label="Friendship Story">
-            <div class="container">
+            <div class="container pb-5">
                 <div class="row justify-content-center">
                     <div class="col-md-4 my-2 my-lg-5 text-center">
                         <img src="images/mcf-vh.png" class="img-fluid rounded" alt="MCF's Chenille Stems Artist.">
@@ -100,18 +100,19 @@ include_once 'header.inc'
         <?php //include_once 'testimonials.inc'; 
         ?>
 
-        <article class="px-3 px-lg-5 pt-3 pt-lg-5 mb-5" aria-label="Customer Service">
+        <article class="px-3 mb-5" aria-label="Customer Service">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-12 my-2 my-lg-5 pt-5">
+                    <div class="col-lg-12 my-2 my-lg-5 pt-3">
                         <div class="card-body px-5 mb-5">
                             <p class="card-text  mb-1 tt-upper text-center">Why buy from us?</p>
                             <section aria-label="Our Guarantee">
                                 <h2 class="card-title bswash-font mb-3 text-center">Happiness Guarantee</h2>
+                            </section>
                         </div>
                         <p class="card-text px-5">Our main priority here at Millie's Crazy Flowers is <em>your</em> happiness. Which means we stand by our product 100% with you, no matter what, no questions asked, no hesitations, no ifs, no ands, no buts. If you have an issue, we will make it right. Refund it. Send you new flowers. Whatever it takes. Just reach out to our Customer Happiness Unit. We're here for you. Happiness. Guarantee.</p>
                         <p class="card-text px-5 pb-4">MCF's Customer Happiness Unit is your go-to when you need a suggestion, a refund, or just a reason to smile. Seriously, reach out. Even just to say hallo.</p>
-                        </section>
+
                     </div>
                     <div class="row text-center">
                         <div class="col-sm-6 pb-3 pb-sm-5">
@@ -123,7 +124,7 @@ include_once 'header.inc'
                     </div>
                 </div>
             </div>
-            </div>
+
         </article>
 
         <?php include_once 'footer.inc' ?>
