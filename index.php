@@ -102,7 +102,7 @@ include_once 'header.inc'
               <section aria-label="Short about us">
                 <h2 class="card-title bswash-font mb-4">About Millie's Crazy Flowers</h2>
                 <p class="card-text">All our flowers are uniquely created just like our friend Millie, and they express a gentle reminder of those we loved.</p>
-                <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is <em>love.</em></small></p>
+                <p class="card-text"><small class="text-body-secondary fw-bold">Millie's legacy of friendship is <span class="text-uppercase">love.</span></small></p>
               </section>
               <div class="text-center pt-5">
                 <a href="our_story.php" class="btn mcf-button p-3 fs-5">Our Story</a>
