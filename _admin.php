@@ -313,6 +313,10 @@ function displayOrderAdmin($requisition)
                                                     PayPal: $<?php $sqlVal = getTwoParaSum('payment', 'paypal');
                                                                 echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
                                                 </div>
+                                                <div class='col-sm-3'>
+                                                    PayPal: $<?php $sqlVal = getTwoParaSum('payment', 'comp');
+                                                                echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
+                                                </div>
                                             </div>
 
                                             <div class='row pb-3'>
@@ -327,6 +331,9 @@ function displayOrderAdmin($requisition)
                                                 </div>
                                                 <div class='col-sm-3'>
                                                     # of PayPal: <?php echo getTwoPara('payment', 'paypal'); ?>
+                                                </div>
+                                                <div class='col-sm-3'>
+                                                    # of Comps: <?php echo getTwoPara('payment', 'comp'); ?>
                                                 </div>
                                             </div>
                                         </fieldset>

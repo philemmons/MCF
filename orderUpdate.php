@@ -361,6 +361,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                         <option value="cash">Cash</option>
                                         <option value="check">Check</option>
                                         <option value="paypal">PayPal</option>
+                                        <option value="comp">Comp</option>
                                     </select>
                                     <label for="upd-pm" class="form-label">Payment Method (Required)</label>
                                 </div>

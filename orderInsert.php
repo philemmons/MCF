@@ -377,6 +377,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                     <option value="cash">Cash</option>
                                     <option value="check">Check</option>
                                     <option value="paypal">PayPal</option>
+                                    <option value="comp">Comp</option>
                                 </select>
                                 <label for="ins-pm" class="form-label">Payment Method*</label>
                             </div>
