@@ -6,7 +6,9 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'header.inc';
+include_once 'header-top.inc';
+echo "<title>Millie's Crazy Flowers - Update</title>";
+include_once 'header-bottom.inc';
 
 include_once 'php/source.php';
 include_once 'php/dbConnection.php';

@@ -6,7 +6,9 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'header.inc';
+include_once 'header-top.inc';
+echo "<title>Millie's Crazy Flowers - Admin</title>";
+include_once 'header-bottom.inc';
 include_once 'php/source.php';
 
 $dbConn = getDBConnection();
@@ -315,7 +317,7 @@ function displayOrderAdmin($requisition)
                                                 </div>
                                                 <div class='col-sm-3'>
                                                     Comps: $<?php $sqlVal = getTwoParaSum('payment', 'comp');
-                                                                echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
+                                                            echo (is_null($sqlVal)) ? '0.00' : number_format($sqlVal, 2); ?>
                                                 </div>
                                             </div>
 

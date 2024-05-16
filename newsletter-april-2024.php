@@ -1,7 +1,9 @@
 <?php
 ob_start();
 session_start();  //start or resume an existing session
-include_once 'header.inc'
+include_once 'header-top.inc';
+echo "<title>Millie's Crazy Flowers - Newsletter: April 2024</title>";
+include_once 'header-bottom.inc'
 ?>
 
 <body id="toTop">

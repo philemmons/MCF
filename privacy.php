@@ -2,7 +2,9 @@
 ob_start();
 session_start();  //start or resume an existing session
 
-include_once 'header.inc';
+include_once 'header-top.inc';
+echo "<title>Millie's Crazy Flowers - Privacy Policy</title>";
+include_once 'header-bottom.inc';
 ?>
 
 <body id="toTop">
