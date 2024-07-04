@@ -74,7 +74,7 @@ include_once 'header-bottom.inc'
                                 <h2 class="card-title bswash-font mb-3">Millie's Crazy Flowers' Order Form - 4th of July Flash Sale 10% Off!</h2>
                                 <p>We are grateful you have decided to purchase, one or more, Millie's Crazy Flowers. Thank you for supporting our communities most vulnerable, promoting happiness, and taking action! 50% of our proceeds will be donated between <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon<span class="sr-only">(Opens a new window)</span></a> and <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center<span class="sr-only">(Opens a new window)</span></a>.</p>
                                 <p>Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each. We'll send you an email with your order and amount due. Please allow for up to 48 hours, once your payment has been received, for us to mail your flowers with USPS.</p>
-                                <p>4th of July Flash Sale 10% Off! - You will see your saving in the email confirmation!</p>
+                                <p class="h3"><strong>4th of July Flash Sale 10% Off! - You will see your saving in the email confirmation!</strong></p>
                             </section>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ include_once 'header-bottom.inc'
                     <p><b>Quantity: </b>" . $qf . "</p> 
                     <p><b>Subtotal: </b>$" . number_format($subtotal, 2) . "</p> 
                     <p><b>Postage: </b>$" . number_format($postage, 2) . "</p>
-                    <p><b>Amount Due: </b>$" . number_format($total, 2) . "</p> 
+                    <p><b>Amount Due: </b>$" . number_format($total, 2) . " (4th of July discount applied)</p> 
                     <p><b>I agreed with the ToS and understand my purchase is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p>
                     <p><b>How did you hear about us: </b>" . $bl . "</p>
@@ -372,7 +372,7 @@ include_once 'header-bottom.inc'
                                     <div class="col-md-4">
                                         <p>Note: Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each.</p>
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
-                                        <p>4th of July Flash Sale 10% Off! - You will see your saving in the email confirmation!</p>
+                                        <p class="h4"><strong>4th of July Flash Sale 10% Off! - You will see your saving in the email confirmation!</strong></p>
                                     </div>
 
                                     <div class="col-md-4">
