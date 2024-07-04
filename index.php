@@ -13,7 +13,7 @@ include_once 'header-bottom.inc'
     <div class="container-xxl">
       <a class="navbar-brand" href="/">
         <p class="mcf-logo-title h4"><img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." class="pe-2">Millie's Crazy Flowers</p>
-        <p class="mcf-logo-title h6">4th of July Flash Sale 10% Off!</p>
+        <p class="h5 text-white ps-3">4th of July Flash Sale 10% Off!</p>
       </a>
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="pe-2">MENU</span>
@@ -56,7 +56,8 @@ include_once 'header-bottom.inc'
             <span class="sr-only">(The above without italics: Legacy of love, caring, and lasting friendship towards one another.)</span>
 
             <p class="pt-2"> Our artist hand crafts every beautiful flower that no two are alike.</p>
-            <p class="h4 f-italics pe-5">Stay tuned for our next "Holiday Craft Bazaar", fall of this year!</p>
+            <p class="h3 f-italics pe-4">4th of July Flash Sale 10% Off!</p>
+            <!-- <p class="h4 f-italics pe-5">Stay tuned for our next "Holiday Craft Bazaar", fall of this year!</p>-->
           </section>
           <div class="pb-5">
             <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
