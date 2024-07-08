@@ -36,7 +36,7 @@ function getAmount($item, $cost)
      if (!is_double($item))
           $item = doubleval($item);
 
-     $amount = (floor(($item + 1) / 3.0) +  floor(($item + 2) / 3.0)) * ($cost * 0.90);
+     $amount = (floor(($item + 1) / 3.0) +  floor(($item + 2) / 3.0)) * ($cost);
      return $amount;
 }
 
