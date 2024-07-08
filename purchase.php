@@ -13,7 +13,7 @@ include_once 'header-bottom.inc'
         <div class="container-xxl">
             <a class="navbar-brand" href="/">
                 <p class="mcf-logo-title h4"><img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." class="pe-2">Millie's Crazy Flowers</p>
-                <p class="h5 text-white ps-3">4th of July Flash Sale 10% Off!</p>
+
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="pe-2">MENU</span>
@@ -75,7 +75,6 @@ include_once 'header-bottom.inc'
                                 <h2 class="card-title bswash-font mb-3">Millie's Crazy Flowers' Order Form </h2>
                                 <p>We are grateful you have decided to purchase, one or more, Millie's Crazy Flowers. Thank you for supporting our communities most vulnerable, promoting happiness, and taking action! 50% of our proceeds will be donated between <a href="https://soor.org/give/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Special Olympics Oregon<span class="sr-only">(Opens a new window)</span></a> and <a href="https://www.crossingbridgestrc.org/" class="mcf-link  fw-bold" target="_blank" rel="noopener noreferrer">Crossing Bridges Therapeutic Riding Center<span class="sr-only">(Opens a new window)</span></a>.</p>
                                 <p>Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each. We'll send you an email with your order and amount due. Please allow for up to 48 hours, once your payment has been received, for us to mail your flowers with USPS.</p>
-                                <p class="h3 text-center"><strong>4th of July Flash Sale 10% Off!<br>You will see your saving in the email confirmation!</strong></p>
                             </section>
                         </div>
                     </div>
@@ -373,7 +372,6 @@ include_once 'header-bottom.inc'
                                     <div class="col-md-4">
                                         <p>Note: Each flower is $12.50, or buy TWO and get ONE free. Postage and handling for three flowers is $12.00, or $6.00 each.</p>
                                         <p>If you would like order more than 10 flowers, please email us at <?php echo getenv('mcf-sales-email'); ?> directly, and we will get back to you as soon as we can.</p>
-                                        <p class="text-center"><strong>4th of July Flash Sale 10% Off!<br>You will see your saving in the email confirmation!</strong></p>
                                     </div>
 
                                     <div class="col-md-4">

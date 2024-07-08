@@ -100,7 +100,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
         <div class="container-xxl">
             <a class="navbar-brand" href="/">
                 <p class="mcf-logo-title h4"><img src="../images/heart-infinity.png" alt="Heart wreath with infinity through the middle." class="pe-2">Millie's Crazy Flowers</p>
-                <p class="h5 text-white ps-3">4th of July Flash Sale 10% Off!</p>
+
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="pe-2">MENU</span>
