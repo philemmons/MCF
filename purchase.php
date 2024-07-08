@@ -169,7 +169,7 @@ include_once 'header-bottom.inc'
                     <p><b>Quantity: </b>" . $qf . "</p> 
                     <p><b>Subtotal: </b>$" . number_format($subtotal, 2) . "</p> 
                     <p><b>Postage: </b>$" . number_format($postage, 2) . "</p>
-                    <p><b>Amount Due: </b>$" . number_format($total, 2) . " (4th of July discount applied)</p> 
+                    <p><b>Amount Due: </b>$" . number_format($total, 2) . "</p> 
                     <p><b>I agreed with the ToS and understand my purchase is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p>
                     <p><b>How did you hear about us: </b>" . $bl . "</p>
