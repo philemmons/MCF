@@ -6,5 +6,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vjwszppa/millies.crazyflowers.art/
+    - export DEPLOYPATH=/home/philemmo/mcf/
     - /bin/cp -R * $DEPLOYPATH
