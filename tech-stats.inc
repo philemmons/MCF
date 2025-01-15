@@ -15,7 +15,7 @@
       <div class="col-md-6 col-lg-3 my-3 my-lg-5">
         <div class="card-body">
             <div class="card-title tech-stat-numb mb-4">
-              <div class="timer count-number">1</div>
+              <div class="timer count-number">2</div>
             </div>
             <p class="card-text"><small class="text-body-secondary fw-bold tt-upper">Year of Experience</small></p>
         </div>
