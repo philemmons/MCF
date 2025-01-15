@@ -56,7 +56,7 @@ include_once 'header-bottom.inc'
             <span class="sr-only">(The above without italics: Legacy of love, caring, and lasting friendship towards one another.)</span>
 
             <p class="pt-2"> Our artist hand crafts every beautiful flower that no two are alike.</p>
-            <p class="h4 f-italics pe-5">Stay tuned for our next "Holiday Craft Bazaar", fall of 2024!</p>
+            <p class="h4 f-italics pe-5">Stay tuned for our next "Spring Craft Bazaar", June of 2025!</p>
           </section>
           <div class="pb-5">
             <a href="#discover" class="btn mcf-button p-3 fs-5">Discover</a>
